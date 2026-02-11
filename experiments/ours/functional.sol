@@ -61,20 +61,18 @@
 	}
 
 	function f(uint x) external pure returns (uint) {
-		// porcherie 
 		return 7;
 	}
 
 	function main() public {
-		C(a).g4(this.f);
-		C(a).g4(E(d).f);
+		C(a).g4(this.f);	// si può passare una external di questo contratto
+		C(a).g4(E(d).f);	// oppure di un altro
 	}
 }
 
 contract E {
 
 	function f(uint x) external pure returns (uint) {
-		// porcherie 
 		return 7;
 	}
 
