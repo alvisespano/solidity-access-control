@@ -3,63 +3,14 @@ pragma solidity ^0.8.30;
 
 import "@openzeppelin/contracts/access/AccessControl.sol";
 
-/*abstract contract MyAccessControl is Context, IAccessControl, ERC165 {
-
-    bytes32 public constant DEFAULT_ADMIN_ROLE = 0x00;
-    
-    struct RoleData {
-        mapping(address account => bool) hasRole;
-        bytes32 adminRole;
-    }
-
-    mapping(bytes32 role => RoleData) private _roles;
-
-    function hasRole(bytes32 role, address account) public view virtual returns (bool) {
-        return _roles[role].hasRole[account];
-    }
-
-    function grantRole(bytes32 role, address account) public virtual onlyRole(getRoleAdmin(role)) {
-        _grantRole(role, account);
-    }
-
-    function _grantRole(bytes32 role, address account) internal virtual returns (bool) {
-        if (!hasRole(role, account)) {
-            _roles[role].hasRole[account] = true;
-            emit RoleGranted(role, account, _msgSender());
-            return true;
-        } else {
-            return false;
-        }
-    }
-
-    function revokeRole(bytes32 role, address account) public virtual onlyRole(getRoleAdmin(role)) {
-        _revokeRole(role, account);
-    }
-
-    function _revokeRole(bytes32 role, address account) internal virtual returns (bool) {
-        if (hasRole(role, account)) {
-            _roles[role].hasRole[account] = false;
-            emit RoleRevoked(role, account, _msgSender());
-            return true;
-        } else {
-            return false;
-        }
-    }
-    
-    modifier onlyRole(bytes32 role) {
-        _checkRole(role);
-        _;
-    }
-}*/
-
-
-contract MyHotel is AccessControl {
+contract Hotel is AccessControl {
 
     bytes32 public constant DIRECTOR_ROLE = keccak256("DIRECTOR_ROLE");
 	bytes32 public constant RECEPTIONIST_ROLE = keccak256("RECEPTIONIST_ROLE");
 	bytes32 public constant HOUSEKEEPING_ROLE = keccak256("HOUSEKEEPING_ROLE");
 
 	constructor(address admin) {
+        // is the right pattern calling the internal inherited functions or the public stubs?
         _grantRole(DEFAULT_ADMIN_ROLE, admin);
         _setRoleAdmin(RECEPTIONIST_ROLE, DIRECTOR_ROLE);
         _setRoleAdmin(HOUSEKEEPING_ROLE, DIRECTOR_ROLE);
@@ -67,9 +18,7 @@ contract MyHotel is AccessControl {
 
     error NotAllowed(address, bytes32);
 
-    function bookRoom() public {
-        // anyone can call this bookRoom()
-    }
+    function bookRoom() public {} // anyone can call this: but how do we know it needs a guard?
 
     modifier onlyRoleWithError(bytes32 role) {
         if (!hasRole(role, _msgSender())) 
@@ -77,10 +26,10 @@ contract MyHotel is AccessControl {
     	_;
     }
 
-    function useReceptionistComputer() public { }
+    function useReceptionistComputer() public { }   // must have guard since it is called from a public method with a guard
 
     function confirmRoom() public onlyRoleWithError(RECEPTIONIST_ROLE) {
-        useReceptionistComputer();
+        useReceptionistComputer();  // public methods called by methods having a guard MUST have a guard on its own
     }
 
     function cleanRoom() public onlyRoleWithError(HOUSEKEEPING_ROLE) {
