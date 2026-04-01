@@ -26,8 +26,6 @@ contract PrivateDeposit
         TransferLog = new Log();
     }
     
-    
-    
     function setLog(address _lib) onlyOwner
     {
         TransferLog = Log(_lib);
