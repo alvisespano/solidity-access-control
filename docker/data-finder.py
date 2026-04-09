@@ -371,23 +371,23 @@ def computeVarianceOccurenciesAffectedFiles(results) :
         "if": statistics.variance(ifSender),
     }
 
+def collapseOPZResults(results) :
+    ret = []
+    for val in results:
+        e ={"file": val["file"],
+            "ownable": val["Ownable"] > 0 or val["Ownable2Step"] > 0,
+            "accesscontrol": val["AccessControl"] > 0 or val["IAccessControl"] > 0 or val["AccessControlCrossChain"] > 0,
+            "ac-utils" : val["AccessControlDefaultAdminRules"] > 0 or val["AccessControlEnumerable"] > 0 or val["IAccessControlDefaultAdminRules"] > 0 or val["IAccessControlEnumerable"] > 0 or val["AccessManaged"] > 0  or val["AccessManager"] > 0  or val["AuthorityUtils"] > 0  or val["IAccessManaged"] > 0  or val["IAccessManager"] > 0  or val["IAuthority"] > 0,
+           }
+        ret.append(e)
+    return ret
 
 def print_figure_and_stats (results, option):
     df = pd.DataFrame(results)
 
-    A = ""
-    B = ""
-    C = ""
-    aVal = 0 
-    bVal = 0
-    abVal = 0 
-    cVal = 0 
-    acVal = 0 
-    bcVal = 0 
-    abcVal = 0
+    A = B = C = outside = ""
 
-    outside = ""
-    outsideVal = 0
+    aVal = bVal = abVal = cVal = acVal = bcVal = abcVal = outsideVal = 0
 
     if option == 'SENDERCHECKS':
 
@@ -434,31 +434,7 @@ def print_figure_and_stats (results, option):
         print("\n=== Files WITHOUT sender checks ===")
         print(f"Total: {len(no_sender_checks)}")
 
-        labels = (A, B, C)
-        values = (aVal, bVal, abVal, cVal, acVal, bcVal, abcVal)
-
-        print("\n=== INTERSECTION TABLE ===")
-
-        print(f"{A} = {aVal}")
-        print(f"{B} = {bVal}")
-        print(f"{C} = {cVal}")
-        print(f"{A} + {B} = {abVal}")
-        print(f"{A} + {C} = {acVal}")
-        print(f"{B} + {C} = {bcVal}")
-        print(f"{A} + {B} + {C} = {abcVal}")
         print(f"{outside} = {outsideVal}")
-
-        plt.figure(figsize=(6,6))
-        v = venn3(subsets=values, set_labels=labels)
-
-        plt.title("")
-
-        plt.text(0, -1.2, f"{outside}: {outsideVal}", ha='center', fontsize=12)
-
-        plt.savefig("/app/artifact/results/"+option+".pdf", format="pdf")
-        plt.close()
-
-        print(f"Generated figure: /app/artifact/results/{option}.pdf")
         
     elif option == 'OPZCONTRACTS':
 
@@ -486,6 +462,60 @@ def print_figure_and_stats (results, option):
         print(f"Contract with Access Control Patterns of OpenZeppelin: {yesAC}")    
         print(f"Other Contracts: {noAC}")       
   
+        collpasedList = collapseOPZResults(results)
+
+        A = "Ownable Contracts"
+        B = "AccessControl Contracts"
+        C = "AccessControl Util/Support"
+
+        for d in collpasedList:
+            a = d["ownable"]
+            b = d["accesscontrol"]
+            c = d["ac-utils"]
+
+            if a and not b and not c:
+                aVal += 1
+            elif b and not a and not c:
+                bVal += 1
+            elif c and not a and not b:
+                cVal += 1
+            elif a and b and not c:
+                abVal += 1
+            elif a and c and not b:
+                acVal += 1
+            elif b and c and not a:
+                bcVal += 1
+            elif a and b and c:
+                abcVal += 1
+
+        print("\n=== Statistics ===")
+        print(tabulate([['Ownable', df["Ownable"].sum(), 'Ownable', 'Core contract'], ['Ownable2Step', df["Ownable2Step"].sum(), 'Ownable', 'Core contract'],['AccessControl', df["AccessControl"].sum(), 'Role-based', 'Core contract'],['IAccessControl', df["IAccessControl"].sum(), 'Role-based', 'Core contract'],['AccessControlCrossChain', df["AccessControlCrossChain"].sum(), 'Role-based', 'Core contract'], ['AccessControlDefaultAdminRules', df["AccessControlDefaultAdminRules"].sum(), 'Role-based', 'Supporting and utility contracts'], ['AccessControlEnumerable', df["AccessControlEnumerable"].sum(), 'Role-based', 'Supporting and utility contracts'],['IAccessControlDefaultAdminRules', df["IAccessControlDefaultAdminRules"].sum(), 'Role-based', 'Supporting and utility contracts'],['IAccessControlEnumerable', df["IAccessControlEnumerable"].sum(), 'Role-based', 'Supporting and utility contracts'],['AccessManaged', df["AccessManaged"].sum(), 'Role-based', 'Supporting and utility contracts'],['AccessManager', df["AccessManager"].sum(), 'Role-based', 'Supporting and utility contracts'],['AccessControlEnumerable', df["AccessControlEnumerable"].sum(), 'Role-based', 'Supporting and utility contracts'],['AuthorityUtils', df["AuthorityUtils"].sum(), 'Role-based', 'Supporting and utility contracts'],['IAccessManaged', df["IAccessManaged"].sum(), 'Role-based', 'Supporting and utility contracts'],['IAccessManager', df["IAccessManager"].sum(), 'Role-based', 'Supporting and utility contracts'],['IAuthority', df["IAuthority"].sum(), 'Role-based', 'Supporting and utility contracts']], headers=['Imported Contract', 'Affected Files', 'Kind of AC', 'Contract Type']))
+
+    labels = (A, B, C)
+    values = (aVal, bVal, abVal, cVal, acVal, bcVal, abcVal)
+
+    print("\n=== INTERSECTION TABLE ===")
+
+    print(f"{A} = {aVal}")
+    print(f"{B} = {bVal}")
+    print(f"{C} = {cVal}")
+    print(f"{A} + {B} = {abVal}")
+    print(f"{A} + {C} = {acVal}")
+    print(f"{B} + {C} = {bcVal}")
+    print(f"{A} + {B} + {C} = {abcVal}")
+        
+    plt.figure(figsize=(6,6))
+    v = venn3(subsets=values, set_labels=labels)
+
+    plt.title("")
+
+    plt.text(0, -1.2, f"{outside}: {outsideVal}", ha='center', fontsize=12)
+
+    plt.savefig("/app/artifact/results/"+option+".pdf", format="pdf")
+    plt.close()
+
+    print(f"Generated figure: /app/artifact/results/{option}.pdf")
+
 
 # *** Main method ***
 
