@@ -6,6 +6,8 @@ import matplotlib.pyplot as plt
 from matplotlib_venn import venn3
 import os
 from concurrent.futures import ProcessPoolExecutor, as_completed
+from tabulate import tabulate
+import statistics
 
 ### Regex for msg.sender checks
 
@@ -21,15 +23,25 @@ def sender_checks(code: str) -> dict:
     }
 
 
+def count_checks(code: str) -> dict:
+    return {
+        "requiresender": len(REQUIRE_SENDER_REGEX.findall(code)),
+        "assertsender": len(ASSERT_SENDER_REGEX.findall(code)),
+        "ifsender": len(IF_SENDER_REGEX.findall(code)),
+    }
+
 def applyRegexSenderChecks(path, raw_code, code):
   
     senderChecks = sender_checks(code)
-
+    counterChecks = count_checks(code)
     return {
         "file": path,
         "require": senderChecks["requiresender"],
         "assert": senderChecks["assertsender"],
         "if": senderChecks["ifsender"],
+        "countRequire": counterChecks["requiresender"],
+        "countAssert": counterChecks["assertsender"],
+        "countIf": counterChecks["ifsender"],
     }
 
 
@@ -251,6 +263,115 @@ def parallelize_analyze_files(file_list, option, workers=None):
 def get_count(counts, a, b, c):
             return counts.get((a, b, c), 0)
     
+def computeOccurencies(results) :
+    requireSender = []
+    assertSender = []
+    ifSender = []
+    for val in results:
+        if val["countRequire"] != 0 :
+            requireSender.append(val["countRequire"])
+        if val["countAssert"] != 0 :
+            assertSender.append(val["countAssert"])
+        if val["countIf"] != 0 :
+            ifSender.append(val["countIf"])
+
+    return {
+        "require": sum(requireSender),
+        "assert":  sum(assertSender),
+        "if": sum(ifSender),
+    }
+            
+def computeAffectedFiles(results) :
+    requireSender = []
+    assertSender = []
+    ifSender = []
+    for val in results:
+        if val["countRequire"] > 0 :
+            requireSender.append(1)
+        if val["countAssert"] > 0 :
+            assertSender.append(1)
+        if val["countIf"] > 0 :
+            ifSender.append(1)
+
+    return {
+        "require": sum(requireSender),
+        "assert":  sum(assertSender),
+        "if": sum(ifSender),
+    }       
+            
+def computeAvgOccurenciesAffectedFiles(results) :
+    requireSender = []
+    assertSender = []
+    ifSender = []
+    for val in results:
+        if val["countRequire"] != 0 :
+            requireSender.append(val["countRequire"])
+        if val["countAssert"] != 0 :
+            assertSender.append(val["countAssert"])
+        if val["countIf"] != 0 :
+            ifSender.append(val["countIf"])
+
+    return {
+        "require": statistics.mean(requireSender),
+        "assert":  statistics.mean(assertSender),
+        "if": statistics.mean(ifSender),
+    }
+
+def computeModeOccurenciesAffectedFiles(results) :
+    requireSender = []
+    assertSender = []
+    ifSender = []
+    for val in results:
+        if val["countRequire"] != 0 :
+            requireSender.append(val["countRequire"])
+        if val["countAssert"] != 0 :
+            assertSender.append(val["countAssert"])
+        if val["countIf"] != 0 :
+            ifSender.append(val["countIf"])
+
+    return {
+        "require": statistics.mode(requireSender),
+        "assert":  statistics.mode(assertSender),
+        "if": statistics.mode(ifSender),
+    }
+
+def computeMedianOccurenciesAffectedFiles(results) :
+    requireSender = []
+    assertSender = []
+    ifSender = []
+    for val in results:
+        if val["countRequire"] != 0 :
+            requireSender.append(val["countRequire"])
+        if val["countAssert"] != 0 :
+            assertSender.append(val["countAssert"])
+        if val["countIf"] != 0 :
+            ifSender.append(val["countIf"])
+
+    return {
+        "require": statistics.median(requireSender),
+        "assert":  statistics.median(assertSender),
+        "if": statistics.median(ifSender),
+    }
+
+def computeVarianceOccurenciesAffectedFiles(results) :
+    requireSender = []
+    assertSender = []
+    ifSender = []
+    for val in results:
+        if val["countRequire"] != 0 :
+            requireSender.append(val["countRequire"])
+        if val["countAssert"] != 0 :
+            assertSender.append(val["countAssert"])
+        if val["countIf"] != 0 :
+            ifSender.append(val["countIf"])
+
+    return {
+        "require": statistics.variance(requireSender),
+        "assert":  statistics.variance(assertSender),
+        "if": statistics.variance(ifSender),
+    }
+
+
 def print_figure_and_stats (results, option):
     df = pd.DataFrame(results)
 
@@ -269,6 +390,16 @@ def print_figure_and_stats (results, option):
     outsideVal = 0
 
     if option == 'SENDERCHECKS':
+
+        nOccurencies = computeOccurencies(results)
+        nAffectedFiles = computeAffectedFiles(results)
+        avg = computeAvgOccurenciesAffectedFiles(results)
+        mode = computeModeOccurenciesAffectedFiles(results)
+        median = computeMedianOccurenciesAffectedFiles(results)
+        variance = computeVarianceOccurenciesAffectedFiles(results)
+
+        print("\n=== Statistics ===")
+        print(tabulate([['require', nOccurencies["require"], nAffectedFiles["require"], avg["require"], mode["require"], median["require"], variance["require"]],['assert', nOccurencies["assert"], nAffectedFiles["assert"], avg["assert"], mode["assert"], median["assert"], variance["assert"]], ['if', nOccurencies["if"], nAffectedFiles["if"], avg["if"], mode["if"], median["if"], variance["if"]]], headers=['Sender Checks', 'Total Occurrencies', 'Affected Files', 'Avg', 'Mode', 'Median', 'Variance']))
 
         A = "Require"
         B = "Assert"
