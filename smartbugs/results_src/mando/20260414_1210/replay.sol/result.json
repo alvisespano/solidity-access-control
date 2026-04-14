@@ -1,0 +1,38 @@
+{
+    "errors": [],
+    "fails": [],
+    "findings": [
+        {
+            "filename": "mytest/MWEs/signature/replay.sol",
+            "line": 10,
+            "line_end": 12,
+            "name": "access_control"
+        },
+        {
+            "filename": "mytest/MWEs/signature/replay.sol",
+            "line": 9,
+            "line_end": 11,
+            "name": "denial_of_service"
+        },
+        {
+            "filename": "mytest/MWEs/signature/replay.sol",
+            "line": 10,
+            "line_end": 12,
+            "name": "front_running"
+        },
+        {
+            "filename": "mytest/MWEs/signature/replay.sol",
+            "line": 9,
+            "line_end": 12,
+            "name": "reentrancy"
+        }
+    ],
+    "infos": [
+        "OK"
+    ],
+    "parser": {
+        "id": "mando",
+        "mode": "solidity",
+        "version": "2023/08/01"
+    }
+}

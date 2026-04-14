@@ -1,0 +1,24 @@
+{
+    "errors": [],
+    "fails": [],
+    "findings": [
+        {
+            "filename": "mytest/bins/visibility/wrong_constructor/MyContract.hex",
+            "name": "Not destructible (no self-destruct)"
+        },
+        {
+            "filename": "mytest/bins/visibility/wrong_constructor/MyContract.hex",
+            "name": "No Ether leak (no send)"
+        },
+        {
+            "filename": "mytest/bins/visibility/wrong_constructor/MyContract.hex",
+            "name": "No Ether lock (Ether refused)"
+        }
+    ],
+    "infos": [],
+    "parser": {
+        "id": "maian",
+        "mode": "runtime",
+        "version": "2022/11/11"
+    }
+}

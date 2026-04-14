@@ -1,0 +1,42 @@
+INFO [04-14|14:13:50.076] Starting Geth in ephemeral dev mode... 
+INFO [04-14|14:13:50.077] Maximum peer count                       ETH=50 LES=0 total=50
+INFO [04-14|14:13:50.077] Smartcard socket not found, disabling    err="stat /run/pcscd/pcscd.comm: no such file or directory"
+INFO [04-14|14:13:50.078] Set global gas cap                       cap=50,000,000
+INFO [04-14|14:13:50.232] Using developer account                  address=0xE8B397e071Bd9908964f0538337cC4eCa5BC3B7d
+INFO [04-14|14:13:50.232] Allocated trie memory caches             clean=154.00MiB dirty=256.00MiB
+INFO [04-14|14:13:50.232] Writing custom genesis block 
+INFO [04-14|14:13:50.233] Persisted trie from memory database      nodes=12 size=1.82KiB time="36.507µs" gcnodes=0 gcsize=0.00B gctime=0s livenodes=1 livesize=0.00B
+INFO [04-14|14:13:50.233] Initialised chain configuration          config="{ChainID: 1337 Homestead: 0 DAO: <nil> DAOSupport: false EIP150: 0 EIP155: 0 EIP158: 0 Byzantium: 0 Constantinople: 0 Petersburg: 0 Istanbul: 0, Muir Glacier: 0, Berlin: 0, London: 0, Arrow Glacier: <nil>, MergeFork: <nil>, Engine: clique}"
+INFO [04-14|14:13:50.233] Initialising Ethereum protocol           network=1337 dbversion=<nil>
+INFO [04-14|14:13:50.233] Loaded most recent local header          number=0 hash=a97be5..b6087e td=1 age=57y1mo1w
+INFO [04-14|14:13:50.233] Loaded most recent local full block      number=0 hash=a97be5..b6087e td=1 age=57y1mo1w
+INFO [04-14|14:13:50.233] Loaded most recent local fast block      number=0 hash=a97be5..b6087e td=1 age=57y1mo1w
+WARN [04-14|14:13:50.233] Failed to load snapshot, regenerating    err="missing or corrupted snapshot"
+INFO [04-14|14:13:50.233] Rebuilding state snapshot 
+INFO [04-14|14:13:50.234] Gasprice oracle is ignoring threshold set threshold=2
+WARN [04-14|14:13:50.234] Error reading unclean shutdown markers   error="not found"
+INFO [04-14|14:13:50.234] Starting peer-to-peer node               instance=Geth/v1.10.14-stable-11a3a350/linux-amd64/go1.17.5
+WARN [04-14|14:13:50.234] P2P server will be useless, neither dialing nor listening 
+INFO [04-14|14:13:50.235] Stored checkpoint snapshot to disk       number=0 hash=a97be5..b6087e
+INFO [04-14|14:13:50.235] New local node record                    seq=1,776,176,030,235 id=65958e5f7e047009 ip=127.0.0.1 udp=0 tcp=0
+INFO [04-14|14:13:50.236] Started P2P networking                   self=enode://d164d9fbfbc7042eec56148fd78afc7f4866582a34630c2fe19f1102108ac0d1c632502e87e3fdb63042f249af7597c2cf7c1a363ec9a4083836acc71876ae83@127.0.0.1:0
+INFO [04-14|14:13:50.236] Resuming state snapshot generation       root=91929e..3bdfaf accounts=0 slots=0 storage=0.00B elapsed=2.449ms
+INFO [04-14|14:13:50.236] IPC endpoint opened                      url=/tmp/geth.ipc
+INFO [04-14|14:13:50.239] HTTP server started                      endpoint=127.0.0.1:8545 prefix= cors= vhosts=localhost
+INFO [04-14|14:13:50.239] Generated state snapshot                 accounts=10 slots=0 storage=412.00B elapsed=5.980ms
+INFO [04-14|14:13:50.239] Transaction pool price threshold updated price=1,000,000,000
+INFO [04-14|14:13:50.239] Updated mining threads                   threads=0
+INFO [04-14|14:13:50.239] Transaction pool price threshold updated price=1
+INFO [04-14|14:13:50.239] Etherbase automatically configured       address=0xE8B397e071Bd9908964f0538337cC4eCa5BC3B7d
+WARN [04-14|14:13:50.239] Failed to get free disk space            path= err="failed to call Statfs: no such file or directory"
+INFO [04-14|14:13:50.239] Commit new mining work                   number=1 sealhash=0a0936..e65b74 uncles=0 txs=0 gas=0 fees=0 elapsed="82.317µs"
+WARN [04-14|14:13:50.240] Block sealing failed                     err="sealing paused while waiting for transactions"
+2026-04-14 14:13:52 e6b170b93780 pakala.sm[21] INFO Analysis finished with 0 outcomes (0 interesting, 2 unfinished), coverage is 4%
+2026-04-14 14:13:52 e6b170b93780 pakala.sm[21] INFO Interpreter errors encountered: [("InterpreterError('Unknown opcode 0x5f')", 2)]
+Analyzing contract at 0xDEADBEEF00000000000000000000000000000000 with balance 1.337000 ether.
+Starting symbolic execution step...
+Symbolic execution finished with coverage 4%.
+Outcomes: 0 interesting. 0 total and 2 unfinished paths.
+
+Starting analysis step...
+Nothing to report.

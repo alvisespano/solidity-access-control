@@ -1,0 +1,7 @@
+/sb/wrong_constructor.sol:8:13: Parse error: extraneous input '(' expecting {'from', 'layout', 'at', 'error', 'address', 'calldata', 'revert', 'callback', 'override', 'constant', 'transient', 'immutable', 'leave', 'internal', 'payable', 'private', 'public', 'global', 'constructor', 'receive', Identifier} [Error]
+/sb/wrong_constructor.sol:8:22: Parse error: mismatched input '_owner' expecting {';', '='} [Error]
+/sb/wrong_constructor.sol:8:28: Parse error: extraneous input ')' expecting {'from', 'layout', 'at', 'error', 'address', 'calldata', 'revert', 'callback', 'override', 'constant', 'transient', 'immutable', 'leave', 'internal', 'payable', 'private', 'public', 'global', 'constructor', 'receive', Identifier} [Error]
+/sb/wrong_constructor.sol:8:37: Parse error: extraneous input '{' expecting {'from', 'layout', 'at', 'error', 'address', 'calldata', 'revert', 'callback', 'override', 'constant', 'transient', 'immutable', 'leave', 'internal', 'payable', 'private', 'public', 'global', 'constructor', 'receive', Identifier} [Error]
+/sb/wrong_constructor.sol:11:0: Parse error: extraneous input '}' expecting {<EOF>, 'pragma', 'import', 'from', 'abstract', 'contract', 'interface', 'library', 'layout', 'at', 'error', 'using', 'struct', 'function', 'event', 'enum', 'address', 'mapping', 'calldata', 'revert', 'var', 'bool', 'string', 'byte', 'callback', Int, Uint, Byte, Fixed, Ufixed, 'leave', 'payable', 'type', 'global', 'constructor', 'fallback', 'receive', Identifier} [Error]
+
+5 problem/s (5 error/s)

@@ -1,0 +1,18 @@
+{
+    "errors": [],
+    "fails": [],
+    "findings": [
+        {
+            "filename": "mytest/bins/initialization/re_inherit/Derived.hex",
+            "name": "secure"
+        }
+    ],
+    "infos": [
+        "Encountered an unknown bytecode"
+    ],
+    "parser": {
+        "id": "ethor-2023",
+        "mode": "runtime",
+        "version": "2022/11/11"
+    }
+}

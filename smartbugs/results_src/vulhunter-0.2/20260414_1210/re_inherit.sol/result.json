@@ -1,0 +1,15 @@
+{
+    "errors": [
+        "EXIT_CODE_1"
+    ],
+    "fails": [
+        "exception (EOFError: Ran out of input)"
+    ],
+    "findings": [],
+    "infos": [],
+    "parser": {
+        "id": "vulhunter-0.2",
+        "mode": "solidity",
+        "version": "2026/03/22"
+    }
+}

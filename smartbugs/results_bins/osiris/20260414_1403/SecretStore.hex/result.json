@@ -1,0 +1,15 @@
+{
+    "errors": [],
+    "fails": [
+        "exception (ValueError: STACK underflow)"
+    ],
+    "findings": [],
+    "infos": [
+        "analysis incomplete"
+    ],
+    "parser": {
+        "id": "osiris",
+        "mode": "runtime",
+        "version": "2025/06/04"
+    }
+}

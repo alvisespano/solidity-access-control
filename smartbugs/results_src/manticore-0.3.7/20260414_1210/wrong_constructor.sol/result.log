@@ -1,0 +1,379 @@
+2026-04-14 12:55:09,430: [10] m.main:INFO: Registered plugins: IntrospectionAPIPlugin, <class 'manticore.ethereum.plugins.SkipRevertBasicBlocks'>, <class 'manticore.ethereum.plugins.FilterFunctions'>
+2026-04-14 12:55:09,430: [10] m.main:INFO: Beginning analysis
+2026-04-14 12:55:09,432: [10] m.e.manticore:INFO: Starting symbolic create contract
+2026-04-14 12:55:09,446: [10] m.e.manticore:INFO: Failed to build contract /sb/wrong_constructor.sol:8:14: Errors : Invalid solc compilation sb/wrong_constructor.sol:8:14: Error: Expected identifier but got '('
+    MyContrac(address _owner) public { // typo in the constructor name
+             ^
+
+. Solidity failed to generate bytecode for your contract. Check if all the abstract functions are implemented. 
+Process Process-1:
+Traceback (most recent call last):
+  File "/usr/lib/python3.7/multiprocessing/process.py", line 297, in _bootstrap
+    self.run()
+  File "/usr/lib/python3.7/multiprocessing/process.py", line 99, in run
+    self._target(*self._args, **self._kwargs)
+  File "/usr/local/lib/python3.7/dist-packages/manticore/ethereum/manticore.py", line 1766, in worker_finalize
+    finalizer(q.get_nowait())
+  File "/usr/local/lib/python3.7/dist-packages/manticore/ethereum/manticore.py", line 1757, in finalizer
+    if only_alive_states and last_tx.result in {"REVERT", "THROW", "TXERROR"}:
+AttributeError: 'NoneType' object has no attribute 'result'
+2026-04-14 12:55:09,574: [10] m.c.manticore:INFO: Results in /mcore_8rgb8gb5
+2026-04-14 12:55:09,574: [10] m.c.manticore:WARNING: Manticore failed to run
+2026-04-14 12:55:10,158: [35] m.main:INFO: Registered plugins: IntrospectionAPIPlugin, <class 'manticore.ethereum.plugins.SkipRevertBasicBlocks'>, <class 'manticore.ethereum.plugins.FilterFunctions'>
+2026-04-14 12:55:10,158: [35] m.main:INFO: Beginning analysis
+2026-04-14 12:55:10,160: [35] m.e.manticore:INFO: Starting symbolic create contract
+2026-04-14 12:55:10,180: [35] m.e.manticore:INFO: Failed to build contract ParserError: Errors : Invalid solc compilation sb/wrong_constructor.sol:8:14: Error: Expected identifier but got '('
+    MyContrac(address _owner) public { // typo in the constructor name
+             ^
+
+. Solidity failed to generate bytecode for your contract. Check if all the abstract functions are implemented. 
+Process Process-1:
+Traceback (most recent call last):
+  File "/usr/lib/python3.7/multiprocessing/process.py", line 297, in _bootstrap
+    self.run()
+  File "/usr/lib/python3.7/multiprocessing/process.py", line 99, in run
+    self._target(*self._args, **self._kwargs)
+  File "/usr/local/lib/python3.7/dist-packages/manticore/ethereum/manticore.py", line 1766, in worker_finalize
+    finalizer(q.get_nowait())
+  File "/usr/local/lib/python3.7/dist-packages/manticore/ethereum/manticore.py", line 1757, in finalizer
+    if only_alive_states and last_tx.result in {"REVERT", "THROW", "TXERROR"}:
+AttributeError: 'NoneType' object has no attribute 'result'
+2026-04-14 12:55:10,269: [35] m.c.manticore:INFO: Results in /mcore_6es4gmvh
+2026-04-14 12:55:10,269: [35] m.c.manticore:WARNING: Manticore failed to run
+2026-04-14 12:55:10,798: [60] m.main:INFO: Registered plugins: IntrospectionAPIPlugin, <class 'manticore.ethereum.plugins.SkipRevertBasicBlocks'>, <class 'manticore.ethereum.plugins.FilterFunctions'>
+2026-04-14 12:55:10,798: [60] m.main:INFO: Beginning analysis
+2026-04-14 12:55:10,800: [60] m.e.manticore:INFO: Starting symbolic create contract
+2026-04-14 12:55:10,812: [60] m.e.manticore:INFO: Failed to build contract Expected Errors : Invalid solc compilation sb/wrong_constructor.sol:8:14: Error: Expected identifier but got '('
+    MyContrac(address _owner) public { // typo in the constructor name
+             ^
+
+. Solidity failed to generate bytecode for your contract. Check if all the abstract functions are implemented. 
+Process Process-1:
+Traceback (most recent call last):
+  File "/usr/lib/python3.7/multiprocessing/process.py", line 297, in _bootstrap
+    self.run()
+  File "/usr/lib/python3.7/multiprocessing/process.py", line 99, in run
+    self._target(*self._args, **self._kwargs)
+  File "/usr/local/lib/python3.7/dist-packages/manticore/ethereum/manticore.py", line 1766, in worker_finalize
+    finalizer(q.get_nowait())
+  File "/usr/local/lib/python3.7/dist-packages/manticore/ethereum/manticore.py", line 1757, in finalizer
+    if only_alive_states and last_tx.result in {"REVERT", "THROW", "TXERROR"}:
+AttributeError: 'NoneType' object has no attribute 'result'
+2026-04-14 12:55:10,918: [60] m.c.manticore:INFO: Results in /mcore_pzbz0cus
+2026-04-14 12:55:10,919: [60] m.c.manticore:WARNING: Manticore failed to run
+2026-04-14 12:55:11,394: [85] m.main:INFO: Registered plugins: IntrospectionAPIPlugin, <class 'manticore.ethereum.plugins.SkipRevertBasicBlocks'>, <class 'manticore.ethereum.plugins.FilterFunctions'>
+2026-04-14 12:55:11,396: [85] m.main:INFO: Beginning analysis
+2026-04-14 12:55:11,398: [85] m.e.manticore:INFO: Starting symbolic create contract
+2026-04-14 12:55:11,413: [85] m.e.manticore:INFO: Failed to build contract identifier Errors : Invalid solc compilation sb/wrong_constructor.sol:8:14: Error: Expected identifier but got '('
+    MyContrac(address _owner) public { // typo in the constructor name
+             ^
+
+. Solidity failed to generate bytecode for your contract. Check if all the abstract functions are implemented. 
+Process Process-3:
+Traceback (most recent call last):
+  File "/usr/lib/python3.7/multiprocessing/process.py", line 297, in _bootstrap
+    self.run()
+  File "/usr/lib/python3.7/multiprocessing/process.py", line 99, in run
+    self._target(*self._args, **self._kwargs)
+  File "/usr/local/lib/python3.7/dist-packages/manticore/ethereum/manticore.py", line 1766, in worker_finalize
+    finalizer(q.get_nowait())
+  File "/usr/local/lib/python3.7/dist-packages/manticore/ethereum/manticore.py", line 1757, in finalizer
+    if only_alive_states and last_tx.result in {"REVERT", "THROW", "TXERROR"}:
+AttributeError: 'NoneType' object has no attribute 'result'
+2026-04-14 12:55:11,514: [85] m.c.manticore:INFO: Results in /mcore_uhye14zn
+2026-04-14 12:55:11,515: [85] m.c.manticore:WARNING: Manticore failed to run
+2026-04-14 12:55:12,004: [110] m.main:INFO: Registered plugins: IntrospectionAPIPlugin, <class 'manticore.ethereum.plugins.SkipRevertBasicBlocks'>, <class 'manticore.ethereum.plugins.FilterFunctions'>
+2026-04-14 12:55:12,005: [110] m.main:INFO: Beginning analysis
+2026-04-14 12:55:12,007: [110] m.e.manticore:INFO: Starting symbolic create contract
+2026-04-14 12:55:12,024: [110] m.e.manticore:INFO: Failed to build contract but Errors : Invalid solc compilation sb/wrong_constructor.sol:8:14: Error: Expected identifier but got '('
+    MyContrac(address _owner) public { // typo in the constructor name
+             ^
+
+. Solidity failed to generate bytecode for your contract. Check if all the abstract functions are implemented. 
+Process Process-2:
+Traceback (most recent call last):
+  File "/usr/lib/python3.7/multiprocessing/process.py", line 297, in _bootstrap
+    self.run()
+  File "/usr/lib/python3.7/multiprocessing/process.py", line 99, in run
+    self._target(*self._args, **self._kwargs)
+  File "/usr/local/lib/python3.7/dist-packages/manticore/ethereum/manticore.py", line 1766, in worker_finalize
+    finalizer(q.get_nowait())
+  File "/usr/local/lib/python3.7/dist-packages/manticore/ethereum/manticore.py", line 1757, in finalizer
+    if only_alive_states and last_tx.result in {"REVERT", "THROW", "TXERROR"}:
+AttributeError: 'NoneType' object has no attribute 'result'
+2026-04-14 12:55:12,189: [110] m.c.manticore:INFO: Results in /mcore_786_vykm
+2026-04-14 12:55:12,190: [110] m.c.manticore:WARNING: Manticore failed to run
+2026-04-14 12:55:12,771: [135] m.main:INFO: Registered plugins: IntrospectionAPIPlugin, <class 'manticore.ethereum.plugins.SkipRevertBasicBlocks'>, <class 'manticore.ethereum.plugins.FilterFunctions'>
+2026-04-14 12:55:12,772: [135] m.main:INFO: Beginning analysis
+2026-04-14 12:55:12,774: [135] m.e.manticore:INFO: Starting symbolic create contract
+2026-04-14 12:55:12,819: [135] m.e.manticore:INFO: Failed to build contract got Errors : Invalid solc compilation sb/wrong_constructor.sol:8:14: Error: Expected identifier but got '('
+    MyContrac(address _owner) public { // typo in the constructor name
+             ^
+
+. Solidity failed to generate bytecode for your contract. Check if all the abstract functions are implemented. 
+Process Process-1:
+Traceback (most recent call last):
+  File "/usr/lib/python3.7/multiprocessing/process.py", line 297, in _bootstrap
+    self.run()
+  File "/usr/lib/python3.7/multiprocessing/process.py", line 99, in run
+    self._target(*self._args, **self._kwargs)
+  File "/usr/local/lib/python3.7/dist-packages/manticore/ethereum/manticore.py", line 1766, in worker_finalize
+    finalizer(q.get_nowait())
+  File "/usr/local/lib/python3.7/dist-packages/manticore/ethereum/manticore.py", line 1757, in finalizer
+    if only_alive_states and last_tx.result in {"REVERT", "THROW", "TXERROR"}:
+AttributeError: 'NoneType' object has no attribute 'result'
+2026-04-14 12:55:12,964: [135] m.c.manticore:INFO: Results in /mcore_ft1a9x5b
+2026-04-14 12:55:12,965: [135] m.c.manticore:WARNING: Manticore failed to run
+2026-04-14 12:55:13,689: [160] m.main:INFO: Registered plugins: IntrospectionAPIPlugin, <class 'manticore.ethereum.plugins.SkipRevertBasicBlocks'>, <class 'manticore.ethereum.plugins.FilterFunctions'>
+2026-04-14 12:55:13,689: [160] m.main:INFO: Beginning analysis
+2026-04-14 12:55:13,691: [160] m.e.manticore:INFO: Starting symbolic create contract
+2026-04-14 12:55:13,706: [160] m.e.manticore:INFO: Failed to build contract '(' Errors : Invalid solc compilation sb/wrong_constructor.sol:8:14: Error: Expected identifier but got '('
+    MyContrac(address _owner) public { // typo in the constructor name
+             ^
+
+. Solidity failed to generate bytecode for your contract. Check if all the abstract functions are implemented. 
+Process Process-1:
+Traceback (most recent call last):
+  File "/usr/lib/python3.7/multiprocessing/process.py", line 297, in _bootstrap
+    self.run()
+  File "/usr/lib/python3.7/multiprocessing/process.py", line 99, in run
+    self._target(*self._args, **self._kwargs)
+  File "/usr/local/lib/python3.7/dist-packages/manticore/ethereum/manticore.py", line 1766, in worker_finalize
+    finalizer(q.get_nowait())
+  File "/usr/local/lib/python3.7/dist-packages/manticore/ethereum/manticore.py", line 1757, in finalizer
+    if only_alive_states and last_tx.result in {"REVERT", "THROW", "TXERROR"}:
+AttributeError: 'NoneType' object has no attribute 'result'
+2026-04-14 12:55:13,829: [160] m.c.manticore:INFO: Results in /mcore_88a142dh
+2026-04-14 12:55:13,832: [160] m.c.manticore:WARNING: Manticore failed to run
+2026-04-14 12:55:14,390: [185] m.main:INFO: Registered plugins: IntrospectionAPIPlugin, <class 'manticore.ethereum.plugins.SkipRevertBasicBlocks'>, <class 'manticore.ethereum.plugins.FilterFunctions'>
+2026-04-14 12:55:14,390: [185] m.main:INFO: Beginning analysis
+2026-04-14 12:55:14,392: [185] m.e.manticore:INFO: Starting symbolic create contract
+2026-04-14 12:55:14,409: [185] m.e.manticore:INFO: Failed to build contract MyContrac(address Errors : Invalid solc compilation sb/wrong_constructor.sol:8:14: Error: Expected identifier but got '('
+    MyContrac(address _owner) public { // typo in the constructor name
+             ^
+
+. Solidity failed to generate bytecode for your contract. Check if all the abstract functions are implemented. 
+Process Process-1:
+Traceback (most recent call last):
+  File "/usr/lib/python3.7/multiprocessing/process.py", line 297, in _bootstrap
+    self.run()
+  File "/usr/lib/python3.7/multiprocessing/process.py", line 99, in run
+    self._target(*self._args, **self._kwargs)
+  File "/usr/local/lib/python3.7/dist-packages/manticore/ethereum/manticore.py", line 1766, in worker_finalize
+    finalizer(q.get_nowait())
+  File "/usr/local/lib/python3.7/dist-packages/manticore/ethereum/manticore.py", line 1757, in finalizer
+    if only_alive_states and last_tx.result in {"REVERT", "THROW", "TXERROR"}:
+AttributeError: 'NoneType' object has no attribute 'result'
+2026-04-14 12:55:14,539: [185] m.c.manticore:INFO: Results in /mcore_2dwqdtge
+2026-04-14 12:55:14,540: [185] m.c.manticore:WARNING: Manticore failed to run
+2026-04-14 12:55:15,095: [210] m.main:INFO: Registered plugins: IntrospectionAPIPlugin, <class 'manticore.ethereum.plugins.SkipRevertBasicBlocks'>, <class 'manticore.ethereum.plugins.FilterFunctions'>
+2026-04-14 12:55:15,095: [210] m.main:INFO: Beginning analysis
+2026-04-14 12:55:15,098: [210] m.e.manticore:INFO: Starting symbolic create contract
+2026-04-14 12:55:15,115: [210] m.e.manticore:INFO: Failed to build contract _owner) Errors : Invalid solc compilation sb/wrong_constructor.sol:8:14: Error: Expected identifier but got '('
+    MyContrac(address _owner) public { // typo in the constructor name
+             ^
+
+. Solidity failed to generate bytecode for your contract. Check if all the abstract functions are implemented. 
+Process Process-1:
+Traceback (most recent call last):
+  File "/usr/lib/python3.7/multiprocessing/process.py", line 297, in _bootstrap
+    self.run()
+  File "/usr/lib/python3.7/multiprocessing/process.py", line 99, in run
+    self._target(*self._args, **self._kwargs)
+  File "/usr/local/lib/python3.7/dist-packages/manticore/ethereum/manticore.py", line 1766, in worker_finalize
+    finalizer(q.get_nowait())
+  File "/usr/local/lib/python3.7/dist-packages/manticore/ethereum/manticore.py", line 1757, in finalizer
+    if only_alive_states and last_tx.result in {"REVERT", "THROW", "TXERROR"}:
+AttributeError: 'NoneType' object has no attribute 'result'
+2026-04-14 12:55:15,231: [210] m.c.manticore:INFO: Results in /mcore_wqopqfg4
+2026-04-14 12:55:15,231: [210] m.c.manticore:WARNING: Manticore failed to run
+2026-04-14 12:55:15,830: [235] m.main:INFO: Registered plugins: IntrospectionAPIPlugin, <class 'manticore.ethereum.plugins.SkipRevertBasicBlocks'>, <class 'manticore.ethereum.plugins.FilterFunctions'>
+2026-04-14 12:55:15,830: [235] m.main:INFO: Beginning analysis
+2026-04-14 12:55:15,833: [235] m.e.manticore:INFO: Starting symbolic create contract
+2026-04-14 12:55:15,855: [235] m.e.manticore:INFO: Failed to build contract public Errors : Invalid solc compilation sb/wrong_constructor.sol:8:14: Error: Expected identifier but got '('
+    MyContrac(address _owner) public { // typo in the constructor name
+             ^
+
+. Solidity failed to generate bytecode for your contract. Check if all the abstract functions are implemented. 
+Process Process-2:
+Traceback (most recent call last):
+  File "/usr/lib/python3.7/multiprocessing/process.py", line 297, in _bootstrap
+    self.run()
+  File "/usr/lib/python3.7/multiprocessing/process.py", line 99, in run
+    self._target(*self._args, **self._kwargs)
+  File "/usr/local/lib/python3.7/dist-packages/manticore/ethereum/manticore.py", line 1766, in worker_finalize
+    finalizer(q.get_nowait())
+  File "/usr/local/lib/python3.7/dist-packages/manticore/ethereum/manticore.py", line 1757, in finalizer
+    if only_alive_states and last_tx.result in {"REVERT", "THROW", "TXERROR"}:
+AttributeError: 'NoneType' object has no attribute 'result'
+2026-04-14 12:55:16,011: [235] m.c.manticore:INFO: Results in /mcore_tjhrpa84
+2026-04-14 12:55:16,012: [235] m.c.manticore:WARNING: Manticore failed to run
+2026-04-14 12:55:16,597: [260] m.main:INFO: Registered plugins: IntrospectionAPIPlugin, <class 'manticore.ethereum.plugins.SkipRevertBasicBlocks'>, <class 'manticore.ethereum.plugins.FilterFunctions'>
+2026-04-14 12:55:16,598: [260] m.main:INFO: Beginning analysis
+2026-04-14 12:55:16,600: [260] m.e.manticore:INFO: Starting symbolic create contract
+2026-04-14 12:55:16,617: [260] m.e.manticore:INFO: Failed to build contract { Errors : Invalid solc compilation sb/wrong_constructor.sol:8:14: Error: Expected identifier but got '('
+    MyContrac(address _owner) public { // typo in the constructor name
+             ^
+
+. Solidity failed to generate bytecode for your contract. Check if all the abstract functions are implemented. 
+Process Process-1:
+Traceback (most recent call last):
+  File "/usr/lib/python3.7/multiprocessing/process.py", line 297, in _bootstrap
+    self.run()
+  File "/usr/lib/python3.7/multiprocessing/process.py", line 99, in run
+    self._target(*self._args, **self._kwargs)
+  File "/usr/local/lib/python3.7/dist-packages/manticore/ethereum/manticore.py", line 1766, in worker_finalize
+    finalizer(q.get_nowait())
+  File "/usr/local/lib/python3.7/dist-packages/manticore/ethereum/manticore.py", line 1757, in finalizer
+    if only_alive_states and last_tx.result in {"REVERT", "THROW", "TXERROR"}:
+AttributeError: 'NoneType' object has no attribute 'result'
+2026-04-14 12:55:16,738: [260] m.c.manticore:INFO: Results in /mcore_ksghegjq
+2026-04-14 12:55:16,739: [260] m.c.manticore:WARNING: Manticore failed to run
+2026-04-14 12:55:17,568: [285] m.main:INFO: Registered plugins: IntrospectionAPIPlugin, <class 'manticore.ethereum.plugins.SkipRevertBasicBlocks'>, <class 'manticore.ethereum.plugins.FilterFunctions'>
+2026-04-14 12:55:17,569: [285] m.main:INFO: Beginning analysis
+2026-04-14 12:55:17,571: [285] m.e.manticore:INFO: Starting symbolic create contract
+2026-04-14 12:55:17,598: [285] m.e.manticore:INFO: Failed to build contract // Errors : Invalid solc compilation sb/wrong_constructor.sol:8:14: Error: Expected identifier but got '('
+    MyContrac(address _owner) public { // typo in the constructor name
+             ^
+
+. Solidity failed to generate bytecode for your contract. Check if all the abstract functions are implemented. 
+Process Process-1:
+Traceback (most recent call last):
+  File "/usr/lib/python3.7/multiprocessing/process.py", line 297, in _bootstrap
+    self.run()
+  File "/usr/lib/python3.7/multiprocessing/process.py", line 99, in run
+    self._target(*self._args, **self._kwargs)
+  File "/usr/local/lib/python3.7/dist-packages/manticore/ethereum/manticore.py", line 1766, in worker_finalize
+    finalizer(q.get_nowait())
+  File "/usr/local/lib/python3.7/dist-packages/manticore/ethereum/manticore.py", line 1757, in finalizer
+    if only_alive_states and last_tx.result in {"REVERT", "THROW", "TXERROR"}:
+AttributeError: 'NoneType' object has no attribute 'result'
+2026-04-14 12:55:17,726: [285] m.c.manticore:INFO: Results in /mcore_a5tnjhpd
+2026-04-14 12:55:17,727: [285] m.c.manticore:WARNING: Manticore failed to run
+2026-04-14 12:55:18,602: [310] m.main:INFO: Registered plugins: IntrospectionAPIPlugin, <class 'manticore.ethereum.plugins.SkipRevertBasicBlocks'>, <class 'manticore.ethereum.plugins.FilterFunctions'>
+2026-04-14 12:55:18,602: [310] m.main:INFO: Beginning analysis
+2026-04-14 12:55:18,604: [310] m.e.manticore:INFO: Starting symbolic create contract
+2026-04-14 12:55:18,620: [310] m.e.manticore:INFO: Failed to build contract typo Errors : Invalid solc compilation sb/wrong_constructor.sol:8:14: Error: Expected identifier but got '('
+    MyContrac(address _owner) public { // typo in the constructor name
+             ^
+
+. Solidity failed to generate bytecode for your contract. Check if all the abstract functions are implemented. 
+Process Process-1:
+Traceback (most recent call last):
+  File "/usr/lib/python3.7/multiprocessing/process.py", line 297, in _bootstrap
+    self.run()
+  File "/usr/lib/python3.7/multiprocessing/process.py", line 99, in run
+    self._target(*self._args, **self._kwargs)
+  File "/usr/local/lib/python3.7/dist-packages/manticore/ethereum/manticore.py", line 1766, in worker_finalize
+    finalizer(q.get_nowait())
+  File "/usr/local/lib/python3.7/dist-packages/manticore/ethereum/manticore.py", line 1757, in finalizer
+    if only_alive_states and last_tx.result in {"REVERT", "THROW", "TXERROR"}:
+AttributeError: 'NoneType' object has no attribute 'result'
+2026-04-14 12:55:18,734: [310] m.c.manticore:INFO: Results in /mcore_mzbdhrxc
+2026-04-14 12:55:18,736: [310] m.c.manticore:WARNING: Manticore failed to run
+2026-04-14 12:55:19,358: [335] m.main:INFO: Registered plugins: IntrospectionAPIPlugin, <class 'manticore.ethereum.plugins.SkipRevertBasicBlocks'>, <class 'manticore.ethereum.plugins.FilterFunctions'>
+2026-04-14 12:55:19,359: [335] m.main:INFO: Beginning analysis
+2026-04-14 12:55:19,362: [335] m.e.manticore:INFO: Starting symbolic create contract
+2026-04-14 12:55:19,392: [335] m.e.manticore:INFO: Failed to build contract in Errors : Invalid solc compilation sb/wrong_constructor.sol:8:14: Error: Expected identifier but got '('
+    MyContrac(address _owner) public { // typo in the constructor name
+             ^
+
+. Solidity failed to generate bytecode for your contract. Check if all the abstract functions are implemented. 
+Process Process-2:
+Traceback (most recent call last):
+  File "/usr/lib/python3.7/multiprocessing/process.py", line 297, in _bootstrap
+    self.run()
+  File "/usr/lib/python3.7/multiprocessing/process.py", line 99, in run
+    self._target(*self._args, **self._kwargs)
+  File "/usr/local/lib/python3.7/dist-packages/manticore/ethereum/manticore.py", line 1766, in worker_finalize
+    finalizer(q.get_nowait())
+  File "/usr/local/lib/python3.7/dist-packages/manticore/ethereum/manticore.py", line 1757, in finalizer
+    if only_alive_states and last_tx.result in {"REVERT", "THROW", "TXERROR"}:
+AttributeError: 'NoneType' object has no attribute 'result'
+2026-04-14 12:55:19,512: [335] m.c.manticore:INFO: Results in /mcore_54g24f1a
+2026-04-14 12:55:19,513: [335] m.c.manticore:WARNING: Manticore failed to run
+2026-04-14 12:55:20,130: [360] m.main:INFO: Registered plugins: IntrospectionAPIPlugin, <class 'manticore.ethereum.plugins.SkipRevertBasicBlocks'>, <class 'manticore.ethereum.plugins.FilterFunctions'>
+2026-04-14 12:55:20,131: [360] m.main:INFO: Beginning analysis
+2026-04-14 12:55:20,134: [360] m.e.manticore:INFO: Starting symbolic create contract
+2026-04-14 12:55:20,157: [360] m.e.manticore:INFO: Failed to build contract the Errors : Invalid solc compilation sb/wrong_constructor.sol:8:14: Error: Expected identifier but got '('
+    MyContrac(address _owner) public { // typo in the constructor name
+             ^
+
+. Solidity failed to generate bytecode for your contract. Check if all the abstract functions are implemented. 
+Process Process-1:
+Traceback (most recent call last):
+  File "/usr/lib/python3.7/multiprocessing/process.py", line 297, in _bootstrap
+    self.run()
+  File "/usr/lib/python3.7/multiprocessing/process.py", line 99, in run
+    self._target(*self._args, **self._kwargs)
+  File "/usr/local/lib/python3.7/dist-packages/manticore/ethereum/manticore.py", line 1766, in worker_finalize
+    finalizer(q.get_nowait())
+  File "/usr/local/lib/python3.7/dist-packages/manticore/ethereum/manticore.py", line 1757, in finalizer
+    if only_alive_states and last_tx.result in {"REVERT", "THROW", "TXERROR"}:
+AttributeError: 'NoneType' object has no attribute 'result'
+2026-04-14 12:55:20,402: [360] m.c.manticore:INFO: Results in /mcore_8hpdqivo
+2026-04-14 12:55:20,406: [360] m.c.manticore:WARNING: Manticore failed to run
+2026-04-14 12:55:21,193: [385] m.main:INFO: Registered plugins: IntrospectionAPIPlugin, <class 'manticore.ethereum.plugins.SkipRevertBasicBlocks'>, <class 'manticore.ethereum.plugins.FilterFunctions'>
+2026-04-14 12:55:21,194: [385] m.main:INFO: Beginning analysis
+2026-04-14 12:55:21,196: [385] m.e.manticore:INFO: Starting symbolic create contract
+2026-04-14 12:55:21,226: [385] m.e.manticore:INFO: Failed to build contract constructor Errors : Invalid solc compilation sb/wrong_constructor.sol:8:14: Error: Expected identifier but got '('
+    MyContrac(address _owner) public { // typo in the constructor name
+             ^
+
+. Solidity failed to generate bytecode for your contract. Check if all the abstract functions are implemented. 
+Process Process-1:
+Traceback (most recent call last):
+  File "/usr/lib/python3.7/multiprocessing/process.py", line 297, in _bootstrap
+    self.run()
+  File "/usr/lib/python3.7/multiprocessing/process.py", line 99, in run
+    self._target(*self._args, **self._kwargs)
+  File "/usr/local/lib/python3.7/dist-packages/manticore/ethereum/manticore.py", line 1766, in worker_finalize
+    finalizer(q.get_nowait())
+  File "/usr/local/lib/python3.7/dist-packages/manticore/ethereum/manticore.py", line 1757, in finalizer
+    if only_alive_states and last_tx.result in {"REVERT", "THROW", "TXERROR"}:
+AttributeError: 'NoneType' object has no attribute 'result'
+2026-04-14 12:55:21,437: [385] m.c.manticore:INFO: Results in /mcore_kmf1hude
+2026-04-14 12:55:21,437: [385] m.c.manticore:WARNING: Manticore failed to run
+2026-04-14 12:55:22,692: [410] m.main:INFO: Registered plugins: IntrospectionAPIPlugin, <class 'manticore.ethereum.plugins.SkipRevertBasicBlocks'>, <class 'manticore.ethereum.plugins.FilterFunctions'>
+2026-04-14 12:55:22,692: [410] m.main:INFO: Beginning analysis
+2026-04-14 12:55:22,694: [410] m.e.manticore:INFO: Starting symbolic create contract
+2026-04-14 12:55:22,715: [410] m.e.manticore:INFO: Failed to build contract name
+ Errors : Invalid solc compilation sb/wrong_constructor.sol:8:14: Error: Expected identifier but got '('
+    MyContrac(address _owner) public { // typo in the constructor name
+             ^
+
+. Solidity failed to generate bytecode for your contract. Check if all the abstract functions are implemented. 
+Process Process-2:
+Traceback (most recent call last):
+  File "/usr/lib/python3.7/multiprocessing/process.py", line 297, in _bootstrap
+    self.run()
+  File "/usr/lib/python3.7/multiprocessing/process.py", line 99, in run
+    self._target(*self._args, **self._kwargs)
+  File "/usr/local/lib/python3.7/dist-packages/manticore/ethereum/manticore.py", line 1766, in worker_finalize
+    finalizer(q.get_nowait())
+  File "/usr/local/lib/python3.7/dist-packages/manticore/ethereum/manticore.py", line 1757, in finalizer
+    if only_alive_states and last_tx.result in {"REVERT", "THROW", "TXERROR"}:
+AttributeError: 'NoneType' object has no attribute 'result'
+2026-04-14 12:55:22,917: [410] m.c.manticore:INFO: Results in /mcore_l7s0za1o
+2026-04-14 12:55:22,918: [410] m.c.manticore:WARNING: Manticore failed to run
+2026-04-14 12:55:23,579: [435] m.main:INFO: Registered plugins: IntrospectionAPIPlugin, <class 'manticore.ethereum.plugins.SkipRevertBasicBlocks'>, <class 'manticore.ethereum.plugins.FilterFunctions'>
+2026-04-14 12:55:23,580: [435] m.main:INFO: Beginning analysis
+2026-04-14 12:55:23,582: [435] m.e.manticore:INFO: Starting symbolic create contract
+2026-04-14 12:55:23,602: [435] m.e.manticore:INFO: Failed to build contract ^ Errors : Invalid solc compilation sb/wrong_constructor.sol:8:14: Error: Expected identifier but got '('
+    MyContrac(address _owner) public { // typo in the constructor name
+             ^
+
+. Solidity failed to generate bytecode for your contract. Check if all the abstract functions are implemented. 
+Process Process-2:
+Traceback (most recent call last):
+  File "/usr/lib/python3.7/multiprocessing/process.py", line 297, in _bootstrap
+    self.run()
+  File "/usr/lib/python3.7/multiprocessing/process.py", line 99, in run
+    self._target(*self._args, **self._kwargs)
+  File "/usr/local/lib/python3.7/dist-packages/manticore/ethereum/manticore.py", line 1766, in worker_finalize
+    finalizer(q.get_nowait())
+  File "/usr/local/lib/python3.7/dist-packages/manticore/ethereum/manticore.py", line 1757, in finalizer
+    if only_alive_states and last_tx.result in {"REVERT", "THROW", "TXERROR"}:
+AttributeError: 'NoneType' object has no attribute 'result'
+2026-04-14 12:55:23,761: [435] m.c.manticore:INFO: Results in /mcore_98r5i3m_
+2026-04-14 12:55:23,762: [435] m.c.manticore:WARNING: Manticore failed to run

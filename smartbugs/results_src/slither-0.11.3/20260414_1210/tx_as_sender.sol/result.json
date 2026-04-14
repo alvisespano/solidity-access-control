@@ -1,0 +1,31 @@
+{
+    "errors": [],
+    "fails": [],
+    "findings": [
+        {
+            "confidence": "High",
+            "contract": "Example",
+            "filename": "mytest/MWEs/tx_origin/tx_as_sender.sol",
+            "function": "constructor",
+            "impact": "Medium",
+            "line": 4,
+            "line_end": 21,
+            "message": "Contract locking ether found:\n\tContract Example (../sb/tx_as_sender.sol#4-21) has payable functions:\n\t - Example.constructor(uint256) (../sb/tx_as_sender.sol#7-9)\n\tBut does not have a function to withdraw the ether\n",
+            "name": "locked-ether"
+        },
+        {
+            "confidence": "High",
+            "filename": "mytest/MWEs/tx_origin/tx_as_sender.sol",
+            "impact": "Informational",
+            "line": 2,
+            "message": "Version constraint ^0.8.0 contains known severe issues (https://solidity.readthedocs.io/en/latest/bugs.html)\n\t- FullInlinerNonExpressionSplitArgumentEvaluationOrder\n\t- MissingSideEffectsOnSelectorAccess\n\t- AbiReencodingHeadOverflowWithStaticArrayCleanup\n\t- DirtyBytesArrayToStorage\n\t- DataLocationChangeInInternalOverride\n\t- NestedCalldataArrayAbiReencodingSizeValidation\n\t- SignedImmutables\n\t- ABIDecodeTwoDimensionalArrayMemory\n\t- KeccakCaching.\nIt is used by:\n\t- ^0.8.0 (../sb/tx_as_sender.sol#2)\n",
+            "name": "solc-version"
+        }
+    ],
+    "infos": [],
+    "parser": {
+        "id": "slither-0.11.3",
+        "mode": "solidity",
+        "version": "2025/09/14"
+    }
+}

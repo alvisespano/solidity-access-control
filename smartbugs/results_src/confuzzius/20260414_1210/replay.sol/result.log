@@ -1,0 +1,22 @@
+2026-04-14 12:55:27,549 - Main     - INFO - [1mInitializing seed to 1427655.0[0m
+2026-04-14 12:55:27,637 - Fuzzer   - INFO - [1mFuzzing contract [1mExample[0m[0m
+2026-04-14 12:55:27,774 - Analysis - INFO - [1mGeneration number 0 	 Code coverage: 77.99% (280/359) 	 Branch coverage: 63.64% (14/22) 	 Transactions: 7 (6 unique)   	 Time: 0.12148380279541016[0m
+2026-04-14 12:55:27,887 - Analysis - INFO - [1mGeneration number 1 	 Code coverage: 77.99% (280/359) 	 Branch coverage: 63.64% (14/22) 	 Transactions: 12 (10 unique)   	 Time: 0.23408126831054688[0m
+2026-04-14 12:55:28,190 - Individual - ERROR - [91m[1m[91m[1m[91m[1m[91m[1m[91m[1m[91m[1m[91m[1m[91m[1m[91m[1m[91m[1m[91m[1m[91m[1m[91m[1m[91m[1m[91m[1m[91m[1m[91m[1mValue 256 cannot be encoded in 8 bits.  Must be bounded between [0, 255][0m[0m[0m[0m[0m[0m[0m[0m[0m[0m[0m[0m[0m[0m[0m[0m[0m[0m[0m[0m[0m[0m[0m[0m[0m[0m[0m[0m[0m[0m[0m[0m[0m[0m
+2026-04-14 12:55:28,191 - Individual - ERROR - [91m[1m[91m[1m[91m[1m[91m[1m[91m[1m[91m[1m[91m[1m[91m[1m[91m[1m[91m[1m[91m[1m[91m[1m[91m[1m[91m[1m[91m[1m[91m[1m[91m[1m[91m[1m[91m[1m[91m[1m[91m[1m[91m[1m[91m[1m[91m[1m[91m[1m[91m[1m[91m[1m[91m[1m[91m[1m[91m[1m[91m[1m[91m[1m[91m[1m[91m[1m0xf46a5ab5[0m[0m[0m[0m[0m[0m[0m[0m[0m[0m[0m[0m[0m[0m[0m[0m[0m[0m[0m[0m[0m[0m[0m[0m[0m[0m[0m[0m[0m[0m[0m[0m[0m[0m: ['address', 'uint256', 'bytes32', 'uint8', 'bytes32', 'bytes32'] -> ['0xdeadbeefdeadbeefdeadbeefdeadbeefdeadbeef', 74483386982193459532687509251158079673426091776731906318893414783987035157925, bytearray(b'\x12'), 256, bytearray(b'\xb64y\xeb\x83\xda\xc0\x02G'), bytearray(b'.\xac\xa8\x93I\xdeas\x8e\x02\x00\x86\xf0\t\xf4\x8c9\xd3\x18c\x19c\x18\x94\xb3\xed')][0m[0m[0m[0m[0m[0m[0m[0m[0m[0m[0m[0m[0m[0m[0m[0m[0m[0m[0m[0m[0m[0m[0m[0m[0m[0m[0m[0m[0m[0m[0m[0m[0m[0m
+2026-04-14 12:55:28,191 - Analysis - INFO - [1m-----------------------------------------------------[0m
+2026-04-14 12:55:28,191 - Analysis - INFO - Number of generations: 	 2
+2026-04-14 12:55:28,191 - Analysis - INFO - Number of transactions: 	 12 (10 unique)
+2026-04-14 12:55:28,191 - Analysis - INFO - Transactions per second: 	 22
+2026-04-14 12:55:28,192 - Analysis - INFO - Total code coverage: 	 77.99% (280/359)
+2026-04-14 12:55:28,192 - Analysis - INFO - Total branch coverage: 	 63.64% (14/22)
+2026-04-14 12:55:28,192 - Analysis - INFO - Total execution time: 	 0.54 seconds
+2026-04-14 12:55:28,192 - Analysis - INFO - Total memory consumption: 	 73.04 MB
+
+     ______            ______                _           
+    / ____/___  ____  / ____/_  __________  (_)_  _______
+   / /   / __ \/ __ \/ /_  / / / /_  /_  / / / / / / ___/
+  / /___/ /_/ / / / / __/ / /_/ / / /_/ /_/ / /_/ (__  ) 
+  \____/\____/_/ /_/_/    \__,_/ /___/___/_/\__,_/____/  
+
+delteed file

@@ -1,0 +1,15 @@
+{
+    "errors": [
+        "EXIT_CODE_1"
+    ],
+    "fails": [
+        "exception (solc.exceptions.SolcError: ParserError: Source \"@openzeppelin/contracts/access/AccessControl.sol\" not found: File not found. Searched the following locations: \"\".)"
+    ],
+    "findings": [],
+    "infos": [],
+    "parser": {
+        "id": "securify2",
+        "mode": "solidity",
+        "version": "2025-09-12"
+    }
+}

@@ -1,0 +1,30 @@
+{
+    "errors": [],
+    "fails": [],
+    "findings": [
+        {
+            "filename": "mytest/MWEs/initialization/re_inherit.sol",
+            "line": 11,
+            "line_end": 21,
+            "name": "access_control"
+        },
+        {
+            "filename": "mytest/MWEs/initialization/re_inherit.sol",
+            "name": "denial_of_service"
+        },
+        {
+            "filename": "mytest/MWEs/initialization/re_inherit.sol",
+            "line": 11,
+            "line_end": 21,
+            "name": "reentrancy"
+        }
+    ],
+    "infos": [
+        "OK"
+    ],
+    "parser": {
+        "id": "mando",
+        "mode": "solidity",
+        "version": "2023/08/01"
+    }
+}

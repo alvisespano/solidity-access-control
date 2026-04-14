@@ -1,0 +1,35 @@
+Directories in use:
+home:         /var/lib/neo4j
+config:       /etc/neo4j
+logs:         /var/log/neo4j
+plugins:      /var/lib/neo4j/plugins
+import:       /var/lib/neo4j/import
+data:         /var/lib/neo4j/data
+certificates: /var/lib/neo4j/certificates
+licenses:     /var/lib/neo4j/licenses
+run:          /var/lib/neo4j/run
+Starting Neo4j.
+Started neo4j (pid:44). It is available at http://localhost:7474
+There may be a short delay until the server is ready.
+/sb/dos_gas.sol
+12:57:49.099 [ForkJoinPool.commonPool-worker-1] ERROR de.fraunhofer.aisec.cpg.frontends.Handler - /sb/dos_gas.sol:5:1: Parsing of type class SolidityParser$PragmaDirectiveContext is not supported (yet)
+12:57:49.633 [ForkJoinPool.commonPool-worker-1] ERROR de.fraunhofer.aisec.cpg.ScopeManager - /sb/dos_gas.sol:23:9: Could not find the scope UNKNOWN needed to resolve the call UNKNOWN.push. Falling back to the default (current) scope
+Running checks
+AccessControlSelfdestructCheck took 2256 ms
+CallReturnCheck took 1098 ms
+AccessControlLogicCheck took 1460 ms
+ReentrancyCheck took 3747 ms
+DefaultProxyDelegateCheck took 1107 ms
+TXOriginCheck took 731 ms
+TimeManipulationCheck took 643 ms
+LocalWriteToStorageCheck took 1733 ms
+BadRandomnessCheck took 573 ms
+OverUnderflowCheck took 4306 ms
+File: /sb/dos_gas.sol
+- Operation may lead to a denial of essential contract function., dos_gas.sol 29:9-33:12
+DOSCheck took 1987 ms
+AddressPaddingCheck took 4065 ms
+FrontRunningCheck took 901 ms
+Nr. Files: 1
+File: /sb/dos_gas.sol
+Graph translation: 2204 ms, Persisting graph: 20593 ms, AccessControlSelfdestructCheck: 2256 ms, CallReturnCheck: 1098 ms, AccessControlLogicCheck: 1460 ms, ReentrancyCheck: 3747 ms, DefaultProxyDelegateCheck: 1107 ms, TXOriginCheck: 731 ms, TimeManipulationCheck: 643 ms, LocalWriteToStorageCheck: 1733 ms, BadRandomnessCheck: 573 ms, OverUnderflowCheck: 4306 ms, DOSCheck: 1987 ms, AddressPaddingCheck: 4065 ms, FrontRunningCheck: 901 ms, All checks: 24941 ms

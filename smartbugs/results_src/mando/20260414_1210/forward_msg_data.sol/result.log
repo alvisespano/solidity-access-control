@@ -1,0 +1,23 @@
+Solidity version 0.8.31 detected, skipping SOLC_BIN export
+[2026-04-14 12:32:59.626096] MANDO Initializing
+Setting the default backend to "pytorch". You can change it in the ~/.dgl/config.json file or export the DGLBACKEND environment variable.  Valid options are: pytorch, mxnet, tensorflow (all lowercase)
+[2026-04-14 12:33:31.753863] INFO: __main__: Setting execution timeout to 0 seconds
+[2026-04-14 12:33:31.754252] INFO: __main__: Analyzing only for bug types: ['access_control', 'arithmetic', 'denial_of_service', 'front_running', 'reentrancy', 'time_manipulation', 'unchecked_low_level_calls']
+[2026-04-14 12:36:21.357624] INFO: __main__: Number of buggy nodes: 10
+[2026-04-14 12:36:21.357965] INFO: __main__: Number of clean nodes: 5
+[2026-04-14 12:38:59.124749] INFO: __main__: Number of buggy nodes: 0
+[2026-04-14 12:38:59.129092] INFO: __main__: Number of clean nodes: 15
+[2026-04-14 12:41:57.564831] INFO: __main__: Number of buggy nodes: 9
+[2026-04-14 12:41:57.564963] INFO: __main__: Number of clean nodes: 6
+[2026-04-14 12:44:56.782438] INFO: __main__: Number of buggy nodes: 13
+[2026-04-14 12:44:56.782946] INFO: __main__: Number of clean nodes: 2
+[2026-04-14 12:47:51.698905] INFO: __main__: Number of buggy nodes: 11
+[2026-04-14 12:47:51.699025] INFO: __main__: Number of clean nodes: 4
+[2026-04-14 12:50:41.808499] INFO: __main__: Number of buggy nodes: 0
+[2026-04-14 12:50:41.808777] INFO: __main__: Number of clean nodes: 15
+[2026-04-14 12:54:45.532493] INFO: __main__: Number of buggy nodes: 0
+[2026-04-14 12:54:45.532863] INFO: __main__: Number of clean nodes: 15
+Result: {"summaries": [{"type": "access_control", "graph_runtime": 91063, "node_runtime": 77731, "number_of_bug_node": 10, "vulnerability": 1, "number_of_normal_node": 5, "results": [{"id": 1, "code_lines": [9], "vulnerability": 1}, {"id": 9, "code_lines": [22], "vulnerability": 1}, {"id": 12, "code_lines": [26], "vulnerability": 1}, {"id": 13, "code_lines": [27], "vulnerability": 1}]}, {"type": "arithmetic", "vulnerability": 0}, {"type": "denial_of_service", "graph_runtime": 95694, "node_runtime": 82118, "number_of_bug_node": 9, "vulnerability": 1, "number_of_normal_node": 6, "results": [{"id": 4, "code_lines": [13], "vulnerability": 1}, {"id": 13, "code_lines": [27], "vulnerability": 1}]}, {"type": "front_running", "graph_runtime": 93331, "node_runtime": 83904, "number_of_bug_node": 13, "vulnerability": 1, "number_of_normal_node": 2, "results": [{"id": 1, "code_lines": [9], "vulnerability": 1}, {"id": 5, "code_lines": [13], "vulnerability": 1}, {"id": 6, "code_lines": [14], "vulnerability": 1}, {"id": 9, "code_lines": [22], "vulnerability": 1}, {"id": 12, "code_lines": [26], "vulnerability": 1}, {"id": 13, "code_lines": [27], "vulnerability": 1}]}, {"type": "reentrancy", "graph_runtime": 89437, "node_runtime": 83070, "number_of_bug_node": 11, "vulnerability": 1, "number_of_normal_node": 4, "results": [{"id": 1, "code_lines": [9], "vulnerability": 1}, {"id": 4, "code_lines": [13], "vulnerability": 1}, {"id": 5, "code_lines": [13], "vulnerability": 1}, {"id": 6, "code_lines": [14], "vulnerability": 1}, {"id": 9, "code_lines": [22], "vulnerability": 1}, {"id": 12, "code_lines": [26], "vulnerability": 1}, {"id": 13, "code_lines": [27], "vulnerability": 1}]}, {"type": "time_manipulation", "vulnerability": 0}, {"type": "unchecked_low_level_calls", "vulnerability": 0}], "messages": "OK"}
+[2026-04-14 12:54:45.543657] INFO: __main__: [2026-04-14 12:54:45.543572] Results written to output.json
+DGL backend not selected or invalid.  Assuming PyTorch for now.
+Using backend: pytorch

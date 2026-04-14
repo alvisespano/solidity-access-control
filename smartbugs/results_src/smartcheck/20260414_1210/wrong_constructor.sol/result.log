@@ -1,0 +1,29 @@
+/sb/wrong_constructor.sol
+line 8:13 mismatched input '(' expecting {'solidity', 'experimental', 'from', 'constructor', 'block', 'coinbase', 'difficulty', 'gaslimit', 'number', 'timestamp', 'blockhash', 'msg', 'data', 'gas', 'sender', 'sig', 'value', 'now', 'this', 'tx', 'origin', 'gasprice', 'public', 'internal', 'external', 'private', 'constant', 'length', 'balance', 'emit', '_', 'revert', Identifier}
+line 8:22 extraneous input '_owner' expecting ')'
+line 8:37 extraneous input '{' expecting {'solidity', 'experimental', 'from', 'constructor', 'block', 'coinbase', 'difficulty', 'gaslimit', 'number', 'timestamp', 'blockhash', 'msg', 'data', 'gas', 'sender', 'sig', 'value', 'now', 'this', 'tx', 'origin', 'gasprice', 'public', 'internal', 'external', 'private', 'constant', 'length', 'balance', 'emit', '_', 'revert', Identifier}
+line 11:0 extraneous input '}' expecting {<EOF>, 'pragma', 'import', 'contract', 'library', 'interface'}
+jar:file:/usr/local/lib/node_modules/@smartdec/smartcheck/jdeploy-bundle/smartcheck-2.0-jar-with-dependencies.jar!/solidity-rules.xmlruleId: SOLIDITY_PRAGMAS_VERSION
+patternId: 23fc32
+severity: 1
+line: 2
+column: 16
+content: ^
+
+ruleId: SOLIDITY_PRIVATE_MODIFIER_DONT_HIDE_DATA
+patternId: 5616b2
+severity: 1
+line: 6
+column: 12
+content: private
+
+ruleId: SOLIDITY_VISIBILITY
+patternId: b51ce0
+severity: 1
+line: 8
+column: 4
+content: MyContrac
+
+SOLIDITY_VISIBILITY :1
+SOLIDITY_PRAGMAS_VERSION :1
+SOLIDITY_PRIVATE_MODIFIER_DONT_HIDE_DATA :1

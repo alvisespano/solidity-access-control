@@ -1,0 +1,12 @@
+/sb/tx_authorization.sol:2:1: Compiler version ^0.8.0 does not satisfy the ^0.8.24 semver requirement [Error/compiler-version]
+/sb/tx_authorization.sol:5:1: Missing @title tag in contract 'Example' [Warning/use-natspec]
+/sb/tx_authorization.sol:5:1: Missing @author tag in contract 'Example' [Warning/use-natspec]
+/sb/tx_authorization.sol:5:1: Missing @notice tag in contract 'Example' [Warning/use-natspec]
+/sb/tx_authorization.sol:8:5: Missing @notice tag in function '<anonymous>' [Warning/use-natspec]
+/sb/tx_authorization.sol:8:5: Explicitly mark visibility in function (Set ignoreConstructors to true if using solidity >=0.7.0) [Warning/func-visibility]
+/sb/tx_authorization.sol:12:5: Missing @notice tag in function 'withdraw' [Warning/use-natspec]
+/sb/tx_authorization.sol:13:9: Provide an error message for require [Warning/reason-string]
+/sb/tx_authorization.sol:13:9: GC: Use Custom Errors instead of require statements [Warning/gas-custom-errors]
+/sb/tx_authorization.sol:13:17: Avoid to use tx.origin [Warning/avoid-tx-origin]
+
+10 problem/s (1 error/s, 9 warning/s)

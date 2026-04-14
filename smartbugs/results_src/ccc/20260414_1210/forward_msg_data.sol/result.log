@@ -1,0 +1,38 @@
+Directories in use:
+home:         /var/lib/neo4j
+config:       /etc/neo4j
+logs:         /var/log/neo4j
+plugins:      /var/lib/neo4j/plugins
+import:       /var/lib/neo4j/import
+data:         /var/lib/neo4j/data
+certificates: /var/lib/neo4j/certificates
+licenses:     /var/lib/neo4j/licenses
+run:          /var/lib/neo4j/run
+Starting Neo4j.
+Started neo4j (pid:46). It is available at http://localhost:7474
+There may be a short delay until the server is ready.
+/sb/forward_msg_data.sol
+12:32:16.030 [ForkJoinPool.commonPool-worker-1] ERROR de.fraunhofer.aisec.cpg.frontends.Handler - /sb/forward_msg_data.sol:2:1: Parsing of type class SolidityParser$PragmaDirectiveContext is not supported (yet)
+12:32:16.423 [ForkJoinPool.commonPool-worker-1] ERROR de.fraunhofer.aisec.cpg.ScopeManager - /sb/forward_msg_data.sol:13:27: Could not find the scope address needed to resolve the call address.delegatecall. Falling back to the default (current) scope
+12:32:16.464 [ForkJoinPool.commonPool-worker-1] ERROR de.fraunhofer.aisec.cpg.ScopeManager - /sb/forward_msg_data.sol:27:9: Could not find the scope UNKNOWN needed to resolve the call UNKNOWN.transfer. Falling back to the default (current) scope
+Running checks
+AccessControlSelfdestructCheck took 2515 ms
+CallReturnCheck took 2217 ms
+File: /sb/forward_msg_data.sol
+- Non constructor function insufficiently restricts writes to to access control variables, forward_msg_data.sol 21:5-23:10
+AccessControlLogicCheck took 1554 ms
+ReentrancyCheck took 3593 ms
+File: /sb/forward_msg_data.sol
+- No whitelisting of calls proxied to another contract, forward_msg_data.sol 13:27-13:64
+DefaultProxyDelegateCheck took 1251 ms
+TXOriginCheck took 479 ms
+TimeManipulationCheck took 440 ms
+LocalWriteToStorageCheck took 1458 ms
+BadRandomnessCheck took 971 ms
+OverUnderflowCheck took 3472 ms
+DOSCheck took 1681 ms
+AddressPaddingCheck took 4129 ms
+FrontRunningCheck took 1597 ms
+Nr. Files: 1
+File: /sb/forward_msg_data.sol
+Graph translation: 2082 ms, Persisting graph: 17706 ms, AccessControlSelfdestructCheck: 2515 ms, CallReturnCheck: 2217 ms, AccessControlLogicCheck: 1554 ms, ReentrancyCheck: 3593 ms, DefaultProxyDelegateCheck: 1251 ms, TXOriginCheck: 479 ms, TimeManipulationCheck: 440 ms, LocalWriteToStorageCheck: 1458 ms, BadRandomnessCheck: 971 ms, OverUnderflowCheck: 3472 ms, DOSCheck: 1681 ms, AddressPaddingCheck: 4129 ms, FrontRunningCheck: 1597 ms, All checks: 25671 ms

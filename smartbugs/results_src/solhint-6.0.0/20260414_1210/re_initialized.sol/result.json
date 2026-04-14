@@ -1,0 +1,84 @@
+{
+    "errors": [],
+    "fails": [],
+    "findings": [
+        {
+            "column": 1,
+            "filename": "mytest/MWEs/initialization/re_initialized.sol",
+            "level": "error",
+            "line": 2,
+            "message": "Compiler version ^0.8.0 does not satisfy the ^0.8.24 semver requirement",
+            "name": "compiler-version"
+        },
+        {
+            "column": 1,
+            "filename": "mytest/MWEs/initialization/re_initialized.sol",
+            "level": "warning",
+            "line": 5,
+            "message": "Missing @title tag in contract 'Example'",
+            "name": "use-natspec"
+        },
+        {
+            "column": 1,
+            "filename": "mytest/MWEs/initialization/re_initialized.sol",
+            "level": "warning",
+            "line": 5,
+            "message": "Missing @author tag in contract 'Example'",
+            "name": "use-natspec"
+        },
+        {
+            "column": 1,
+            "filename": "mytest/MWEs/initialization/re_initialized.sol",
+            "level": "warning",
+            "line": 5,
+            "message": "Missing @notice tag in contract 'Example'",
+            "name": "use-natspec"
+        },
+        {
+            "column": 5,
+            "filename": "mytest/MWEs/initialization/re_initialized.sol",
+            "level": "warning",
+            "line": 6,
+            "message": "Missing @notice tag in variable 'owner'",
+            "name": "use-natspec"
+        },
+        {
+            "column": 5,
+            "filename": "mytest/MWEs/initialization/re_initialized.sol",
+            "level": "warning",
+            "line": 7,
+            "message": "Missing @notice tag in variable 'supply'",
+            "name": "use-natspec"
+        },
+        {
+            "column": 5,
+            "filename": "mytest/MWEs/initialization/re_initialized.sol",
+            "level": "warning",
+            "line": 10,
+            "message": "Missing @notice tag in function 'initialize'",
+            "name": "use-natspec"
+        },
+        {
+            "column": 5,
+            "filename": "mytest/MWEs/initialization/re_initialized.sol",
+            "level": "warning",
+            "line": 10,
+            "message": "Missing @param tag in function 'initialize'",
+            "name": "use-natspec"
+        },
+        {
+            "column": 5,
+            "filename": "mytest/MWEs/initialization/re_initialized.sol",
+            "level": "warning",
+            "line": 10,
+            "message": "Mismatch in @param names for function 'initialize'. Expected: [_owner], Found: []",
+            "name": "use-natspec"
+        }
+    ],
+    "infos": [],
+    "parser": {
+        "id": "solhint-6.0.0",
+        "mode": "solidity",
+        "version": "2025/09/14"
+    }
+}

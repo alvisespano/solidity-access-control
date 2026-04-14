@@ -1,0 +1,59 @@
+Extract contract Proxy from /sb/forward_msg_data.sol
+Extract contract WalletLibrary from /sb/forward_msg_data.sol
+Extracted 2 contract(s) from /sb/forward_msg_data.sol
+[0;32m> Created "fuzzMe"[0m
+[0;32m> To fuzz contracts:[0m
+  chmod +x fuzzMe
+  ./fuzzMe
+Warning: This contract has a payable fallback function, but no receive ether function. Consider adding a receive ether function.
+ --> contracts/Proxy.sol:5:1:
+  |
+5 | contract Proxy {
+  | ^ (Relevant source part starts here and spans across multiple lines).
+Note: The payable fallback function is defined here.
+  --> contracts/Proxy.sol:12:5:
+   |
+12 |     fallback() external payable {
+   |     ^ (Relevant source part starts here and spans across multiple lines).
+
+Warning: 'transfer' is deprecated and scheduled for removal. Use 'call{value: <amount>}("")' instead.
+  --> contracts/Proxy.sol:27:9:
+   |
+27 |         payable(msg.sender).transfer(address(this).balance);
+   |         ^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+
+Warning: This contract has a payable fallback function, but no receive ether function. Consider adding a receive ether function.
+ --> contracts/WalletLibrary.sol:5:1:
+  |
+5 | contract Proxy {
+  | ^ (Relevant source part starts here and spans across multiple lines).
+Note: The payable fallback function is defined here.
+  --> contracts/WalletLibrary.sol:12:5:
+   |
+12 |     fallback() external payable {
+   |     ^ (Relevant source part starts here and spans across multiple lines).
+
+Warning: 'transfer' is deprecated and scheduled for removal. Use 'call{value: <amount>}("")' instead.
+  --> contracts/WalletLibrary.sol:27:9:
+   |
+27 |         payable(msg.sender).transfer(address(this).balance);
+   |         ^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+
+Error: Source file requires different compiler version (current compiler is 0.8.31+commit.fd3a2265.Linux.g++) - note that nightly builds are considered to be strictly less than the released version
+ --> assets/ReentrancyAttacker.sol:1:1:
+  |
+1 | pragma solidity ^0.4.24;
+  | ^^^^^^^^^^^^^^^^^^^^^^^^
+
+Error: Source file requires different compiler version (current compiler is 0.8.31+commit.fd3a2265.Linux.g++) - note that nightly builds are considered to be strictly less than the released version
+ --> assets/NormalAttacker.sol:1:1:
+  |
+1 | pragma solidity ^0.4.24;
+  | ^^^^^^^^^^^^^^^^^^^^^^^^
+
+terminate called after throwing an instance of 'boost::exception_detail::clone_impl<boost::exception_detail::error_info_injector<boost::property_tree::json_parser::json_parser_error> >'
+  what():  assets/ReentrancyAttacker.sol.json(1): expected value
+./fuzzMe: line 6:    23 Aborted                 (core dumped) ./fuzzer --file contracts/Proxy.sol.json --name Proxy --assets assets/ --duration 120 --mode 1 --reporter 1 --log 0 --attacker ReentrancyAttacker
+terminate called after throwing an instance of 'boost::exception_detail::clone_impl<boost::exception_detail::error_info_injector<boost::property_tree::json_parser::json_parser_error> >'
+  what():  assets/ReentrancyAttacker.sol.json(1): expected value
+./fuzzMe: line 7:    24 Aborted                 (core dumped) ./fuzzer --file contracts/WalletLibrary.sol.json --name WalletLibrary --assets assets/ --duration 120 --mode 1 --reporter 1 --log 0 --attacker ReentrancyAttacker

@@ -1,0 +1,83 @@
+Executing python3 /app/main/main.py --contract /sb/dos_gas.sol --solc-version 0.8.31 --filetype solidity --model-dir models --instance-len 20 --report /app/output.pdf
+Traceback (most recent call last):
+  File "/app/main/bytecodes_construction.py", line 1867, in make_bytecodes_opcodes_mapping_for_solidity_file
+    result = compile_source(file_content, output_values=['bin-runtime', 'asm'])
+  File "/usr/local/lib/python3.8/site-packages/solcx/main.py", line 94, in compile_source
+    stdoutdata, stderrdata, command, proc = solc_wrapper(**compiler_kwargs)
+  File "/usr/local/lib/python3.8/site-packages/solcx/utils/string.py", line 78, in inner
+    return force_obj_to_text(fn(*args, **kwargs))
+  File "/usr/local/lib/python3.8/site-packages/solcx/wrapper.py", line 187, in solc_wrapper
+    raise SolcError(
+solcx.exceptions.SolcError: An error occurred during execution
+        > command: `/root/.solcx/solc-v0.8.31 --combined-json bin-runtime,asm -`
+        > return code: `1`
+        > stderr:
+
+        > stdout:
+        Error: Source "@openzeppelin/contracts/access/AccessControl.sol" not found: File not found. Searched the following locations: "".
+ --> <stdin>:7:1:
+  |
+7 | import "@openzeppelin/contracts/access/AccessControl.sol";
+  | ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+Traceback (most recent call last):
+  File "/app/main/bytecodes_construction.py", line 1867, in make_bytecodes_opcodes_mapping_for_solidity_file
+    result = compile_source(file_content, output_values=['bin-runtime', 'asm'])
+  File "/usr/local/lib/python3.8/site-packages/solcx/main.py", line 94, in compile_source
+    stdoutdata, stderrdata, command, proc = solc_wrapper(**compiler_kwargs)
+  File "/usr/local/lib/python3.8/site-packages/solcx/utils/string.py", line 78, in inner
+    return force_obj_to_text(fn(*args, **kwargs))
+  File "/usr/local/lib/python3.8/site-packages/solcx/wrapper.py", line 187, in solc_wrapper
+    raise SolcError(
+solcx.exceptions.SolcError: An error occurred during execution
+        > command: `/root/.solcx/solc-v0.8.31 --combined-json bin-runtime,asm -`
+        > return code: `1`
+        > stderr:
+
+        > stdout:
+        Error: Source "@openzeppelin/contracts/access/AccessControl.sol" not found: File not found. Searched the following locations: "".
+ --> <stdin>:7:1:
+  |
+7 | import "@openzeppelin/contracts/access/AccessControl.sol";
+  | ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "/app/main/bytecodes_construction.py", line 1987, in make_bytecodes_opcodes_mapping_for_solidity_file
+    result = compile_source(file_content)
+  File "/usr/local/lib/python3.8/site-packages/solcx/main.py", line 94, in compile_source
+    stdoutdata, stderrdata, command, proc = solc_wrapper(**compiler_kwargs)
+  File "/usr/local/lib/python3.8/site-packages/solcx/utils/string.py", line 78, in inner
+    return force_obj_to_text(fn(*args, **kwargs))
+  File "/usr/local/lib/python3.8/site-packages/solcx/wrapper.py", line 187, in solc_wrapper
+    raise SolcError(
+solcx.exceptions.SolcError: An error occurred during execution
+        > command: `/root/.solcx/solc-v0.4.24 --combined-json abi,asm,ast,bin,bin-runtime,clone-bin,devdoc,opcodes,userdoc -`
+        > return code: `1`
+        > stderr:
+
+        > stdout:
+        <stdin>:7:1: Error: Source "@openzeppelin/contracts/access/AccessControl.sol" not found: File not found.
+import "@openzeppelin/contracts/access/AccessControl.sol";
+^--------------------------------------------------------^
+Traceback (most recent call last):
+  File "/app/main/main.py", line 374, in <module>
+    bytecodes_list_val, contractnames_val, opcodes_lists_val, pcs_lists_val = bytecodes_construction.make_bytecodes_opcodes_mapping_for_solidity_file(filepath, version, instance_len)
+TypeError: cannot unpack non-iterable NoneType object
+solidity
+/sb/dos_gas.sol
+0.8.31
+map
+20
+except: An error occurred during execution
+        > command: `/root/.solcx/solc-v0.8.31 --combined-json bin-runtime,asm -`
+        > return code: `1`
+        > stderr:
+
+        > stdout:
+        Error: Source "@openzeppelin/contracts/access/AccessControl.sol" not found: File not found. Searched the following locations: "".
+ --> <stdin>:7:1:
+  |
+7 | import "@openzeppelin/contracts/access/AccessControl.sol";
+  | ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+compiled faild!

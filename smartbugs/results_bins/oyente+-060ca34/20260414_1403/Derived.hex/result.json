@@ -1,0 +1,13 @@
+{
+    "errors": [],
+    "fails": [],
+    "findings": [],
+    "infos": [
+        "coverage 5.2%"
+    ],
+    "parser": {
+        "id": "oyente+-060ca34",
+        "mode": "runtime",
+        "version": "2025/06/04"
+    }
+}

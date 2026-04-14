@@ -1,0 +1,73 @@
+2026-04-14 14:04:17,714 main ERROR Could not determine local host name java.net.UnknownHostException: 22d536c1f142: 22d536c1f142: Temporary failure in name resolution
+	at java.net.InetAddress.getLocalHost(InetAddress.java:1423)
+	at org.apache.logging.log4j.core.util.NetUtils.getLocalHostname(NetUtils.java:53)
+	at org.apache.logging.log4j.core.LoggerContext.setConfiguration(LoggerContext.java:524)
+	at org.apache.logging.log4j.core.LoggerContext.reconfigure(LoggerContext.java:603)
+	at org.apache.logging.log4j.core.LoggerContext.reconfigure(LoggerContext.java:620)
+	at org.apache.logging.log4j.core.LoggerContext.start(LoggerContext.java:226)
+	at org.apache.logging.log4j.core.impl.Log4jContextFactory.getContext(Log4jContextFactory.java:152)
+	at org.apache.logging.log4j.core.impl.Log4jContextFactory.getContext(Log4jContextFactory.java:45)
+	at org.apache.logging.log4j.LogManager.getContext(LogManager.java:194)
+	at org.apache.logging.log4j.LogManager.getLogger(LogManager.java:551)
+	at wien.secpriv.ethor.EvmHorstCompiler.<clinit>(EvmHorstCompiler.java:66)
+Caused by: java.net.UnknownHostException: 22d536c1f142: Temporary failure in name resolution
+	at java.net.Inet6AddressImpl.lookupAllHostAddr(Native Method)
+	at java.net.InetAddress$2.lookupAllHostAddr(InetAddress.java:866)
+	at java.net.InetAddress.getAddressesFromNameService(InetAddress.java:1293)
+	at java.net.InetAddress$NameServiceAddresses.get(InetAddress.java:815)
+	at java.net.InetAddress.getAllByName0(InetAddress.java:1282)
+	at java.net.InetAddress.getLocalHost(InetAddress.java:1418)
+	... 10 more
+
+14:04:17.950 [main] WARN  wien.secpriv.ethor.ContractLexer - No meta data found! Maybe contract has a malformed suffix!
+Exception in thread "main" picocli.CommandLine$ExecutionException: Error while running command (wien.secpriv.ethor.EvmHorstCompiler@6e98fd10): java.lang.RuntimeException: java.lang.RuntimeException: java.lang.reflect.InvocationTargetException
+	at picocli.CommandLine.execute(CommandLine.java:1051)
+	at picocli.CommandLine.access$900(CommandLine.java:142)
+	at picocli.CommandLine$RunLast.handle(CommandLine.java:1246)
+	at picocli.CommandLine$RunLast.handle(CommandLine.java:1214)
+	at picocli.CommandLine$AbstractParseResultHandler.handleParseResult(CommandLine.java:1122)
+	at picocli.CommandLine.parseWithHandlers(CommandLine.java:1405)
+	at picocli.CommandLine.run(CommandLine.java:1864)
+	at picocli.CommandLine.run(CommandLine.java:1794)
+	at wien.secpriv.ethor.EvmHorstCompiler.main(EvmHorstCompiler.java:73)
+Caused by: java.lang.RuntimeException: java.lang.RuntimeException: java.lang.reflect.InvocationTargetException
+	at wien.secpriv.horst.translation.visitors.InstantiateParametersRuleVisitor.visit(InstantiateParametersRuleVisitor.java:43)
+	at wien.secpriv.horst.translation.visitors.InstantiateParametersRuleVisitor.visit(InstantiateParametersRuleVisitor.java:15)
+	at wien.secpriv.horst.translation.TranslationPipeline$FlatMapStep.lambda$apply$0(TranslationPipeline.java:38)
+	at java.util.stream.ReferencePipeline$7$1.accept(ReferencePipeline.java:269)
+	at java.util.ArrayList$ArrayListSpliterator.forEachRemaining(ArrayList.java:1384)
+	at java.util.stream.AbstractPipeline.copyInto(AbstractPipeline.java:482)
+	at java.util.stream.AbstractPipeline.wrapAndCopyInto(AbstractPipeline.java:472)
+	at java.util.stream.ReduceOps$ReduceOp.evaluateSequential(ReduceOps.java:708)
+	at java.util.stream.AbstractPipeline.evaluate(AbstractPipeline.java:234)
+	at java.util.stream.ReferencePipeline.collect(ReferencePipeline.java:566)
+	at wien.secpriv.horst.translation.TranslationPipeline$FlatMapStep.apply(TranslationPipeline.java:38)
+	at wien.secpriv.horst.translation.TranslationPipeline.apply(TranslationPipeline.java:118)
+	at wien.secpriv.ethor.EvmHorstCompiler.run(EvmHorstCompiler.java:102)
+	at picocli.CommandLine.execute(CommandLine.java:1043)
+	... 8 more
+Caused by: java.lang.RuntimeException: java.lang.reflect.InvocationTargetException
+	at wien.secpriv.horst.internals.SelectorFunctionInvoker.invoke(SelectorFunctionInvoker.java:67)
+	at wien.secpriv.horst.internals.SelectorFunctionInvoker.lambda$invoke$2(SelectorFunctionInvoker.java:50)
+	at wien.secpriv.horst.tools.CartesianHelper$DependentCartesianIterator.nextA(CartesianHelper.java:42)
+	at wien.secpriv.horst.tools.CartesianHelper$DependentCartesianIterator.<init>(CartesianHelper.java:34)
+	at wien.secpriv.horst.tools.CartesianHelper$DependentCartesianIterator.<init>(CartesianHelper.java:25)
+	at wien.secpriv.horst.tools.CartesianHelper.lambda$dependentProduct$4(CartesianHelper.java:85)
+	at wien.secpriv.horst.internals.SelectorFunctionInvoker.lambda$invoke$2(SelectorFunctionInvoker.java:52)
+	at wien.secpriv.horst.translation.visitors.InstantiateParametersRuleVisitor.visit(InstantiateParametersRuleVisitor.java:35)
+	... 21 more
+Caused by: java.lang.reflect.InvocationTargetException
+	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.lang.reflect.Method.invoke(Method.java:498)
+	at wien.secpriv.horst.internals.SelectorFunctionInvoker.invoke(SelectorFunctionInvoker.java:62)
+	... 28 more
+Caused by: java.util.NoSuchElementException
+	at java.util.LinkedHashMap$LinkedHashIterator.nextNode(LinkedHashMap.java:721)
+	at java.util.LinkedHashMap$LinkedKeyIterator.next(LinkedHashMap.java:742)
+	at java.util.Collections.max(Collections.java:671)
+	at wien.secpriv.ethor.ContractLexer$ContractInfo.getMaxProgramCounter(ContractLexer.java:142)
+	at wien.secpriv.ethor.EvmSelectorFunctionProvider.lastPcsForId(EvmSelectorFunctionProvider.java:359)
+	at wien.secpriv.ethor.ConstantAnalysis.lastPcsForId(ConstantAnalysis.java:489)
+	... 33 more

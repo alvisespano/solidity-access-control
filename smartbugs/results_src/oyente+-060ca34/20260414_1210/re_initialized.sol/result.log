@@ -1,0 +1,17 @@
+INFO:CryticCompile:'solc --version' running
+INFO:CryticCompile:'solc /sb/re_initialized.sol --combined-json abi,ast,bin,bin-runtime,srcmap,srcmap-runtime,userdoc,devdoc,hashes --allow-paths .,/sb' running
+INFO:root:contract sb/re_initialized.sol:Example:
+INFO:symExec:	============ Results ===========
+INFO:symExec:	  EVM Code Coverage: 			 85.8%
+INFO:symExec:	  Integer Underflow: 			 True
+INFO:symExec:	  Integer Overflow: 			 False
+INFO:symExec:	  Parity Multisig Bug 2: 		 False
+INFO:symExec:	  Callstack Depth Attack Vulnerability:  False
+INFO:symExec:	  Transaction-Ordering Dependence (TOD): False
+INFO:symExec:	  Timestamp Dependency: 		 False
+INFO:symExec:	  Re-Entrancy Vulnerability: 		 False
+INFO:symExec:/sb/re_initialized.sol:7:5: Warning: Integer Underflow.
+
+/sb/re_initialized.sol:6:5: Warning: Integer Underflow.
+
+INFO:symExec:	====== Analysis Completed ======

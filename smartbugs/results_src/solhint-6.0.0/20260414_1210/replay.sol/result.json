@@ -1,0 +1,116 @@
+{
+    "errors": [],
+    "fails": [],
+    "findings": [
+        {
+            "column": 1,
+            "filename": "mytest/MWEs/signature/replay.sol",
+            "level": "error",
+            "line": 2,
+            "message": "Compiler version ^0.8.0 does not satisfy the ^0.8.24 semver requirement",
+            "name": "compiler-version"
+        },
+        {
+            "column": 1,
+            "filename": "mytest/MWEs/signature/replay.sol",
+            "level": "warning",
+            "line": 5,
+            "message": "Missing @title tag in contract 'Example'",
+            "name": "use-natspec"
+        },
+        {
+            "column": 1,
+            "filename": "mytest/MWEs/signature/replay.sol",
+            "level": "warning",
+            "line": 5,
+            "message": "Missing @author tag in contract 'Example'",
+            "name": "use-natspec"
+        },
+        {
+            "column": 1,
+            "filename": "mytest/MWEs/signature/replay.sol",
+            "level": "warning",
+            "line": 5,
+            "message": "Missing @notice tag in contract 'Example'",
+            "name": "use-natspec"
+        },
+        {
+            "column": 5,
+            "filename": "mytest/MWEs/signature/replay.sol",
+            "level": "warning",
+            "line": 6,
+            "message": "Missing @notice tag in variable 'owner'",
+            "name": "use-natspec"
+        },
+        {
+            "column": 5,
+            "filename": "mytest/MWEs/signature/replay.sol",
+            "level": "warning",
+            "line": 8,
+            "message": "Missing @notice tag in function 'payWithSig'",
+            "name": "use-natspec"
+        },
+        {
+            "column": 5,
+            "filename": "mytest/MWEs/signature/replay.sol",
+            "level": "warning",
+            "line": 8,
+            "message": "Missing @param tag in function 'payWithSig'",
+            "name": "use-natspec"
+        },
+        {
+            "column": 5,
+            "filename": "mytest/MWEs/signature/replay.sol",
+            "level": "warning",
+            "line": 8,
+            "message": "Mismatch in @param names for function 'payWithSig'. Expected: [to, amt, hash, v, r, s], Found: []",
+            "name": "use-natspec"
+        },
+        {
+            "column": 37,
+            "filename": "mytest/MWEs/signature/replay.sol",
+            "level": "warning",
+            "line": 8,
+            "message": "Rule is set with explicit type [var/s: uint]",
+            "name": "explicit-types"
+        },
+        {
+            "column": 9,
+            "filename": "mytest/MWEs/signature/replay.sol",
+            "level": "warning",
+            "line": 10,
+            "message": "Provide an error message for require",
+            "name": "reason-string"
+        },
+        {
+            "column": 9,
+            "filename": "mytest/MWEs/signature/replay.sol",
+            "level": "warning",
+            "line": 10,
+            "message": "GC: Use Custom Errors instead of require statements",
+            "name": "gas-custom-errors"
+        },
+        {
+            "column": 9,
+            "filename": "mytest/MWEs/signature/replay.sol",
+            "level": "warning",
+            "line": 12,
+            "message": "Provide an error message for require",
+            "name": "reason-string"
+        },
+        {
+            "column": 9,
+            "filename": "mytest/MWEs/signature/replay.sol",
+            "level": "warning",
+            "line": 12,
+            "message": "GC: Use Custom Errors instead of require statements",
+            "name": "gas-custom-errors"
+        }
+    ],
+    "infos": [],
+    "parser": {
+        "id": "solhint-6.0.0",
+        "mode": "solidity",
+        "version": "2025/09/14"
+    }
+}

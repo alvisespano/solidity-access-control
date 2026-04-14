@@ -1,0 +1,15 @@
+{
+    "errors": [],
+    "fails": [
+        "exception (picocli.CommandLine$ExecutionException: Error while running command (wien.secpriv.ethor.EvmHorstCompiler@6e98fd10): java.lang.RuntimeException: java.lang.RuntimeException: java.lang.reflect.InvocationTargetException)"
+    ],
+    "findings": [],
+    "infos": [
+        "analysis incomplete"
+    ],
+    "parser": {
+        "id": "ethor-2023",
+        "mode": "runtime",
+        "version": "2022/11/11"
+    }
+}

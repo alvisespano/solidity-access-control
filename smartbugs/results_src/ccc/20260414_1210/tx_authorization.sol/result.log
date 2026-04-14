@@ -1,0 +1,35 @@
+Directories in use:
+home:         /var/lib/neo4j
+config:       /etc/neo4j
+logs:         /var/log/neo4j
+plugins:      /var/lib/neo4j/plugins
+import:       /var/lib/neo4j/import
+data:         /var/lib/neo4j/data
+certificates: /var/lib/neo4j/certificates
+licenses:     /var/lib/neo4j/licenses
+run:          /var/lib/neo4j/run
+Starting Neo4j.
+Started neo4j (pid:47). It is available at http://localhost:7474
+There may be a short delay until the server is ready.
+/sb/tx_authorization.sol
+12:11:15.544 [ForkJoinPool.commonPool-worker-1] ERROR de.fraunhofer.aisec.cpg.frontends.Handler - /sb/tx_authorization.sol:2:1: Parsing of type class SolidityParser$PragmaDirectiveContext is not supported (yet)
+12:11:15.906 [ForkJoinPool.commonPool-worker-1] ERROR de.fraunhofer.aisec.cpg.passes.Pass - /sb/tx_authorization.sol:14:9: Could not resolve callee of unsupported type class de.fraunhofer.aisec.cpg.frontends.solidity.nodes.SpecifiedExpression
+Running checks
+AccessControlSelfdestructCheck took 2434 ms
+CallReturnCheck took 1289 ms
+AccessControlLogicCheck took 2266 ms
+ReentrancyCheck took 5112 ms
+DefaultProxyDelegateCheck took 1702 ms
+File: /sb/tx_authorization.sol
+- Access control enforcement through transactions origin is vulnerable to phishing attacks , tx_authorization.sol 13:9-13:36
+TXOriginCheck took 712 ms
+TimeManipulationCheck took 502 ms
+LocalWriteToStorageCheck took 991 ms
+BadRandomnessCheck took 535 ms
+OverUnderflowCheck took 3362 ms
+DOSCheck took 1024 ms
+AddressPaddingCheck took 3024 ms
+FrontRunningCheck took 653 ms
+Nr. Files: 1
+File: /sb/tx_authorization.sol
+Graph translation: 1800 ms, Persisting graph: 23614 ms, AccessControlSelfdestructCheck: 2434 ms, CallReturnCheck: 1289 ms, AccessControlLogicCheck: 2266 ms, ReentrancyCheck: 5112 ms, DefaultProxyDelegateCheck: 1702 ms, TXOriginCheck: 712 ms, TimeManipulationCheck: 502 ms, LocalWriteToStorageCheck: 991 ms, BadRandomnessCheck: 535 ms, OverUnderflowCheck: 3362 ms, DOSCheck: 1024 ms, AddressPaddingCheck: 3024 ms, FrontRunningCheck: 653 ms, All checks: 23909 ms

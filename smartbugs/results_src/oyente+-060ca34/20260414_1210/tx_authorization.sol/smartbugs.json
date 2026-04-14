@@ -1,0 +1,57 @@
+{
+    "debug": {
+        "sb_bin_log": [
+            "/oyente/oyente.py  -s /sb/tx_authorization.sol "
+        ]
+    },
+    "docker": {
+        "command": null,
+        "detach": true,
+        "entrypoint": "'/sb/bin/do_solidity.sh' '/sb/tx_authorization.sol' '0' '/sb/bin' '0'",
+        "image": "smartbugs/oyente_plus:060ca34",
+        "network": "none",
+        "user": 0,
+        "volumes": {
+            "/tmp/tmpb527in_1": {
+                "bind": "/sb",
+                "mode": "rw"
+            }
+        }
+    },
+    "filename": "mytest/MWEs/tx_origin/tx_authorization.sol",
+    "platform": {
+        "cpu": "Intel(R) Core(TM) i7-9700 CPU @ 3.00GHz",
+        "python": "3.12.3.final.0 (64 bit)",
+        "release": "6.6.87.2-microsoft-standard-WSL2",
+        "smartbugs": "2.0.18",
+        "system": "Linux",
+        "version": "#1 SMP PREEMPT_DYNAMIC Thu Jun  5 18:30:46 UTC 2025"
+    },
+    "result": {
+        "duration": 22.545986652374268,
+        "exit_code": 1,
+        "logs": "result.log",
+        "output": null,
+        "start": 1776168645.7470253
+    },
+    "runid": "20260414_1210",
+    "solc": "0.8.31",
+    "tool": {
+        "bin": "scripts",
+        "command": null,
+        "cpu_quota": null,
+        "entrypoint": "'$BIN/do_solidity.sh' '$FILENAME' '$TIMEOUT' '$BIN' '$MAIN'",
+        "id": "oyente+-060ca34",
+        "image": "smartbugs/oyente_plus:060ca34",
+        "info": "Oyente uses symbolic execution to determine, which inputs cause which program branches to execute, in order to find potential security vulnerabilities. Oyente+ is an update of Oyente implementing instructions that were added to the EVM after the release of the original version of Oyente.",
+        "mem_limit": null,
+        "mode": "solidity",
+        "name": "Oyente+",
+        "network": null,
+        "origin": "https://github.com/smartbugs/oyente_plus",
+        "output": null,
+        "parser": "parser.py",
+        "solc": true,
+        "version": "060ca34"
+    }
+}

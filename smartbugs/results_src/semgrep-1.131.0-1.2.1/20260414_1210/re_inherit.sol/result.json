@@ -1,0 +1,11 @@
+{
+    "errors": [],
+    "fails": [],
+    "findings": [],
+    "infos": [],
+    "parser": {
+        "id": "semgrep-1.131.0-1.2.1",
+        "mode": "solidity",
+        "version": "2025/08/06"
+    }
+}

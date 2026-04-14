@@ -1,0 +1,18 @@
+{
+    "errors": [],
+    "fails": [],
+    "findings": [
+        {
+            "filename": "mytest/bins/tx_origin/tx_authorization/Example.hex",
+            "name": "Callstack Depth Attack Vulnerability"
+        }
+    ],
+    "infos": [
+        "coverage 17.3%"
+    ],
+    "parser": {
+        "id": "oyente+-060ca34",
+        "mode": "runtime",
+        "version": "2025/06/04"
+    }
+}

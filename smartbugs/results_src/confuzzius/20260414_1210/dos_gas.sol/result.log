@@ -1,0 +1,18 @@
+2026-04-14 12:59:05,511 - Main     - INFO - [1mInitializing seed to 1427655.0[0m
+2026-04-14 12:59:05,526 - Main     - ERROR - [91m[1mNo compiler output for: /sb/dos_gas.sol[0m[0m
+
+     ______            ______                _           
+    / ____/___  ____  / ____/_  __________  (_)_  _______
+   / /   / __ \/ __ \/ /_  / / / /_  /_  / / / / / / ___/
+  / /___/ /_/ / / / / __/ / /_/ / / /_/ /_/ / /_/ (__  ) 
+  \____/\____/_/ /_/_/    \__,_/ /___/___/_/\__,_/____/  
+
+delteed file
+Error: Solidity compilation failed!
+ParserError: Source "@openzeppelin/contracts/access/AccessControl.sol" not found: File not found. Searched the following locations: "".
+ --> /sb/dos_gas.sol:7:1:
+  |
+7 | import "@openzeppelin/contracts/access/AccessControl.sol";
+  | ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+
+

@@ -1,0 +1,15 @@
+{
+    "errors": [],
+    "fails": [
+        "execution failed"
+    ],
+    "findings": [],
+    "infos": [
+        "analysis incomplete"
+    ],
+    "parser": {
+        "id": "oyente+-060ca34",
+        "mode": "runtime",
+        "version": "2025/06/04"
+    }
+}

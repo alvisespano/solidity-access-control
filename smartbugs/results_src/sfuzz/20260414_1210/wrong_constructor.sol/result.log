@@ -1,0 +1,33 @@
+Extract contract /sb/wrong_constructor.sol:8:14: from /sb/wrong_constructor.sol
+cp: cannot create regular file '/home/contracts//sb/wrong_constructor.sol:8:14:.sol': No such file or directory
+Extract contract ParserError: from /sb/wrong_constructor.sol
+Extract contract Expected from /sb/wrong_constructor.sol
+Extract contract identifier from /sb/wrong_constructor.sol
+Extract contract but from /sb/wrong_constructor.sol
+Extract contract got from /sb/wrong_constructor.sol
+Extract contract '(' from /sb/wrong_constructor.sol
+Extract contract MyContrac(address from /sb/wrong_constructor.sol
+Extract contract _owner) from /sb/wrong_constructor.sol
+Extract contract public from /sb/wrong_constructor.sol
+Extract contract { from /sb/wrong_constructor.sol
+Extract contract // from /sb/wrong_constructor.sol
+Extract contract typo from /sb/wrong_constructor.sol
+Extract contract in from /sb/wrong_constructor.sol
+Extract contract the from /sb/wrong_constructor.sol
+Extract contract constructor from /sb/wrong_constructor.sol
+Extract contract name
+ from /sb/wrong_constructor.sol
+Extract contract ^ from /sb/wrong_constructor.sol
+Extracted 18 contract(s) from /sb/wrong_constructor.sol
+[0;32m> Created "fuzzMe"[0m
+[0;32m> To fuzz contracts:[0m
+  chmod +x fuzzMe
+  ./fuzzMe
+contracts/Expected.sol:8:14: Error: Expected identifier but got '('
+    MyContrac(address _owner) public { // typo in the constructor name
+             ^
+contracts/the.sol:8:14: Error: Expected identifier but got '('
+    MyContrac(address _owner) public { // typo in the constructor name
+             ^
+./fuzzMe: line 4: syntax error near unexpected token `('
+./fuzzMe: line 4: `solc --combined-json abi,bin,bin-runtime,srcmap,srcmap-runtime contracts/MyContrac(address.sol > contracts/MyContrac(address.sol.json'

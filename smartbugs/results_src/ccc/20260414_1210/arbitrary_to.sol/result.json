@@ -1,0 +1,14 @@
+{
+    "errors": [],
+    "fails": [],
+    "findings": [],
+    "infos": [
+        "Could not find the scope address needed to resolve the call address.delegatecall",
+        "Parsing of type class SolidityParser$PragmaDirectiveContext is not supported (yet)"
+    ],
+    "parser": {
+        "id": "ccc",
+        "mode": "solidity",
+        "version": "2025/09/19"
+    }
+}

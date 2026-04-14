@@ -1,0 +1,29 @@
+Removing working directory .temp
+Processing contract names.
+Setting up workers.
+Analysing...
+
+0: IAccessControl.hex completed in 0.00 + 0.30 + 0.01 secs
+
+Finishing...
+
+1 of 1 contracts flagged.
+
+  Analytics_Blocks: 100.00%
+  Analytics_Functions: 100.00%
+  Analytics_ReachableBlocks: 100.00%
+  Function: 100.00%
+  HighLevelFunctionName: 100.00%
+  IRFunctionEntry: 100.00%
+  InFunction: 100.00%
+  Mask_Length: 100.00%
+  OpcodePossiblyHalts: 100.00%
+  VulnerabilityDescription_Vulnerability_AccessibleSelfdestruct: 100.00%
+  VulnerabilityDescription_Vulnerability_TaintedDelegatecall: 100.00%
+  VulnerabilityDescription_Vulnerability_TaintedOwnerVariable: 100.00%
+  VulnerabilityDescription_Vulnerability_TaintedSelfdestruct: 100.00%
+  VulnerabilityDescription_Vulnerability_TaintedStoreIndex: 100.00%
+  VulnerabilityDescription_Vulnerability_TaintedValueSend: 100.00%
+  VulnerabilityDescription_Vulnerability_UncheckedTaintedStaticcall: 100.00%
+
+Writing results to results.json

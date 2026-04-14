@@ -1,0 +1,16 @@
+{
+    "errors": [],
+    "fails": [],
+    "findings": [
+        {
+            "filename": "mytest/bins/visibility/wrong_constructor/MyContract.hex",
+            "name": "secure"
+        }
+    ],
+    "infos": [],
+    "parser": {
+        "id": "ethor-2023",
+        "mode": "runtime",
+        "version": "2022/11/11"
+    }
+}

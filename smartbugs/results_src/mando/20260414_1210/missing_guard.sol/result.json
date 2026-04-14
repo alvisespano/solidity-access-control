@@ -1,0 +1,26 @@
+{
+    "errors": [],
+    "fails": [],
+    "findings": [
+        {
+            "filename": "mytest/MWEs/missing/missing_guard.sol",
+            "line": 9,
+            "line_end": 18,
+            "name": "access_control"
+        },
+        {
+            "filename": "mytest/MWEs/missing/missing_guard.sol",
+            "line": 13,
+            "line_end": 13,
+            "name": "denial_of_service"
+        }
+    ],
+    "infos": [
+        "OK"
+    ],
+    "parser": {
+        "id": "mando",
+        "mode": "solidity",
+        "version": "2023/08/01"
+    }
+}

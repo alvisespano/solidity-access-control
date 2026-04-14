@@ -1,0 +1,56 @@
+'solc --version' running
+'solc /sb/forward_msg_data.sol --combined-json abi,ast,bin,bin-runtime,srcmap,srcmap-runtime,userdoc,devdoc,hashes --allow-paths .,/sb' running
+Compilation warnings/errors on /sb/forward_msg_data.sol:
+Warning: This contract has a payable fallback function, but no receive ether function. Consider adding a receive ether function.
+ --> /sb/forward_msg_data.sol:5:1:
+  |
+5 | contract Proxy {
+  | ^ (Relevant source part starts here and spans across multiple lines).
+Note: The payable fallback function is defined here.
+  --> /sb/forward_msg_data.sol:12:5:
+   |
+12 |     fallback() external payable {
+   |     ^ (Relevant source part starts here and spans across multiple lines).
+
+Warning: 'transfer' is deprecated and scheduled for removal. Use 'call{value: <amount>}("")' instead.
+  --> /sb/forward_msg_data.sol:27:9:
+   |
+27 |         payable(msg.sender).transfer(address(this).balance);
+   |         ^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+
+
+
+Proxy.fallback() (../sb/forward_msg_data.sol#12-15) uses delegatecall to a input-controlled function id
+	- (success,None) = implementation.delegatecall(msg.data) (../sb/forward_msg_data.sol#13)
+Reference: https://github.com/crytic/slither/wiki/Detector-Documentation#controlled-delegatecall
+
+Proxy.constructor(address)._impl (../sb/forward_msg_data.sol#8) lacks a zero-check on :
+		- implementation = _impl (../sb/forward_msg_data.sol#9)
+WalletLibrary.initWallet(address)._owner (../sb/forward_msg_data.sol#21) lacks a zero-check on :
+		- owner = _owner (../sb/forward_msg_data.sol#22)
+Reference: https://github.com/crytic/slither/wiki/Detector-Documentation#missing-zero-address-validation
+
+Version constraint ^0.8.0 contains known severe issues (https://solidity.readthedocs.io/en/latest/bugs.html)
+	- FullInlinerNonExpressionSplitArgumentEvaluationOrder
+	- MissingSideEffectsOnSelectorAccess
+	- AbiReencodingHeadOverflowWithStaticArrayCleanup
+	- DirtyBytesArrayToStorage
+	- DataLocationChangeInInternalOverride
+	- NestedCalldataArrayAbiReencodingSizeValidation
+	- SignedImmutables
+	- ABIDecodeTwoDimensionalArrayMemory
+	- KeccakCaching.
+It is used by:
+	- ^0.8.0 (../sb/forward_msg_data.sol#2)
+Reference: https://github.com/crytic/slither/wiki/Detector-Documentation#incorrect-versions-of-solidity
+
+Low level call in Proxy.fallback() (../sb/forward_msg_data.sol#12-15):
+	- (success,None) = implementation.delegatecall(msg.data) (../sb/forward_msg_data.sol#13)
+Reference: https://github.com/crytic/slither/wiki/Detector-Documentation#low-level-calls
+
+Parameter WalletLibrary.initWallet(address)._owner (../sb/forward_msg_data.sol#21) is not in mixedCase
+Reference: https://github.com/crytic/slither/wiki/Detector-Documentation#conformance-to-solidity-naming-conventions
+
+Proxy.implementation (../sb/forward_msg_data.sol#6) should be immutable 
+Reference: https://github.com/crytic/slither/wiki/Detector-Documentation#state-variables-that-could-be-declared-immutable
+/sb/forward_msg_data.sol analyzed (2 contracts with 100 detectors), 7 result(s) found

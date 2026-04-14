@@ -1,0 +1,32 @@
+'solc --version' running
+'solc /sb/replay.sol --combined-json abi,ast,bin,bin-runtime,srcmap,srcmap-runtime,userdoc,devdoc,hashes --allow-paths .,/sb' running
+
+Example.owner (../sb/replay.sol#6) is never initialized. It is used in:
+	- Example.payWithSig(address,uint256,bytes32,uint8,bytes32,bytes32) (../sb/replay.sol#8-13)
+Reference: https://github.com/crytic/slither/wiki/Detector-Documentation#uninitialized-state-variables
+
+Example.payWithSig(address,uint256,bytes32,uint8,bytes32,bytes32).to (../sb/replay.sol#8) lacks a zero-check on :
+		- (success,None) = to.call{value: amt}() (../sb/replay.sol#11)
+Reference: https://github.com/crytic/slither/wiki/Detector-Documentation#missing-zero-address-validation
+
+Version constraint ^0.8.0 contains known severe issues (https://solidity.readthedocs.io/en/latest/bugs.html)
+	- FullInlinerNonExpressionSplitArgumentEvaluationOrder
+	- MissingSideEffectsOnSelectorAccess
+	- AbiReencodingHeadOverflowWithStaticArrayCleanup
+	- DirtyBytesArrayToStorage
+	- DataLocationChangeInInternalOverride
+	- NestedCalldataArrayAbiReencodingSizeValidation
+	- SignedImmutables
+	- ABIDecodeTwoDimensionalArrayMemory
+	- KeccakCaching.
+It is used by:
+	- ^0.8.0 (../sb/replay.sol#2)
+Reference: https://github.com/crytic/slither/wiki/Detector-Documentation#incorrect-versions-of-solidity
+
+Low level call in Example.payWithSig(address,uint256,bytes32,uint8,bytes32,bytes32) (../sb/replay.sol#8-13):
+	- (success,None) = to.call{value: amt}() (../sb/replay.sol#11)
+Reference: https://github.com/crytic/slither/wiki/Detector-Documentation#low-level-calls
+
+Example.owner (../sb/replay.sol#6) should be constant 
+Reference: https://github.com/crytic/slither/wiki/Detector-Documentation#state-variables-that-could-be-declared-constant
+/sb/replay.sol analyzed (1 contracts with 100 detectors), 5 result(s) found

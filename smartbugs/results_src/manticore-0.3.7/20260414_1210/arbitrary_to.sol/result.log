@@ -1,0 +1,6 @@
+2026-04-14 12:32:55,255: [10] m.main:INFO: Registered plugins: IntrospectionAPIPlugin, <class 'manticore.ethereum.plugins.SkipRevertBasicBlocks'>, <class 'manticore.ethereum.plugins.FilterFunctions'>
+2026-04-14 12:32:55,255: [10] m.main:INFO: Beginning analysis
+2026-04-14 12:32:55,258: [10] m.e.manticore:INFO: Starting symbolic create contract
+2026-04-14 12:33:12,258: [10] m.e.manticore:INFO: Failed to create contract: exception in constructor
+2026-04-14 12:33:12,600: [10] m.c.manticore:INFO: Results in /mcore_vw_4mq0v
+2026-04-14 12:33:12,601: [10] m.c.manticore:INFO: Total time: 13.752722978591919

@@ -1,0 +1,8 @@
+INFO:CryticCompile:'solc --version' running
+INFO:CryticCompile:'solc /sb/wrong_constructor.sol --combined-json abi,ast,bin,bin-runtime,srcmap,srcmap-runtime,userdoc,devdoc,hashes,compact-format --allow-paths .,/sb' running
+INFO:CryticCompile:Compilation warnings/errors on /sb/wrong_constructor.sol:
+/sb/wrong_constructor.sol:8:14: Error: Expected identifier but got '('
+    MyContrac(address _owner) public { // typo in the constructor name
+             ^
+
+CRITICAL:root:Solidity compilation failed. Please use -ce flag to see the detail.

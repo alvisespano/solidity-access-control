@@ -1,0 +1,44 @@
+{
+    "errors": [
+        "EXIT_CODE_2"
+    ],
+    "fails": [],
+    "findings": [
+        {
+            "filename": "mytest/MWEs/delegatecall/forward_msg_data.sol",
+            "name": "access_control"
+        },
+        {
+            "filename": "mytest/MWEs/delegatecall/forward_msg_data.sol",
+            "name": "denial_of_service"
+        },
+        {
+            "filename": "mytest/MWEs/delegatecall/forward_msg_data.sol",
+            "line": 9,
+            "line_end": 27,
+            "name": "front_running"
+        },
+        {
+            "filename": "mytest/MWEs/delegatecall/forward_msg_data.sol",
+            "name": "reentrancy"
+        },
+        {
+            "filename": "mytest/MWEs/delegatecall/forward_msg_data.sol",
+            "line": 13,
+            "line_end": 13,
+            "name": "time_manipulation"
+        },
+        {
+            "filename": "mytest/MWEs/delegatecall/forward_msg_data.sol",
+            "name": "unchecked_low_level_calls"
+        }
+    ],
+    "infos": [
+        "OK"
+    ],
+    "parser": {
+        "id": "mando-hgt",
+        "mode": "solidity",
+        "version": "2023/08/01"
+    }
+}

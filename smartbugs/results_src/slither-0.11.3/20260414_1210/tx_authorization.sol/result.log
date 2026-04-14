@@ -1,0 +1,43 @@
+'solc --version' running
+'solc /sb/tx_authorization.sol --combined-json abi,ast,bin,bin-runtime,srcmap,srcmap-runtime,userdoc,devdoc,hashes --allow-paths .,/sb' running
+Compilation warnings/errors on /sb/tx_authorization.sol:
+Warning: Return value of low-level calls not used.
+  --> /sb/tx_authorization.sol:14:9:
+   |
+14 |         payable(msg.sender).call{value: address(this).balance}("");
+   |         ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+
+
+
+Example.withdraw() (../sb/tx_authorization.sol#12-15) sends eth to arbitrary user
+	Dangerous calls:
+	- address(msg.sender).call{value: address(this).balance}() (../sb/tx_authorization.sol#14)
+Reference: https://github.com/crytic/slither/wiki/Detector-Documentation#functions-that-send-ether-to-arbitrary-destinations
+
+Example.withdraw() (../sb/tx_authorization.sol#12-15) uses tx.origin for authorization: require(bool)(tx.origin == owner) (../sb/tx_authorization.sol#13)
+Reference: https://github.com/crytic/slither/wiki/Detector-Documentation#dangerous-usage-of-txorigin
+
+Example.withdraw() (../sb/tx_authorization.sol#12-15) ignores return value by address(msg.sender).call{value: address(this).balance}() (../sb/tx_authorization.sol#14)
+Reference: https://github.com/crytic/slither/wiki/Detector-Documentation#unchecked-low-level-calls
+
+Version constraint ^0.8.0 contains known severe issues (https://solidity.readthedocs.io/en/latest/bugs.html)
+	- FullInlinerNonExpressionSplitArgumentEvaluationOrder
+	- MissingSideEffectsOnSelectorAccess
+	- AbiReencodingHeadOverflowWithStaticArrayCleanup
+	- DirtyBytesArrayToStorage
+	- DataLocationChangeInInternalOverride
+	- NestedCalldataArrayAbiReencodingSizeValidation
+	- SignedImmutables
+	- ABIDecodeTwoDimensionalArrayMemory
+	- KeccakCaching.
+It is used by:
+	- ^0.8.0 (../sb/tx_authorization.sol#2)
+Reference: https://github.com/crytic/slither/wiki/Detector-Documentation#incorrect-versions-of-solidity
+
+Low level call in Example.withdraw() (../sb/tx_authorization.sol#12-15):
+	- address(msg.sender).call{value: address(this).balance}() (../sb/tx_authorization.sol#14)
+Reference: https://github.com/crytic/slither/wiki/Detector-Documentation#low-level-calls
+
+Example.owner (../sb/tx_authorization.sol#6) should be immutable 
+Reference: https://github.com/crytic/slither/wiki/Detector-Documentation#state-variables-that-could-be-declared-immutable
+/sb/tx_authorization.sol analyzed (1 contracts with 100 detectors), 6 result(s) found

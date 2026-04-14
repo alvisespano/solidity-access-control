@@ -1,0 +1,30 @@
+{
+    "errors": [],
+    "fails": [],
+    "findings": [
+        {
+            "column": "5",
+            "column_end": "8",
+            "filename": "mytest/MWEs/missing/missing_guard.sol",
+            "line": "17",
+            "line_end": "19",
+            "name": "Non constructor function insufficiently restricts writes to to access control variables"
+        },
+        {
+            "column": "9",
+            "column_end": "27",
+            "filename": "mytest/MWEs/missing/missing_guard.sol",
+            "line": "18",
+            "line_end": "18",
+            "name": "A miner can use others input to gain a benefit himself."
+        }
+    ],
+    "infos": [
+        "Parsing of type class SolidityParser$PragmaDirectiveContext is not supported (yet)"
+    ],
+    "parser": {
+        "id": "ccc",
+        "mode": "solidity",
+        "version": "2025/09/19"
+    }
+}

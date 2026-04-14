@@ -1,0 +1,21 @@
+{
+    "errors": [],
+    "fails": [],
+    "findings": [
+        {
+            "column": 27,
+            "contract": "Example",
+            "filename": "mytest/MWEs/delegatecall/arbitrary_to.sol",
+            "line": 13,
+            "name": "Integer Underflow"
+        }
+    ],
+    "infos": [
+        "coverage Example 86.8%"
+    ],
+    "parser": {
+        "id": "oyente+-060ca34",
+        "mode": "solidity",
+        "version": "2025/06/04"
+    }
+}

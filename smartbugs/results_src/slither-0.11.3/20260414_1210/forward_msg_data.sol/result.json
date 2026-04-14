@@ -1,0 +1,74 @@
+{
+    "errors": [],
+    "fails": [],
+    "findings": [
+        {
+            "confidence": "Medium",
+            "contract": "Proxy",
+            "filename": "mytest/MWEs/delegatecall/forward_msg_data.sol",
+            "function": "fallback",
+            "impact": "High",
+            "line": 12,
+            "line_end": 15,
+            "message": "Proxy.fallback() (../sb/forward_msg_data.sol#12-15) uses delegatecall to a input-controlled function id\n\t- (success,None) = implementation.delegatecall(msg.data) (../sb/forward_msg_data.sol#13)\n",
+            "name": "controlled-delegatecall"
+        },
+        {
+            "confidence": "Medium",
+            "filename": "mytest/MWEs/delegatecall/forward_msg_data.sol",
+            "impact": "Low",
+            "line": 21,
+            "message": "WalletLibrary.initWallet(address)._owner (../sb/forward_msg_data.sol#21) lacks a zero-check on :\n\t\t- owner = _owner (../sb/forward_msg_data.sol#22)\n",
+            "name": "missing-zero-check"
+        },
+        {
+            "confidence": "Medium",
+            "filename": "mytest/MWEs/delegatecall/forward_msg_data.sol",
+            "impact": "Low",
+            "line": 8,
+            "message": "Proxy.constructor(address)._impl (../sb/forward_msg_data.sol#8) lacks a zero-check on :\n\t\t- implementation = _impl (../sb/forward_msg_data.sol#9)\n",
+            "name": "missing-zero-check"
+        },
+        {
+            "confidence": "High",
+            "filename": "mytest/MWEs/delegatecall/forward_msg_data.sol",
+            "impact": "Informational",
+            "line": 2,
+            "message": "Version constraint ^0.8.0 contains known severe issues (https://solidity.readthedocs.io/en/latest/bugs.html)\n\t- FullInlinerNonExpressionSplitArgumentEvaluationOrder\n\t- MissingSideEffectsOnSelectorAccess\n\t- AbiReencodingHeadOverflowWithStaticArrayCleanup\n\t- DirtyBytesArrayToStorage\n\t- DataLocationChangeInInternalOverride\n\t- NestedCalldataArrayAbiReencodingSizeValidation\n\t- SignedImmutables\n\t- ABIDecodeTwoDimensionalArrayMemory\n\t- KeccakCaching.\nIt is used by:\n\t- ^0.8.0 (../sb/forward_msg_data.sol#2)\n",
+            "name": "solc-version"
+        },
+        {
+            "confidence": "High",
+            "contract": "Proxy",
+            "filename": "mytest/MWEs/delegatecall/forward_msg_data.sol",
+            "function": "fallback",
+            "impact": "Informational",
+            "line": 12,
+            "line_end": 15,
+            "message": "Low level call in Proxy.fallback() (../sb/forward_msg_data.sol#12-15):\n\t- (success,None) = implementation.delegatecall(msg.data) (../sb/forward_msg_data.sol#13)\n",
+            "name": "low-level-calls"
+        },
+        {
+            "confidence": "High",
+            "filename": "mytest/MWEs/delegatecall/forward_msg_data.sol",
+            "impact": "Informational",
+            "line": 21,
+            "message": "Parameter WalletLibrary.initWallet(address)._owner (../sb/forward_msg_data.sol#21) is not in mixedCase\n",
+            "name": "naming-convention"
+        },
+        {
+            "confidence": "High",
+            "filename": "mytest/MWEs/delegatecall/forward_msg_data.sol",
+            "impact": "Optimization",
+            "line": 6,
+            "message": "Proxy.implementation (../sb/forward_msg_data.sol#6) should be immutable \n",
+            "name": "immutable-states"
+        }
+    ],
+    "infos": [],
+    "parser": {
+        "id": "slither-0.11.3",
+        "mode": "solidity",
+        "version": "2025/09/14"
+    }
+}

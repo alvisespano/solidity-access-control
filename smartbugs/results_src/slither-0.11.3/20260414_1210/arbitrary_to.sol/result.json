@@ -1,0 +1,66 @@
+{
+    "errors": [],
+    "fails": [],
+    "findings": [
+        {
+            "confidence": "Medium",
+            "contract": "Example",
+            "filename": "mytest/MWEs/delegatecall/arbitrary_to.sol",
+            "function": "delegate",
+            "impact": "High",
+            "line": 12,
+            "line_end": 15,
+            "message": "Example.delegate(address) (../sb/arbitrary_to.sol#12-15) uses delegatecall to a input-controlled function id\n\t- (success,None) = to.delegatecall(msg.data) (../sb/arbitrary_to.sol#13)\n",
+            "name": "controlled-delegatecall"
+        },
+        {
+            "confidence": "Medium",
+            "filename": "mytest/MWEs/delegatecall/arbitrary_to.sol",
+            "impact": "Low",
+            "line": 8,
+            "message": "Example.constructor(address)._owner (../sb/arbitrary_to.sol#8) lacks a zero-check on :\n\t\t- owner = _owner (../sb/arbitrary_to.sol#9)\n",
+            "name": "missing-zero-check"
+        },
+        {
+            "confidence": "Medium",
+            "filename": "mytest/MWEs/delegatecall/arbitrary_to.sol",
+            "impact": "Low",
+            "line": 12,
+            "message": "Example.delegate(address).to (../sb/arbitrary_to.sol#12) lacks a zero-check on :\n\t\t- (success,None) = to.delegatecall(msg.data) (../sb/arbitrary_to.sol#13)\n",
+            "name": "missing-zero-check"
+        },
+        {
+            "confidence": "High",
+            "filename": "mytest/MWEs/delegatecall/arbitrary_to.sol",
+            "impact": "Informational",
+            "line": 2,
+            "message": "Version constraint ^0.8.0 contains known severe issues (https://solidity.readthedocs.io/en/latest/bugs.html)\n\t- FullInlinerNonExpressionSplitArgumentEvaluationOrder\n\t- MissingSideEffectsOnSelectorAccess\n\t- AbiReencodingHeadOverflowWithStaticArrayCleanup\n\t- DirtyBytesArrayToStorage\n\t- DataLocationChangeInInternalOverride\n\t- NestedCalldataArrayAbiReencodingSizeValidation\n\t- SignedImmutables\n\t- ABIDecodeTwoDimensionalArrayMemory\n\t- KeccakCaching.\nIt is used by:\n\t- ^0.8.0 (../sb/arbitrary_to.sol#2)\n",
+            "name": "solc-version"
+        },
+        {
+            "confidence": "High",
+            "contract": "Example",
+            "filename": "mytest/MWEs/delegatecall/arbitrary_to.sol",
+            "function": "delegate",
+            "impact": "Informational",
+            "line": 12,
+            "line_end": 15,
+            "message": "Low level call in Example.delegate(address) (../sb/arbitrary_to.sol#12-15):\n\t- (success,None) = to.delegatecall(msg.data) (../sb/arbitrary_to.sol#13)\n",
+            "name": "low-level-calls"
+        },
+        {
+            "confidence": "High",
+            "filename": "mytest/MWEs/delegatecall/arbitrary_to.sol",
+            "impact": "Optimization",
+            "line": 6,
+            "message": "Example.owner (../sb/arbitrary_to.sol#6) should be immutable \n",
+            "name": "immutable-states"
+        }
+    ],
+    "infos": [],
+    "parser": {
+        "id": "slither-0.11.3",
+        "mode": "solidity",
+        "version": "2025/09/14"
+    }
+}

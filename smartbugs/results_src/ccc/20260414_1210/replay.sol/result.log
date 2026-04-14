@@ -1,0 +1,32 @@
+Directories in use:
+home:         /var/lib/neo4j
+config:       /etc/neo4j
+logs:         /var/log/neo4j
+plugins:      /var/lib/neo4j/plugins
+import:       /var/lib/neo4j/import
+data:         /var/lib/neo4j/data
+certificates: /var/lib/neo4j/certificates
+licenses:     /var/lib/neo4j/licenses
+run:          /var/lib/neo4j/run
+Starting Neo4j.
+Started neo4j (pid:44). It is available at http://localhost:7474
+There may be a short delay until the server is ready.
+/sb/replay.sol
+12:59:35.682 [ForkJoinPool.commonPool-worker-1] ERROR de.fraunhofer.aisec.cpg.frontends.Handler - /sb/replay.sol:2:1: Parsing of type class SolidityParser$PragmaDirectiveContext is not supported (yet)
+12:59:36.269 [ForkJoinPool.commonPool-worker-1] ERROR de.fraunhofer.aisec.cpg.passes.Pass - /sb/replay.sol:11:28: Could not resolve callee of unsupported type class de.fraunhofer.aisec.cpg.frontends.solidity.nodes.SpecifiedExpression
+Running checks
+AccessControlSelfdestructCheck took 2344 ms
+CallReturnCheck took 1619 ms
+AccessControlLogicCheck took 2182 ms
+ReentrancyCheck took 5213 ms
+DefaultProxyDelegateCheck took 1363 ms
+TXOriginCheck took 510 ms
+TimeManipulationCheck took 748 ms
+LocalWriteToStorageCheck took 1259 ms
+BadRandomnessCheck took 651 ms
+OverUnderflowCheck took 4198 ms
+DOSCheck took 1517 ms
+AddressPaddingCheck took 3258 ms
+FrontRunningCheck took 667 ms
+Nr. Files: 1
+Graph translation: 1996 ms, Persisting graph: 19638 ms, AccessControlSelfdestructCheck: 2344 ms, CallReturnCheck: 1619 ms, AccessControlLogicCheck: 2182 ms, ReentrancyCheck: 5213 ms, DefaultProxyDelegateCheck: 1363 ms, TXOriginCheck: 510 ms, TimeManipulationCheck: 748 ms, LocalWriteToStorageCheck: 1259 ms, BadRandomnessCheck: 651 ms, OverUnderflowCheck: 4198 ms, DOSCheck: 1517 ms, AddressPaddingCheck: 3258 ms, FrontRunningCheck: 667 ms, All checks: 25909 ms

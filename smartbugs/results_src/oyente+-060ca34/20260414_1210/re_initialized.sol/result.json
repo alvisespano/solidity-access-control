@@ -1,0 +1,21 @@
+{
+    "errors": [],
+    "fails": [],
+    "findings": [
+        {
+            "column": 5,
+            "contract": "Example",
+            "filename": "mytest/MWEs/initialization/re_initialized.sol",
+            "line": 7,
+            "name": "Integer Underflow"
+        }
+    ],
+    "infos": [
+        "coverage Example 85.8%"
+    ],
+    "parser": {
+        "id": "oyente+-060ca34",
+        "mode": "solidity",
+        "version": "2025/06/04"
+    }
+}

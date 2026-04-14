@@ -1,0 +1,57 @@
+{
+    "debug": {
+        "sb_bin_log": [
+            "semgrep --disable-version-check --config ./solidity /sb/tx_as_sender.sol"
+        ]
+    },
+    "docker": {
+        "command": null,
+        "detach": true,
+        "entrypoint": "'/sb/bin/do_solidity.sh' '/sb/tx_as_sender.sol' '0' '/sb/bin'",
+        "image": "smartbugs/semgrep:1.131.0-1.2.1",
+        "network": "none",
+        "user": 0,
+        "volumes": {
+            "/tmp/tmpi37y3rjt": {
+                "bind": "/sb",
+                "mode": "rw"
+            }
+        }
+    },
+    "filename": "mytest/MWEs/tx_origin/tx_as_sender.sol",
+    "platform": {
+        "cpu": "Intel(R) Core(TM) i7-9700 CPU @ 3.00GHz",
+        "python": "3.12.3.final.0 (64 bit)",
+        "release": "6.6.87.2-microsoft-standard-WSL2",
+        "smartbugs": "2.0.18",
+        "system": "Linux",
+        "version": "#1 SMP PREEMPT_DYNAMIC Thu Jun  5 18:30:46 UTC 2025"
+    },
+    "result": {
+        "duration": 9.297194957733154,
+        "exit_code": 0,
+        "logs": "result.log",
+        "output": null,
+        "start": 1776171324.6549
+    },
+    "runid": "20260414_1210",
+    "solc": null,
+    "tool": {
+        "bin": "scripts",
+        "command": null,
+        "cpu_quota": null,
+        "entrypoint": "'$BIN/do_solidity.sh' '$FILENAME' '$TIMEOUT' '$BIN'",
+        "id": "semgrep-1.131.0-1.2.1",
+        "image": "smartbugs/semgrep:1.131.0-1.2.1",
+        "info": "Find patterns of vulnerabilities in smart contracts based on actual DeFi exploits as well as gas optimization rules that can be used as a part of the CI pipeline.",
+        "mem_limit": null,
+        "mode": "solidity",
+        "name": "semgrep",
+        "network": null,
+        "origin": "https://github.com/semgrep/semgrep, https://github.com/Decurity/semgrep-smart-contracts",
+        "output": null,
+        "parser": "parser.py",
+        "solc": null,
+        "version": "semgrep 1.131.0, Decurity SC rules 1.2.1"
+    }
+}

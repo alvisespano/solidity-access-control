@@ -1,0 +1,22 @@
+{
+    "errors": [],
+    "fails": [],
+    "findings": [
+        {
+            "column": "9",
+            "column_end": "27",
+            "filename": "mytest/MWEs/misapplied/missing_revert.sol",
+            "line": "15",
+            "line_end": "15",
+            "name": "A miner can use others input to gain a benefit himself."
+        }
+    ],
+    "infos": [
+        "Parsing of type class SolidityParser$PragmaDirectiveContext is not supported (yet)"
+    ],
+    "parser": {
+        "id": "ccc",
+        "mode": "solidity",
+        "version": "2025/09/19"
+    }
+}

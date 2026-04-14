@@ -1,0 +1,57 @@
+{
+    "debug": {
+        "sb_bin_log": [
+            "securify /sb/missing_guard.sol"
+        ]
+    },
+    "docker": {
+        "command": null,
+        "detach": true,
+        "entrypoint": "'/sb/bin/do_solidity.sh' '/sb/missing_guard.sol' '/sb/bin'",
+        "image": "smartbugs/securify2:1913dfe",
+        "network": "none",
+        "user": 0,
+        "volumes": {
+            "/tmp/tmpg9l3ntpb": {
+                "bind": "/sb",
+                "mode": "rw"
+            }
+        }
+    },
+    "filename": "mytest/MWEs/missing/missing_guard.sol",
+    "platform": {
+        "cpu": "Intel(R) Core(TM) i7-9700 CPU @ 3.00GHz",
+        "python": "3.12.3.final.0 (64 bit)",
+        "release": "6.6.87.2-microsoft-standard-WSL2",
+        "smartbugs": "2.0.18",
+        "system": "Linux",
+        "version": "#1 SMP PREEMPT_DYNAMIC Thu Jun  5 18:30:46 UTC 2025"
+    },
+    "result": {
+        "duration": 0.964097261428833,
+        "exit_code": 1,
+        "logs": "result.log",
+        "output": null,
+        "start": 1776168761.8795054
+    },
+    "runid": "20260414_1210",
+    "solc": "0.8.31",
+    "tool": {
+        "bin": "scripts",
+        "command": null,
+        "cpu_quota": null,
+        "entrypoint": "'$BIN/do_solidity.sh' '$FILENAME' '$BIN'",
+        "id": "securify2",
+        "image": "smartbugs/securify2:1913dfe",
+        "info": "Securify 2.0 is a security scanner for Ethereum smart contracts. It implements context-sensitive static analysis written in Datalog and analyzes contracts written in Solidity (>= 0.5.8) for 37 weaknesses.",
+        "mem_limit": null,
+        "mode": "solidity",
+        "name": "Securify2",
+        "network": null,
+        "origin": "https://github.com/eth-sri/securify2",
+        "output": null,
+        "parser": "parser.py",
+        "solc": true,
+        "version": null
+    }
+}

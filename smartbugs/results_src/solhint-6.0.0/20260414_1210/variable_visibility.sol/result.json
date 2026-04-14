@@ -1,0 +1,100 @@
+{
+    "errors": [],
+    "fails": [],
+    "findings": [
+        {
+            "column": 1,
+            "filename": "mytest/MWEs/visibility/variable_visibility.sol",
+            "level": "error",
+            "line": 2,
+            "message": "Compiler version ^0.8.0 does not satisfy the ^0.8.24 semver requirement",
+            "name": "compiler-version"
+        },
+        {
+            "column": 1,
+            "filename": "mytest/MWEs/visibility/variable_visibility.sol",
+            "level": "warning",
+            "line": 5,
+            "message": "Missing @title tag in contract 'SecretStore'",
+            "name": "use-natspec"
+        },
+        {
+            "column": 1,
+            "filename": "mytest/MWEs/visibility/variable_visibility.sol",
+            "level": "warning",
+            "line": 5,
+            "message": "Missing @author tag in contract 'SecretStore'",
+            "name": "use-natspec"
+        },
+        {
+            "column": 1,
+            "filename": "mytest/MWEs/visibility/variable_visibility.sol",
+            "level": "warning",
+            "line": 5,
+            "message": "Missing @notice tag in contract 'SecretStore'",
+            "name": "use-natspec"
+        },
+        {
+            "column": 5,
+            "filename": "mytest/MWEs/visibility/variable_visibility.sol",
+            "level": "warning",
+            "line": 6,
+            "message": "Rule is set with explicit type [var/s: uint]",
+            "name": "explicit-types"
+        },
+        {
+            "column": 5,
+            "filename": "mytest/MWEs/visibility/variable_visibility.sol",
+            "level": "warning",
+            "line": 6,
+            "message": "Missing @notice tag in variable 'secretNum'",
+            "name": "use-natspec"
+        },
+        {
+            "column": 5,
+            "filename": "mytest/MWEs/visibility/variable_visibility.sol",
+            "level": "warning",
+            "line": 8,
+            "message": "Missing @notice tag in function 'guess'",
+            "name": "use-natspec"
+        },
+        {
+            "column": 5,
+            "filename": "mytest/MWEs/visibility/variable_visibility.sol",
+            "level": "warning",
+            "line": 8,
+            "message": "Missing @param tag in function 'guess'",
+            "name": "use-natspec"
+        },
+        {
+            "column": 5,
+            "filename": "mytest/MWEs/visibility/variable_visibility.sol",
+            "level": "warning",
+            "line": 8,
+            "message": "Mismatch in @param names for function 'guess'. Expected: [x], Found: []",
+            "name": "use-natspec"
+        },
+        {
+            "column": 20,
+            "filename": "mytest/MWEs/visibility/variable_visibility.sol",
+            "level": "warning",
+            "line": 8,
+            "message": "Rule is set with explicit type [var/s: uint]",
+            "name": "explicit-types"
+        },
+        {
+            "column": 14,
+            "filename": "mytest/MWEs/visibility/variable_visibility.sol",
+            "level": "warning",
+            "line": 10,
+            "message": "Variable \"success\" is unused",
+            "name": "no-unused-vars"
+        }
+    ],
+    "infos": [],
+    "parser": {
+        "id": "solhint-6.0.0",
+        "mode": "solidity",
+        "version": "2025/09/14"
+    }
+}

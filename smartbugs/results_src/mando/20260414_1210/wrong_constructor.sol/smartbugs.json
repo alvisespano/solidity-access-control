@@ -1,0 +1,57 @@
+{
+    "debug": {
+        "sb_bin_log": [
+            "/app/inference.sh /sb/wrong_constructor.sol -b access_control,arithmetic,denial_of_service,front_running,reentrancy,time_manipulation,unchecked_low_level_calls -t 0"
+        ]
+    },
+    "docker": {
+        "command": null,
+        "detach": true,
+        "entrypoint": "'/sb/bin/do_solidity.sh' '/sb/wrong_constructor.sol' '0' '/sb/bin' '0'",
+        "image": "smartbugs/mando:0.1",
+        "network": "none",
+        "user": 0,
+        "volumes": {
+            "/tmp/tmp399s_6at": {
+                "bind": "/sb",
+                "mode": "rw"
+            }
+        }
+    },
+    "filename": "mytest/MWEs/visibility/wrong_constructor.sol",
+    "platform": {
+        "cpu": "Intel(R) Core(TM) i7-9700 CPU @ 3.00GHz",
+        "python": "3.12.3.final.0 (64 bit)",
+        "release": "6.6.87.2-microsoft-standard-WSL2",
+        "smartbugs": "2.0.18",
+        "system": "Linux",
+        "version": "#1 SMP PREEMPT_DYNAMIC Thu Jun  5 18:30:46 UTC 2025"
+    },
+    "result": {
+        "duration": 47.02597117424011,
+        "exit_code": 0,
+        "logs": "result.log",
+        "output": "result.tar",
+        "start": 1776171317.4392116
+    },
+    "runid": "20260414_1210",
+    "solc": "0.4.26",
+    "tool": {
+        "bin": "scripts",
+        "command": null,
+        "cpu_quota": null,
+        "entrypoint": "'$BIN/do_solidity.sh' '$FILENAME' '$TIMEOUT' '$BIN' '$MAIN'",
+        "id": "mando",
+        "image": "smartbugs/mando:0.1",
+        "info": "The MANDO project is an open-source research initiative that endeavors to acquire an understanding of the structures of diverse smart contract graphs. The project's primary objective is to detect vulnerabilities in the source code and bytecode of smart contracts, both at the coarse-grained contract-level and fine-grained line-level, with a high degree of accuracy. The core engines of the MANDO project are constructed on the foundation of state-of-the-art heterogeneous deep graph learning methodologies.",
+        "mem_limit": null,
+        "mode": "solidity",
+        "name": "Mando",
+        "network": null,
+        "origin": "https://github.com/stephan-klein/ge-sc-machine, forked from https://github.com/MANDO-Project/ge-sc-machine.git",
+        "output": "/app/output.json",
+        "parser": "parser.py",
+        "solc": true,
+        "version": "0.1"
+    }
+}

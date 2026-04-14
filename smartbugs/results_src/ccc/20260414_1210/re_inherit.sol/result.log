@@ -1,0 +1,32 @@
+Directories in use:
+home:         /var/lib/neo4j
+config:       /etc/neo4j
+logs:         /var/log/neo4j
+plugins:      /var/lib/neo4j/plugins
+import:       /var/lib/neo4j/import
+data:         /var/lib/neo4j/data
+certificates: /var/lib/neo4j/certificates
+licenses:     /var/lib/neo4j/licenses
+run:          /var/lib/neo4j/run
+Starting Neo4j.
+Started neo4j (pid:46). It is available at http://localhost:7474
+There may be a short delay until the server is ready.
+/sb/re_inherit.sol
+12:56:15.713 [ForkJoinPool.commonPool-worker-1] ERROR de.fraunhofer.aisec.cpg.frontends.Handler - /sb/re_inherit.sol:2:1: Parsing of type class SolidityParser$PragmaDirectiveContext is not supported (yet)
+12:56:16.280 [ForkJoinPool.commonPool-worker-1] ERROR de.fraunhofer.aisec.cpg.ScopeManager - /sb/re_inherit.sol:20:9: Could not find the scope UNKNOWN needed to resolve the call UNKNOWN.initialize. Falling back to the default (current) scope
+Running checks
+AccessControlSelfdestructCheck took 3648 ms
+CallReturnCheck took 1597 ms
+AccessControlLogicCheck took 2920 ms
+ReentrancyCheck took 5026 ms
+DefaultProxyDelegateCheck took 1581 ms
+TXOriginCheck took 938 ms
+TimeManipulationCheck took 1005 ms
+LocalWriteToStorageCheck took 1926 ms
+BadRandomnessCheck took 936 ms
+OverUnderflowCheck took 5408 ms
+DOSCheck took 3529 ms
+AddressPaddingCheck took 5627 ms
+FrontRunningCheck took 1415 ms
+Nr. Files: 1
+Graph translation: 3164 ms, Persisting graph: 23720 ms, AccessControlSelfdestructCheck: 3648 ms, CallReturnCheck: 1597 ms, AccessControlLogicCheck: 2920 ms, ReentrancyCheck: 5026 ms, DefaultProxyDelegateCheck: 1581 ms, TXOriginCheck: 938 ms, TimeManipulationCheck: 1005 ms, LocalWriteToStorageCheck: 1926 ms, BadRandomnessCheck: 936 ms, OverUnderflowCheck: 5408 ms, DOSCheck: 3529 ms, AddressPaddingCheck: 5627 ms, FrontRunningCheck: 1415 ms, All checks: 36032 ms

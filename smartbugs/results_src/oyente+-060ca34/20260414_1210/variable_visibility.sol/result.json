@@ -1,0 +1,35 @@
+{
+    "errors": [],
+    "fails": [],
+    "findings": [
+        {
+            "column": 32,
+            "contract": "SecretStore",
+            "filename": "mytest/MWEs/visibility/variable_visibility.sol",
+            "line": 10,
+            "name": "Integer Overflow"
+        },
+        {
+            "column": 5,
+            "contract": "SecretStore",
+            "filename": "mytest/MWEs/visibility/variable_visibility.sol",
+            "line": 6,
+            "name": "Integer Underflow"
+        },
+        {
+            "column": 32,
+            "contract": "SecretStore",
+            "filename": "mytest/MWEs/visibility/variable_visibility.sol",
+            "line": 10,
+            "name": "Re-Entrancy Vulnerability"
+        }
+    ],
+    "infos": [
+        "coverage SecretStore 84.5%"
+    ],
+    "parser": {
+        "id": "oyente+-060ca34",
+        "mode": "solidity",
+        "version": "2025/06/04"
+    }
+}

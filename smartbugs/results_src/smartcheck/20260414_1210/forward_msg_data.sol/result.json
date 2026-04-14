@@ -1,0 +1,61 @@
+{
+    "errors": [],
+    "fails": [],
+    "findings": [
+        {
+            "column": 16,
+            "filename": "mytest/MWEs/delegatecall/forward_msg_data.sol",
+            "line": 2,
+            "name": "SOLIDITY_PRAGMAS_VERSION",
+            "severity": 1
+        },
+        {
+            "column": 4,
+            "filename": "mytest/MWEs/delegatecall/forward_msg_data.sol",
+            "line": 8,
+            "name": "SOLIDITY_VISIBILITY",
+            "severity": 1
+        },
+        {
+            "column": 4,
+            "filename": "mytest/MWEs/delegatecall/forward_msg_data.sol",
+            "line": 12,
+            "name": "SOLIDITY_VISIBILITY",
+            "severity": 1
+        },
+        {
+            "column": 8,
+            "filename": "mytest/MWEs/delegatecall/forward_msg_data.sol",
+            "line": 13,
+            "name": "SOLIDITY_VISIBILITY",
+            "severity": 1
+        },
+        {
+            "column": 26,
+            "filename": "mytest/MWEs/delegatecall/forward_msg_data.sol",
+            "line": 13,
+            "name": "SOLIDITY_VISIBILITY",
+            "severity": 1
+        },
+        {
+            "column": 58,
+            "filename": "mytest/MWEs/delegatecall/forward_msg_data.sol",
+            "line": 13,
+            "name": "SOLIDITY_VISIBILITY",
+            "severity": 1
+        },
+        {
+            "column": 8,
+            "filename": "mytest/MWEs/delegatecall/forward_msg_data.sol",
+            "line": 14,
+            "name": "SOLIDITY_VISIBILITY",
+            "severity": 1
+        }
+    ],
+    "infos": [],
+    "parser": {
+        "id": "smartcheck",
+        "mode": "solidity",
+        "version": "2022/11/14"
+    }
+}

@@ -1,0 +1,6 @@
+python3 maian.py -c 0 -s /sb/forward_msg_data.sol Proxy
+python3 maian.py -c 1 -s /sb/forward_msg_data.sol Proxy
+python3 maian.py -c 2 -s /sb/forward_msg_data.sol Proxy
+python3 maian.py -c 0 -s /sb/forward_msg_data.sol WalletLibrary
+python3 maian.py -c 1 -s /sb/forward_msg_data.sol WalletLibrary
+python3 maian.py -c 2 -s /sb/forward_msg_data.sol WalletLibrary

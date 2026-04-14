@@ -1,0 +1,17 @@
+{
+    "errors": [
+        "EXIT_CODE_2"
+    ],
+    "fails": [
+        "exception (ValueError: Failed to generate CFG for /sb/dos_gas.sol)"
+    ],
+    "findings": [],
+    "infos": [
+        "Failed to generate CFG for /sb/dos_gas.sol"
+    ],
+    "parser": {
+        "id": "mando-hgt",
+        "mode": "solidity",
+        "version": "2023/08/01"
+    }
+}

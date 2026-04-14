@@ -1,0 +1,18 @@
+Executing python3 /app/main/main.py --contract /sb/incorrect_logical.sol --solc-version 0.8.31 --filetype solidity --model-dir models --instance-len 20 --report /app/output.pdf
+solidity
+/sb/incorrect_logical.sol
+0.8.31
+map
+20
+Testset subitem len :20
+reentrancy-eth precessing!
+Traceback (most recent call last):
+  File "/app/main/main.py", line 389, in <module>
+    predict_results = result_predict.test_LSTM_prelabel(bytecodes_lists, vuldetects, args.model_dir, instance_len, int(args.data_len), int(args.batchsize))
+  File "/app/main/result_predict.py", line 1129, in test_LSTM_prelabel
+    model.load_state_dict(torch.load(os.path.join(model_save_dir, "torch_" + vul_use_name + ".pth"), map_location=device))
+  File "/usr/local/lib/python3.8/site-packages/torch/serialization.py", line 608, in load
+    return _legacy_load(opened_file, map_location, pickle_module, **pickle_load_args)
+  File "/usr/local/lib/python3.8/site-packages/torch/serialization.py", line 777, in _legacy_load
+    magic_number = pickle_module.load(f, **pickle_load_args)
+EOFError: Ran out of input

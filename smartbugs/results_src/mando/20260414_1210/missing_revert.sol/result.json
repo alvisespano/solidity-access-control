@@ -1,0 +1,54 @@
+{
+    "errors": [],
+    "fails": [],
+    "findings": [
+        {
+            "filename": "mytest/MWEs/misapplied/missing_revert.sol",
+            "line": 12,
+            "line_end": 15,
+            "name": "access_control"
+        },
+        {
+            "filename": "mytest/MWEs/misapplied/missing_revert.sol",
+            "line": 12,
+            "line_end": 15,
+            "name": "arithmetic"
+        },
+        {
+            "filename": "mytest/MWEs/misapplied/missing_revert.sol",
+            "line": 10,
+            "line_end": 15,
+            "name": "denial_of_service"
+        },
+        {
+            "filename": "mytest/MWEs/misapplied/missing_revert.sol",
+            "line": 7,
+            "line_end": 15,
+            "name": "front_running"
+        },
+        {
+            "filename": "mytest/MWEs/misapplied/missing_revert.sol",
+            "line": 7,
+            "line_end": 15,
+            "name": "reentrancy"
+        },
+        {
+            "filename": "mytest/MWEs/misapplied/missing_revert.sol",
+            "line": 7,
+            "line_end": 10,
+            "name": "time_manipulation"
+        },
+        {
+            "filename": "mytest/MWEs/misapplied/missing_revert.sol",
+            "name": "unchecked_low_level_calls"
+        }
+    ],
+    "infos": [
+        "OK"
+    ],
+    "parser": {
+        "id": "mando",
+        "mode": "solidity",
+        "version": "2023/08/01"
+    }
+}

@@ -1,0 +1,14 @@
+{
+    "errors": [
+        "EXIT_CODE_255",
+        "No compiler output for: /sb/wrong_constructor.sol"
+    ],
+    "fails": [],
+    "findings": [],
+    "infos": [],
+    "parser": {
+        "id": "confuzzius",
+        "mode": "solidity",
+        "version": "2022/12/31"
+    }
+}

@@ -1,0 +1,18 @@
+{
+    "errors": [
+        "EXIT_CODE_1"
+    ],
+    "fails": [
+        "analysis unsuccessful, check output.json",
+        "error parsing results: file could not be opened successfully:\n- method gz: ReadError('empty file')\n- method bz2: ReadError('not a bzip2 file')\n- method xz: ReadError('not an lzma file')\n- method tar: ReadError('empty file')",
+        "exception (crytic_compile.platform.exceptions.InvalidCompilation: Invalid solc compilation Error: Source \"@openzeppelin/contracts/access/AccessControl.sol\" not found: File not found. Searched the following locations: \"\".)",
+        "exception (json.decoder.JSONDecodeError: Expecting value: line 1 column 1 (char 0))"
+    ],
+    "findings": [],
+    "infos": [],
+    "parser": {
+        "id": "slither-0.11.3",
+        "mode": "solidity",
+        "version": "2025/09/14"
+    }
+}

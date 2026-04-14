@@ -1,0 +1,29 @@
+{
+    "errors": [],
+    "fails": [],
+    "findings": [
+        {
+            "column": 5,
+            "contract": "Derived",
+            "filename": "mytest/MWEs/initialization/re_inherit.sol",
+            "line": 17,
+            "name": "Integer Underflow"
+        },
+        {
+            "column": 5,
+            "contract": "Parent",
+            "filename": "mytest/MWEs/initialization/re_inherit.sol",
+            "line": 6,
+            "name": "Integer Underflow"
+        }
+    ],
+    "infos": [
+        "coverage Derived 88.2%",
+        "coverage Parent 82.3%"
+    ],
+    "parser": {
+        "id": "oyente+-060ca34",
+        "mode": "solidity",
+        "version": "2025/06/04"
+    }
+}

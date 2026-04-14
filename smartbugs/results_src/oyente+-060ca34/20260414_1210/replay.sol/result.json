@@ -1,0 +1,28 @@
+{
+    "errors": [],
+    "fails": [],
+    "findings": [
+        {
+            "column": 28,
+            "contract": "Example",
+            "filename": "mytest/MWEs/signature/replay.sol",
+            "line": 11,
+            "name": "Callstack Depth Attack Vulnerability"
+        },
+        {
+            "column": 5,
+            "contract": "Example",
+            "filename": "mytest/MWEs/signature/replay.sol",
+            "line": 6,
+            "name": "Integer Underflow"
+        }
+    ],
+    "infos": [
+        "coverage Example 52.3%"
+    ],
+    "parser": {
+        "id": "oyente+-060ca34",
+        "mode": "solidity",
+        "version": "2025/06/04"
+    }
+}

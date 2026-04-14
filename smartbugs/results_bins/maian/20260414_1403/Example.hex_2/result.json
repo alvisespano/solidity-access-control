@@ -1,0 +1,18 @@
+{
+    "errors": [
+        "Unknown operation"
+    ],
+    "fails": [],
+    "findings": [
+        {
+            "filename": "mytest/bins/gas/dos_gas/Example.hex",
+            "name": "No Ether lock (Ether refused)"
+        }
+    ],
+    "infos": [],
+    "parser": {
+        "id": "maian",
+        "mode": "runtime",
+        "version": "2022/11/11"
+    }
+}

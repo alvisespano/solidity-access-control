@@ -1,0 +1,24 @@
+Solidity version 0.8.31 detected, skipping SOLC_BIN export
+[2026-04-14 12:10:35.934700] MANDO Initializing
+Setting the default backend to "pytorch". You can change it in the ~/.dgl/config.json file or export the DGLBACKEND environment variable.  Valid options are: pytorch, mxnet, tensorflow (all lowercase)
+[2026-04-14 12:11:02.670509] INFO: __main__: Setting execution timeout to 0 seconds
+[2026-04-14 12:11:02.670740] INFO: __main__: Analyzing only for bug types: ['access_control', 'arithmetic', 'denial_of_service', 'front_running', 'reentrancy', 'time_manipulation', 'unchecked_low_level_calls']
+[2026-04-14 12:13:46.784590] INFO: __main__: Number of buggy nodes: 0
+[2026-04-14 12:13:46.784790] INFO: __main__: Number of clean nodes: 4
+[2026-04-14 12:16:21.723783] INFO: __main__: Number of buggy nodes: 0
+[2026-04-14 12:16:21.723939] INFO: __main__: Number of clean nodes: 4
+[2026-04-14 12:19:17.735246] INFO: __main__: Number of buggy nodes: 0
+[2026-04-14 12:19:17.735606] INFO: __main__: Number of clean nodes: 4
+[2026-04-14 12:22:07.149189] INFO: __main__: Number of buggy nodes: 0
+[2026-04-14 12:22:07.149517] INFO: __main__: Number of clean nodes: 4
+[2026-04-14 12:24:52.011681] INFO: __main__: Number of buggy nodes: 0
+[2026-04-14 12:24:52.013194] INFO: __main__: Number of clean nodes: 4
+[2026-04-14 12:27:27.404074] INFO: __main__: Number of buggy nodes: 0
+[2026-04-14 12:27:27.404381] INFO: __main__: Number of clean nodes: 4
+[2026-04-14 12:30:30.575343] INFO: __main__: Number of buggy nodes: 0
+[2026-04-14 12:30:30.575484] INFO: __main__: Number of clean nodes: 4
+Result: {"summaries": [{"type": "access_control", "vulnerability": 0}, {"type": "arithmetic", "graph_runtime": 84974, "node_runtime": 68615, "number_of_bug_node": 0, "vulnerability": 1, "number_of_normal_node": 4, "results": []}, {"type": "denial_of_service", "graph_runtime": 93104, "node_runtime": 82151, "number_of_bug_node": 0, "vulnerability": 1, "number_of_normal_node": 4, "results": []}, {"type": "front_running", "vulnerability": 0}, {"type": "reentrancy", "graph_runtime": 85232, "node_runtime": 77866, "number_of_bug_node": 0, "vulnerability": 1, "number_of_normal_node": 4, "results": []}, {"type": "time_manipulation", "vulnerability": 0}, {"type": "unchecked_low_level_calls", "graph_runtime": 94528, "node_runtime": 86864, "number_of_bug_node": 0, "vulnerability": 1, "number_of_normal_node": 4, "results": []}], "messages": "OK"}
+[2026-04-14 12:30:30.577471] INFO: __main__: [2026-04-14 12:30:30.577429] Results written to output.json
+DGL backend not selected or invalid.  Assuming PyTorch for now.
+Using backend: pytorch
+/sb/bin/do_solidity.sh: 37: Syntax error: EOF in backquote substitution

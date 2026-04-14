@@ -1,0 +1,334 @@
+Arguments passed: ['/mnt/c/Users/shc-pc/Documents/GitHub/smartbugs/sb/__main__.py', '-t', 'all', '--runtime', '-f', 'mytest/bins/**/*.hex', '--processes', '8', '--timeout', '40']
+Settings: {files: [(None, 'mytest/bins/**/*.hex')], main: False, runtime: True, tools: ['all'], runid: 20260414_1403, overwrite: False, processes: 8, timeout: 40, cpu_quota: None, mem_limit: None, continue_on_errors: False, results: results/${TOOL}/20260414_1403/${FILENAME}, log: results/logs/20260414_1403.log, json: False, sarif: False, quiet: False}
+130 collision(s) of result directories resolved.
+Starting task 1/286: osiris and mytest/bins/gas/dos_gas/Example.hex
+Starting task 2/286: conkas and mytest/bins/missing/missing_guard/Example.hex
+Starting task 3/286: vandal and mytest/bins/gas/dos_gas/AccessControl.hex
+Starting task 4/286: oyente+-060ca34 and mytest/bins/initialization/re_inherit/Parent.hex
+Starting task 5/286: honeybadger and mytest/bins/tx_origin/tx_as_sender/Example.hex
+Starting task 6/286: teether and mytest/bins/misapplied/incorrect_logical/Example.hex
+Starting task 7/286: honeybadger and mytest/bins/gas/dos_gas/IAccessControl.hex
+Starting task 8/286: mythril-0.24.8 and mytest/bins/tx_origin/tx_as_sender/Example.hex
+Starting task 9/286: teether and mytest/bins/initialization/re_initialized/Example.hex
+Starting task 10/286: conkas and mytest/bins/gas/dos_gas/IAccessControl.hex
+Starting task 11/286: conkas and mytest/bins/gas/dos_gas/AccessControl.hex
+Starting task 12/286: securify and mytest/bins/gas/dos_gas/IERC165.hex
+Starting task 13/286: ethor-2023 and mytest/bins/visibility/wrong_constructor/MyContract.hex
+Starting task 14/286: maian and mytest/bins/missing/missing_guard/Example.hex
+Starting task 15/286: mythril-0.24.8 and mytest/bins/tx_origin/tx_authorization/Example.hex
+Starting task 16/286: osiris and mytest/bins/tx_origin/tx_authorization/Example.hex
+Starting task 17/286: vandal and mytest/bins/gas/dos_gas/IERC165.hex
+Starting task 18/286: vandal and mytest/bins/delegatecall/forward_msg_data/WalletLibrary.hex
+Starting task 19/286: oyente+-060ca34 and mytest/bins/delegatecall/forward_msg_data/WalletLibrary.hex
+Starting task 20/286: oyente+-060ca34 and mytest/bins/misapplied/incorrect_logical/Example.hex
+Starting task 21/286: mythril-0.24.8 and mytest/bins/gas/dos_gas/IAccessControl.hex
+Starting task 22/286: ethor-2023 and mytest/bins/initialization/re_inherit/Parent.hex
+Starting task 23/286: teether and mytest/bins/gas/dos_gas/AccessControl.hex
+Starting task 24/286: honeybadger and mytest/bins/delegatecall/arbitrary_to/Example.hex
+Starting task 25/286: maian and mytest/bins/tx_origin/tx_authorization/Example.hex
+Starting task 26/286: ethainter and mytest/bins/tx_origin/tx_authorization/Example.hex
+Starting task 27/286: teether and mytest/bins/delegatecall/forward_msg_data/WalletLibrary.hex
+Starting task 28/286: conkas and mytest/bins/gas/dos_gas/ERC165.hex
+Starting task 29/286: madmax and mytest/bins/signature/replay/Example.hex
+Starting task 30/286: pakala and mytest/bins/initialization/uninitialized/Example.hex
+Starting task 31/286: teether and mytest/bins/gas/dos_gas/ERC165.hex
+Starting task 32/286: honeybadger and mytest/bins/visibility/variable_visibility/SecretStore.hex
+Starting task 33/286: maian and mytest/bins/gas/dos_gas/AccessControl.hex
+Starting task 34/286: osiris and mytest/bins/initialization/re_inherit/Derived.hex
+Starting task 35/286: mythril-0.24.8 and mytest/bins/initialization/re_inherit/Derived.hex
+Starting task 36/286: oyente+-060ca34 and mytest/bins/gas/dos_gas/Context.hex
+Starting task 37/286: maian and mytest/bins/gas/dos_gas/IERC165.hex
+Starting task 38/286: osiris and mytest/bins/missing/missing_guard/Example.hex
+Starting task 39/286: honeybadger and mytest/bins/gas/dos_gas/Context.hex
+Starting task 40/286: oyente+-060ca34 and mytest/bins/gas/dos_gas/Example.hex
+Starting task 41/286: securify and mytest/bins/missing/missing_guard/Example.hex
+Starting task 42/286: pakala and mytest/bins/visibility/variable_visibility/SecretStore.hex
+Starting task 43/286: securify and mytest/bins/gas/dos_gas/Context.hex
+Starting task 44/286: teether and mytest/bins/visibility/variable_visibility/SecretStore.hex
+Starting task 45/286: honeybadger and mytest/bins/gas/dos_gas/AccessControl.hex
+Starting task 46/286: osiris and mytest/bins/initialization/re_initialized/Example.hex
+Starting task 47/286: vandal and mytest/bins/initialization/re_inherit/Derived.hex
+Starting task 48/286: maian and mytest/bins/initialization/re_inherit/Derived.hex
+Starting task 49/286: madmax and mytest/bins/gas/dos_gas/ERC165.hex
+Starting task 50/286: securify and mytest/bins/initialization/re_initialized/Example.hex
+Starting task 51/286: securify and mytest/bins/initialization/re_inherit/Parent.hex
+Starting task 52/286: conkas and mytest/bins/initialization/uninitialized/Example.hex
+Starting task 53/286: oyente+-060ca34 and mytest/bins/gas/dos_gas/AccessControl.hex
+Starting task 54/286: maian and mytest/bins/gas/dos_gas/IAccessControl.hex
+Starting task 55/286: securify and mytest/bins/tx_origin/tx_as_sender/Example.hex
+Starting task 56/286: oyente+-060ca34 and mytest/bins/visibility/variable_visibility/SecretStore.hex
+Starting task 57/286: oyente+-060ca34 and mytest/bins/initialization/uninitialized/Example.hex
+Starting task 58/286: ethainter and mytest/bins/initialization/re_inherit/Derived.hex
+Starting task 59/286: teether and mytest/bins/missing/missing_guard/Example.hex
+Starting task 60/286: securify and mytest/bins/gas/dos_gas/ERC165.hex
+Starting task 61/286: madmax and mytest/bins/initialization/re_inherit/Derived.hex
+Starting task 62/286: oyente+-060ca34 and mytest/bins/gas/dos_gas/IERC165.hex
+Starting task 63/286: maian and mytest/bins/initialization/uninitialized/Example.hex
+Starting task 64/286: conkas and mytest/bins/tx_origin/tx_authorization/Example.hex
+Starting task 65/286: vandal and mytest/bins/tx_origin/tx_as_sender/Example.hex
+Starting task 66/286: pakala and mytest/bins/visibility/wrong_constructor/MyContract.hex
+Starting task 67/286: honeybadger and mytest/bins/initialization/re_inherit/Derived.hex
+Starting task 68/286: osiris and mytest/bins/gas/dos_gas/IERC165.hex
+Starting task 69/286: osiris and mytest/bins/gas/dos_gas/Context.hex
+Starting task 70/286: osiris and mytest/bins/visibility/variable_visibility/SecretStore.hex
+Starting task 71/286: securify and mytest/bins/delegatecall/forward_msg_data/WalletLibrary.hex
+Starting task 72/286: teether and mytest/bins/tx_origin/tx_as_sender/Example.hex
+Starting task 73/286: madmax and mytest/bins/delegatecall/forward_msg_data/WalletLibrary.hex
+Starting task 74/286: oyente+-060ca34 and mytest/bins/missing/missing_guard/Example.hex
+Starting task 75/286: conkas and mytest/bins/signature/replay/Example.hex
+Starting task 76/286: mythril-0.24.8 and mytest/bins/gas/dos_gas/AccessControl.hex
+Starting task 77/286: mythril-0.24.8 and mytest/bins/initialization/re_initialized/Example.hex
+Starting task 78/286: maian and mytest/bins/delegatecall/arbitrary_to/Example.hex
+Starting task 79/286: mythril-0.24.8 and mytest/bins/delegatecall/arbitrary_to/Example.hex
+Starting task 80/286: teether and mytest/bins/misapplied/missing_revert/Example.hex
+Starting task 81/286: ethainter and mytest/bins/gas/dos_gas/Example.hex
+Starting task 82/286: mythril-0.24.8 and mytest/bins/visibility/wrong_constructor/MyContract.hex
+Starting task 83/286: securify and mytest/bins/delegatecall/arbitrary_to/Example.hex
+Starting task 84/286: maian and mytest/bins/misapplied/incorrect_logical/Example.hex
+Starting task 85/286: vandal and mytest/bins/visibility/function_visibility/Example.hex
+Starting task 86/286: osiris and mytest/bins/delegatecall/arbitrary_to/Example.hex
+Starting task 87/286: ethor-2023 and mytest/bins/gas/dos_gas/IERC165.hex
+Starting task 88/286: oyente+-060ca34 and mytest/bins/delegatecall/arbitrary_to/Example.hex
+Starting task 89/286: osiris and mytest/bins/tx_origin/tx_as_sender/Example.hex
+Starting task 90/286: pakala and mytest/bins/initialization/re_initialized/Example.hex
+Starting task 91/286: conkas and mytest/bins/gas/dos_gas/Example.hex
+Starting task 92/286: pakala and mytest/bins/gas/dos_gas/Example.hex
+Starting task 93/286: ethainter and mytest/bins/gas/dos_gas/ERC165.hex
+Starting task 94/286: conkas and mytest/bins/initialization/re_initialized/Example.hex
+Starting task 95/286: ethor-2023 and mytest/bins/tx_origin/tx_as_sender/Example.hex
+Starting task 96/286: ethor-2023 and mytest/bins/tx_origin/tx_authorization/Example.hex
+Starting task 97/286: maian and mytest/bins/signature/replay/Example.hex
+Starting task 98/286: vandal and mytest/bins/initialization/re_initialized/Example.hex
+Starting task 99/286: pakala and mytest/bins/visibility/function_visibility/Example.hex
+Starting task 100/286: securify and mytest/bins/misapplied/missing_revert/Example.hex
+Starting task 101/286: securify and mytest/bins/visibility/variable_visibility/SecretStore.hex
+Starting task 102/286: conkas and mytest/bins/visibility/variable_visibility/SecretStore.hex
+Starting task 103/286: vandal and mytest/bins/misapplied/missing_revert/Example.hex
+While analyzing /mnt/c/Users/shc-pc/Documents/GitHub/smartbugs/mytest/bins/misapplied/missing_revert/Example.hex with vandal:
+Problem running Docker container: 500 Server Error for http+docker://localhost/v1.54/containers/create: Internal Server Error ("failed to stat parent: stat /var/lib/desktop-containerd/daemon/io.containerd.snapshotter.v1.overlayfs/snapshots/46279/fs: no such file or directory"))
+Starting task 104/286: mythril-0.24.8 and mytest/bins/initialization/re_inherit/Parent.hex
+Starting task 105/286: pakala and mytest/bins/delegatecall/arbitrary_to/Example.hex
+Starting task 106/286: ethor-2023 and mytest/bins/initialization/re_inherit/Derived.hex
+Starting task 107/286: ethainter and mytest/bins/visibility/variable_visibility/SecretStore.hex
+Starting task 108/286: honeybadger and mytest/bins/misapplied/missing_revert/Example.hex
+Starting task 109/286: ethainter and mytest/bins/initialization/re_inherit/Parent.hex
+While analyzing /mnt/c/Users/shc-pc/Documents/GitHub/smartbugs/mytest/bins/gas/dos_gas/AccessControl.hex with vandal:
+Problem running Docker container: 500 Server Error for http+docker://localhost/v1.54/containers/create: Internal Server Error ("failed to stat parent: stat /var/lib/desktop-containerd/daemon/io.containerd.snapshotter.v1.overlayfs/snapshots/46279/fs: no such file or directory"))
+Starting task 110/286: teether and mytest/bins/tx_origin/tx_authorization/Example.hex
+Starting task 111/286: ethor-2023 and mytest/bins/gas/dos_gas/Example.hex
+Starting task 112/286: ethainter and mytest/bins/tx_origin/tx_as_sender/Example.hex
+Starting task 113/286: mythril-0.24.8 and mytest/bins/delegatecall/forward_msg_data/Proxy.hex
+Starting task 114/286: pakala and mytest/bins/tx_origin/tx_as_sender/Example.hex
+Starting task 115/286: mythril-0.24.8 and mytest/bins/delegatecall/forward_msg_data/WalletLibrary.hex
+Starting task 116/286: ethor-2023 and mytest/bins/delegatecall/arbitrary_to/Example.hex
+Starting task 117/286: oyente+-060ca34 and mytest/bins/initialization/re_initialized/Example.hex
+Starting task 118/286: teether and mytest/bins/signature/replay/Example.hex
+Starting task 119/286: securify and mytest/bins/visibility/function_visibility/Example.hex
+Starting task 120/286: pakala and mytest/bins/delegatecall/forward_msg_data/WalletLibrary.hex
+Starting task 121/286: teether and mytest/bins/initialization/re_inherit/Parent.hex
+Starting task 122/286: pakala and mytest/bins/gas/dos_gas/IAccessControl.hex
+Starting task 123/286: conkas and mytest/bins/visibility/function_visibility/Example.hex
+Starting task 124/286: pakala and mytest/bins/delegatecall/forward_msg_data/Proxy.hex
+Starting task 125/286: oyente+-060ca34 and mytest/bins/gas/dos_gas/IAccessControl.hex
+Starting task 126/286: honeybadger and mytest/bins/initialization/re_initialized/Example.hex
+Starting task 127/286: conkas and mytest/bins/visibility/wrong_constructor/MyContract.hex
+Starting task 128/286: mythril-0.24.8 and mytest/bins/signature/replay/Example.hex
+Starting task 129/286: ethainter and mytest/bins/visibility/function_visibility/Example.hex
+Starting task 130/286: ethainter and mytest/bins/gas/dos_gas/IAccessControl.hex
+Starting task 131/286: madmax and mytest/bins/delegatecall/arbitrary_to/Example.hex
+Starting task 132/286: ethainter and mytest/bins/delegatecall/forward_msg_data/Proxy.hex
+Starting task 133/286: maian and mytest/bins/gas/dos_gas/Example.hex
+Starting task 134/286: ethor-2023 and mytest/bins/gas/dos_gas/AccessControl.hex
+Starting task 135/286: madmax and mytest/bins/visibility/wrong_constructor/MyContract.hex
+Starting task 136/286: ethor-2023 and mytest/bins/initialization/uninitialized/Example.hex
+Starting task 137/286: honeybadger and mytest/bins/signature/replay/Example.hex
+Starting task 138/286: maian and mytest/bins/initialization/re_initialized/Example.hex
+Starting task 139/286: securify and mytest/bins/gas/dos_gas/Example.hex
+Starting task 140/286: pakala and mytest/bins/misapplied/incorrect_logical/Example.hex
+Starting task 141/286: conkas and mytest/bins/misapplied/incorrect_logical/Example.hex
+Starting task 142/286: honeybadger and mytest/bins/initialization/uninitialized/Example.hex
+Starting task 143/286: pakala and mytest/bins/initialization/re_inherit/Derived.hex
+Starting task 144/286: madmax and mytest/bins/gas/dos_gas/IERC165.hex
+Starting task 145/286: ethor-2023 and mytest/bins/gas/dos_gas/Context.hex
+Starting task 146/286: ethor-2023 and mytest/bins/missing/missing_guard/Example.hex
+Starting task 147/286: mythril-0.24.8 and mytest/bins/gas/dos_gas/Context.hex
+Starting task 148/286: pakala and mytest/bins/gas/dos_gas/AccessControl.hex
+Starting task 149/286: osiris and mytest/bins/initialization/uninitialized/Example.hex
+Starting task 150/286: ethor-2023 and mytest/bins/misapplied/missing_revert/Example.hex
+Starting task 151/286: conkas and mytest/bins/initialization/re_inherit/Derived.hex
+Starting task 152/286: conkas and mytest/bins/misapplied/missing_revert/Example.hex
+Starting task 153/286: madmax and mytest/bins/missing/missing_guard/Example.hex
+Starting task 154/286: conkas and mytest/bins/delegatecall/forward_msg_data/WalletLibrary.hex
+Starting task 155/286: securify and mytest/bins/visibility/wrong_constructor/MyContract.hex
+Starting task 156/286: osiris and mytest/bins/visibility/wrong_constructor/MyContract.hex
+Starting task 157/286: ethor-2023 and mytest/bins/gas/dos_gas/IAccessControl.hex
+Starting task 158/286: maian and mytest/bins/tx_origin/tx_as_sender/Example.hex
+Starting task 159/286: teether and mytest/bins/gas/dos_gas/Context.hex
+Starting task 160/286: osiris and mytest/bins/gas/dos_gas/ERC165.hex
+Starting task 161/286: mythril-0.24.8 and mytest/bins/visibility/function_visibility/Example.hex
+Starting task 162/286: vandal and mytest/bins/misapplied/incorrect_logical/Example.hex
+Starting task 163/286: ethainter and mytest/bins/gas/dos_gas/IERC165.hex
+Starting task 164/286: ethor-2023 and mytest/bins/gas/dos_gas/ERC165.hex
+Starting task 165/286: teether and mytest/bins/initialization/uninitialized/Example.hex
+Starting task 166/286: osiris and mytest/bins/gas/dos_gas/IAccessControl.hex
+Starting task 167/286: maian and mytest/bins/delegatecall/forward_msg_data/Proxy.hex
+Starting task 168/286: oyente+-060ca34 and mytest/bins/gas/dos_gas/ERC165.hex
+Starting task 169/286: osiris and mytest/bins/signature/replay/Example.hex
+Starting task 170/286: madmax and mytest/bins/gas/dos_gas/Context.hex
+Starting task 171/286: honeybadger and mytest/bins/delegatecall/forward_msg_data/WalletLibrary.hex
+Starting task 172/286: maian and mytest/bins/visibility/variable_visibility/SecretStore.hex
+Starting task 173/286: vandal and mytest/bins/gas/dos_gas/Context.hex
+While analyzing /mnt/c/Users/shc-pc/Documents/GitHub/smartbugs/mytest/bins/initialization/re_inherit/Derived.hex with vandal:
+Problem running Docker container: 500 Server Error for http+docker://localhost/v1.54/containers/create: Internal Server Error ("failed to stat parent: stat /var/lib/desktop-containerd/daemon/io.containerd.snapshotter.v1.overlayfs/snapshots/46279/fs: no such file or directory"))
+Starting task 174/286: madmax and mytest/bins/initialization/re_initialized/Example.hex
+Starting task 175/286: pakala and mytest/bins/signature/replay/Example.hex
+Starting task 176/286: mythril-0.24.8 and mytest/bins/missing/missing_guard/Example.hex
+Starting task 177/286: maian and mytest/bins/misapplied/missing_revert/Example.hex
+Starting task 178/286: madmax and mytest/bins/misapplied/missing_revert/Example.hex
+Starting task 179/286: madmax and mytest/bins/misapplied/incorrect_logical/Example.hex
+Starting task 180/286: honeybadger and mytest/bins/misapplied/incorrect_logical/Example.hex
+Starting task 181/286: securify and mytest/bins/tx_origin/tx_authorization/Example.hex
+Starting task 182/286: vandal and mytest/bins/initialization/uninitialized/Example.hex
+While analyzing /mnt/c/Users/shc-pc/Documents/GitHub/smartbugs/mytest/bins/delegatecall/forward_msg_data/WalletLibrary.hex with vandal:
+Problem running Docker container: 500 Server Error for http+docker://localhost/v1.54/containers/create: Internal Server Error ("failed to stat parent: stat /var/lib/desktop-containerd/daemon/io.containerd.snapshotter.v1.overlayfs/snapshots/46279/fs: no such file or directory"))
+Starting task 183/286: vandal and mytest/bins/tx_origin/tx_authorization/Example.hex
+While analyzing /mnt/c/Users/shc-pc/Documents/GitHub/smartbugs/mytest/bins/tx_origin/tx_as_sender/Example.hex with vandal:
+Problem running Docker container: 500 Server Error for http+docker://localhost/v1.54/containers/create: Internal Server Error ("failed to stat parent: stat /var/lib/desktop-containerd/daemon/io.containerd.snapshotter.v1.overlayfs/snapshots/46279/fs: no such file or directory"))
+Starting task 184/286: honeybadger and mytest/bins/initialization/re_inherit/Parent.hex
+Starting task 185/286: vandal and mytest/bins/delegatecall/forward_msg_data/Proxy.hex
+While analyzing /mnt/c/Users/shc-pc/Documents/GitHub/smartbugs/mytest/bins/visibility/function_visibility/Example.hex with vandal:
+Problem running Docker container: 500 Server Error for http+docker://localhost/v1.54/containers/create: Internal Server Error ("failed to stat parent: stat /var/lib/desktop-containerd/daemon/io.containerd.snapshotter.v1.overlayfs/snapshots/46279/fs: no such file or directory"))
+Starting task 186/286: securify and mytest/bins/gas/dos_gas/IAccessControl.hex
+Starting task 187/286: madmax and mytest/bins/gas/dos_gas/AccessControl.hex
+Starting task 188/286: pakala and mytest/bins/initialization/re_inherit/Parent.hex
+Starting task 189/286: teether and mytest/bins/delegatecall/arbitrary_to/Example.hex
+Starting task 190/286: oyente+-060ca34 and mytest/bins/tx_origin/tx_as_sender/Example.hex
+Starting task 191/286: oyente+-060ca34 and mytest/bins/initialization/re_inherit/Derived.hex
+Starting task 192/286: maian and mytest/bins/gas/dos_gas/Context.hex
+Starting task 193/286: ethor-2023 and mytest/bins/misapplied/incorrect_logical/Example.hex
+Starting task 194/286: pakala and mytest/bins/gas/dos_gas/IERC165.hex
+Starting task 195/286: ethor-2023 and mytest/bins/visibility/variable_visibility/SecretStore.hex
+Starting task 196/286: ethainter and mytest/bins/initialization/uninitialized/Example.hex
+Starting task 197/286: vandal and mytest/bins/signature/replay/Example.hex
+While analyzing /mnt/c/Users/shc-pc/Documents/GitHub/smartbugs/mytest/bins/gas/dos_gas/IERC165.hex with vandal:
+Problem running Docker container: 500 Server Error for http+docker://localhost/v1.54/containers/create: Internal Server Error ("failed to stat parent: stat /var/lib/desktop-containerd/daemon/io.containerd.snapshotter.v1.overlayfs/snapshots/46279/fs: no such file or directory"))
+Starting task 198/286: teether and mytest/bins/gas/dos_gas/IERC165.hex
+Starting task 199/286: conkas and mytest/bins/gas/dos_gas/IERC165.hex
+Starting task 200/286: mythril-0.24.8 and mytest/bins/gas/dos_gas/Example.hex
+Starting task 201/286: pakala and mytest/bins/gas/dos_gas/Context.hex
+Starting task 202/286: vandal and mytest/bins/gas/dos_gas/IAccessControl.hex
+While analyzing /mnt/c/Users/shc-pc/Documents/GitHub/smartbugs/mytest/bins/initialization/re_initialized/Example.hex with vandal:
+Problem running Docker container: 500 Server Error for http+docker://localhost/v1.54/containers/create: Internal Server Error ("failed to stat parent: stat /var/lib/desktop-containerd/daemon/io.containerd.snapshotter.v1.overlayfs/snapshots/46279/fs: no such file or directory"))
+Starting task 203/286: conkas and mytest/bins/tx_origin/tx_as_sender/Example.hex
+Starting task 204/286: madmax and mytest/bins/gas/dos_gas/Example.hex
+Starting task 205/286: madmax and mytest/bins/visibility/function_visibility/Example.hex
+Starting task 206/286: osiris and mytest/bins/gas/dos_gas/AccessControl.hex
+Starting task 207/286: maian and mytest/bins/gas/dos_gas/ERC165.hex
+Starting task 208/286: oyente+-060ca34 and mytest/bins/visibility/wrong_constructor/MyContract.hex
+Starting task 209/286: maian and mytest/bins/visibility/function_visibility/Example.hex
+Starting task 210/286: honeybadger and mytest/bins/gas/dos_gas/Example.hex
+Starting task 211/286: ethainter and mytest/bins/missing/missing_guard/Example.hex
+Starting task 212/286: ethainter and mytest/bins/signature/replay/Example.hex
+Starting task 213/286: pakala and mytest/bins/misapplied/missing_revert/Example.hex
+Starting task 214/286: securify and mytest/bins/signature/replay/Example.hex
+Starting task 215/286: maian and mytest/bins/initialization/re_inherit/Parent.hex
+Starting task 216/286: oyente+-060ca34 and mytest/bins/tx_origin/tx_authorization/Example.hex
+Starting task 217/286: teether and mytest/bins/gas/dos_gas/IAccessControl.hex
+Starting task 218/286: osiris and mytest/bins/delegatecall/forward_msg_data/Proxy.hex
+Starting task 219/286: securify and mytest/bins/delegatecall/forward_msg_data/Proxy.hex
+Starting task 220/286: mythril-0.24.8 and mytest/bins/visibility/variable_visibility/SecretStore.hex
+Starting task 221/286: vandal and mytest/bins/visibility/variable_visibility/SecretStore.hex
+While analyzing /mnt/c/Users/shc-pc/Documents/GitHub/smartbugs/mytest/bins/gas/dos_gas/Context.hex with vandal:
+Problem running Docker container: 500 Server Error for http+docker://localhost/v1.54/containers/create: Internal Server Error ("failed to stat parent: stat /var/lib/desktop-containerd/daemon/io.containerd.snapshotter.v1.overlayfs/snapshots/46279/fs: no such file or directory"))
+Starting task 222/286: ethor-2023 and mytest/bins/delegatecall/forward_msg_data/Proxy.hex
+Starting task 223/286: madmax and mytest/bins/tx_origin/tx_as_sender/Example.hex
+Starting task 224/286: conkas and mytest/bins/initialization/re_inherit/Parent.hex
+Starting task 225/286: ethor-2023 and mytest/bins/delegatecall/forward_msg_data/WalletLibrary.hex
+Starting task 226/286: conkas and mytest/bins/delegatecall/arbitrary_to/Example.hex
+Starting task 227/286: osiris and mytest/bins/visibility/function_visibility/Example.hex
+Starting task 228/286: madmax and mytest/bins/initialization/re_inherit/Parent.hex
+Starting task 229/286: honeybadger and mytest/bins/gas/dos_gas/IERC165.hex
+While analyzing /mnt/c/Users/shc-pc/Documents/GitHub/smartbugs/mytest/bins/tx_origin/tx_authorization/Example.hex with vandal:
+Problem running Docker container: 500 Server Error for http+docker://localhost/v1.54/containers/create: Internal Server Error ("failed to stat parent: stat /var/lib/desktop-containerd/daemon/io.containerd.snapshotter.v1.overlayfs/snapshots/46279/fs: no such file or directory"))
+Starting task 230/286: mythril-0.24.8 and mytest/bins/gas/dos_gas/IERC165.hex
+Starting task 231/286: madmax and mytest/bins/visibility/variable_visibility/SecretStore.hex
+Starting task 232/286: ethor-2023 and mytest/bins/visibility/function_visibility/Example.hex
+Starting task 233/286: oyente+-060ca34 and mytest/bins/visibility/function_visibility/Example.hex
+Starting task 234/286: madmax and mytest/bins/initialization/uninitialized/Example.hex
+Starting task 235/286: ethor-2023 and mytest/bins/initialization/re_initialized/Example.hex
+Starting task 236/286: maian and mytest/bins/delegatecall/forward_msg_data/WalletLibrary.hex
+Starting task 237/286: mythril-0.24.8 and mytest/bins/gas/dos_gas/ERC165.hex
+Starting task 238/286: vandal and mytest/bins/visibility/wrong_constructor/MyContract.hex
+Starting task 239/286: teether and mytest/bins/initialization/re_inherit/Derived.hex
+Starting task 240/286: mythril-0.24.8 and mytest/bins/initialization/uninitialized/Example.hex
+Starting task 241/286: osiris and mytest/bins/misapplied/incorrect_logical/Example.hex
+Starting task 242/286: honeybadger and mytest/bins/visibility/function_visibility/Example.hex
+Starting task 243/286: osiris and mytest/bins/misapplied/missing_revert/Example.hex
+Starting task 244/286: vandal and mytest/bins/delegatecall/arbitrary_to/Example.hex
+While analyzing /mnt/c/Users/shc-pc/Documents/GitHub/smartbugs/mytest/bins/delegatecall/forward_msg_data/Proxy.hex with vandal:
+Problem running Docker container: 500 Server Error for http+docker://localhost/v1.54/containers/create: Internal Server Error ("failed to stat parent: stat /var/lib/desktop-containerd/daemon/io.containerd.snapshotter.v1.overlayfs/snapshots/46279/fs: no such file or directory"))
+Starting task 245/286: honeybadger and mytest/bins/tx_origin/tx_authorization/Example.hex
+Starting task 246/286: vandal and mytest/bins/missing/missing_guard/Example.hex
+While analyzing /mnt/c/Users/shc-pc/Documents/GitHub/smartbugs/mytest/bins/misapplied/incorrect_logical/Example.hex with vandal:
+Problem running Docker container: 500 Server Error for http+docker://localhost/v1.54/containers/create: Internal Server Error ("failed to stat parent: stat /var/lib/desktop-containerd/daemon/io.containerd.snapshotter.v1.overlayfs/snapshots/46279/fs: no such file or directory"))
+Starting task 247/286: ethainter and mytest/bins/delegatecall/arbitrary_to/Example.hex
+Starting task 248/286: honeybadger and mytest/bins/visibility/wrong_constructor/MyContract.hex
+Starting task 249/286: vandal and mytest/bins/initialization/re_inherit/Parent.hex
+While analyzing /mnt/c/Users/shc-pc/Documents/GitHub/smartbugs/mytest/bins/gas/dos_gas/IAccessControl.hex with vandal:
+Problem running Docker container: 500 Server Error for http+docker://localhost/v1.54/containers/create: Internal Server Error ("failed to stat parent: stat /var/lib/desktop-containerd/daemon/io.containerd.snapshotter.v1.overlayfs/snapshots/46279/fs: no such file or directory"))
+Starting task 250/286: securify and mytest/bins/misapplied/incorrect_logical/Example.hex
+Starting task 251/286: vandal and mytest/bins/gas/dos_gas/ERC165.hex
+While analyzing /mnt/c/Users/shc-pc/Documents/GitHub/smartbugs/mytest/bins/visibility/variable_visibility/SecretStore.hex with vandal:
+Problem running Docker container: 500 Server Error for http+docker://localhost/v1.54/containers/create: Internal Server Error ("failed to stat parent: stat /var/lib/desktop-containerd/daemon/io.containerd.snapshotter.v1.overlayfs/snapshots/46279/fs: no such file or directory"))
+Starting task 252/286: securify and mytest/bins/initialization/uninitialized/Example.hex
+Starting task 253/286: teether and mytest/bins/visibility/function_visibility/Example.hex
+Starting task 254/286: ethainter and mytest/bins/misapplied/incorrect_logical/Example.hex
+Starting task 255/286: teether and mytest/bins/gas/dos_gas/Example.hex
+Starting task 256/286: securify and mytest/bins/initialization/re_inherit/Derived.hex
+Starting task 257/286: ethainter and mytest/bins/gas/dos_gas/AccessControl.hex
+Starting task 258/286: ethor-2023 and mytest/bins/signature/replay/Example.hex
+Starting task 259/286: ethainter and mytest/bins/visibility/wrong_constructor/MyContract.hex
+Starting task 260/286: pakala and mytest/bins/gas/dos_gas/ERC165.hex
+Starting task 261/286: mythril-0.24.8 and mytest/bins/misapplied/incorrect_logical/Example.hex
+Starting task 262/286: ethainter and mytest/bins/gas/dos_gas/Context.hex
+Starting task 263/286: securify and mytest/bins/gas/dos_gas/AccessControl.hex
+Starting task 264/286: ethainter and mytest/bins/misapplied/missing_revert/Example.hex
+Starting task 265/286: teether and mytest/bins/delegatecall/forward_msg_data/Proxy.hex
+Starting task 266/286: maian and mytest/bins/visibility/wrong_constructor/MyContract.hex
+Starting task 267/286: madmax and mytest/bins/delegatecall/forward_msg_data/Proxy.hex
+Starting task 268/286: ethainter and mytest/bins/delegatecall/forward_msg_data/WalletLibrary.hex
+Starting task 269/286: madmax and mytest/bins/tx_origin/tx_authorization/Example.hex
+Starting task 270/286: honeybadger and mytest/bins/gas/dos_gas/ERC165.hex
+Starting task 271/286: pakala and mytest/bins/tx_origin/tx_authorization/Example.hex
+Starting task 272/286: pakala and mytest/bins/missing/missing_guard/Example.hex
+Starting task 273/286: oyente+-060ca34 and mytest/bins/signature/replay/Example.hex
+Starting task 274/286: ethainter and mytest/bins/initialization/re_initialized/Example.hex
+Starting task 275/286: teether and mytest/bins/visibility/wrong_constructor/MyContract.hex
+Starting task 276/286: honeybadger and mytest/bins/missing/missing_guard/Example.hex
+Starting task 277/286: honeybadger and mytest/bins/delegatecall/forward_msg_data/Proxy.hex
+Starting task 278/286: mythril-0.24.8 and mytest/bins/misapplied/missing_revert/Example.hex
+Starting task 279/286: osiris and mytest/bins/delegatecall/forward_msg_data/WalletLibrary.hex
+Starting task 280/286: osiris and mytest/bins/initialization/re_inherit/Parent.hex
+Starting task 281/286: conkas and mytest/bins/gas/dos_gas/Context.hex
+Starting task 282/286: oyente+-060ca34 and mytest/bins/delegatecall/forward_msg_data/Proxy.hex
+Starting task 283/286: oyente+-060ca34 and mytest/bins/misapplied/missing_revert/Example.hex
+Starting task 284/286: madmax and mytest/bins/gas/dos_gas/IAccessControl.hex
+Starting task 285/286: conkas and mytest/bins/delegatecall/forward_msg_data/Proxy.hex
+Starting task 286/286: vandal and mytest/bins/gas/dos_gas/Example.hex
+While analyzing /mnt/c/Users/shc-pc/Documents/GitHub/smartbugs/mytest/bins/signature/replay/Example.hex with vandal:
+Problem running Docker container: 500 Server Error for http+docker://localhost/v1.54/containers/create: Internal Server Error ("failed to stat parent: stat /var/lib/desktop-containerd/daemon/io.containerd.snapshotter.v1.overlayfs/snapshots/46279/fs: no such file or directory"))
+While analyzing /mnt/c/Users/shc-pc/Documents/GitHub/smartbugs/mytest/bins/initialization/uninitialized/Example.hex with vandal:
+Problem running Docker container: 500 Server Error for http+docker://localhost/v1.54/containers/create: Internal Server Error ("failed to stat parent: stat /var/lib/desktop-containerd/daemon/io.containerd.snapshotter.v1.overlayfs/snapshots/46279/fs: no such file or directory"))
+While analyzing /mnt/c/Users/shc-pc/Documents/GitHub/smartbugs/mytest/bins/delegatecall/arbitrary_to/Example.hex with vandal:
+Problem running Docker container: 500 Server Error for http+docker://localhost/v1.54/containers/create: Internal Server Error ("failed to stat parent: stat /var/lib/desktop-containerd/daemon/io.containerd.snapshotter.v1.overlayfs/snapshots/46279/fs: no such file or directory"))
+While analyzing /mnt/c/Users/shc-pc/Documents/GitHub/smartbugs/mytest/bins/missing/missing_guard/Example.hex with vandal:
+Problem running Docker container: 500 Server Error for http+docker://localhost/v1.54/containers/create: Internal Server Error ("failed to stat parent: stat /var/lib/desktop-containerd/daemon/io.containerd.snapshotter.v1.overlayfs/snapshots/46279/fs: no such file or directory"))
+While analyzing /mnt/c/Users/shc-pc/Documents/GitHub/smartbugs/mytest/bins/visibility/wrong_constructor/MyContract.hex with vandal:
+Problem running Docker container: 500 Server Error for http+docker://localhost/v1.54/containers/create: Internal Server Error ("failed to stat parent: stat /var/lib/desktop-containerd/daemon/io.containerd.snapshotter.v1.overlayfs/snapshots/46279/fs: no such file or directory"))
+While analyzing /mnt/c/Users/shc-pc/Documents/GitHub/smartbugs/mytest/bins/initialization/re_inherit/Parent.hex with vandal:
+Problem running Docker container: 500 Server Error for http+docker://localhost/v1.54/containers/create: Internal Server Error ("failed to stat parent: stat /var/lib/desktop-containerd/daemon/io.containerd.snapshotter.v1.overlayfs/snapshots/46279/fs: no such file or directory"))
+While analyzing /mnt/c/Users/shc-pc/Documents/GitHub/smartbugs/mytest/bins/gas/dos_gas/Example.hex with vandal:
+Problem running Docker container: 500 Server Error for http+docker://localhost/v1.54/containers/create: Internal Server Error ("failed to stat parent: stat /var/lib/desktop-containerd/daemon/io.containerd.snapshotter.v1.overlayfs/snapshots/46279/fs: no such file or directory"))
+While analyzing /mnt/c/Users/shc-pc/Documents/GitHub/smartbugs/mytest/bins/gas/dos_gas/ERC165.hex with vandal:
+Problem running Docker container: 500 Server Error for http+docker://localhost/v1.54/containers/create: Internal Server Error ("failed to stat parent: stat /var/lib/desktop-containerd/daemon/io.containerd.snapshotter.v1.overlayfs/snapshots/46279/fs: no such file or directory"))
+Analysis completed in 0:39:38.

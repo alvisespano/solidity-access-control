@@ -1,0 +1,1 @@
+{"success": false, "error": "Solc experienced a fatal error.\n\n/sb/wrong_constructor.sol:8:14: ParserError: Expected identifier but got '('\n    MyContrac(address _owner) public { // typo in the constructor name\r\n             ^\n", "issues": []}

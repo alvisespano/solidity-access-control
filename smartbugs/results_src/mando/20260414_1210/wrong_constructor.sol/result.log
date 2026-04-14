@@ -1,0 +1,18 @@
+[2026-04-14 12:55:18.063035] MANDO Initializing
+Setting the default backend to "pytorch". You can change it in the ~/.dgl/config.json file or export the DGLBACKEND environment variable.  Valid options are: pytorch, mxnet, tensorflow (all lowercase)
+[2026-04-14 12:56:01.377786] INFO: __main__: Setting execution timeout to 0 seconds
+[2026-04-14 12:56:01.378153] INFO: __main__: Analyzing only for bug types: ['access_control', 'arithmetic', 'denial_of_service', 'front_running', 'reentrancy', 'time_manipulation', 'unchecked_low_level_calls']
+[2026-04-14 12:56:01.512862] DEBUG: sco.common.process_graphs.control_flow_graph_generator: Invalid compilation: 
+Invalid solc compilation /sb/wrong_constructor.sol:8:14: Error: Expected identifier but got '('
+    MyContrac(address _owner) public { // typo in the constructor name
+             ^
+
+[2026-04-14 12:56:01.513107] ERROR: __main__: An error occurred: Failed to generate CFG for /sb/wrong_constructor.sol
+Result: {"messages": "Failed to generate CFG for /sb/wrong_constructor.sol"}
+[2026-04-14 12:56:01.513506] INFO: __main__: [2026-04-14 12:56:01.513475] Results written to output.json
+DGL backend not selected or invalid.  Assuming PyTorch for now.
+Using backend: pytorch
+Traceback (most recent call last):
+  File "/app/sco/inference.py", line 84, in main
+    raise ValueError(f"Failed to generate CFG for {sm_path}")
+ValueError: Failed to generate CFG for /sb/wrong_constructor.sol

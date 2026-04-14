@@ -1,0 +1,18 @@
+{
+    "errors": [],
+    "fails": [],
+    "findings": [
+        {
+            "filename": "mytest/bins/signature/replay/Example.hex",
+            "name": "Callstack Depth Attack Vulnerability"
+        }
+    ],
+    "infos": [
+        "coverage 3.5%"
+    ],
+    "parser": {
+        "id": "oyente+-060ca34",
+        "mode": "runtime",
+        "version": "2025/06/04"
+    }
+}

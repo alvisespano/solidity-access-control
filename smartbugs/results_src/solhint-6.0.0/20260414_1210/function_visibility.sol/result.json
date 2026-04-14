@@ -1,0 +1,116 @@
+{
+    "errors": [],
+    "fails": [],
+    "findings": [
+        {
+            "column": 1,
+            "filename": "mytest/MWEs/visibility/function_visibility.sol",
+            "level": "error",
+            "line": 2,
+            "message": "Compiler version ^0.8.0 does not satisfy the ^0.8.24 semver requirement",
+            "name": "compiler-version"
+        },
+        {
+            "column": 1,
+            "filename": "mytest/MWEs/visibility/function_visibility.sol",
+            "level": "warning",
+            "line": 5,
+            "message": "Missing @title tag in contract 'Example'",
+            "name": "use-natspec"
+        },
+        {
+            "column": 1,
+            "filename": "mytest/MWEs/visibility/function_visibility.sol",
+            "level": "warning",
+            "line": 5,
+            "message": "Missing @author tag in contract 'Example'",
+            "name": "use-natspec"
+        },
+        {
+            "column": 1,
+            "filename": "mytest/MWEs/visibility/function_visibility.sol",
+            "level": "warning",
+            "line": 5,
+            "message": "Missing @notice tag in contract 'Example'",
+            "name": "use-natspec"
+        },
+        {
+            "column": 5,
+            "filename": "mytest/MWEs/visibility/function_visibility.sol",
+            "level": "warning",
+            "line": 7,
+            "message": "Rule is set with explicit type [var/s: uint]",
+            "name": "explicit-types"
+        },
+        {
+            "column": 5,
+            "filename": "mytest/MWEs/visibility/function_visibility.sol",
+            "level": "warning",
+            "line": 9,
+            "message": "Missing @notice tag in function '<anonymous>'",
+            "name": "use-natspec"
+        },
+        {
+            "column": 5,
+            "filename": "mytest/MWEs/visibility/function_visibility.sol",
+            "level": "warning",
+            "line": 9,
+            "message": "Missing @param tag in function '<anonymous>'",
+            "name": "use-natspec"
+        },
+        {
+            "column": 5,
+            "filename": "mytest/MWEs/visibility/function_visibility.sol",
+            "level": "warning",
+            "line": 9,
+            "message": "Mismatch in @param names for function '<anonymous>'. Expected: [_owner], Found: []",
+            "name": "use-natspec"
+        },
+        {
+            "column": 5,
+            "filename": "mytest/MWEs/visibility/function_visibility.sol",
+            "level": "warning",
+            "line": 9,
+            "message": "Explicitly mark visibility in function (Set ignoreConstructors to true if using solidity >=0.7.0)",
+            "name": "func-visibility"
+        },
+        {
+            "column": 33,
+            "filename": "mytest/MWEs/visibility/function_visibility.sol",
+            "level": "warning",
+            "line": 9,
+            "message": "Code contains empty blocks",
+            "name": "no-empty-blocks"
+        },
+        {
+            "column": 5,
+            "filename": "mytest/MWEs/visibility/function_visibility.sol",
+            "level": "warning",
+            "line": 14,
+            "message": "Missing @notice tag in function 'initialize'",
+            "name": "use-natspec"
+        },
+        {
+            "column": 5,
+            "filename": "mytest/MWEs/visibility/function_visibility.sol",
+            "level": "warning",
+            "line": 14,
+            "message": "Missing @param tag in function 'initialize'",
+            "name": "use-natspec"
+        },
+        {
+            "column": 5,
+            "filename": "mytest/MWEs/visibility/function_visibility.sol",
+            "level": "warning",
+            "line": 14,
+            "message": "Mismatch in @param names for function 'initialize'. Expected: [_owner], Found: []",
+            "name": "use-natspec"
+        }
+    ],
+    "infos": [],
+    "parser": {
+        "id": "solhint-6.0.0",
+        "mode": "solidity",
+        "version": "2025/09/14"
+    }
+}

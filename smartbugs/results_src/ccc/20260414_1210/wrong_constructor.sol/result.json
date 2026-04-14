@@ -1,0 +1,13 @@
+{
+    "errors": [],
+    "fails": [],
+    "findings": [],
+    "infos": [
+        "Parsing of type class SolidityParser$PragmaDirectiveContext is not supported (yet)"
+    ],
+    "parser": {
+        "id": "ccc",
+        "mode": "solidity",
+        "version": "2025/09/19"
+    }
+}

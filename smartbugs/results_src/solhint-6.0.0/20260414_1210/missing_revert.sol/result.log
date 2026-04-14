@@ -1,0 +1,8 @@
+/sb/missing_revert.sol:2:1: Compiler version ^0.8.0 does not satisfy the ^0.8.24 semver requirement [Error/compiler-version]
+/sb/missing_revert.sol:5:1: Missing @title tag in contract 'Example' [Warning/use-natspec]
+/sb/missing_revert.sol:5:1: Missing @author tag in contract 'Example' [Warning/use-natspec]
+/sb/missing_revert.sol:5:1: Missing @notice tag in contract 'Example' [Warning/use-natspec]
+/sb/missing_revert.sol:7:5: Explicitly mark visibility of state [Warning/state-visibility]
+/sb/missing_revert.sol:9:5: Missing @notice tag in function 'privileged' [Warning/use-natspec]
+
+6 problem/s (1 error/s, 5 warning/s)

@@ -1,0 +1,148 @@
+{
+    "errors": [],
+    "fails": [],
+    "findings": [
+        {
+            "column": 1,
+            "filename": "mytest/MWEs/gas/dos_gas.sol",
+            "level": "error",
+            "line": 5,
+            "message": "Compiler version ^0.8.20 does not satisfy the ^0.8.24 semver requirement",
+            "name": "compiler-version"
+        },
+        {
+            "column": 1,
+            "filename": "mytest/MWEs/gas/dos_gas.sol",
+            "level": "warning",
+            "line": 7,
+            "message": "global import of path @openzeppelin/contracts/access/AccessControl.sol is not allowed. Specify names to import individually or bind all exports of the module into a name (import \"path\" as Name)",
+            "name": "no-global-import"
+        },
+        {
+            "column": 1,
+            "filename": "mytest/MWEs/gas/dos_gas.sol",
+            "level": "warning",
+            "line": 7,
+            "message": "Import in /sb/dos_gas.sol doesn't exist in: @openzeppelin/contracts/access/AccessControl.sol",
+            "name": "import-path-check"
+        },
+        {
+            "column": 1,
+            "filename": "mytest/MWEs/gas/dos_gas.sol",
+            "level": "warning",
+            "line": 9,
+            "message": "Missing @title tag in contract 'Example'",
+            "name": "use-natspec"
+        },
+        {
+            "column": 1,
+            "filename": "mytest/MWEs/gas/dos_gas.sol",
+            "level": "warning",
+            "line": 9,
+            "message": "Missing @author tag in contract 'Example'",
+            "name": "use-natspec"
+        },
+        {
+            "column": 1,
+            "filename": "mytest/MWEs/gas/dos_gas.sol",
+            "level": "warning",
+            "line": 9,
+            "message": "Missing @notice tag in contract 'Example'",
+            "name": "use-natspec"
+        },
+        {
+            "column": 5,
+            "filename": "mytest/MWEs/gas/dos_gas.sol",
+            "level": "warning",
+            "line": 10,
+            "message": "Missing @notice tag in variable 'ADMIN_ROLE'",
+            "name": "use-natspec"
+        },
+        {
+            "column": 5,
+            "filename": "mytest/MWEs/gas/dos_gas.sol",
+            "level": "warning",
+            "line": 11,
+            "message": "Missing @notice tag in variable 'ROLEADDER_ROLE'",
+            "name": "use-natspec"
+        },
+        {
+            "column": 5,
+            "filename": "mytest/MWEs/gas/dos_gas.sol",
+            "level": "warning",
+            "line": 15,
+            "message": "Missing @notice tag in function '<anonymous>'",
+            "name": "use-natspec"
+        },
+        {
+            "column": 5,
+            "filename": "mytest/MWEs/gas/dos_gas.sol",
+            "level": "warning",
+            "line": 15,
+            "message": "Explicitly mark visibility in function (Set ignoreConstructors to true if using solidity >=0.7.0)",
+            "name": "func-visibility"
+        },
+        {
+            "column": 5,
+            "filename": "mytest/MWEs/gas/dos_gas.sol",
+            "level": "warning",
+            "line": 21,
+            "message": "Missing @notice tag in function 'addMember'",
+            "name": "use-natspec"
+        },
+        {
+            "column": 5,
+            "filename": "mytest/MWEs/gas/dos_gas.sol",
+            "level": "warning",
+            "line": 21,
+            "message": "Missing @param tag in function 'addMember'",
+            "name": "use-natspec"
+        },
+        {
+            "column": 5,
+            "filename": "mytest/MWEs/gas/dos_gas.sol",
+            "level": "warning",
+            "line": 21,
+            "message": "Mismatch in @param names for function 'addMember'. Expected: [account, role], Found: []",
+            "name": "use-natspec"
+        },
+        {
+            "column": 5,
+            "filename": "mytest/MWEs/gas/dos_gas.sol",
+            "level": "warning",
+            "line": 27,
+            "message": "Missing @notice tag in function 'revokeAll'",
+            "name": "use-natspec"
+        },
+        {
+            "column": 5,
+            "filename": "mytest/MWEs/gas/dos_gas.sol",
+            "level": "warning",
+            "line": 27,
+            "message": "Missing @param tag in function 'revokeAll'",
+            "name": "use-natspec"
+        },
+        {
+            "column": 5,
+            "filename": "mytest/MWEs/gas/dos_gas.sol",
+            "level": "warning",
+            "line": 27,
+            "message": "Mismatch in @param names for function 'revokeAll'. Expected: [role], Found: []",
+            "name": "use-natspec"
+        },
+        {
+            "column": 53,
+            "filename": "mytest/MWEs/gas/dos_gas.sol",
+            "level": "warning",
+            "line": 29,
+            "message": "GC: For [ i ] variable, increment/decrement by 1 using: [ ++variable ] to save gas",
+            "name": "gas-increment-by-one"
+        }
+    ],
+    "infos": [],
+    "parser": {
+        "id": "solhint-6.0.0",
+        "mode": "solidity",
+        "version": "2025/09/14"
+    }
+}

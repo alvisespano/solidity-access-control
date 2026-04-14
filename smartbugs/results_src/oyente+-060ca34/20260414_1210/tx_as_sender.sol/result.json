@@ -1,0 +1,28 @@
+{
+    "errors": [],
+    "fails": [],
+    "findings": [
+        {
+            "column": 934,
+            "contract": "Example",
+            "filename": "mytest/MWEs/tx_origin/tx_as_sender.sol",
+            "line": 20,
+            "name": "Integer Overflow"
+        },
+        {
+            "column": 5,
+            "contract": "Example",
+            "filename": "mytest/MWEs/tx_origin/tx_as_sender.sol",
+            "line": 5,
+            "name": "Integer Underflow"
+        }
+    ],
+    "infos": [
+        "coverage Example 83.6%"
+    ],
+    "parser": {
+        "id": "oyente+-060ca34",
+        "mode": "solidity",
+        "version": "2025/06/04"
+    }
+}

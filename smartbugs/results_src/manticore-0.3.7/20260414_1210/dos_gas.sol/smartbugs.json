@@ -1,0 +1,78 @@
+{
+    "debug": {
+        "sb_bin_log": [
+            "manticore --no-colors --contract ParserError: sb/dos_gas.sol",
+            "manticore --no-colors --contract Source sb/dos_gas.sol",
+            "manticore --no-colors --contract \"@openzeppelin/contracts/access/AccessControl.sol\" sb/dos_gas.sol",
+            "manticore --no-colors --contract not sb/dos_gas.sol",
+            "manticore --no-colors --contract found: sb/dos_gas.sol",
+            "manticore --no-colors --contract File sb/dos_gas.sol",
+            "manticore --no-colors --contract not sb/dos_gas.sol",
+            "manticore --no-colors --contract found. sb/dos_gas.sol",
+            "manticore --no-colors --contract Searched sb/dos_gas.sol",
+            "manticore --no-colors --contract the sb/dos_gas.sol",
+            "manticore --no-colors --contract following sb/dos_gas.sol",
+            "manticore --no-colors --contract locations: sb/dos_gas.sol",
+            "manticore --no-colors --contract \"\". sb/dos_gas.sol",
+            "manticore --no-colors --contract --> sb/dos_gas.sol",
+            "manticore --no-colors --contract /sb/dos_gas.sol:7:1: sb/dos_gas.sol",
+            "manticore --no-colors --contract | sb/dos_gas.sol",
+            "manticore --no-colors --contract 7 sb/dos_gas.sol",
+            "manticore --no-colors --contract | sb/dos_gas.sol",
+            "manticore --no-colors --contract import sb/dos_gas.sol",
+            "manticore --no-colors --contract \"@openzeppelin/contracts/access/AccessControl.sol\"; sb/dos_gas.sol",
+            "manticore --no-colors --contract | sb/dos_gas.sol",
+            "manticore --no-colors --contract ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^ sb/dos_gas.sol"
+        ]
+    },
+    "docker": {
+        "command": null,
+        "detach": true,
+        "entrypoint": "'/sb/bin/do_solidity.sh' '/sb/dos_gas.sol' '/sb/bin'",
+        "image": "smartbugs/manticore:0.3.7",
+        "network": "none",
+        "user": 0,
+        "volumes": {
+            "/tmp/tmpivgxkzkr": {
+                "bind": "/sb",
+                "mode": "rw"
+            }
+        }
+    },
+    "filename": "mytest/MWEs/gas/dos_gas.sol",
+    "platform": {
+        "cpu": "Intel(R) Core(TM) i7-9700 CPU @ 3.00GHz",
+        "python": "3.12.3.final.0 (64 bit)",
+        "release": "6.6.87.2-microsoft-standard-WSL2",
+        "smartbugs": "2.0.18",
+        "system": "Linux",
+        "version": "#1 SMP PREEMPT_DYNAMIC Thu Jun  5 18:30:46 UTC 2025"
+    },
+    "result": {
+        "duration": 17.856995820999146,
+        "exit_code": 0,
+        "logs": "result.log",
+        "output": "result.tar",
+        "start": 1776169862.830796
+    },
+    "runid": "20260414_1210",
+    "solc": "0.8.31",
+    "tool": {
+        "bin": "scripts",
+        "command": null,
+        "cpu_quota": null,
+        "entrypoint": "'$BIN/do_solidity.sh' '$FILENAME' '$BIN'",
+        "id": "manticore-0.3.7",
+        "image": "smartbugs/manticore:0.3.7",
+        "info": "Manticore is a symbolic execution tool for analysis of smart contracts and binaries.",
+        "mem_limit": null,
+        "mode": "solidity",
+        "name": "Manticore",
+        "network": null,
+        "origin": "https://github.com/trailofbits/manticore",
+        "output": "/results",
+        "parser": "parser.py",
+        "solc": true,
+        "version": "0.3.7"
+    }
+}

@@ -1,0 +1,32 @@
+Traceback (most recent call last):
+  File "/opt/conda/lib/python3.8/runpy.py", line 193, in _run_module_as_main
+    return _run_code(code, main_globals, None,
+  File "/opt/conda/lib/python3.8/runpy.py", line 86, in _run_code
+    exec(code, run_globals)
+  File "/sec/securify/__main__.py", line 286, in <module>
+    main()
+  File "/sec/securify/__main__.py", line 277, in main
+    matches.extend(pattern.find_matches())
+  File "/sec/securify/analyses/patterns/ast/naming_convention_pattern.py", line 17, in find_matches
+    ast_root = self.get_ast_root()
+  File "/sec/securify/analyses/patterns/ast/abstract_ast_pattern.py", line 18, in get_ast_root
+    ast_root = self.analysis_context.ast
+  File "/sec/securify/analyses/analysis.py", line 74, in ast
+    self._ast = self.config.ast_compiler(self)
+  File "/sec/securify/__main__.py", line 253, in <lambda>
+    ast_compiler=lambda t: solidity_ast_compiler.compile_ast(t.source_file),
+  File "/sec/securify/solidity/solidity_ast_compiler.py", line 31, in compile_ast
+    compile_output = compile_standard(compile_input, allow_paths='/')
+  File "/opt/conda/lib/python3.8/site-packages/py_solc-3.2.0-py3.8.egg/solc/main.py", line 175, in compile_standard
+    raise SolcError(
+solc.exceptions.SolcError: fixed_pragma.sol:8:14: ParserError: Expected identifier but got '('
+MyContrac(address _owner) public { // typo in the constructor name
+         ^
+
+    > command: `solc --allow-paths / --standard-json`
+    > return code: `0`
+    > stderr:
+    {"contracts":{},"errors":[{"component":"general","formattedMessage":"fixed_pragma.sol:8:14: ParserError: Expected identifier but got '('\n    MyContrac(address _owner) public { // typo in the constructor name\n             ^\n","message":"Expected identifier but got '('","severity":"error","sourceLocation":{"end":133,"file":"fixed_pragma.sol","start":132},"type":"ParserError"}],"sources":{}}
+
+    > stdout:
+pragma directive defines a prior version to 0.4.26. Changing pragma version to 0.4.26....

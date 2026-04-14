@@ -1,0 +1,49 @@
+INFO:CryticCompile:'solc --version' running
+INFO:CryticCompile:'solc /sb/forward_msg_data.sol --combined-json abi,ast,bin,bin-runtime,srcmap,srcmap-runtime,userdoc,devdoc,hashes --allow-paths .,/sb' running
+INFO:CryticCompile:Compilation warnings/errors on /sb/forward_msg_data.sol:
+Warning: This contract has a payable fallback function, but no receive ether function. Consider adding a receive ether function.
+ --> sb/forward_msg_data.sol:5:1:
+  |
+5 | contract Proxy {
+  | ^ (Relevant source part starts here and spans across multiple lines).
+Note: The payable fallback function is defined here.
+  --> sb/forward_msg_data.sol:12:5:
+   |
+12 |     fallback() external payable {
+   |     ^ (Relevant source part starts here and spans across multiple lines).
+
+Warning: 'transfer' is deprecated and scheduled for removal. Use 'call{value: <amount>}("")' instead.
+  --> sb/forward_msg_data.sol:27:9:
+   |
+27 |         payable(msg.sender).transfer(address(this).balance);
+   |         ^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+
+
+INFO:root:contract sb/forward_msg_data.sol:Proxy:
+INFO:symExec:	============ Results ===========
+INFO:symExec:	  EVM Code Coverage: 			 83.8%
+INFO:symExec:	  Integer Underflow: 			 True
+INFO:symExec:	  Integer Overflow: 			 False
+INFO:symExec:	  Parity Multisig Bug 2: 		 False
+INFO:symExec:	  Callstack Depth Attack Vulnerability:  False
+INFO:symExec:	  Transaction-Ordering Dependence (TOD): False
+INFO:symExec:	  Timestamp Dependency: 		 False
+INFO:symExec:	  Re-Entrancy Vulnerability: 		 False
+INFO:symExec:/sb/forward_msg_data.sol:13:27: Warning: Integer Underflow.
+
+/sb/forward_msg_data.sol:6:5: Warning: Integer Underflow.
+
+INFO:symExec:	====== Analysis Completed ======
+INFO:root:contract sb/forward_msg_data.sol:WalletLibrary:
+INFO:symExec:	============ Results ===========
+INFO:symExec:	  EVM Code Coverage: 			 79.1%
+INFO:symExec:	  Integer Underflow: 			 True
+INFO:symExec:	  Integer Overflow: 			 False
+INFO:symExec:	  Parity Multisig Bug 2: 		 False
+INFO:symExec:	  Callstack Depth Attack Vulnerability:  False
+INFO:symExec:	  Transaction-Ordering Dependence (TOD): False
+INFO:symExec:	  Timestamp Dependency: 		 False
+INFO:symExec:	  Re-Entrancy Vulnerability: 		 False
+INFO:symExec:/sb/forward_msg_data.sol:19:5: Warning: Integer Underflow.
+
+INFO:symExec:	====== Analysis Completed ======

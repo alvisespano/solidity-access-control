@@ -1,0 +1,55 @@
+{
+    "debug": {
+        "sb_bin_log": []
+    },
+    "docker": {
+        "command": "ethor-with-reconstruction '/sb/Example.hex' --prune-strategy=aggressive --predicate-inlining-strategy=linear --preanalysis -v",
+        "detach": true,
+        "entrypoint": null,
+        "image": "smartbugs/ethor:2023",
+        "network": "none",
+        "user": 0,
+        "volumes": {
+            "/tmp/tmpjpcxfne8": {
+                "bind": "/sb",
+                "mode": "rw"
+            }
+        }
+    },
+    "filename": "mytest/bins/visibility/function_visibility/Example.hex",
+    "platform": {
+        "cpu": "Intel(R) Core(TM) i7-9700 CPU @ 3.00GHz",
+        "python": "3.12.3.final.0 (64 bit)",
+        "release": "6.6.87.2-microsoft-standard-WSL2",
+        "smartbugs": "2.0.18",
+        "system": "Linux",
+        "version": "#1 SMP PREEMPT_DYNAMIC Thu Jun  5 18:30:46 UTC 2025"
+    },
+    "result": {
+        "duration": 2.5492000579833984,
+        "exit_code": 0,
+        "logs": "result.log",
+        "output": null,
+        "start": 1776176566.553749
+    },
+    "runid": "20260414_1403",
+    "solc": null,
+    "tool": {
+        "bin": null,
+        "command": "ethor-with-reconstruction '$FILENAME' --prune-strategy=aggressive --predicate-inlining-strategy=linear --preanalysis -v",
+        "cpu_quota": null,
+        "entrypoint": null,
+        "id": "ethor-2023",
+        "image": "smartbugs/ethor:2023",
+        "info": "eThor is a sound static analyzer for EVM smart contracts based on HoRSt.",
+        "mem_limit": null,
+        "mode": "runtime",
+        "name": "eThor",
+        "network": null,
+        "origin": "https://secpriv.wien/ethor",
+        "output": null,
+        "parser": "parser.py",
+        "solc": null,
+        "version": "2023"
+    }
+}

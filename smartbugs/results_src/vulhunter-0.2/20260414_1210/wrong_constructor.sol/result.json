@@ -1,0 +1,18 @@
+{
+    "errors": [
+        "EXIT_CODE_1"
+    ],
+    "fails": [
+        "exception (TypeError: cannot unpack non-iterable NoneType object)",
+        "exception (solcx.exceptions.SolcError: An error occurred during execution)"
+    ],
+    "findings": [],
+    "infos": [
+        "compiled faild!"
+    ],
+    "parser": {
+        "id": "vulhunter-0.2",
+        "mode": "solidity",
+        "version": "2026/03/22"
+    }
+}

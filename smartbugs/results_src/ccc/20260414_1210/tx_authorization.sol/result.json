@@ -1,0 +1,23 @@
+{
+    "errors": [],
+    "fails": [],
+    "findings": [
+        {
+            "column": "9",
+            "column_end": "36",
+            "filename": "mytest/MWEs/tx_origin/tx_authorization.sol",
+            "line": "13",
+            "line_end": "13",
+            "name": "Access control enforcement through transactions origin is vulnerable to phishing attacks "
+        }
+    ],
+    "infos": [
+        "Could not resolve callee of unsupported type class de.fraunhofer.aisec.cpg.frontends.solidity.nodes.SpecifiedExpression",
+        "Parsing of type class SolidityParser$PragmaDirectiveContext is not supported (yet)"
+    ],
+    "parser": {
+        "id": "ccc",
+        "mode": "solidity",
+        "version": "2025/09/19"
+    }
+}

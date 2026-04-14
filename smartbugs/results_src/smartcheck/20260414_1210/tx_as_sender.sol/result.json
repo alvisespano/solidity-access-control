@@ -1,0 +1,40 @@
+{
+    "errors": [],
+    "fails": [],
+    "findings": [
+        {
+            "column": 0,
+            "filename": "mytest/MWEs/tx_origin/tx_as_sender.sol",
+            "line": 4,
+            "name": "SOLIDITY_LOCKED_MONEY",
+            "severity": 3
+        },
+        {
+            "column": 16,
+            "filename": "mytest/MWEs/tx_origin/tx_as_sender.sol",
+            "line": 2,
+            "name": "SOLIDITY_PRAGMAS_VERSION",
+            "severity": 1
+        },
+        {
+            "column": 18,
+            "filename": "mytest/MWEs/tx_origin/tx_as_sender.sol",
+            "line": 12,
+            "name": "SOLIDITY_TX_ORIGIN",
+            "severity": 2
+        },
+        {
+            "column": 4,
+            "filename": "mytest/MWEs/tx_origin/tx_as_sender.sol",
+            "line": 7,
+            "name": "SOLIDITY_VISIBILITY",
+            "severity": 1
+        }
+    ],
+    "infos": [],
+    "parser": {
+        "id": "smartcheck",
+        "mode": "solidity",
+        "version": "2022/11/14"
+    }
+}

@@ -1,0 +1,15 @@
+/sb/replay.sol:2:1: Compiler version ^0.8.0 does not satisfy the ^0.8.24 semver requirement [Error/compiler-version]
+/sb/replay.sol:5:1: Missing @title tag in contract 'Example' [Warning/use-natspec]
+/sb/replay.sol:5:1: Missing @author tag in contract 'Example' [Warning/use-natspec]
+/sb/replay.sol:5:1: Missing @notice tag in contract 'Example' [Warning/use-natspec]
+/sb/replay.sol:6:5: Missing @notice tag in variable 'owner' [Warning/use-natspec]
+/sb/replay.sol:8:5: Missing @notice tag in function 'payWithSig' [Warning/use-natspec]
+/sb/replay.sol:8:5: Missing @param tag in function 'payWithSig' [Warning/use-natspec]
+/sb/replay.sol:8:5: Mismatch in @param names for function 'payWithSig'. Expected: [to, amt, hash, v, r, s], Found: [] [Warning/use-natspec]
+/sb/replay.sol:8:37: Rule is set with explicit type [var/s: uint] [Warning/explicit-types]
+/sb/replay.sol:10:9: Provide an error message for require [Warning/reason-string]
+/sb/replay.sol:10:9: GC: Use Custom Errors instead of require statements [Warning/gas-custom-errors]
+/sb/replay.sol:12:9: Provide an error message for require [Warning/reason-string]
+/sb/replay.sol:12:9: GC: Use Custom Errors instead of require statements [Warning/gas-custom-errors]
+
+13 problem/s (1 error/s, 12 warning/s)

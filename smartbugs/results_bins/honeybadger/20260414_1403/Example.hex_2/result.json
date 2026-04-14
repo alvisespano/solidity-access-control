@@ -1,0 +1,15 @@
+{
+    "errors": [
+        "UNKNOWN INSTRUCTION: SHL"
+    ],
+    "fails": [],
+    "findings": [],
+    "infos": [
+        "incomplete push instruction"
+    ],
+    "parser": {
+        "id": "honeybadger",
+        "mode": "runtime",
+        "version": "2025/06/04"
+    }
+}

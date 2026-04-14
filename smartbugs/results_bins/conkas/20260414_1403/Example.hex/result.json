@@ -1,0 +1,14 @@
+{
+    "errors": [],
+    "fails": [
+        "exception (ValueError: invalid literal for int() with base 16: '')",
+        "exception (z3.z3types.Z3Exception: b'Overflow encountered when expanding vector')"
+    ],
+    "findings": [],
+    "infos": [],
+    "parser": {
+        "id": "conkas",
+        "mode": "runtime",
+        "version": "2025/08/07"
+    }
+}

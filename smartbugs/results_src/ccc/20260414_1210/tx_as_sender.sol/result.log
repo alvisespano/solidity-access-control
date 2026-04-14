@@ -1,0 +1,42 @@
+Directories in use:
+home:         /var/lib/neo4j
+config:       /etc/neo4j
+logs:         /var/log/neo4j
+plugins:      /var/lib/neo4j/plugins
+import:       /var/lib/neo4j/import
+data:         /var/lib/neo4j/data
+certificates: /var/lib/neo4j/certificates
+licenses:     /var/lib/neo4j/licenses
+run:          /var/lib/neo4j/run
+Starting Neo4j.
+Started neo4j (pid:46). It is available at http://localhost:7474
+There may be a short delay until the server is ready.
+/sb/tx_as_sender.sol
+12:56:21.185 [ForkJoinPool.commonPool-worker-1] ERROR de.fraunhofer.aisec.cpg.frontends.Handler - /sb/tx_as_sender.sol:2:1: Parsing of type class SolidityParser$PragmaDirectiveContext is not supported (yet)
+Running checks
+AccessControlSelfdestructCheck took 2891 ms
+CallReturnCheck took 2325 ms
+AccessControlLogicCheck took 2317 ms
+ReentrancyCheck took 4867 ms
+DefaultProxyDelegateCheck took 1642 ms
+File: /sb/tx_as_sender.sol
+- Access control enforcement through transactions origin is vulnerable to phishing attacks , tx_as_sender.sol 16:9-16:56
+TXOriginCheck took 676 ms
+TimeManipulationCheck took 986 ms
+LocalWriteToStorageCheck took 1872 ms
+BadRandomnessCheck took 893 ms
+File: /sb/tx_as_sender.sol
+- Result of expression can be over- or under-flown by external entity, tx_as_sender.sol 18:9-18:31
+OverUnderflowCheck took 6802 ms
+DOSCheck took 2300 ms
+File: /sb/tx_as_sender.sol
+- Message padding vulnerability found at ether transfer., tx_as_sender.sol 11:25-11:35
+File: /sb/tx_as_sender.sol
+- Message padding vulnerability found at ether transfer., tx_as_sender.sol 15:38-15:48
+File: /sb/tx_as_sender.sol
+- Message padding vulnerability found at ether transfer., tx_as_sender.sol 15:24-15:36
+AddressPaddingCheck took 5679 ms
+FrontRunningCheck took 1238 ms
+Nr. Files: 1
+File: /sb/tx_as_sender.sol
+Graph translation: 2436 ms, Persisting graph: 25466 ms, AccessControlSelfdestructCheck: 2891 ms, CallReturnCheck: 2325 ms, AccessControlLogicCheck: 2317 ms, ReentrancyCheck: 4867 ms, DefaultProxyDelegateCheck: 1642 ms, TXOriginCheck: 676 ms, TimeManipulationCheck: 986 ms, LocalWriteToStorageCheck: 1872 ms, BadRandomnessCheck: 893 ms, OverUnderflowCheck: 6802 ms, DOSCheck: 2300 ms, AddressPaddingCheck: 5679 ms, FrontRunningCheck: 1238 ms, All checks: 34869 ms

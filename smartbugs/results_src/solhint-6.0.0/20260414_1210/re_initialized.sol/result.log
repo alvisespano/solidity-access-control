@@ -1,0 +1,11 @@
+/sb/re_initialized.sol:2:1: Compiler version ^0.8.0 does not satisfy the ^0.8.24 semver requirement [Error/compiler-version]
+/sb/re_initialized.sol:5:1: Missing @title tag in contract 'Example' [Warning/use-natspec]
+/sb/re_initialized.sol:5:1: Missing @author tag in contract 'Example' [Warning/use-natspec]
+/sb/re_initialized.sol:5:1: Missing @notice tag in contract 'Example' [Warning/use-natspec]
+/sb/re_initialized.sol:6:5: Missing @notice tag in variable 'owner' [Warning/use-natspec]
+/sb/re_initialized.sol:7:5: Missing @notice tag in variable 'supply' [Warning/use-natspec]
+/sb/re_initialized.sol:10:5: Missing @notice tag in function 'initialize' [Warning/use-natspec]
+/sb/re_initialized.sol:10:5: Missing @param tag in function 'initialize' [Warning/use-natspec]
+/sb/re_initialized.sol:10:5: Mismatch in @param names for function 'initialize'. Expected: [_owner], Found: [] [Warning/use-natspec]
+
+9 problem/s (1 error/s, 8 warning/s)

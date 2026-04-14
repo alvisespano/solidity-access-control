@@ -1,0 +1,34 @@
+'solc --version' running
+'solc /sb/arbitrary_to.sol --combined-json abi,ast,bin,bin-runtime,srcmap,srcmap-runtime,userdoc,devdoc,hashes --allow-paths .,/sb' running
+
+Example.delegate(address) (../sb/arbitrary_to.sol#12-15) uses delegatecall to a input-controlled function id
+	- (success,None) = to.delegatecall(msg.data) (../sb/arbitrary_to.sol#13)
+Reference: https://github.com/crytic/slither/wiki/Detector-Documentation#controlled-delegatecall
+
+Example.constructor(address)._owner (../sb/arbitrary_to.sol#8) lacks a zero-check on :
+		- owner = _owner (../sb/arbitrary_to.sol#9)
+Example.delegate(address).to (../sb/arbitrary_to.sol#12) lacks a zero-check on :
+		- (success,None) = to.delegatecall(msg.data) (../sb/arbitrary_to.sol#13)
+Reference: https://github.com/crytic/slither/wiki/Detector-Documentation#missing-zero-address-validation
+
+Version constraint ^0.8.0 contains known severe issues (https://solidity.readthedocs.io/en/latest/bugs.html)
+	- FullInlinerNonExpressionSplitArgumentEvaluationOrder
+	- MissingSideEffectsOnSelectorAccess
+	- AbiReencodingHeadOverflowWithStaticArrayCleanup
+	- DirtyBytesArrayToStorage
+	- DataLocationChangeInInternalOverride
+	- NestedCalldataArrayAbiReencodingSizeValidation
+	- SignedImmutables
+	- ABIDecodeTwoDimensionalArrayMemory
+	- KeccakCaching.
+It is used by:
+	- ^0.8.0 (../sb/arbitrary_to.sol#2)
+Reference: https://github.com/crytic/slither/wiki/Detector-Documentation#incorrect-versions-of-solidity
+
+Low level call in Example.delegate(address) (../sb/arbitrary_to.sol#12-15):
+	- (success,None) = to.delegatecall(msg.data) (../sb/arbitrary_to.sol#13)
+Reference: https://github.com/crytic/slither/wiki/Detector-Documentation#low-level-calls
+
+Example.owner (../sb/arbitrary_to.sol#6) should be immutable 
+Reference: https://github.com/crytic/slither/wiki/Detector-Documentation#state-variables-that-could-be-declared-immutable
+/sb/arbitrary_to.sol analyzed (1 contracts with 100 detectors), 6 result(s) found

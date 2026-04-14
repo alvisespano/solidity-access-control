@@ -1,0 +1,15 @@
+/sb/function_visibility.sol:2:1: Compiler version ^0.8.0 does not satisfy the ^0.8.24 semver requirement [Error/compiler-version]
+/sb/function_visibility.sol:5:1: Missing @title tag in contract 'Example' [Warning/use-natspec]
+/sb/function_visibility.sol:5:1: Missing @author tag in contract 'Example' [Warning/use-natspec]
+/sb/function_visibility.sol:5:1: Missing @notice tag in contract 'Example' [Warning/use-natspec]
+/sb/function_visibility.sol:7:5: Rule is set with explicit type [var/s: uint] [Warning/explicit-types]
+/sb/function_visibility.sol:9:5: Missing @notice tag in function '<anonymous>' [Warning/use-natspec]
+/sb/function_visibility.sol:9:5: Missing @param tag in function '<anonymous>' [Warning/use-natspec]
+/sb/function_visibility.sol:9:5: Mismatch in @param names for function '<anonymous>'. Expected: [_owner], Found: [] [Warning/use-natspec]
+/sb/function_visibility.sol:9:5: Explicitly mark visibility in function (Set ignoreConstructors to true if using solidity >=0.7.0) [Warning/func-visibility]
+/sb/function_visibility.sol:9:33: Code contains empty blocks [Warning/no-empty-blocks]
+/sb/function_visibility.sol:14:5: Missing @notice tag in function 'initialize' [Warning/use-natspec]
+/sb/function_visibility.sol:14:5: Missing @param tag in function 'initialize' [Warning/use-natspec]
+/sb/function_visibility.sol:14:5: Mismatch in @param names for function 'initialize'. Expected: [_owner], Found: [] [Warning/use-natspec]
+
+13 problem/s (1 error/s, 12 warning/s)

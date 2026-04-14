@@ -1,0 +1,21 @@
+{
+    "errors": [],
+    "fails": [],
+    "findings": [
+        {
+            "column": 9,
+            "contract": "Example",
+            "filename": "mytest/MWEs/tx_origin/tx_authorization.sol",
+            "line": 14,
+            "name": "Callstack Depth Attack Vulnerability"
+        }
+    ],
+    "infos": [
+        "coverage Example 57.0%"
+    ],
+    "parser": {
+        "id": "oyente+-060ca34",
+        "mode": "solidity",
+        "version": "2025/06/04"
+    }
+}

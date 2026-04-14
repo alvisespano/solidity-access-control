@@ -1,0 +1,15 @@
+{
+    "errors": [
+        "0xf46a5ab5: ['address', 'uint256', 'bytes32', 'uint8', 'bytes32', 'bytes32'] -> ['0xdeadbeefdeadbeefdeadbeefdeadbeefdeadbeef', 74483386982193459532687509251158079673426091776731906318893414783987035157925, bytearray(b'\\x12'), 256, bytearray(b'\\xb64y\\xeb\\x83\\xda\\xc0\\x02G'), bytearray(b'.\\xac\\xa8\\x93I\\xdeas\\x8e\\x02\\x00\\x86\\xf0\\t\\xf4\\x8c9\\xd3\\x18c\\x19c\\x18\\x94\\xb3\\xed')]",
+        "EXIT_CODE_250",
+        "Value 256 cannot be encoded in 8 bits.  Must be bounded between [0, 255]"
+    ],
+    "fails": [],
+    "findings": [],
+    "infos": [],
+    "parser": {
+        "id": "confuzzius",
+        "mode": "solidity",
+        "version": "2022/12/31"
+    }
+}

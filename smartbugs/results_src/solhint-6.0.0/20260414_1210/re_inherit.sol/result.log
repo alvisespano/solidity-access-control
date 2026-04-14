@@ -1,0 +1,18 @@
+/sb/re_inherit.sol:2:1: Found more than One contract per file. 2 contracts found! [Warning/one-contract-per-file]
+/sb/re_inherit.sol:2:1: Compiler version ^0.8.0 does not satisfy the ^0.8.24 semver requirement [Error/compiler-version]
+/sb/re_inherit.sol:5:1: Missing @title tag in contract 'Parent' [Warning/use-natspec]
+/sb/re_inherit.sol:5:1: Missing @author tag in contract 'Parent' [Warning/use-natspec]
+/sb/re_inherit.sol:5:1: Missing @notice tag in contract 'Parent' [Warning/use-natspec]
+/sb/re_inherit.sol:6:5: Missing @notice tag in variable 'owner' [Warning/use-natspec]
+/sb/re_inherit.sol:9:5: Missing @notice tag in function 'initialize' [Warning/use-natspec]
+/sb/re_inherit.sol:9:5: Missing @param tag in function 'initialize' [Warning/use-natspec]
+/sb/re_inherit.sol:9:5: Mismatch in @param names for function 'initialize'. Expected: [_owner], Found: [] [Warning/use-natspec]
+/sb/re_inherit.sol:16:1: Missing @title tag in contract 'Derived' [Warning/use-natspec]
+/sb/re_inherit.sol:16:1: Missing @author tag in contract 'Derived' [Warning/use-natspec]
+/sb/re_inherit.sol:16:1: Missing @notice tag in contract 'Derived' [Warning/use-natspec]
+/sb/re_inherit.sol:17:5: Missing @notice tag in variable 'supply' [Warning/use-natspec]
+/sb/re_inherit.sol:19:5: Missing @notice tag in function 'initializeDerived' [Warning/use-natspec]
+/sb/re_inherit.sol:19:5: Missing @param tag in function 'initializeDerived' [Warning/use-natspec]
+/sb/re_inherit.sol:19:5: Mismatch in @param names for function 'initializeDerived'. Expected: [_supply, _owner], Found: [] [Warning/use-natspec]
+
+16 problem/s (1 error/s, 15 warning/s)

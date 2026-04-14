@@ -1,0 +1,54 @@
+{
+    "errors": [],
+    "fails": [],
+    "findings": [
+        {
+            "column": "9",
+            "column_end": "56",
+            "filename": "mytest/MWEs/tx_origin/tx_as_sender.sol",
+            "line": "16",
+            "line_end": "16",
+            "name": "Access control enforcement through transactions origin is vulnerable to phishing attacks "
+        },
+        {
+            "column": "9",
+            "column_end": "31",
+            "filename": "mytest/MWEs/tx_origin/tx_as_sender.sol",
+            "line": "18",
+            "line_end": "18",
+            "name": "Result of expression can be over- or under-flown by external entity"
+        },
+        {
+            "column": "25",
+            "column_end": "35",
+            "filename": "mytest/MWEs/tx_origin/tx_as_sender.sol",
+            "line": "11",
+            "line_end": "11",
+            "name": "Message padding vulnerability found at ether transfer."
+        },
+        {
+            "column": "38",
+            "column_end": "48",
+            "filename": "mytest/MWEs/tx_origin/tx_as_sender.sol",
+            "line": "15",
+            "line_end": "15",
+            "name": "Message padding vulnerability found at ether transfer."
+        },
+        {
+            "column": "24",
+            "column_end": "36",
+            "filename": "mytest/MWEs/tx_origin/tx_as_sender.sol",
+            "line": "15",
+            "line_end": "15",
+            "name": "Message padding vulnerability found at ether transfer."
+        }
+    ],
+    "infos": [
+        "Parsing of type class SolidityParser$PragmaDirectiveContext is not supported (yet)"
+    ],
+    "parser": {
+        "id": "ccc",
+        "mode": "solidity",
+        "version": "2025/09/19"
+    }
+}

@@ -1,0 +1,11 @@
+INFO:CryticCompile:'solc --version' running
+INFO:CryticCompile:'solc /sb/dos_gas.sol --combined-json abi,ast,bin,bin-runtime,srcmap,srcmap-runtime,userdoc,devdoc,hashes --allow-paths .,/sb' running
+INFO:CryticCompile:Compilation warnings/errors on /sb/dos_gas.sol:
+Error: Source "@openzeppelin/contracts/access/AccessControl.sol" not found: File not found. Searched the following locations: "".
+ --> sb/dos_gas.sol:7:1:
+  |
+7 | import "@openzeppelin/contracts/access/AccessControl.sol";
+  | ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+
+
+CRITICAL:root:Solidity compilation failed. Please use -ce flag to see the detail.

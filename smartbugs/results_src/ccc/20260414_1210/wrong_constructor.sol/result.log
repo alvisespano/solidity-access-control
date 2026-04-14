@@ -1,0 +1,33 @@
+Directories in use:
+home:         /var/lib/neo4j
+config:       /etc/neo4j
+logs:         /var/log/neo4j
+plugins:      /var/lib/neo4j/plugins
+import:       /var/lib/neo4j/import
+data:         /var/lib/neo4j/data
+certificates: /var/lib/neo4j/certificates
+licenses:     /var/lib/neo4j/licenses
+run:          /var/lib/neo4j/run
+Starting Neo4j.
+Started neo4j (pid:47). It is available at http://localhost:7474
+There may be a short delay until the server is ready.
+/sb/wrong_constructor.sol
+line 8:13 extraneous input '(' expecting {'from', 'error', '[', 'address', '.', 'calldata', 'revert', 'callback', 'override', 'constant', 'immutable', 'leave', 'internal', 'payable', 'private', 'public', 'global', 'constructor', 'receive', Identifier, NL}
+line 8:22 mismatched input '_owner' expecting {'=', ';', NL}
+12:11:07.121 [ForkJoinPool.commonPool-worker-1] ERROR de.fraunhofer.aisec.cpg.frontends.Handler - /sb/wrong_constructor.sol:2:1: Parsing of type class SolidityParser$PragmaDirectiveContext is not supported (yet)
+Running checks
+AccessControlSelfdestructCheck took 2474 ms
+CallReturnCheck took 1370 ms
+AccessControlLogicCheck took 2447 ms
+ReentrancyCheck took 4925 ms
+DefaultProxyDelegateCheck took 871 ms
+TXOriginCheck took 774 ms
+TimeManipulationCheck took 945 ms
+LocalWriteToStorageCheck took 1663 ms
+BadRandomnessCheck took 860 ms
+OverUnderflowCheck took 3911 ms
+DOSCheck took 2154 ms
+AddressPaddingCheck took 5101 ms
+FrontRunningCheck took 2207 ms
+Nr. Files: 1
+Graph translation: 2086 ms, Persisting graph: 15550 ms, AccessControlSelfdestructCheck: 2474 ms, CallReturnCheck: 1370 ms, AccessControlLogicCheck: 2447 ms, ReentrancyCheck: 4925 ms, DefaultProxyDelegateCheck: 871 ms, TXOriginCheck: 774 ms, TimeManipulationCheck: 945 ms, LocalWriteToStorageCheck: 1663 ms, BadRandomnessCheck: 860 ms, OverUnderflowCheck: 3911 ms, DOSCheck: 2154 ms, AddressPaddingCheck: 5101 ms, FrontRunningCheck: 2207 ms, All checks: 30132 ms

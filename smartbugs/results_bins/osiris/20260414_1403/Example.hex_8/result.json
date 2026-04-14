@@ -1,0 +1,18 @@
+{
+    "errors": [],
+    "fails": [],
+    "findings": [
+        {
+            "filename": "mytest/bins/signature/replay/Example.hex",
+            "name": "Callstack bug"
+        }
+    ],
+    "infos": [
+        "incomplete push instruction"
+    ],
+    "parser": {
+        "id": "osiris",
+        "mode": "runtime",
+        "version": "2025/06/04"
+    }
+}

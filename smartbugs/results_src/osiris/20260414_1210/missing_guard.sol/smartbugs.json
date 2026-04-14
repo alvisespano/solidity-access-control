@@ -1,0 +1,57 @@
+{
+    "debug": {
+        "sb_bin_log": [
+            "python osiris/osiris.py  -s /sb/missing_guard.sol  "
+        ]
+    },
+    "docker": {
+        "command": null,
+        "detach": true,
+        "entrypoint": "'/sb/bin/do_solidity.sh' '/sb/missing_guard.sol' '0' '/sb/bin' '0'",
+        "image": "smartbugs/osiris:d1ecc37",
+        "network": "none",
+        "user": 0,
+        "volumes": {
+            "/tmp/tmp3ypc2hh2": {
+                "bind": "/sb",
+                "mode": "rw"
+            }
+        }
+    },
+    "filename": "mytest/MWEs/missing/missing_guard.sol",
+    "platform": {
+        "cpu": "Intel(R) Core(TM) i7-9700 CPU @ 3.00GHz",
+        "python": "3.12.3.final.0 (64 bit)",
+        "release": "6.6.87.2-microsoft-standard-WSL2",
+        "smartbugs": "2.0.18",
+        "system": "Linux",
+        "version": "#1 SMP PREEMPT_DYNAMIC Thu Jun  5 18:30:46 UTC 2025"
+    },
+    "result": {
+        "duration": 1.4317257404327393,
+        "exit_code": 0,
+        "logs": "result.log",
+        "output": null,
+        "start": 1776169851.0637028
+    },
+    "runid": "20260414_1210",
+    "solc": "0.8.31",
+    "tool": {
+        "bin": "scripts",
+        "command": null,
+        "cpu_quota": null,
+        "entrypoint": "'$BIN/do_solidity.sh' '$FILENAME' '$TIMEOUT' '$BIN' '$MAIN'",
+        "id": "osiris",
+        "image": "smartbugs/osiris:d1ecc37",
+        "info": "Osiris is an analysis tool to detect integer bugs in Ethereum smart contracts. Osiris is based on Oyente.",
+        "mem_limit": null,
+        "mode": "solidity",
+        "name": "Osiris",
+        "network": null,
+        "origin": "https://github.com/christoftorres/Osiris",
+        "output": null,
+        "parser": "parser.py",
+        "solc": true,
+        "version": "#d1ecc37"
+    }
+}

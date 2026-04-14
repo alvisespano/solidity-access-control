@@ -1,0 +1,15 @@
+{
+    "errors": [],
+    "fails": [
+        "exception (java.lang.IndexOutOfBoundsException: Index: 0, Size: 0)"
+    ],
+    "findings": [],
+    "infos": [
+        "analysis incomplete"
+    ],
+    "parser": {
+        "id": "securify",
+        "mode": "runtime",
+        "version": "2022/11/17"
+    }
+}

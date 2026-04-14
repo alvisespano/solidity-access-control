@@ -1,0 +1,164 @@
+{
+    "errors": [],
+    "fails": [],
+    "findings": [
+        {
+            "column": 1,
+            "filename": "mytest/MWEs/tx_origin/tx_as_sender.sol",
+            "level": "error",
+            "line": 2,
+            "message": "Compiler version ^0.8.0 does not satisfy the ^0.8.24 semver requirement",
+            "name": "compiler-version"
+        },
+        {
+            "column": 1,
+            "filename": "mytest/MWEs/tx_origin/tx_as_sender.sol",
+            "level": "warning",
+            "line": 4,
+            "message": "Missing @title tag in contract 'Example'",
+            "name": "use-natspec"
+        },
+        {
+            "column": 1,
+            "filename": "mytest/MWEs/tx_origin/tx_as_sender.sol",
+            "level": "warning",
+            "line": 4,
+            "message": "Missing @author tag in contract 'Example'",
+            "name": "use-natspec"
+        },
+        {
+            "column": 1,
+            "filename": "mytest/MWEs/tx_origin/tx_as_sender.sol",
+            "level": "warning",
+            "line": 4,
+            "message": "Missing @notice tag in contract 'Example'",
+            "name": "use-natspec"
+        },
+        {
+            "column": 5,
+            "filename": "mytest/MWEs/tx_origin/tx_as_sender.sol",
+            "level": "warning",
+            "line": 5,
+            "message": "Missing @notice tag in variable 'balances'",
+            "name": "use-natspec"
+        },
+        {
+            "column": 5,
+            "filename": "mytest/MWEs/tx_origin/tx_as_sender.sol",
+            "level": "warning",
+            "line": 7,
+            "message": "Missing @notice tag in function '<anonymous>'",
+            "name": "use-natspec"
+        },
+        {
+            "column": 5,
+            "filename": "mytest/MWEs/tx_origin/tx_as_sender.sol",
+            "level": "warning",
+            "line": 7,
+            "message": "Missing @param tag in function '<anonymous>'",
+            "name": "use-natspec"
+        },
+        {
+            "column": 5,
+            "filename": "mytest/MWEs/tx_origin/tx_as_sender.sol",
+            "level": "warning",
+            "line": 7,
+            "message": "Mismatch in @param names for function '<anonymous>'. Expected: [initialSupply], Found: []",
+            "name": "use-natspec"
+        },
+        {
+            "column": 5,
+            "filename": "mytest/MWEs/tx_origin/tx_as_sender.sol",
+            "level": "warning",
+            "line": 7,
+            "message": "Explicitly mark visibility in function (Set ignoreConstructors to true if using solidity >=0.7.0)",
+            "name": "func-visibility"
+        },
+        {
+            "column": 17,
+            "filename": "mytest/MWEs/tx_origin/tx_as_sender.sol",
+            "level": "warning",
+            "line": 7,
+            "message": "Rule is set with explicit type [var/s: uint]",
+            "name": "explicit-types"
+        },
+        {
+            "column": 5,
+            "filename": "mytest/MWEs/tx_origin/tx_as_sender.sol",
+            "level": "warning",
+            "line": 11,
+            "message": "Missing @notice tag in function 'transferTo'",
+            "name": "use-natspec"
+        },
+        {
+            "column": 5,
+            "filename": "mytest/MWEs/tx_origin/tx_as_sender.sol",
+            "level": "warning",
+            "line": 11,
+            "message": "Missing @param tag in function 'transferTo'",
+            "name": "use-natspec"
+        },
+        {
+            "column": 5,
+            "filename": "mytest/MWEs/tx_origin/tx_as_sender.sol",
+            "level": "warning",
+            "line": 11,
+            "message": "Mismatch in @param names for function 'transferTo'. Expected: [to, amount], Found: []",
+            "name": "use-natspec"
+        },
+        {
+            "column": 19,
+            "filename": "mytest/MWEs/tx_origin/tx_as_sender.sol",
+            "level": "warning",
+            "line": 12,
+            "message": "Avoid to use tx.origin",
+            "name": "avoid-tx-origin"
+        },
+        {
+            "column": 5,
+            "filename": "mytest/MWEs/tx_origin/tx_as_sender.sol",
+            "level": "warning",
+            "line": 15,
+            "message": "Missing @notice tag in function '_transfer'",
+            "name": "use-natspec"
+        },
+        {
+            "column": 5,
+            "filename": "mytest/MWEs/tx_origin/tx_as_sender.sol",
+            "level": "warning",
+            "line": 15,
+            "message": "Missing @param tag in function '_transfer'",
+            "name": "use-natspec"
+        },
+        {
+            "column": 5,
+            "filename": "mytest/MWEs/tx_origin/tx_as_sender.sol",
+            "level": "warning",
+            "line": 15,
+            "message": "Mismatch in @param names for function '_transfer'. Expected: [from, to, amount], Found: []",
+            "name": "use-natspec"
+        },
+        {
+            "column": 9,
+            "filename": "mytest/MWEs/tx_origin/tx_as_sender.sol",
+            "level": "warning",
+            "line": 16,
+            "message": "GC: Use Custom Errors instead of require statements",
+            "name": "gas-custom-errors"
+        },
+        {
+            "column": 17,
+            "filename": "mytest/MWEs/tx_origin/tx_as_sender.sol",
+            "level": "warning",
+            "line": 16,
+            "message": "GC: Non strict inequality found. Try converting to a strict one",
+            "name": "gas-strict-inequalities"
+        }
+    ],
+    "infos": [],
+    "parser": {
+        "id": "solhint-6.0.0",
+        "mode": "solidity",
+        "version": "2025/09/14"
+    }
+}

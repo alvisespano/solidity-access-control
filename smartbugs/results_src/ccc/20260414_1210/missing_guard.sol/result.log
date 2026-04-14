@@ -1,0 +1,36 @@
+Directories in use:
+home:         /var/lib/neo4j
+config:       /etc/neo4j
+logs:         /var/log/neo4j
+plugins:      /var/lib/neo4j/plugins
+import:       /var/lib/neo4j/import
+data:         /var/lib/neo4j/data
+certificates: /var/lib/neo4j/certificates
+licenses:     /var/lib/neo4j/licenses
+run:          /var/lib/neo4j/run
+Starting Neo4j.
+Started neo4j (pid:45). It is available at http://localhost:7474
+There may be a short delay until the server is ready.
+/sb/missing_guard.sol
+12:59:04.227 [ForkJoinPool.commonPool-worker-1] ERROR de.fraunhofer.aisec.cpg.frontends.Handler - /sb/missing_guard.sol:2:1: Parsing of type class SolidityParser$PragmaDirectiveContext is not supported (yet)
+Running checks
+AccessControlSelfdestructCheck took 2297 ms
+CallReturnCheck took 1610 ms
+File: /sb/missing_guard.sol
+- Non constructor function insufficiently restricts writes to to access control variables, missing_guard.sol 17:5-19:8
+AccessControlLogicCheck took 1403 ms
+ReentrancyCheck took 3904 ms
+DefaultProxyDelegateCheck took 969 ms
+TXOriginCheck took 576 ms
+TimeManipulationCheck took 454 ms
+LocalWriteToStorageCheck took 1398 ms
+BadRandomnessCheck took 854 ms
+OverUnderflowCheck took 4310 ms
+DOSCheck took 1629 ms
+AddressPaddingCheck took 4640 ms
+File: /sb/missing_guard.sol
+- A miner can use others input to gain a benefit himself., missing_guard.sol 18:9-18:27
+FrontRunningCheck took 936 ms
+Nr. Files: 1
+File: /sb/missing_guard.sol
+Graph translation: 1816 ms, Persisting graph: 16636 ms, AccessControlSelfdestructCheck: 2297 ms, CallReturnCheck: 1610 ms, AccessControlLogicCheck: 1403 ms, ReentrancyCheck: 3904 ms, DefaultProxyDelegateCheck: 969 ms, TXOriginCheck: 576 ms, TimeManipulationCheck: 454 ms, LocalWriteToStorageCheck: 1398 ms, BadRandomnessCheck: 854 ms, OverUnderflowCheck: 4310 ms, DOSCheck: 1629 ms, AddressPaddingCheck: 4640 ms, FrontRunningCheck: 936 ms, All checks: 25276 ms

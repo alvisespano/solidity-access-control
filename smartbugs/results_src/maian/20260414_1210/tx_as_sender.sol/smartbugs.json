@@ -1,0 +1,59 @@
+{
+    "debug": {
+        "sb_bin_log": [
+            "echo python3 maian.py -c 0 -s /sb/tx_as_sender.sol Example",
+            "echo python3 maian.py -c 1 -s /sb/tx_as_sender.sol Example",
+            "echo python3 maian.py -c 2 -s /sb/tx_as_sender.sol Example"
+        ]
+    },
+    "docker": {
+        "command": null,
+        "detach": true,
+        "entrypoint": "'/sb/bin/do_solidity.sh' '/sb/tx_as_sender.sol' '/sb/bin' '0'",
+        "image": "smartbugs/maian:solc5.10",
+        "network": "none",
+        "user": 0,
+        "volumes": {
+            "/tmp/tmplfqp6bbs": {
+                "bind": "/sb",
+                "mode": "rw"
+            }
+        }
+    },
+    "filename": "mytest/MWEs/tx_origin/tx_as_sender.sol",
+    "platform": {
+        "cpu": "Intel(R) Core(TM) i7-9700 CPU @ 3.00GHz",
+        "python": "3.12.3.final.0 (64 bit)",
+        "release": "6.6.87.2-microsoft-standard-WSL2",
+        "smartbugs": "2.0.18",
+        "system": "Linux",
+        "version": "#1 SMP PREEMPT_DYNAMIC Thu Jun  5 18:30:46 UTC 2025"
+    },
+    "result": {
+        "duration": 0.9793071746826172,
+        "exit_code": 0,
+        "logs": "result.log",
+        "output": null,
+        "start": 1776168647.933401
+    },
+    "runid": "20260414_1210",
+    "solc": "0.8.31",
+    "tool": {
+        "bin": "scripts",
+        "command": null,
+        "cpu_quota": null,
+        "entrypoint": "'$BIN/do_solidity.sh' '$FILENAME' '$BIN' '$MAIN'",
+        "id": "maian",
+        "image": "smartbugs/maian:solc5.10",
+        "info": "Maian is a tool for the automated detection of buggy Ethereum smart contracts of type 'prodigal', 'suicidal', and 'greedy'.",
+        "mem_limit": null,
+        "mode": "solidity",
+        "name": "Maian",
+        "network": null,
+        "origin": "https://github.com/smartbugs/MAIAN",
+        "output": null,
+        "parser": "parser.py",
+        "solc": true,
+        "version": "#4bab09a"
+    }
+}

@@ -1,0 +1,36 @@
+{
+    "errors": [],
+    "fails": [],
+    "findings": [
+        {
+            "confidence": "Medium",
+            "filename": "mytest/MWEs/initialization/re_initialized.sol",
+            "impact": "Low",
+            "line": 10,
+            "message": "Example.initialize(address)._owner (../sb/re_initialized.sol#10) lacks a zero-check on :\n\t\t- owner = _owner (../sb/re_initialized.sol#12)\n",
+            "name": "missing-zero-check"
+        },
+        {
+            "confidence": "High",
+            "filename": "mytest/MWEs/initialization/re_initialized.sol",
+            "impact": "Informational",
+            "line": 2,
+            "message": "Version constraint ^0.8.0 contains known severe issues (https://solidity.readthedocs.io/en/latest/bugs.html)\n\t- FullInlinerNonExpressionSplitArgumentEvaluationOrder\n\t- MissingSideEffectsOnSelectorAccess\n\t- AbiReencodingHeadOverflowWithStaticArrayCleanup\n\t- DirtyBytesArrayToStorage\n\t- DataLocationChangeInInternalOverride\n\t- NestedCalldataArrayAbiReencodingSizeValidation\n\t- SignedImmutables\n\t- ABIDecodeTwoDimensionalArrayMemory\n\t- KeccakCaching.\nIt is used by:\n\t- ^0.8.0 (../sb/re_initialized.sol#2)\n",
+            "name": "solc-version"
+        },
+        {
+            "confidence": "High",
+            "filename": "mytest/MWEs/initialization/re_initialized.sol",
+            "impact": "Informational",
+            "line": 10,
+            "message": "Parameter Example.initialize(address)._owner (../sb/re_initialized.sol#10) is not in mixedCase\n",
+            "name": "naming-convention"
+        }
+    ],
+    "infos": [],
+    "parser": {
+        "id": "slither-0.11.3",
+        "mode": "solidity",
+        "version": "2025/09/14"
+    }
+}

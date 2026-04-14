@@ -1,0 +1,23 @@
+{
+    "errors": [],
+    "fails": [],
+    "findings": [
+        {
+            "column": "9",
+            "column_end": "12",
+            "filename": "mytest/MWEs/gas/dos_gas.sol",
+            "line": "29",
+            "line_end": "33",
+            "name": "Operation may lead to a denial of essential contract function."
+        }
+    ],
+    "infos": [
+        "Could not find the scope UNKNOWN needed to resolve the call UNKNOWN.push",
+        "Parsing of type class SolidityParser$PragmaDirectiveContext is not supported (yet)"
+    ],
+    "parser": {
+        "id": "ccc",
+        "mode": "solidity",
+        "version": "2025/09/19"
+    }
+}

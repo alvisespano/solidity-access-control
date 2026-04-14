@@ -1,0 +1,16 @@
+{
+    "errors": [],
+    "fails": [
+        "exception (ValueError: invalid literal for int() with base 16: '')"
+    ],
+    "findings": [],
+    "infos": [
+        "analysis incomplete",
+        "incomplete push instruction"
+    ],
+    "parser": {
+        "id": "osiris",
+        "mode": "runtime",
+        "version": "2025/06/04"
+    }
+}

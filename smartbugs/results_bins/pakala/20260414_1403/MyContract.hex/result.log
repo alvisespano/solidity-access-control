@@ -1,0 +1,41 @@
+INFO [04-14|14:04:04.345] Starting Geth in ephemeral dev mode... 
+INFO [04-14|14:04:04.346] Maximum peer count                       ETH=50 LES=0 total=50
+INFO [04-14|14:04:04.346] Smartcard socket not found, disabling    err="stat /run/pcscd/pcscd.comm: no such file or directory"
+INFO [04-14|14:04:04.347] Set global gas cap                       cap=50,000,000
+INFO [04-14|14:04:04.503] Using developer account                  address=0xf6C92CC3c766E66718aB523A1626D0E15d9479a6
+INFO [04-14|14:04:04.504] Allocated trie memory caches             clean=154.00MiB dirty=256.00MiB
+INFO [04-14|14:04:04.504] Writing custom genesis block 
+INFO [04-14|14:04:04.504] Persisted trie from memory database      nodes=13 size=1.90KiB time="38.904µs" gcnodes=0 gcsize=0.00B gctime=0s livenodes=1 livesize=0.00B
+INFO [04-14|14:04:04.504] Initialised chain configuration          config="{ChainID: 1337 Homestead: 0 DAO: <nil> DAOSupport: false EIP150: 0 EIP155: 0 EIP158: 0 Byzantium: 0 Constantinople: 0 Petersburg: 0 Istanbul: 0, Muir Glacier: 0, Berlin: 0, London: 0, Arrow Glacier: <nil>, MergeFork: <nil>, Engine: clique}"
+INFO [04-14|14:04:04.504] Initialising Ethereum protocol           network=1337 dbversion=<nil>
+INFO [04-14|14:04:04.505] Loaded most recent local header          number=0 hash=0b9202..78ce7b td=1 age=57y1mo1w
+INFO [04-14|14:04:04.505] Loaded most recent local full block      number=0 hash=0b9202..78ce7b td=1 age=57y1mo1w
+INFO [04-14|14:04:04.505] Loaded most recent local fast block      number=0 hash=0b9202..78ce7b td=1 age=57y1mo1w
+WARN [04-14|14:04:04.505] Failed to load snapshot, regenerating    err="missing or corrupted snapshot"
+INFO [04-14|14:04:04.505] Rebuilding state snapshot 
+INFO [04-14|14:04:04.505] Resuming state snapshot generation       root=b25fe8..48c85f accounts=0 slots=0 storage=0.00B elapsed="342.335µs"
+INFO [04-14|14:04:04.505] Stored checkpoint snapshot to disk       number=0 hash=0b9202..78ce7b
+INFO [04-14|14:04:04.505] Gasprice oracle is ignoring threshold set threshold=2
+INFO [04-14|14:04:04.506] Generated state snapshot                 accounts=10 slots=0 storage=412.00B elapsed="827.784µs"
+WARN [04-14|14:04:04.506] Error reading unclean shutdown markers   error="not found"
+INFO [04-14|14:04:04.506] Starting peer-to-peer node               instance=Geth/v1.10.14-stable-11a3a350/linux-amd64/go1.17.5
+WARN [04-14|14:04:04.506] P2P server will be useless, neither dialing nor listening 
+INFO [04-14|14:04:04.508] IPC endpoint opened                      url=/tmp/geth.ipc
+INFO [04-14|14:04:04.508] HTTP server started                      endpoint=127.0.0.1:8545 prefix= cors= vhosts=localhost
+INFO [04-14|14:04:04.509] Transaction pool price threshold updated price=1,000,000,000
+INFO [04-14|14:04:04.509] Updated mining threads                   threads=0
+INFO [04-14|14:04:04.509] Transaction pool price threshold updated price=1
+INFO [04-14|14:04:04.509] Etherbase automatically configured       address=0xf6C92CC3c766E66718aB523A1626D0E15d9479a6
+INFO [04-14|14:04:04.509] Commit new mining work                   number=1 sealhash=395f40..d971ed uncles=0 txs=0 gas=0 fees=0 elapsed="72.807µs"
+INFO [04-14|14:04:04.509] New local node record                    seq=1,776,175,444,508 id=4a63c254796a0fe5 ip=127.0.0.1 udp=0 tcp=0
+INFO [04-14|14:04:04.509] Started P2P networking                   self=enode://9f861c7c19c525375cbfa8b17705f8256f7226a97ad943c5a43a9bb48c6b2ad4a9ffde4025e7ccc7014e9d8996ee7852de5290635da500ab7f0e9d412cb49407@127.0.0.1:0
+WARN [04-14|14:04:04.509] Block sealing failed                     err="sealing paused while waiting for transactions"
+WARN [04-14|14:04:04.509] Failed to get free disk space            path= err="failed to call Statfs: no such file or directory"
+2026-04-14 14:04:07 1eae07564b93 pakala.sm[20] INFO Analysis finished with 1 outcomes (0 interesting, 0 unfinished), coverage is 16%
+Analyzing contract at 0xDEADBEEF00000000000000000000000000000000 with balance 1.337000 ether.
+Starting symbolic execution step...
+Symbolic execution finished with coverage 16%.
+Outcomes: 0 interesting. 1 total and 0 unfinished paths.
+
+Starting analysis step...
+Nothing to report.

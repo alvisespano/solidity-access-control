@@ -1,0 +1,40 @@
+{
+    "errors": [],
+    "fails": [],
+    "findings": [
+        {
+            "column": 0,
+            "filename": "mytest/MWEs/delegatecall/arbitrary_to.sol",
+            "line": 5,
+            "name": "SOLIDITY_LOCKED_MONEY",
+            "severity": 3
+        },
+        {
+            "column": 16,
+            "filename": "mytest/MWEs/delegatecall/arbitrary_to.sol",
+            "line": 2,
+            "name": "SOLIDITY_PRAGMAS_VERSION",
+            "severity": 1
+        },
+        {
+            "column": 29,
+            "filename": "mytest/MWEs/delegatecall/arbitrary_to.sol",
+            "line": 13,
+            "name": "SOLIDITY_UNCHECKED_CALL",
+            "severity": 3
+        },
+        {
+            "column": 4,
+            "filename": "mytest/MWEs/delegatecall/arbitrary_to.sol",
+            "line": 8,
+            "name": "SOLIDITY_VISIBILITY",
+            "severity": 1
+        }
+    ],
+    "infos": [],
+    "parser": {
+        "id": "smartcheck",
+        "mode": "solidity",
+        "version": "2022/11/14"
+    }
+}

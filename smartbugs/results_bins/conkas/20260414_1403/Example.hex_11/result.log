@@ -1,0 +1,31 @@
+b'Overflow encountered when expanding vector'
+Traceback (most recent call last):
+  File "/conkas/sym_exec/instructions/contract_context.py", line 182, in inst_codecopy
+    code = int(code[start_idx:end_idx].decode('utf-8'), 16)
+ValueError: invalid literal for int() with base 16: ''
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "conkas.py", line 114, in main
+    traces = sym_exec.execute()
+  File "/conkas/sym_exec/symbolic_executor.py", line 51, in execute
+    new_traces = self.__sym_exec_traces(traces_to_execute)
+  File "/conkas/sym_exec/symbolic_executor.py", line 64, in __sym_exec_traces
+    new_blocks = self.__sym_exec_block(block_to_analyse, trace.state)
+  File "/conkas/sym_exec/symbolic_executor.py", line 93, in __sym_exec_block
+    new_blocks = self.__sym_exec_instruction(instruction, state)
+  File "/conkas/sym_exec/symbolic_executor.py", line 116, in __sym_exec_instruction
+    return func(instruction, state)
+  File "/conkas/sym_exec/instructions/contract_context.py", line 184, in inst_codecopy
+    code = BitVec(str(hash(instruction)), length * 8)
+  File "/usr/local/lib/python3.8/dist-packages/z3/z3.py", line 3813, in BitVec
+    bv = BitVecSort(bv, ctx)
+  File "/usr/local/lib/python3.8/dist-packages/z3/z3.py", line 3775, in BitVecSort
+    return BitVecSortRef(Z3_mk_bv_sort(ctx.ref(), sz), ctx)
+  File "/usr/local/lib/python3.8/dist-packages/z3/z3core.py", line 1558, in Z3_mk_bv_sort
+    _elems.Check(a0)
+  File "/usr/local/lib/python3.8/dist-packages/z3/z3core.py", line 1385, in Check
+    raise self.Exception(self.get_error_message(ctx, err))
+z3.z3types.Z3Exception: b'Overflow encountered when expanding vector'
+Analysing /sb/Example.hex...

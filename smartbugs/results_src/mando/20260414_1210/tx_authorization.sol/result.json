@@ -1,0 +1,30 @@
+{
+    "errors": [],
+    "fails": [],
+    "findings": [
+        {
+            "filename": "mytest/MWEs/tx_origin/tx_authorization.sol",
+            "line": 9,
+            "line_end": 14,
+            "name": "access_control"
+        },
+        {
+            "filename": "mytest/MWEs/tx_origin/tx_authorization.sol",
+            "name": "denial_of_service"
+        },
+        {
+            "filename": "mytest/MWEs/tx_origin/tx_authorization.sol",
+            "line": 9,
+            "line_end": 14,
+            "name": "reentrancy"
+        }
+    ],
+    "infos": [
+        "OK"
+    ],
+    "parser": {
+        "id": "mando",
+        "mode": "solidity",
+        "version": "2023/08/01"
+    }
+}

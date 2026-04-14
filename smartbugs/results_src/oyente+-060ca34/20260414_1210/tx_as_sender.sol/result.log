@@ -1,0 +1,25 @@
+INFO:CryticCompile:'solc --version' running
+INFO:CryticCompile:'solc /sb/tx_as_sender.sol --combined-json abi,ast,bin,bin-runtime,srcmap,srcmap-runtime,userdoc,devdoc,hashes --allow-paths .,/sb' running
+INFO:root:contract sb/tx_as_sender.sol:Example:
+INFO:symExec:	============ Results ===========
+INFO:symExec:	  EVM Code Coverage: 			 83.6%
+INFO:symExec:	  Integer Underflow: 			 True
+INFO:symExec:	  Integer Overflow: 			 True
+INFO:symExec:	  Parity Multisig Bug 2: 		 False
+INFO:symExec:	  Callstack Depth Attack Vulnerability:  False
+INFO:symExec:	  Transaction-Ordering Dependence (TOD): False
+INFO:symExec:	  Timestamp Dependency: 		 False
+INFO:symExec:	  Re-Entrancy Vulnerability: 		 False
+INFO:symExec:/sb/tx_as_sender.sol:5:5: Warning: Integer Underflow.
+
+/sb/tx_as_sender.sol:20:3254: Warning: Integer Underflow.
+
+/sb/tx_as_sender.sol:20:2755: Warning: Integer Underflow.
+
+INFO:symExec:/sb/tx_as_sender.sol:20:934: Warning: Integer Overflow.
+
+/sb/tx_as_sender.sol:16:9: Warning: Integer Overflow.
+
+/sb/tx_as_sender.sol:20:2701: Warning: Integer Overflow.
+
+INFO:symExec:	====== Analysis Completed ======

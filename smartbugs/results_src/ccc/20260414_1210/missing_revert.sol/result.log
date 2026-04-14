@@ -1,0 +1,34 @@
+Directories in use:
+home:         /var/lib/neo4j
+config:       /etc/neo4j
+logs:         /var/log/neo4j
+plugins:      /var/lib/neo4j/plugins
+import:       /var/lib/neo4j/import
+data:         /var/lib/neo4j/data
+certificates: /var/lib/neo4j/certificates
+licenses:     /var/lib/neo4j/licenses
+run:          /var/lib/neo4j/run
+Starting Neo4j.
+Started neo4j (pid:44). It is available at http://localhost:7474
+There may be a short delay until the server is ready.
+/sb/missing_revert.sol
+12:31:52.156 [ForkJoinPool.commonPool-worker-1] ERROR de.fraunhofer.aisec.cpg.frontends.Handler - /sb/missing_revert.sol:2:1: Parsing of type class SolidityParser$PragmaDirectiveContext is not supported (yet)
+Running checks
+AccessControlSelfdestructCheck took 2640 ms
+CallReturnCheck took 774 ms
+AccessControlLogicCheck took 1630 ms
+ReentrancyCheck took 3632 ms
+DefaultProxyDelegateCheck took 1130 ms
+TXOriginCheck took 385 ms
+TimeManipulationCheck took 538 ms
+LocalWriteToStorageCheck took 1566 ms
+BadRandomnessCheck took 699 ms
+OverUnderflowCheck took 4665 ms
+DOSCheck took 1652 ms
+AddressPaddingCheck took 4528 ms
+File: /sb/missing_revert.sol
+- A miner can use others input to gain a benefit himself., missing_revert.sol 15:9-15:27
+FrontRunningCheck took 1021 ms
+Nr. Files: 1
+File: /sb/missing_revert.sol
+Graph translation: 1531 ms, Persisting graph: 14940 ms, AccessControlSelfdestructCheck: 2640 ms, CallReturnCheck: 774 ms, AccessControlLogicCheck: 1630 ms, ReentrancyCheck: 3632 ms, DefaultProxyDelegateCheck: 1130 ms, TXOriginCheck: 385 ms, TimeManipulationCheck: 538 ms, LocalWriteToStorageCheck: 1566 ms, BadRandomnessCheck: 699 ms, OverUnderflowCheck: 4665 ms, DOSCheck: 1652 ms, AddressPaddingCheck: 4528 ms, FrontRunningCheck: 1021 ms, All checks: 25199 ms

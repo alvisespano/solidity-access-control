@@ -1,0 +1,32 @@
+{
+    "errors": [],
+    "fails": [],
+    "findings": [
+        {
+            "column": "5",
+            "column_end": "10",
+            "filename": "mytest/MWEs/delegatecall/forward_msg_data.sol",
+            "line": "21",
+            "line_end": "23",
+            "name": "Non constructor function insufficiently restricts writes to to access control variables"
+        },
+        {
+            "column": "27",
+            "column_end": "64",
+            "filename": "mytest/MWEs/delegatecall/forward_msg_data.sol",
+            "line": "13",
+            "line_end": "13",
+            "name": "No whitelisting of calls proxied to another contract"
+        }
+    ],
+    "infos": [
+        "Could not find the scope UNKNOWN needed to resolve the call UNKNOWN.transfer",
+        "Could not find the scope address needed to resolve the call address.delegatecall",
+        "Parsing of type class SolidityParser$PragmaDirectiveContext is not supported (yet)"
+    ],
+    "parser": {
+        "id": "ccc",
+        "mode": "solidity",
+        "version": "2025/09/19"
+    }
+}

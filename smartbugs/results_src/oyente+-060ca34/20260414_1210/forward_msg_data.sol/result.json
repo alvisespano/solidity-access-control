@@ -1,0 +1,29 @@
+{
+    "errors": [],
+    "fails": [],
+    "findings": [
+        {
+            "column": 27,
+            "contract": "Proxy",
+            "filename": "mytest/MWEs/delegatecall/forward_msg_data.sol",
+            "line": 13,
+            "name": "Integer Underflow"
+        },
+        {
+            "column": 5,
+            "contract": "WalletLibrary",
+            "filename": "mytest/MWEs/delegatecall/forward_msg_data.sol",
+            "line": 19,
+            "name": "Integer Underflow"
+        }
+    ],
+    "infos": [
+        "coverage Proxy 83.8%",
+        "coverage WalletLibrary 79.1%"
+    ],
+    "parser": {
+        "id": "oyente+-060ca34",
+        "mode": "solidity",
+        "version": "2025/06/04"
+    }
+}

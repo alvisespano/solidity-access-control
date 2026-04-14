@@ -1,0 +1,37 @@
+'solc --version' running
+'solc /sb/variable_visibility.sol --combined-json abi,ast,bin,bin-runtime,srcmap,srcmap-runtime,userdoc,devdoc,hashes --allow-paths .,/sb' running
+Compilation warnings/errors on /sb/variable_visibility.sol:
+Warning: Unused local variable.
+  --> /sb/variable_visibility.sol:10:14:
+   |
+10 |             (bool success, ) = msg.sender.call{value: 1000}("");
+   |              ^^^^^^^^^^^^
+
+
+
+SecretStore.guess(uint256) (../sb/variable_visibility.sol#8-12) sends eth to arbitrary user
+	Dangerous calls:
+	- (success,None) = msg.sender.call{value: 1000}() (../sb/variable_visibility.sol#10)
+Reference: https://github.com/crytic/slither/wiki/Detector-Documentation#functions-that-send-ether-to-arbitrary-destinations
+
+Version constraint ^0.8.0 contains known severe issues (https://solidity.readthedocs.io/en/latest/bugs.html)
+	- FullInlinerNonExpressionSplitArgumentEvaluationOrder
+	- MissingSideEffectsOnSelectorAccess
+	- AbiReencodingHeadOverflowWithStaticArrayCleanup
+	- DirtyBytesArrayToStorage
+	- DataLocationChangeInInternalOverride
+	- NestedCalldataArrayAbiReencodingSizeValidation
+	- SignedImmutables
+	- ABIDecodeTwoDimensionalArrayMemory
+	- KeccakCaching.
+It is used by:
+	- ^0.8.0 (../sb/variable_visibility.sol#2)
+Reference: https://github.com/crytic/slither/wiki/Detector-Documentation#incorrect-versions-of-solidity
+
+Low level call in SecretStore.guess(uint256) (../sb/variable_visibility.sol#8-12):
+	- (success,None) = msg.sender.call{value: 1000}() (../sb/variable_visibility.sol#10)
+Reference: https://github.com/crytic/slither/wiki/Detector-Documentation#low-level-calls
+
+SecretStore.secretNum (../sb/variable_visibility.sol#6) should be constant 
+Reference: https://github.com/crytic/slither/wiki/Detector-Documentation#state-variables-that-could-be-declared-constant
+/sb/variable_visibility.sol analyzed (1 contracts with 100 detectors), 4 result(s) found

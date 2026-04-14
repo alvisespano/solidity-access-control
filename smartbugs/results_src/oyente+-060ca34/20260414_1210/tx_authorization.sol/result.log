@@ -1,0 +1,23 @@
+INFO:CryticCompile:'solc --version' running
+INFO:CryticCompile:'solc /sb/tx_authorization.sol --combined-json abi,ast,bin,bin-runtime,srcmap,srcmap-runtime,userdoc,devdoc,hashes --allow-paths .,/sb' running
+INFO:CryticCompile:Compilation warnings/errors on /sb/tx_authorization.sol:
+Warning: Return value of low-level calls not used.
+  --> sb/tx_authorization.sol:14:9:
+   |
+14 |         payable(msg.sender).call{value: address(this).balance}("");
+   |         ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+
+
+INFO:root:contract sb/tx_authorization.sol:Example:
+INFO:symExec:	============ Results ===========
+INFO:symExec:	  EVM Code Coverage: 			 57.0%
+INFO:symExec:	  Integer Underflow: 			 False
+INFO:symExec:	  Integer Overflow: 			 False
+INFO:symExec:	  Parity Multisig Bug 2: 		 False
+INFO:symExec:	  Callstack Depth Attack Vulnerability:  True
+INFO:symExec:	  Transaction-Ordering Dependence (TOD): False
+INFO:symExec:	  Timestamp Dependency: 		 False
+INFO:symExec:	  Re-Entrancy Vulnerability: 		 False
+INFO:symExec:/sb/tx_authorization.sol:14:9: Warning: Callstack Depth Attack Vulnerability.
+
+INFO:symExec:	====== Analysis Completed ======

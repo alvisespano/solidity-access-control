@@ -1,0 +1,26 @@
+'solc --version' running
+'solc /sb/re_inherit.sol --combined-json abi,ast,bin,bin-runtime,srcmap,srcmap-runtime,userdoc,devdoc,hashes --allow-paths .,/sb' running
+
+Parent.initialize(address)._owner (../sb/re_inherit.sol#9) lacks a zero-check on :
+		- owner = _owner (../sb/re_inherit.sol#11)
+Reference: https://github.com/crytic/slither/wiki/Detector-Documentation#missing-zero-address-validation
+
+Version constraint ^0.8.0 contains known severe issues (https://solidity.readthedocs.io/en/latest/bugs.html)
+	- FullInlinerNonExpressionSplitArgumentEvaluationOrder
+	- MissingSideEffectsOnSelectorAccess
+	- AbiReencodingHeadOverflowWithStaticArrayCleanup
+	- DirtyBytesArrayToStorage
+	- DataLocationChangeInInternalOverride
+	- NestedCalldataArrayAbiReencodingSizeValidation
+	- SignedImmutables
+	- ABIDecodeTwoDimensionalArrayMemory
+	- KeccakCaching.
+It is used by:
+	- ^0.8.0 (../sb/re_inherit.sol#2)
+Reference: https://github.com/crytic/slither/wiki/Detector-Documentation#incorrect-versions-of-solidity
+
+Parameter Parent.initialize(address)._owner (../sb/re_inherit.sol#9) is not in mixedCase
+Parameter Derived.initializeDerived(uint256,address)._supply (../sb/re_inherit.sol#19) is not in mixedCase
+Parameter Derived.initializeDerived(uint256,address)._owner (../sb/re_inherit.sol#19) is not in mixedCase
+Reference: https://github.com/crytic/slither/wiki/Detector-Documentation#conformance-to-solidity-naming-conventions
+/sb/re_inherit.sol analyzed (2 contracts with 100 detectors), 5 result(s) found

@@ -1,0 +1,77 @@
+Executing python3 /app/main/main.py --contract /sb/wrong_constructor.sol --solc-version 0.4.26 --filetype solidity --model-dir models --instance-len 20 --report /app/output.pdf
+Traceback (most recent call last):
+  File "/app/main/bytecodes_construction.py", line 1869, in make_bytecodes_opcodes_mapping_for_solidity_file
+    result = compile_source(file_content)
+  File "/usr/local/lib/python3.8/site-packages/solcx/main.py", line 94, in compile_source
+    stdoutdata, stderrdata, command, proc = solc_wrapper(**compiler_kwargs)
+  File "/usr/local/lib/python3.8/site-packages/solcx/utils/string.py", line 78, in inner
+    return force_obj_to_text(fn(*args, **kwargs))
+  File "/usr/local/lib/python3.8/site-packages/solcx/wrapper.py", line 187, in solc_wrapper
+    raise SolcError(
+solcx.exceptions.SolcError: An error occurred during execution
+    > command: `/root/.solcx/solc-v0.4.26 --combined-json abi,asm,ast,bin,bin-runtime,clone-bin,devdoc,opcodes,userdoc -`
+    > return code: `1`
+    > stderr:
+
+    > stdout:
+    <stdin>:8:14: Error: Expected identifier but got '('
+MyContrac(address _owner) public { // typo in the constructor name
+         ^
+Traceback (most recent call last):
+  File "/app/main/bytecodes_construction.py", line 1869, in make_bytecodes_opcodes_mapping_for_solidity_file
+    result = compile_source(file_content)
+  File "/usr/local/lib/python3.8/site-packages/solcx/main.py", line 94, in compile_source
+    stdoutdata, stderrdata, command, proc = solc_wrapper(**compiler_kwargs)
+  File "/usr/local/lib/python3.8/site-packages/solcx/utils/string.py", line 78, in inner
+    return force_obj_to_text(fn(*args, **kwargs))
+  File "/usr/local/lib/python3.8/site-packages/solcx/wrapper.py", line 187, in solc_wrapper
+    raise SolcError(
+solcx.exceptions.SolcError: An error occurred during execution
+    > command: `/root/.solcx/solc-v0.4.26 --combined-json abi,asm,ast,bin,bin-runtime,clone-bin,devdoc,opcodes,userdoc -`
+    > return code: `1`
+    > stderr:
+
+    > stdout:
+    <stdin>:8:14: Error: Expected identifier but got '('
+MyContrac(address _owner) public { // typo in the constructor name
+         ^
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "/app/main/bytecodes_construction.py", line 1987, in make_bytecodes_opcodes_mapping_for_solidity_file
+    result = compile_source(file_content)
+  File "/usr/local/lib/python3.8/site-packages/solcx/main.py", line 94, in compile_source
+    stdoutdata, stderrdata, command, proc = solc_wrapper(**compiler_kwargs)
+  File "/usr/local/lib/python3.8/site-packages/solcx/utils/string.py", line 78, in inner
+    return force_obj_to_text(fn(*args, **kwargs))
+  File "/usr/local/lib/python3.8/site-packages/solcx/wrapper.py", line 187, in solc_wrapper
+    raise SolcError(
+solcx.exceptions.SolcError: An error occurred during execution
+    > command: `/root/.solcx/solc-v0.4.24 --combined-json abi,asm,ast,bin,bin-runtime,clone-bin,devdoc,opcodes,userdoc -`
+    > return code: `1`
+    > stderr:
+
+    > stdout:
+    <stdin>:8:14: Error: Expected identifier but got '('
+MyContrac(address _owner) public { // typo in the constructor name
+         ^
+solidity
+/sb/wrong_constructor.sol
+0.4.26
+map
+20
+except: An error occurred during execution
+    > command: `/root/.solcx/solc-v0.4.26 --combined-json abi,asm,ast,bin,bin-runtime,clone-bin,devdoc,opcodes,userdoc -`
+    > return code: `1`
+    > stderr:
+
+    > stdout:
+    <stdin>:8:14: Error: Expected identifier but got '('
+MyContrac(address _owner) public { // typo in the constructor name
+         ^
+compiled faild!
+Traceback (most recent call last):
+  File "/app/main/main.py", line 374, in <module>
+    bytecodes_list_val, contractnames_val, opcodes_lists_val, pcs_lists_val = bytecodes_construction.make_bytecodes_opcodes_mapping_for_solidity_file(filepath, version, instance_len)
+TypeError: cannot unpack non-iterable NoneType object

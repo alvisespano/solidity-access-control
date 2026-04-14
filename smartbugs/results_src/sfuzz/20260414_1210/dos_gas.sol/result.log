@@ -1,0 +1,177 @@
+Extract contract ParserError: from /sb/dos_gas.sol
+Extract contract Source from /sb/dos_gas.sol
+Extract contract "@openzeppelin/contracts/access/AccessControl.sol" from /sb/dos_gas.sol
+cp: cannot create regular file '/home/contracts/"@openzeppelin/contracts/access/AccessControl.sol".sol': No such file or directory
+Extract contract not from /sb/dos_gas.sol
+Extract contract found: from /sb/dos_gas.sol
+Extract contract File from /sb/dos_gas.sol
+Extract contract not from /sb/dos_gas.sol
+Extract contract found. from /sb/dos_gas.sol
+Extract contract Searched from /sb/dos_gas.sol
+Extract contract the from /sb/dos_gas.sol
+Extract contract following from /sb/dos_gas.sol
+Extract contract locations: from /sb/dos_gas.sol
+Extract contract "". from /sb/dos_gas.sol
+Extract contract --> from /sb/dos_gas.sol
+Extract contract /sb/dos_gas.sol:7:1: from /sb/dos_gas.sol
+cp: cannot create regular file '/home/contracts//sb/dos_gas.sol:7:1:.sol': No such file or directory
+Extract contract | from /sb/dos_gas.sol
+Extract contract 7 from /sb/dos_gas.sol
+Extract contract | from /sb/dos_gas.sol
+Extract contract import from /sb/dos_gas.sol
+Extract contract "@openzeppelin/contracts/access/AccessControl.sol"; from /sb/dos_gas.sol
+cp: cannot create regular file '/home/contracts/"@openzeppelin/contracts/access/AccessControl.sol";.sol': No such file or directory
+Extract contract | from /sb/dos_gas.sol
+Extract contract ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^ from /sb/dos_gas.sol
+Extracted 22 contract(s) from /sb/dos_gas.sol
+[0;32m> Created "fuzzMe"[0m
+[0;32m> To fuzz contracts:[0m
+  chmod +x fuzzMe
+  ./fuzzMe
+Error: Source "@openzeppelin/contracts/access/AccessControl.sol" not found: File not found. Searched the following locations: "".
+ --> contracts/Source.sol:7:1:
+  |
+7 | import "@openzeppelin/contracts/access/AccessControl.sol";
+  | ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+
+Error: Source "@openzeppelin/contracts/access/AccessControl.sol" not found: File not found. Searched the following locations: "".
+ --> contracts/the.sol:7:1:
+  |
+7 | import "@openzeppelin/contracts/access/AccessControl.sol";
+  | ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+
+./fuzzMe: line 4: contracts/: Is a directory
+./fuzzMe: line 4: .sol.json: command not found
+Error: "contracts/" is not a valid file.
+Error: Source "@openzeppelin/contracts/access/AccessControl.sol" not found: File not found. Searched the following locations: "".
+ --> contracts/not.sol:7:1:
+  |
+7 | import "@openzeppelin/contracts/access/AccessControl.sol";
+  | ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+
+Error: Source "@openzeppelin/contracts/access/AccessControl.sol" not found: File not found. Searched the following locations: "".
+ --> contracts/found..sol:7:1:
+  |
+7 | import "@openzeppelin/contracts/access/AccessControl.sol";
+  | ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+
+Error: Source "@openzeppelin/contracts/access/AccessControl.sol" not found: File not found. Searched the following locations: "".
+ --> contracts/following.sol:7:1:
+  |
+7 | import "@openzeppelin/contracts/access/AccessControl.sol";
+  | ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+
+Warning: SPDX license identifier not provided in source file. Before publishing, consider adding a comment containing "SPDX-License-Identifier: <SPDX-License>" to each source file. Use "SPDX-License-Identifier: UNLICENSED" for non-open-source code. Please see https://spdx.org for more information.
+--> contracts/--
+
+Warning: Source file does not specify required compiler version! Consider adding "pragma solidity ^0.8.31;"
+--> contracts/--
+
+Error: "contracts/..sol" is not found.
+Error: Source "@openzeppelin/contracts/access/AccessControl.sol" not found: File not found. Searched the following locations: "".
+ --> contracts/ParserError:.sol:7:1:
+  |
+7 | import "@openzeppelin/contracts/access/AccessControl.sol";
+  | ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+
+Error: Source "@openzeppelin/contracts/access/AccessControl.sol" not found: File not found. Searched the following locations: "".
+ --> contracts/File.sol:7:1:
+  |
+7 | import "@openzeppelin/contracts/access/AccessControl.sol";
+  | ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+
+Error: Source "@openzeppelin/contracts/access/AccessControl.sol" not found: File not found. Searched the following locations: "".
+ --> contracts/import.sol:7:1:
+  |
+7 | import "@openzeppelin/contracts/access/AccessControl.sol";
+  | ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+
+Error: Source "@openzeppelin/contracts/access/AccessControl.sol" not found: File not found. Searched the following locations: "".
+ --> contracts/^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^.sol:7:1:
+  |
+7 | import "@openzeppelin/contracts/access/AccessControl.sol";
+  | ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+
+Error: Source "@openzeppelin/contracts/access/AccessControl.sol" not found: File not found. Searched the following locations: "".
+ --> contracts/7.sol:7:1:
+  |
+7 | import "@openzeppelin/contracts/access/AccessControl.sol";
+  | ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+
+Error: Source "@openzeppelin/contracts/access/AccessControl.sol" not found: File not found. Searched the following locations: "".
+ --> contracts/Searched.sol:7:1:
+  |
+7 | import "@openzeppelin/contracts/access/AccessControl.sol";
+  | ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+
+Error: Source "@openzeppelin/contracts/access/AccessControl.sol" not found: File not found. Searched the following locations: "".
+ --> contracts/found:.sol:7:1:
+  |
+7 | import "@openzeppelin/contracts/access/AccessControl.sol";
+  | ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+
+Error: Source "@openzeppelin/contracts/access/AccessControl.sol" not found: File not found. Searched the following locations: "".
+ --> contracts/locations:.sol:7:1:
+  |
+7 | import "@openzeppelin/contracts/access/AccessControl.sol";
+  | ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+
+Error: Source file requires different compiler version (current compiler is 0.8.31+commit.fd3a2265.Linux.g++) - note that nightly builds are considered to be strictly less than the released version
+ --> assets/ReentrancyAttacker.sol:1:1:
+  |
+1 | pragma solidity ^0.4.24;
+  | ^^^^^^^^^^^^^^^^^^^^^^^^
+
+Error: Source file requires different compiler version (current compiler is 0.8.31+commit.fd3a2265.Linux.g++) - note that nightly builds are considered to be strictly less than the released version
+ --> assets/NormalAttacker.sol:1:1:
+  |
+1 | pragma solidity ^0.4.24;
+  | ^^^^^^^^^^^^^^^^^^^^^^^^
+
+terminate called after throwing an instance of 'boost::exception_detail::clone_impl<boost::exception_detail::error_info_injector<boost::property_tree::json_parser::json_parser_error> >'
+  what():  assets/ReentrancyAttacker.sol.json(1): expected value
+./fuzzMe: line 20:    59 Aborted                 (core dumped) ./fuzzer --file contracts/Source.sol.json --name Source --assets assets/ --duration 120 --mode 1 --reporter 1 --log 0 --attacker ReentrancyAttacker
+terminate called after throwing an instance of 'boost::exception_detail::clone_impl<boost::exception_detail::error_info_injector<boost::property_tree::json_parser::json_parser_error> >'
+  what():  assets/ReentrancyAttacker.sol.json(1): expected value
+./fuzzMe: line 21:    60 Aborted                 (core dumped) ./fuzzer --file contracts/the.sol.json --name the --assets assets/ --duration 120 --mode 1 --reporter 1 --log 0 --attacker ReentrancyAttacker
+./fuzzMe: line 22: .sol.json: command not found
+./fuzzMe: line 22: --assets: command not found
+terminate called after throwing an instance of 'boost::exception_detail::clone_impl<boost::exception_detail::error_info_injector<boost::property_tree::json_parser::json_parser_error> >'
+  what():  assets/ReentrancyAttacker.sol.json(1): expected value
+./fuzzMe: line 23:    64 Aborted                 (core dumped) ./fuzzer --file contracts/not.sol.json --name not --assets assets/ --duration 120 --mode 1 --reporter 1 --log 0 --attacker ReentrancyAttacker
+terminate called after throwing an instance of 'boost::exception_detail::clone_impl<boost::exception_detail::error_info_injector<boost::property_tree::json_parser::json_parser_error> >'
+  what():  assets/ReentrancyAttacker.sol.json(1): expected value
+./fuzzMe: line 24:    65 Aborted                 (core dumped) ./fuzzer --file contracts/found..sol.json --name found --assets assets/ --duration 120 --mode 1 --reporter 1 --log 0 --attacker ReentrancyAttacker
+terminate called after throwing an instance of 'boost::exception_detail::clone_impl<boost::exception_detail::error_info_injector<boost::property_tree::json_parser::json_parser_error> >'
+  what():  assets/ReentrancyAttacker.sol.json(1): expected value
+./fuzzMe: line 25:    66 Aborted                 (core dumped) ./fuzzer --file contracts/following.sol.json --name following --assets assets/ --duration 120 --mode 1 --reporter 1 --log 0 --attacker ReentrancyAttacker
+terminate called after throwing an instance of 'boost::exception_detail::clone_impl<boost::exception_detail::error_info_injector<boost::property_tree::json_parser::json_parser_error> >'
+  what():  assets/ReentrancyAttacker.sol.json(1): expected value
+./fuzzMe: line 26:    67 Aborted                 (core dumped) ./fuzzer --file contracts/-- --name -- assets/ --duration 120 --mode 1 --reporter 1 --log 0 --attacker ReentrancyAttacker > .sol.json > --assets
+terminate called after throwing an instance of 'boost::exception_detail::clone_impl<boost::exception_detail::error_info_injector<boost::property_tree::json_parser::json_parser_error> >'
+  what():  assets/ReentrancyAttacker.sol.json(1): expected value
+./fuzzMe: line 27:    68 Aborted                 (core dumped) ./fuzzer --file contracts/""..sol.json --name "" --assets assets/ --duration 120 --mode 1 --reporter 1 --log 0 --attacker ReentrancyAttacker
+terminate called after throwing an instance of 'boost::exception_detail::clone_impl<boost::exception_detail::error_info_injector<boost::property_tree::json_parser::json_parser_error> >'
+  what():  assets/ReentrancyAttacker.sol.json(1): expected value
+./fuzzMe: line 28:    69 Aborted                 (core dumped) ./fuzzer --file contracts/ParserError:.sol.json --name ParserError: --assets assets/ --duration 120 --mode 1 --reporter 1 --log 0 --attacker ReentrancyAttacker
+terminate called after throwing an instance of 'boost::exception_detail::clone_impl<boost::exception_detail::error_info_injector<boost::property_tree::json_parser::json_parser_error> >'
+  what():  assets/ReentrancyAttacker.sol.json(1): expected value
+./fuzzMe: line 29:    70 Aborted                 (core dumped) ./fuzzer --file contracts/File.sol.json --name File --assets assets/ --duration 120 --mode 1 --reporter 1 --log 0 --attacker ReentrancyAttacker
+terminate called after throwing an instance of 'boost::exception_detail::clone_impl<boost::exception_detail::error_info_injector<boost::property_tree::json_parser::json_parser_error> >'
+  what():  assets/ReentrancyAttacker.sol.json(1): expected value
+./fuzzMe: line 30:    71 Aborted                 (core dumped) ./fuzzer --file contracts/import.sol.json --name import --assets assets/ --duration 120 --mode 1 --reporter 1 --log 0 --attacker ReentrancyAttacker
+terminate called after throwing an instance of 'boost::exception_detail::clone_impl<boost::exception_detail::error_info_injector<boost::property_tree::json_parser::json_parser_error> >'
+  what():  assets/ReentrancyAttacker.sol.json(1): expected value
+./fuzzMe: line 31:    72 Aborted                 (core dumped) ./fuzzer --file contracts/^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^.sol.json --name ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^ --assets assets/ --duration 120 --mode 1 --reporter 1 --log 0 --attacker ReentrancyAttacker
+terminate called after throwing an instance of 'boost::exception_detail::clone_impl<boost::exception_detail::error_info_injector<boost::property_tree::json_parser::json_parser_error> >'
+  what():  assets/ReentrancyAttacker.sol.json(1): expected value
+./fuzzMe: line 32:    73 Aborted                 (core dumped) ./fuzzer --file contracts/7.sol.json --name 7 --assets assets/ --duration 120 --mode 1 --reporter 1 --log 0 --attacker ReentrancyAttacker
+terminate called after throwing an instance of 'boost::exception_detail::clone_impl<boost::exception_detail::error_info_injector<boost::property_tree::json_parser::json_parser_error> >'
+  what():  assets/ReentrancyAttacker.sol.json(1): expected value
+./fuzzMe: line 33:    74 Aborted                 (core dumped) ./fuzzer --file contracts/Searched.sol.json --name Searched --assets assets/ --duration 120 --mode 1 --reporter 1 --log 0 --attacker ReentrancyAttacker
+terminate called after throwing an instance of 'boost::exception_detail::clone_impl<boost::exception_detail::error_info_injector<boost::property_tree::json_parser::json_parser_error> >'
+  what():  assets/ReentrancyAttacker.sol.json(1): expected value
+./fuzzMe: line 34:    75 Aborted                 (core dumped) ./fuzzer --file contracts/found:.sol.json --name found: --assets assets/ --duration 120 --mode 1 --reporter 1 --log 0 --attacker ReentrancyAttacker
+terminate called after throwing an instance of 'boost::exception_detail::clone_impl<boost::exception_detail::error_info_injector<boost::property_tree::json_parser::json_parser_error> >'
+  what():  assets/ReentrancyAttacker.sol.json(1): expected value
+./fuzzMe: line 35:    76 Aborted                 (core dumped) ./fuzzer --file contracts/locations:.sol.json --name locations: --assets assets/ --duration 120 --mode 1 --reporter 1 --log 0 --attacker ReentrancyAttacker

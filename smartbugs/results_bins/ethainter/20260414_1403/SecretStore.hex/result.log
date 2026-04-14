@@ -1,0 +1,46 @@
+Removing working directory .temp
+Processing contract names.
+Setting up workers.
+Analysing...
+
+0: SecretStore.hex completed in 0.00 + 0.23 + 0.01 secs
+
+Finishing...
+
+1 of 1 contracts flagged.
+
+  Analytics_Blocks: 100.00%
+  Analytics_Functions: 100.00%
+  Analytics_Jumps: 100.00%
+  Analytics_MissingImplementation: 100.00%
+  Analytics_MissingJumpTarget: 100.00%
+  Analytics_PublicFunction: 100.00%
+  Analytics_ReachableBlocks: 100.00%
+  Function: 100.00%
+  HighLevelFunctionName: 100.00%
+  IRBlock_Gas: 100.00%
+  IRFunctionEntry: 100.00%
+  InFunction: 100.00%
+  Mask_Length: 100.00%
+  OpcodePossiblyHalts: 100.00%
+  PublicFunction: 100.00%
+  Statement_IRStatement: 100.00%
+  TAC_Block: 100.00%
+  TAC_Block_Head: 100.00%
+  TAC_Def: 100.00%
+  TAC_Op: 100.00%
+  TAC_Statement_Next: 100.00%
+  TAC_Stmt: 100.00%
+  TAC_Use: 100.00%
+  TAC_Var: 100.00%
+  TAC_Variable_Value: 100.00%
+  VulnerabilityDescription_Vulnerability_AccessibleSelfdestruct: 100.00%
+  VulnerabilityDescription_Vulnerability_TaintedDelegatecall: 100.00%
+  VulnerabilityDescription_Vulnerability_TaintedOwnerVariable: 100.00%
+  VulnerabilityDescription_Vulnerability_TaintedSelfdestruct: 100.00%
+  VulnerabilityDescription_Vulnerability_TaintedStoreIndex: 100.00%
+  VulnerabilityDescription_Vulnerability_TaintedValueSend: 100.00%
+  VulnerabilityDescription_Vulnerability_UncheckedTaintedStaticcall: 100.00%
+  bytecode: 100.00%
+
+Writing results to results.json

@@ -1,0 +1,38 @@
+{
+    "errors": [],
+    "fails": [],
+    "findings": [
+        {
+            "filename": "mytest/MWEs/delegatecall/forward_msg_data.sol",
+            "line": 9,
+            "line_end": 27,
+            "name": "access_control"
+        },
+        {
+            "filename": "mytest/MWEs/delegatecall/forward_msg_data.sol",
+            "line": 13,
+            "line_end": 27,
+            "name": "denial_of_service"
+        },
+        {
+            "filename": "mytest/MWEs/delegatecall/forward_msg_data.sol",
+            "line": 9,
+            "line_end": 27,
+            "name": "front_running"
+        },
+        {
+            "filename": "mytest/MWEs/delegatecall/forward_msg_data.sol",
+            "line": 9,
+            "line_end": 27,
+            "name": "reentrancy"
+        }
+    ],
+    "infos": [
+        "OK"
+    ],
+    "parser": {
+        "id": "mando",
+        "mode": "solidity",
+        "version": "2023/08/01"
+    }
+}

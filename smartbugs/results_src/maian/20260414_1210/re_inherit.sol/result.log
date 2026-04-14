@@ -1,0 +1,6 @@
+python3 maian.py -c 0 -s /sb/re_inherit.sol Derived
+python3 maian.py -c 1 -s /sb/re_inherit.sol Derived
+python3 maian.py -c 2 -s /sb/re_inherit.sol Derived
+python3 maian.py -c 0 -s /sb/re_inherit.sol Parent
+python3 maian.py -c 1 -s /sb/re_inherit.sol Parent
+python3 maian.py -c 2 -s /sb/re_inherit.sol Parent

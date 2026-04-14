@@ -1,0 +1,33 @@
+/sb/arbitrary_to.sol
+jar:file:/usr/local/lib/node_modules/@smartdec/smartcheck/jdeploy-bundle/smartcheck-2.0-jar-with-dependencies.jar!/solidity-rules.xmlruleId: SOLIDITY_LOCKED_MONEY
+patternId: 30281d
+severity: 3
+line: 5
+column: 0
+content: contractExample{addresspublicowner;constructor(address_owner){owner=_owner;}functiondelegate(addressto)externalpayable{(boolsuccess,)=to.delegatecall(msg.data);require(success);}}
+
+ruleId: SOLIDITY_PRAGMAS_VERSION
+patternId: 23fc32
+severity: 1
+line: 2
+column: 16
+content: ^
+
+ruleId: SOLIDITY_UNCHECKED_CALL
+patternId: f39eed
+severity: 3
+line: 13
+column: 29
+content: delegatecall(msg.data)
+
+ruleId: SOLIDITY_VISIBILITY
+patternId: 910067
+severity: 1
+line: 8
+column: 4
+content: constructor(address_owner){owner=_owner;}
+
+SOLIDITY_VISIBILITY :1
+SOLIDITY_PRAGMAS_VERSION :1
+SOLIDITY_LOCKED_MONEY :1
+SOLIDITY_UNCHECKED_CALL :1

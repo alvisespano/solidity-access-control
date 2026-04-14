@@ -1,0 +1,30 @@
+{
+    "errors": [
+        "EXIT_CODE_2"
+    ],
+    "fails": [],
+    "findings": [
+        {
+            "filename": "mytest/MWEs/delegatecall/arbitrary_to.sol",
+            "name": "access_control"
+        },
+        {
+            "filename": "mytest/MWEs/delegatecall/arbitrary_to.sol",
+            "name": "denial_of_service"
+        },
+        {
+            "filename": "mytest/MWEs/delegatecall/arbitrary_to.sol",
+            "line": 13,
+            "line_end": 13,
+            "name": "reentrancy"
+        }
+    ],
+    "infos": [
+        "OK"
+    ],
+    "parser": {
+        "id": "mando-hgt",
+        "mode": "solidity",
+        "version": "2023/08/01"
+    }
+}

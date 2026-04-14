@@ -1,0 +1,17 @@
+/sb/arbitrary_to.sol:2:1: Compiler version ^0.8.0 does not satisfy the ^0.8.24 semver requirement [Error/compiler-version]
+/sb/arbitrary_to.sol:5:1: Missing @title tag in contract 'Example' [Warning/use-natspec]
+/sb/arbitrary_to.sol:5:1: Missing @author tag in contract 'Example' [Warning/use-natspec]
+/sb/arbitrary_to.sol:5:1: Missing @notice tag in contract 'Example' [Warning/use-natspec]
+/sb/arbitrary_to.sol:6:5: Missing @notice tag in variable 'owner' [Warning/use-natspec]
+/sb/arbitrary_to.sol:8:5: Missing @notice tag in function '<anonymous>' [Warning/use-natspec]
+/sb/arbitrary_to.sol:8:5: Missing @param tag in function '<anonymous>' [Warning/use-natspec]
+/sb/arbitrary_to.sol:8:5: Mismatch in @param names for function '<anonymous>'. Expected: [_owner], Found: [] [Warning/use-natspec]
+/sb/arbitrary_to.sol:8:5: Explicitly mark visibility in function (Set ignoreConstructors to true if using solidity >=0.7.0) [Warning/func-visibility]
+/sb/arbitrary_to.sol:12:5: Missing @notice tag in function 'delegate' [Warning/use-natspec]
+/sb/arbitrary_to.sol:12:5: Missing @param tag in function 'delegate' [Warning/use-natspec]
+/sb/arbitrary_to.sol:12:5: Mismatch in @param names for function 'delegate'. Expected: [to], Found: [] [Warning/use-natspec]
+/sb/arbitrary_to.sol:13:27: Avoid to use low level calls. [Warning/avoid-low-level-calls]
+/sb/arbitrary_to.sol:14:9: Provide an error message for require [Warning/reason-string]
+/sb/arbitrary_to.sol:14:9: GC: Use Custom Errors instead of require statements [Warning/gas-custom-errors]
+
+15 problem/s (1 error/s, 14 warning/s)

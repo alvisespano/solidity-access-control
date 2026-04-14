@@ -1,0 +1,32 @@
+Directories in use:
+home:         /var/lib/neo4j
+config:       /etc/neo4j
+logs:         /var/log/neo4j
+plugins:      /var/lib/neo4j/plugins
+import:       /var/lib/neo4j/import
+data:         /var/lib/neo4j/data
+certificates: /var/lib/neo4j/certificates
+licenses:     /var/lib/neo4j/licenses
+run:          /var/lib/neo4j/run
+Starting Neo4j.
+Started neo4j (pid:44). It is available at http://localhost:7474
+There may be a short delay until the server is ready.
+/sb/arbitrary_to.sol
+12:54:06.179 [ForkJoinPool.commonPool-worker-1] ERROR de.fraunhofer.aisec.cpg.frontends.Handler - /sb/arbitrary_to.sol:2:1: Parsing of type class SolidityParser$PragmaDirectiveContext is not supported (yet)
+12:54:06.620 [ForkJoinPool.commonPool-worker-1] ERROR de.fraunhofer.aisec.cpg.ScopeManager - /sb/arbitrary_to.sol:13:27: Could not find the scope address needed to resolve the call address.delegatecall. Falling back to the default (current) scope
+Running checks
+AccessControlSelfdestructCheck took 1918 ms
+CallReturnCheck took 1758 ms
+AccessControlLogicCheck took 1725 ms
+ReentrancyCheck took 4168 ms
+DefaultProxyDelegateCheck took 1007 ms
+TXOriginCheck took 503 ms
+TimeManipulationCheck took 663 ms
+LocalWriteToStorageCheck took 1606 ms
+BadRandomnessCheck took 1266 ms
+OverUnderflowCheck took 4760 ms
+DOSCheck took 1978 ms
+AddressPaddingCheck took 3674 ms
+FrontRunningCheck took 1087 ms
+Nr. Files: 1
+Graph translation: 2261 ms, Persisting graph: 20771 ms, AccessControlSelfdestructCheck: 1918 ms, CallReturnCheck: 1758 ms, AccessControlLogicCheck: 1725 ms, ReentrancyCheck: 4168 ms, DefaultProxyDelegateCheck: 1007 ms, TXOriginCheck: 503 ms, TimeManipulationCheck: 663 ms, LocalWriteToStorageCheck: 1606 ms, BadRandomnessCheck: 1266 ms, OverUnderflowCheck: 4760 ms, DOSCheck: 1978 ms, AddressPaddingCheck: 3674 ms, FrontRunningCheck: 1087 ms, All checks: 26441 ms

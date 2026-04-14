@@ -1,0 +1,15 @@
+{
+    "errors": [
+        "Solidity compilation failed"
+    ],
+    "fails": [],
+    "findings": [],
+    "infos": [
+        "analysis incomplete"
+    ],
+    "parser": {
+        "id": "oyente+-060ca34",
+        "mode": "solidity",
+        "version": "2025/06/04"
+    }
+}

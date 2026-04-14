@@ -1,0 +1,33 @@
+INFO:CryticCompile:'solc --version' running
+INFO:CryticCompile:'solc /sb/variable_visibility.sol --combined-json abi,ast,bin,bin-runtime,srcmap,srcmap-runtime,userdoc,devdoc,hashes --allow-paths .,/sb' running
+INFO:CryticCompile:Compilation warnings/errors on /sb/variable_visibility.sol:
+Warning: Unused local variable.
+  --> sb/variable_visibility.sol:10:14:
+   |
+10 |             (bool success, ) = msg.sender.call{value: 1000}("");
+   |              ^^^^^^^^^^^^
+
+
+INFO:root:contract sb/variable_visibility.sol:SecretStore:
+INFO:symExec:	============ Results ===========
+INFO:symExec:	  EVM Code Coverage: 			 84.5%
+INFO:symExec:	  Integer Underflow: 			 True
+INFO:symExec:	  Integer Overflow: 			 True
+INFO:symExec:	  Parity Multisig Bug 2: 		 False
+INFO:symExec:	  Callstack Depth Attack Vulnerability:  False
+INFO:symExec:	  Transaction-Ordering Dependence (TOD): False
+INFO:symExec:	  Timestamp Dependency: 		 False
+INFO:symExec:	  Re-Entrancy Vulnerability: 		 True
+INFO:symExec:/sb/variable_visibility.sol:6:5: Warning: Integer Underflow.
+
+/sb/variable_visibility.sol:9:13: Warning: Integer Underflow.
+
+Integer Underflow occurs if:
+    secretNum = 1
+INFO:symExec:/sb/variable_visibility.sol:10:32: Warning: Integer Overflow.
+
+Integer Overflow occurs if:
+    secretNum = 0
+INFO:symExec:/sb/variable_visibility.sol:10:32: Warning: Re-Entrancy Vulnerability.
+
+INFO:symExec:	====== Analysis Completed ======

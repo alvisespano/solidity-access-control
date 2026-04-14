@@ -1,0 +1,33 @@
+
+====================================================================================================
+[94m[ ] Check if contract is SUICIDAL[0m
+
+[ ] Contract address   : 0xaFFECAFEAFfECaFEaFFecAfEAFfecAfEAffEcaFE
+[ ] Contract bytecode  : 6080604052348015600e575f5ffd5b506102dc8061001c5f39...
+[ ] Bytecode length    : 1520
+[ ] Blockchain contract: False
+[ ] Debug              : False
+
+[92m[-] The code does not contain SUICIDE instructions, hence it is not vulnerable[0m
+
+====================================================================================================
+[94m[ ] Check if contract is PRODIGAL[0m
+
+[ ] Contract address   : 0xaFFECAFEAFfECaFEaFFecAfEAFfecAfEAffEcaFE
+[ ] Contract bytecode  : 6080604052348015600e575f5ffd5b506102dc8061001c5f39...
+[ ] Bytecode length    : 1520
+[ ] Blockchain contract: False
+[ ] Debug              : False
+[92m[+] The code does not have CALL/SUICIDE, hence it is not prodigal[0m
+
+====================================================================================================
+[94m[ ] Check if contract is GREEDY[0m
+
+[ ] Contract address   : 0xaFFECAFEAFfECaFEaFFecAfEAFfecAfEAffEcaFE
+[ ] Contract bytecode  : 6080604052348015600e575f5ffd5b506102dc8061001c5f39...
+[ ] Bytecode length    : 1520
+[ ] Debug              : False
+Unknown operation  at pos 8
+[91m[-][0m [1mContract can receive Ether[0m
+
+[92m[-] No lock vulnerability found because the contract cannot receive Ether [0m

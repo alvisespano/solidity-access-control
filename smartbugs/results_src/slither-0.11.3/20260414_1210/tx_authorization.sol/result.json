@@ -1,0 +1,72 @@
+{
+    "errors": [],
+    "fails": [],
+    "findings": [
+        {
+            "confidence": "Medium",
+            "contract": "Example",
+            "filename": "mytest/MWEs/tx_origin/tx_authorization.sol",
+            "function": "withdraw",
+            "impact": "High",
+            "line": 12,
+            "line_end": 15,
+            "message": "Example.withdraw() (../sb/tx_authorization.sol#12-15) sends eth to arbitrary user\n\tDangerous calls:\n\t- address(msg.sender).call{value: address(this).balance}() (../sb/tx_authorization.sol#14)\n",
+            "name": "arbitrary-send-eth"
+        },
+        {
+            "confidence": "Medium",
+            "contract": "Example",
+            "filename": "mytest/MWEs/tx_origin/tx_authorization.sol",
+            "function": "withdraw",
+            "impact": "Medium",
+            "line": 12,
+            "line_end": 15,
+            "message": "Example.withdraw() (../sb/tx_authorization.sol#12-15) uses tx.origin for authorization: require(bool)(tx.origin == owner) (../sb/tx_authorization.sol#13)\n",
+            "name": "tx-origin"
+        },
+        {
+            "confidence": "Medium",
+            "contract": "Example",
+            "filename": "mytest/MWEs/tx_origin/tx_authorization.sol",
+            "function": "withdraw",
+            "impact": "Medium",
+            "line": 12,
+            "line_end": 15,
+            "message": "Example.withdraw() (../sb/tx_authorization.sol#12-15) ignores return value by address(msg.sender).call{value: address(this).balance}() (../sb/tx_authorization.sol#14)\n",
+            "name": "unchecked-lowlevel"
+        },
+        {
+            "confidence": "High",
+            "filename": "mytest/MWEs/tx_origin/tx_authorization.sol",
+            "impact": "Informational",
+            "line": 2,
+            "message": "Version constraint ^0.8.0 contains known severe issues (https://solidity.readthedocs.io/en/latest/bugs.html)\n\t- FullInlinerNonExpressionSplitArgumentEvaluationOrder\n\t- MissingSideEffectsOnSelectorAccess\n\t- AbiReencodingHeadOverflowWithStaticArrayCleanup\n\t- DirtyBytesArrayToStorage\n\t- DataLocationChangeInInternalOverride\n\t- NestedCalldataArrayAbiReencodingSizeValidation\n\t- SignedImmutables\n\t- ABIDecodeTwoDimensionalArrayMemory\n\t- KeccakCaching.\nIt is used by:\n\t- ^0.8.0 (../sb/tx_authorization.sol#2)\n",
+            "name": "solc-version"
+        },
+        {
+            "confidence": "High",
+            "contract": "Example",
+            "filename": "mytest/MWEs/tx_origin/tx_authorization.sol",
+            "function": "withdraw",
+            "impact": "Informational",
+            "line": 12,
+            "line_end": 15,
+            "message": "Low level call in Example.withdraw() (../sb/tx_authorization.sol#12-15):\n\t- address(msg.sender).call{value: address(this).balance}() (../sb/tx_authorization.sol#14)\n",
+            "name": "low-level-calls"
+        },
+        {
+            "confidence": "High",
+            "filename": "mytest/MWEs/tx_origin/tx_authorization.sol",
+            "impact": "Optimization",
+            "line": 6,
+            "message": "Example.owner (../sb/tx_authorization.sol#6) should be immutable \n",
+            "name": "immutable-states"
+        }
+    ],
+    "infos": [],
+    "parser": {
+        "id": "slither-0.11.3",
+        "mode": "solidity",
+        "version": "2025/09/14"
+    }
+}

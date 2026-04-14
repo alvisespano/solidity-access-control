@@ -1,0 +1,31 @@
+Directories in use:
+home:         /var/lib/neo4j
+config:       /etc/neo4j
+logs:         /var/log/neo4j
+plugins:      /var/lib/neo4j/plugins
+import:       /var/lib/neo4j/import
+data:         /var/lib/neo4j/data
+certificates: /var/lib/neo4j/certificates
+licenses:     /var/lib/neo4j/licenses
+run:          /var/lib/neo4j/run
+Starting Neo4j.
+Started neo4j (pid:45). It is available at http://localhost:7474
+There may be a short delay until the server is ready.
+/sb/re_initialized.sol
+12:58:19.127 [ForkJoinPool.commonPool-worker-1] ERROR de.fraunhofer.aisec.cpg.frontends.Handler - /sb/re_initialized.sol:2:1: Parsing of type class SolidityParser$PragmaDirectiveContext is not supported (yet)
+Running checks
+AccessControlSelfdestructCheck took 2040 ms
+CallReturnCheck took 1282 ms
+AccessControlLogicCheck took 1738 ms
+ReentrancyCheck took 4036 ms
+DefaultProxyDelegateCheck took 941 ms
+TXOriginCheck took 748 ms
+TimeManipulationCheck took 929 ms
+LocalWriteToStorageCheck took 1452 ms
+BadRandomnessCheck took 1084 ms
+OverUnderflowCheck took 4272 ms
+DOSCheck took 1637 ms
+AddressPaddingCheck took 3720 ms
+FrontRunningCheck took 1346 ms
+Nr. Files: 1
+Graph translation: 1449 ms, Persisting graph: 14644 ms, AccessControlSelfdestructCheck: 2040 ms, CallReturnCheck: 1282 ms, AccessControlLogicCheck: 1738 ms, ReentrancyCheck: 4036 ms, DefaultProxyDelegateCheck: 941 ms, TXOriginCheck: 748 ms, TimeManipulationCheck: 929 ms, LocalWriteToStorageCheck: 1452 ms, BadRandomnessCheck: 1084 ms, OverUnderflowCheck: 4272 ms, DOSCheck: 1637 ms, AddressPaddingCheck: 3720 ms, FrontRunningCheck: 1346 ms, All checks: 25579 ms
