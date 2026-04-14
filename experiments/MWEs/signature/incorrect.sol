@@ -2,7 +2,7 @@
 pragma solidity ^0.8.20;
 
 contract IncorrectSig {
-    address public owner;
+    address private owner;
 
     constructor() {
         owner = msg.sender;
@@ -19,7 +19,7 @@ contract IncorrectSig {
 }
 
 contract Attacker {
-    IncorrectSig public target;
+    IncorrectSig private target;
 
     constructor(address _target) {
         target = IncorrectSig(_target);
