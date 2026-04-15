@@ -1,0 +1,313 @@
+filename,basename,toolid,toolmode,parser_version,runid,start,duration,exit_code,findings,infos,errors,fails
+mytests/bins/gas/dos_gas/AccessControl.hex,AccessControl.hex,conkas,runtime,2025/08/07,20260415_1337,1776260481.152299,1.1134889125823975,0,{},{},{},{}
+mytests/bins/signature/incorrect/Attacker.hex,Attacker.hex,conkas,runtime,2025/08/07,20260415_1337,1776260496.1626103,1.5678212642669678,0,{},{},{},"{exception (ValueError: invalid literal for int() with base 16: ''),exception (z3.z3types.Z3Exception: b'Overflow encountered when expanding vector')}"
+mytests/bins/gas/dos_gas/Context.hex,Context.hex,conkas,runtime,2025/08/07,20260415_1337,1776260505.2280765,1.1802289485931396,0,{},{},{},{}
+mytests/bins/initialization/re_inherit/Derived.hex,Derived.hex,conkas,runtime,2025/08/07,20260415_1337,1776260486.1914465,1.5522453784942627,0,{},{},{},{execution failed}
+mytests/bins/gas/dos_gas/ERC165.hex,ERC165.hex,conkas,runtime,2025/08/07,20260415_1337,1776260496.0118268,1.5845165252685547,0,{},{},{},{}
+mytests/bins/delegatecall/arbitrary_to/Example.hex,Example.hex,conkas,runtime,2025/08/07,20260415_1337,1776260490.9759996,1.2804865837097168,0,{},{},{},"{exception (ValueError: invalid literal for int() with base 16: ''),exception (z3.z3types.Z3Exception: b'Overflow encountered when expanding vector')}"
+mytests/bins/tx_origin/tx_authorization/Example.hex,Example.hex,conkas,runtime,2025/08/07,20260415_1337,1776260497.0917594,1.2869291305541992,0,{},{},{},{execution failed}
+mytests/bins/visibility/function_visibility/Example.hex,Example.hex,conkas,runtime,2025/08/07,20260415_1337,1776260497.046097,1.35345458984375,0,{},{},{},"{exception (ValueError: invalid literal for int() with base 16: ''),exception (z3.z3types.Z3Exception: b'Overflow encountered when expanding vector')}"
+mytests/bins/gas/dos_gas/Example.hex,Example.hex,conkas,runtime,2025/08/07,20260415_1337,1776260478.2148423,1.4275565147399902,0,{},{},{},{execution failed}
+mytests/bins/initialization/re_initialized/Example.hex,Example.hex,conkas,runtime,2025/08/07,20260415_1337,1776260499.9324565,1.2811484336853027,0,{},{},{},{execution failed}
+mytests/bins/initialization/uninitialized/Example.hex,Example.hex,conkas,runtime,2025/08/07,20260415_1337,1776260511.3437657,1.2942907810211182,0,{},{},{},"{exception (ValueError: invalid literal for int() with base 16: ''),exception (z3.z3types.Z3Exception: b'Overflow encountered when expanding vector')}"
+mytests/bins/misapplied/incorrect_logical/Example.hex,Example.hex,conkas,runtime,2025/08/07,20260415_1337,1776260484.2767813,1.0784873962402344,0,{},{},{},{execution failed}
+mytests/bins/misapplied/missing_revert/Example.hex,Example.hex,conkas,runtime,2025/08/07,20260415_1337,1776260505.960522,1.0883326530456543,0,{},{},{},{execution failed}
+mytests/bins/missing/missing_guard/Example.hex,Example.hex,conkas,runtime,2025/08/07,20260415_1337,1776260503.5499847,58.72259736061096,,{},{},{},"{DOCKER_TIMEOUT,exception (ValueError: invalid literal for int() with base 16: ''),exception (z3.z3types.Z3Exception: b'Overflow encountered when expanding vector')}"
+mytests/bins/signature/replay/Example.hex,Example.hex,conkas,runtime,2025/08/07,20260415_1337,1776260489.735769,1.1397662162780762,0,{},{},{},{execution failed}
+mytests/bins/tx_origin/tx_as_sender/Example.hex,Example.hex,conkas,runtime,2025/08/07,20260415_1337,1776260481.5228071,1.1253628730773926,0,{},{},{},"{exception (ValueError: invalid literal for int() with base 16: ''),exception (z3.z3types.Z3Exception: b'Overflow encountered when expanding vector')}"
+mytests/bins/gas/dos_gas/IAccessControl.hex,IAccessControl.hex,conkas,runtime,2025/08/07,20260415_1337,1776260503.5013688,1.281745433807373,0,{},{},{},{}
+mytests/bins/gas/dos_gas/IERC165.hex,IERC165.hex,conkas,runtime,2025/08/07,20260415_1337,1776260482.8524983,1.1462714672088623,0,{},{},{},{}
+mytests/bins/signature/incorrect/IncorrectSig.hex,IncorrectSig.hex,conkas,runtime,2025/08/07,20260415_1337,1776260485.403602,0.9996373653411865,0,{},{},{},{execution failed}
+mytests/bins/visibility/wrong_constructor/MyContract.hex,MyContract.hex,conkas,runtime,2025/08/07,20260415_1337,1776260490.9993753,1.2455036640167236,0,{},{},{},{execution failed}
+mytests/bins/initialization/re_inherit/Parent.hex,Parent.hex,conkas,runtime,2025/08/07,20260415_1337,1776260491.1684947,1.2698869705200195,0,{},{},{},{execution failed}
+mytests/bins/delegatecall/forward_msg_data/Proxy.hex,Proxy.hex,conkas,runtime,2025/08/07,20260415_1337,1776260505.7488549,0.9720182418823242,0,{},{},{},{execution failed}
+mytests/bins/visibility/variable_visibility/SecretStore.hex,SecretStore.hex,conkas,runtime,2025/08/07,20260415_1337,1776260493.58031,1.15207839012146,0,{},{},{},{execution failed}
+mytests/bins/delegatecall/forward_msg_data/WalletLibrary.hex,WalletLibrary.hex,conkas,runtime,2025/08/07,20260415_1337,1776260477.0840116,1.6461358070373535,0,{},{},{},{execution failed}
+mytests/bins/gas/dos_gas/AccessControl.hex,AccessControl.hex,ethainter,runtime,2022/11/17,20260415_1337,1776260493.3113766,1.426802158355713,0,{},{},{},{}
+mytests/bins/signature/incorrect/Attacker.hex,Attacker.hex,ethainter,runtime,2022/11/17,20260415_1337,1776260511.5470533,1.252168893814087,0,{},{},{},{}
+mytests/bins/gas/dos_gas/Context.hex,Context.hex,ethainter,runtime,2022/11/17,20260415_1337,1776260500.29592,1.626039743423462,0,{},{},{},{}
+mytests/bins/initialization/re_inherit/Derived.hex,Derived.hex,ethainter,runtime,2022/11/17,20260415_1337,1776260507.8158884,1.5024900436401367,0,{},{},{},{}
+mytests/bins/gas/dos_gas/ERC165.hex,ERC165.hex,ethainter,runtime,2022/11/17,20260415_1337,1776260510.7339532,1.5600457191467285,0,{},{},{},{}
+mytests/bins/delegatecall/arbitrary_to/Example.hex,Example.hex,ethainter,runtime,2022/11/17,20260415_1337,1776260486.196889,1.6857044696807861,0,{},{},{},{}
+mytests/bins/tx_origin/tx_authorization/Example.hex,Example.hex,ethainter,runtime,2022/11/17,20260415_1337,1776260483.0721686,1.477081298828125,0,{},{},{},{}
+mytests/bins/visibility/function_visibility/Example.hex,Example.hex,ethainter,runtime,2022/11/17,20260415_1337,1776260475.5942106,1.6929435729980469,0,{},{},{},{}
+mytests/bins/gas/dos_gas/Example.hex,Example.hex,ethainter,runtime,2022/11/17,20260415_1337,1776260475.59446,1.5591018199920654,0,{},{},{},{}
+mytests/bins/initialization/re_initialized/Example.hex,Example.hex,ethainter,runtime,2022/11/17,20260415_1337,1776260483.592793,1.3092386722564697,0,{},{},{},{}
+mytests/bins/initialization/uninitialized/Example.hex,Example.hex,ethainter,runtime,2022/11/17,20260415_1337,1776260506.8292234,1.4687752723693848,0,{},{},{},{}
+mytests/bins/misapplied/incorrect_logical/Example.hex,Example.hex,ethainter,runtime,2022/11/17,20260415_1337,1776260504.4142168,1.6188304424285889,0,{},{},{},{}
+mytests/bins/misapplied/missing_revert/Example.hex,Example.hex,ethainter,runtime,2022/11/17,20260415_1337,1776260475.6835113,1.4105751514434814,0,{},{},{},{}
+mytests/bins/missing/missing_guard/Example.hex,Example.hex,ethainter,runtime,2022/11/17,20260415_1337,1776260482.3316054,1.3437585830688477,0,{},{},{},{}
+mytests/bins/signature/replay/Example.hex,Example.hex,ethainter,runtime,2022/11/17,20260415_1337,1776260476.7603164,1.400728464126587,0,{},{},{},{}
+mytests/bins/tx_origin/tx_as_sender/Example.hex,Example.hex,ethainter,runtime,2022/11/17,20260415_1337,1776260487.1766312,1.4642386436462402,0,{},{},{},{}
+mytests/bins/gas/dos_gas/IAccessControl.hex,IAccessControl.hex,ethainter,runtime,2022/11/17,20260415_1337,1776260498.3398194,1.453075647354126,0,{},{},{},{}
+mytests/bins/gas/dos_gas/IERC165.hex,IERC165.hex,ethainter,runtime,2022/11/17,20260415_1337,1776260502.1134083,1.3678510189056396,0,{},{},{},{}
+mytests/bins/signature/incorrect/IncorrectSig.hex,IncorrectSig.hex,ethainter,runtime,2022/11/17,20260415_1337,1776260481.9606004,1.2705016136169434,0,{},{},{},{}
+mytests/bins/visibility/wrong_constructor/MyContract.hex,MyContract.hex,ethainter,runtime,2022/11/17,20260415_1337,1776260488.8108957,1.4566409587860107,0,{},{},{},{}
+mytests/bins/initialization/re_inherit/Parent.hex,Parent.hex,ethainter,runtime,2022/11/17,20260415_1337,1776260475.5949483,1.4372875690460205,0,{},{},{},{}
+mytests/bins/delegatecall/forward_msg_data/Proxy.hex,Proxy.hex,ethainter,runtime,2022/11/17,20260415_1337,1776260507.1790535,1.91365385055542,0,{},{},{},{}
+mytests/bins/visibility/variable_visibility/SecretStore.hex,SecretStore.hex,ethainter,runtime,2022/11/17,20260415_1337,1776260488.409919,1.452732801437378,0,{},{},{},{}
+mytests/bins/delegatecall/forward_msg_data/WalletLibrary.hex,WalletLibrary.hex,ethainter,runtime,2022/11/17,20260415_1337,1776260502.841763,0.573981523513794,0,{},{},{TIMEOUT},{}
+mytests/bins/gas/dos_gas/AccessControl.hex,AccessControl.hex,ethor-2023,runtime,2022/11/11,20260415_1337,1776260481.9973116,2.2047431468963623,1,{},{analysis incomplete},{},{exception (picocli.CommandLine$ExecutionException: Error while running command (wien.secpriv.ethor.EvmHorstCompiler@6e98fd10): java.lang.RuntimeException: java.lang.RuntimeException: java.lang.reflect.InvocationTargetException)}
+mytests/bins/signature/incorrect/Attacker.hex,Attacker.hex,ethor-2023,runtime,2022/11/11,20260415_1337,1776260484.9573739,3.3029658794403076,0,{secure},{Encountered an unknown bytecode},{},{}
+mytests/bins/gas/dos_gas/Context.hex,Context.hex,ethor-2023,runtime,2022/11/11,20260415_1337,1776260484.5849435,4.537891387939453,1,{},{analysis incomplete},{},{exception (picocli.CommandLine$ExecutionException: Error while running command (wien.secpriv.ethor.EvmHorstCompiler@6e98fd10): java.lang.RuntimeException: java.lang.RuntimeException: java.lang.reflect.InvocationTargetException)}
+mytests/bins/initialization/re_inherit/Derived.hex,Derived.hex,ethor-2023,runtime,2022/11/11,20260415_1337,1776260496.1761107,3.6150386333465576,0,{secure},{Encountered an unknown bytecode},{},{}
+mytests/bins/gas/dos_gas/ERC165.hex,ERC165.hex,ethor-2023,runtime,2022/11/11,20260415_1337,1776260493.6676984,3.9993271827697754,1,{},{analysis incomplete},{},{exception (picocli.CommandLine$ExecutionException: Error while running command (wien.secpriv.ethor.EvmHorstCompiler@6e98fd10): java.lang.RuntimeException: java.lang.RuntimeException: java.lang.reflect.InvocationTargetException)}
+mytests/bins/delegatecall/arbitrary_to/Example.hex,Example.hex,ethor-2023,runtime,2022/11/11,20260415_1337,1776260493.6891744,4.353977918624878,0,{secure},{Encountered an unknown bytecode},{},{}
+mytests/bins/tx_origin/tx_authorization/Example.hex,Example.hex,ethor-2023,runtime,2022/11/11,20260415_1337,1776260505.571842,3.193319320678711,0,{secure},{Encountered an unknown bytecode},{},{}
+mytests/bins/visibility/function_visibility/Example.hex,Example.hex,ethor-2023,runtime,2022/11/11,20260415_1337,1776260497.6883094,4.142634868621826,0,{secure},{Encountered an unknown bytecode},{},{}
+mytests/bins/gas/dos_gas/Example.hex,Example.hex,ethor-2023,runtime,2022/11/11,20260415_1337,1776260503.5466084,2.2879700660705566,0,{secure},{Encountered an unknown bytecode},{},{}
+mytests/bins/initialization/re_initialized/Example.hex,Example.hex,ethor-2023,runtime,2022/11/11,20260415_1337,1776260501.1026342,2.606292963027954,0,{secure},{Encountered an unknown bytecode},{},{}
+mytests/bins/initialization/uninitialized/Example.hex,Example.hex,ethor-2023,runtime,2022/11/11,20260415_1337,1776260495.4036047,4.456270217895508,0,{secure},{Encountered an unknown bytecode},{},{}
+mytests/bins/misapplied/incorrect_logical/Example.hex,Example.hex,ethor-2023,runtime,2022/11/11,20260415_1337,1776260486.9517682,3.268829345703125,0,{secure},{Encountered an unknown bytecode},{},{}
+mytests/bins/misapplied/missing_revert/Example.hex,Example.hex,ethor-2023,runtime,2022/11/11,20260415_1337,1776260482.726182,2.2640883922576904,0,{secure},{Encountered an unknown bytecode},{},{}
+mytests/bins/missing/missing_guard/Example.hex,Example.hex,ethor-2023,runtime,2022/11/11,20260415_1337,1776260492.964441,4.0706586837768555,0,{secure},{Encountered an unknown bytecode},{},{}
+mytests/bins/signature/replay/Example.hex,Example.hex,ethor-2023,runtime,2022/11/11,20260415_1337,1776260503.8149703,3.0119996070861816,0,{secure},{Encountered an unknown bytecode},{},{}
+mytests/bins/tx_origin/tx_as_sender/Example.hex,Example.hex,ethor-2023,runtime,2022/11/11,20260415_1337,1776260504.4540925,3.1871626377105713,0,{secure},{Encountered an unknown bytecode},{},{}
+mytests/bins/gas/dos_gas/IAccessControl.hex,IAccessControl.hex,ethor-2023,runtime,2022/11/11,20260415_1337,1776260475.612831,2.919118642807007,1,{},{analysis incomplete},{},{exception (picocli.CommandLine$ExecutionException: Error while running command (wien.secpriv.ethor.EvmHorstCompiler@6e98fd10): java.lang.RuntimeException: java.lang.RuntimeException: java.lang.reflect.InvocationTargetException)}
+mytests/bins/gas/dos_gas/IERC165.hex,IERC165.hex,ethor-2023,runtime,2022/11/11,20260415_1337,1776260484.5765924,2.921297073364258,1,{},{analysis incomplete},{},{exception (picocli.CommandLine$ExecutionException: Error while running command (wien.secpriv.ethor.EvmHorstCompiler@6e98fd10): java.lang.RuntimeException: java.lang.RuntimeException: java.lang.reflect.InvocationTargetException)}
+mytests/bins/signature/incorrect/IncorrectSig.hex,IncorrectSig.hex,ethor-2023,runtime,2022/11/11,20260415_1337,1776260488.8080287,3.616879940032959,0,{secure},{Encountered an unknown bytecode},{},{}
+mytests/bins/visibility/wrong_constructor/MyContract.hex,MyContract.hex,ethor-2023,runtime,2022/11/11,20260415_1337,1776260490.022975,4.710195541381836,0,{secure},{},{},{}
+mytests/bins/initialization/re_inherit/Parent.hex,Parent.hex,ethor-2023,runtime,2022/11/11,20260415_1337,1776260493.3996964,4.078751564025879,0,{secure},{Encountered an unknown bytecode},{},{}
+mytests/bins/delegatecall/forward_msg_data/Proxy.hex,Proxy.hex,ethor-2023,runtime,2022/11/11,20260415_1337,1776260491.907652,2.29887056350708,1,{},{analysis incomplete},{java.lang.UnsupportedOperationException: DELEGATECALL},{}
+mytests/bins/visibility/variable_visibility/SecretStore.hex,SecretStore.hex,ethor-2023,runtime,2022/11/11,20260415_1337,1776260499.416468,3.4292774200439453,0,{secure},{Encountered an unknown bytecode},{},{}
+mytests/bins/delegatecall/forward_msg_data/WalletLibrary.hex,WalletLibrary.hex,ethor-2023,runtime,2022/11/11,20260415_1337,1776260487.177073,6.477848052978516,0,{secure},{},{},{}
+mytests/bins/gas/dos_gas/AccessControl.hex,AccessControl.hex,honeybadger,runtime,2025/06/04,20260415_1337,1776260487.7628253,1.09161376953125,0,{},{},{},{}
+mytests/bins/signature/incorrect/Attacker.hex,Attacker.hex,honeybadger,runtime,2025/06/04,20260415_1337,1776260504.8668098,1.1377265453338623,0,{},{},{},{}
+mytests/bins/gas/dos_gas/Context.hex,Context.hex,honeybadger,runtime,2025/06/04,20260415_1337,1776260479.4237328,1.0513005256652832,0,{},{},{},{}
+mytests/bins/initialization/re_inherit/Derived.hex,Derived.hex,honeybadger,runtime,2025/06/04,20260415_1337,1776260480.5508924,1.104231357574463,0,{},{},{},{}
+mytests/bins/gas/dos_gas/ERC165.hex,ERC165.hex,honeybadger,runtime,2025/06/04,20260415_1337,1776260478.2194211,1.1245555877685547,0,{},{},{},{}
+mytests/bins/delegatecall/arbitrary_to/Example.hex,Example.hex,honeybadger,runtime,2025/06/04,20260415_1337,1776260503.1924825,1.1493065357208252,0,{},{incomplete push instruction},{},{}
+mytests/bins/tx_origin/tx_authorization/Example.hex,Example.hex,honeybadger,runtime,2025/06/04,20260415_1337,1776260488.8118033,0.9846224784851074,0,{},{incomplete push instruction},{},{}
+mytests/bins/visibility/function_visibility/Example.hex,Example.hex,honeybadger,runtime,2025/06/04,20260415_1337,1776260500.2707212,1.094986915588379,0,{},{},{},{}
+mytests/bins/gas/dos_gas/Example.hex,Example.hex,honeybadger,runtime,2025/06/04,20260415_1337,1776260486.4116344,1.31825852394104,0,{},{},{UNKNOWN INSTRUCTION: SHL},{}
+mytests/bins/initialization/re_initialized/Example.hex,Example.hex,honeybadger,runtime,2025/06/04,20260415_1337,1776260477.3626564,1.1077601909637451,0,{},{},{},{}
+mytests/bins/initialization/uninitialized/Example.hex,Example.hex,honeybadger,runtime,2025/06/04,20260415_1337,1776260475.5945866,1.383354663848877,0,{},{incomplete push instruction},{},{}
+mytests/bins/misapplied/incorrect_logical/Example.hex,Example.hex,honeybadger,runtime,2025/06/04,20260415_1337,1776260475.5936491,1.3872106075286865,0,{},{incomplete push instruction},{},{}
+mytests/bins/misapplied/missing_revert/Example.hex,Example.hex,honeybadger,runtime,2025/06/04,20260415_1337,1776260500.8236892,1.2217919826507568,0,{},{},{},{}
+mytests/bins/missing/missing_guard/Example.hex,Example.hex,honeybadger,runtime,2025/06/04,20260415_1337,1776260484.9030914,0.9616131782531738,0,{},{incomplete push instruction},{},{}
+mytests/bins/signature/replay/Example.hex,Example.hex,honeybadger,runtime,2025/06/04,20260415_1337,1776260507.6274197,1.2340025901794434,0,{},{},{},{}
+mytests/bins/tx_origin/tx_as_sender/Example.hex,Example.hex,honeybadger,runtime,2025/06/04,20260415_1337,1776260475.595901,1.273216962814331,0,{},{incomplete push instruction},{},{}
+mytests/bins/gas/dos_gas/IAccessControl.hex,IAccessControl.hex,honeybadger,runtime,2025/06/04,20260415_1337,1776260503.7594547,1.0559957027435303,0,{},{},{},{}
+mytests/bins/gas/dos_gas/IERC165.hex,IERC165.hex,honeybadger,runtime,2025/06/04,20260415_1337,1776260483.7117743,1.1168513298034668,0,{},{},{},{}
+mytests/bins/signature/incorrect/IncorrectSig.hex,IncorrectSig.hex,honeybadger,runtime,2025/06/04,20260415_1337,1776260500.4002073,1.4916110038757324,0,{},{incomplete push instruction},{},{}
+mytests/bins/visibility/wrong_constructor/MyContract.hex,MyContract.hex,honeybadger,runtime,2025/06/04,20260415_1337,1776260503.2855308,1.2157924175262451,0,{},{},{},{}
+mytests/bins/initialization/re_inherit/Parent.hex,Parent.hex,honeybadger,runtime,2025/06/04,20260415_1337,1776260503.0105488,0.16608405113220215,0,{},{incomplete push instruction},{},{}
+mytests/bins/delegatecall/forward_msg_data/Proxy.hex,Proxy.hex,honeybadger,runtime,2025/06/04,20260415_1337,1776260511.4039876,1.244269847869873,0,{},{},{},{}
+mytests/bins/visibility/variable_visibility/SecretStore.hex,SecretStore.hex,honeybadger,runtime,2025/06/04,20260415_1337,1776260491.4742796,1.3267309665679932,0,{},{},{},{}
+mytests/bins/delegatecall/forward_msg_data/WalletLibrary.hex,WalletLibrary.hex,honeybadger,runtime,2025/06/04,20260415_1337,1776260492.9861565,1.3288397789001465,0,{},{},{},{}
+mytests/bins/gas/dos_gas/AccessControl.hex,AccessControl.hex,madmax,runtime,2022/11/17,20260415_1337,1776260497.5072575,1.8421034812927246,0,{},{},{},{}
+mytests/bins/signature/incorrect/Attacker.hex,Attacker.hex,madmax,runtime,2022/11/17,20260415_1337,1776260478.774699,1.5412657260894775,0,{},{},{},{}
+mytests/bins/gas/dos_gas/Context.hex,Context.hex,madmax,runtime,2022/11/17,20260415_1337,1776260481.905317,1.6371619701385498,0,{},{},{},{}
+mytests/bins/initialization/re_inherit/Derived.hex,Derived.hex,madmax,runtime,2022/11/17,20260415_1337,1776260503.8357034,0.5434169769287109,0,{},{},{},{}
+mytests/bins/gas/dos_gas/ERC165.hex,ERC165.hex,madmax,runtime,2022/11/17,20260415_1337,1776260505.200247,1.5680391788482666,0,{},{},{},{}
+mytests/bins/delegatecall/arbitrary_to/Example.hex,Example.hex,madmax,runtime,2022/11/17,20260415_1337,1776260508.8714259,2.4938554763793945,0,{},{},{},{}
+mytests/bins/tx_origin/tx_authorization/Example.hex,Example.hex,madmax,runtime,2022/11/17,20260415_1337,1776260485.9090967,1.7516238689422607,0,{},{},{},{}
+mytests/bins/visibility/function_visibility/Example.hex,Example.hex,madmax,runtime,2022/11/17,20260415_1337,1776260508.5985162,1.9534428119659424,0,{},{},{},{}
+mytests/bins/gas/dos_gas/Example.hex,Example.hex,madmax,runtime,2022/11/17,20260415_1337,1776260485.1144922,1.7570407390594482,0,{},{},{},{}
+mytests/bins/initialization/re_initialized/Example.hex,Example.hex,madmax,runtime,2022/11/17,20260415_1337,1776260489.9687912,1.5446345806121826,0,{},{},{},{}
+mytests/bins/initialization/uninitialized/Example.hex,Example.hex,madmax,runtime,2022/11/17,20260415_1337,1776260478.3269253,1.4461874961853027,0,{},{},{},{}
+mytests/bins/misapplied/incorrect_logical/Example.hex,Example.hex,madmax,runtime,2022/11/17,20260415_1337,1776260489.2373667,1.679248571395874,0,{},{},{},{}
+mytests/bins/misapplied/missing_revert/Example.hex,Example.hex,madmax,runtime,2022/11/17,20260415_1337,1776260494.7822323,2.06645131111145,0,{},{},{},{}
+mytests/bins/missing/missing_guard/Example.hex,Example.hex,madmax,runtime,2022/11/17,20260415_1337,1776260492.5025349,1.7509214878082275,0,{},{},{},{}
+mytests/bins/signature/replay/Example.hex,Example.hex,madmax,runtime,2022/11/17,20260415_1337,1776260480.9992666,1.6709654331207275,0,{},{},{},{}
+mytests/bins/tx_origin/tx_as_sender/Example.hex,Example.hex,madmax,runtime,2022/11/17,20260415_1337,1776260491.7388792,1.736055850982666,0,{},{},{},{}
+mytests/bins/gas/dos_gas/IAccessControl.hex,IAccessControl.hex,madmax,runtime,2022/11/17,20260415_1337,1776260500.4993484,1.9573612213134766,0,{},{},{},{}
+mytests/bins/gas/dos_gas/IERC165.hex,IERC165.hex,madmax,runtime,2022/11/17,20260415_1337,1776260479.8839316,1.4584341049194336,0,{},{},{},{}
+mytests/bins/signature/incorrect/IncorrectSig.hex,IncorrectSig.hex,madmax,runtime,2022/11/17,20260415_1337,1776260485.3044515,1.7239105701446533,0,{},{},{},{}
+mytests/bins/visibility/wrong_constructor/MyContract.hex,MyContract.hex,madmax,runtime,2022/11/17,20260415_1337,1776260488.2529397,1.6400411128997803,0,{},{},{},{}
+mytests/bins/initialization/re_inherit/Parent.hex,Parent.hex,madmax,runtime,2022/11/17,20260415_1337,1776260503.2409163,0.5032284259796143,0,{},{},{TIMEOUT},{}
+mytests/bins/delegatecall/forward_msg_data/Proxy.hex,Proxy.hex,madmax,runtime,2022/11/17,20260415_1337,1776260488.7236593,1.5613324642181396,0,{},{},{},{}
+mytests/bins/visibility/variable_visibility/SecretStore.hex,SecretStore.hex,madmax,runtime,2022/11/17,20260415_1337,1776260486.900574,1.8176565170288086,0,{},{},{},{}
+mytests/bins/delegatecall/forward_msg_data/WalletLibrary.hex,WalletLibrary.hex,madmax,runtime,2022/11/17,20260415_1337,1776260477.2066486,1.757420301437378,0,{},{},{},{}
+mytests/bins/gas/dos_gas/AccessControl.hex,AccessControl.hex,maian,runtime,2022/11/11,20260415_1337,1776260478.936176,2.935025453567505,0,"{No_Ether_leak_no_send,No_Ether_lock_Ether_refused,Not_destructible_no_self_destruct}",{},{},{}
+mytests/bins/signature/incorrect/Attacker.hex,Attacker.hex,maian,runtime,2022/11/11,20260415_1337,1776260510.7533762,2.5606141090393066,0,{No_Ether_lock_Ether_refused},{},{Unknown operation},{}
+mytests/bins/gas/dos_gas/Context.hex,Context.hex,maian,runtime,2022/11/11,20260415_1337,1776260478.6444905,2.8222007751464844,0,"{No_Ether_leak_no_send,No_Ether_lock_Ether_refused,Not_destructible_no_self_destruct}",{},{},{}
+mytests/bins/initialization/re_inherit/Derived.hex,Derived.hex,maian,runtime,2022/11/11,20260415_1337,1776260503.3577497,2.1119225025177,0,"{No_Ether_leak_no_send,No_Ether_lock_Ether_refused,Not_destructible_no_self_destruct}",{},{Unknown operation},{}
+mytests/bins/gas/dos_gas/ERC165.hex,ERC165.hex,maian,runtime,2022/11/11,20260415_1337,1776260485.4498887,2.8937861919403076,0,"{No_Ether_leak_no_send,No_Ether_lock_Ether_refused,Not_destructible_no_self_destruct}",{},{},{}
+mytests/bins/delegatecall/arbitrary_to/Example.hex,Example.hex,maian,runtime,2022/11/11,20260415_1337,1776260507.2920501,3.3691718578338623,0,"{No_Ether_leak_no_send,No_Ether_lock_Ether_refused,Not_destructible_no_self_destruct}",{},{Unknown operation},{}
+mytests/bins/tx_origin/tx_authorization/Example.hex,Example.hex,maian,runtime,2022/11/11,20260415_1337,1776260481.5062966,2.6830251216888428,0,"{No_Ether_lock_Ether_refused,Not_destructible_no_self_destruct}",{},{Unknown operation},{}
+mytests/bins/visibility/function_visibility/Example.hex,Example.hex,maian,runtime,2022/11/11,20260415_1337,1776260510.6071088,2.5742034912109375,0,"{No_Ether_leak_no_send,No_Ether_lock_Ether_refused,Not_destructible_no_self_destruct}",{},{Unknown operation},{}
+mytests/bins/gas/dos_gas/Example.hex,Example.hex,maian,runtime,2022/11/11,20260415_1337,1776260478.570651,2.8159942626953125,0,"{No_Ether_leak_no_send,No_Ether_lock_Ether_refused,Not_destructible_no_self_destruct}",{},{Unknown operation},{}
+mytests/bins/initialization/re_initialized/Example.hex,Example.hex,maian,runtime,2022/11/11,20260415_1337,1776260501.6590717,2.3550078868865967,0,"{No_Ether_leak_no_send,No_Ether_lock_Ether_refused,Not_destructible_no_self_destruct}",{},{Unknown operation},{}
+mytests/bins/initialization/uninitialized/Example.hex,Example.hex,maian,runtime,2022/11/11,20260415_1337,1776260498.4754882,3.134216785430908,0,"{No_Ether_leak_no_send,No_Ether_lock_Ether_refused,Not_destructible_no_self_destruct}",{},{Unknown operation},{}
+mytests/bins/misapplied/incorrect_logical/Example.hex,Example.hex,maian,runtime,2022/11/11,20260415_1337,1776260490.3439434,3.122904062271118,0,"{No_Ether_leak_no_send,No_Ether_lock_Ether_refused,Not_destructible_no_self_destruct}",{},{Unknown operation},{}
+mytests/bins/misapplied/missing_revert/Example.hex,Example.hex,maian,runtime,2022/11/11,20260415_1337,1776260504.2157023,3.024176836013794,0,"{No_Ether_leak_no_send,No_Ether_lock_Ether_refused,Not_destructible_no_self_destruct}",{},{Unknown operation},{}
+mytests/bins/missing/missing_guard/Example.hex,Example.hex,maian,runtime,2022/11/11,20260415_1337,1776260493.5926633,3.769885540008545,0,"{No_Ether_leak_no_send,No_Ether_lock_Ether_refused,Not_destructible_no_self_destruct}",{},{Unknown operation},{}
+mytests/bins/signature/replay/Example.hex,Example.hex,maian,runtime,2022/11/11,20260415_1337,1776260506.413892,3.226658582687378,0,"{No_Ether_lock_Ether_refused,Not_destructible_no_self_destruct}",{},{Unknown operation},{}
+mytests/bins/tx_origin/tx_as_sender/Example.hex,Example.hex,maian,runtime,2022/11/11,20260415_1337,1776260504.7006328,3.050459623336792,0,"{No_Ether_leak_no_send,No_Ether_lock_Ether_refused,Not_destructible_no_self_destruct}",{},{},{}
+mytests/bins/gas/dos_gas/IAccessControl.hex,IAccessControl.hex,maian,runtime,2022/11/11,20260415_1337,1776260484.048141,2.8117971420288086,0,"{No_Ether_leak_no_send,No_Ether_lock_Ether_refused,Not_destructible_no_self_destruct}",{},{},{}
+mytests/bins/gas/dos_gas/IERC165.hex,IERC165.hex,maian,runtime,2022/11/11,20260415_1337,1776260481.7052498,2.6909146308898926,0,"{No_Ether_leak_no_send,No_Ether_lock_Ether_refused,Not_destructible_no_self_destruct}",{},{},{}
+mytests/bins/signature/incorrect/IncorrectSig.hex,IncorrectSig.hex,maian,runtime,2022/11/11,20260415_1337,1776260475.594981,3.3595447540283203,0,"{No_Ether_lock_Ether_refused,Not_destructible_no_self_destruct}",{},{Unknown operation},{}
+mytests/bins/visibility/wrong_constructor/MyContract.hex,MyContract.hex,maian,runtime,2022/11/11,20260415_1337,1776260484.4338362,2.911900758743286,0,"{No_Ether_leak_no_send,No_Ether_lock_Ether_refused,Not_destructible_no_self_destruct}",{},{},{}
+mytests/bins/initialization/re_inherit/Parent.hex,Parent.hex,maian,runtime,2022/11/11,20260415_1337,1776260501.0684283,2.321385383605957,0,"{No_Ether_leak_no_send,No_Ether_lock_Ether_refused,Not_destructible_no_self_destruct}",{},{Unknown operation},{}
+mytests/bins/delegatecall/forward_msg_data/Proxy.hex,Proxy.hex,maian,runtime,2022/11/11,20260415_1337,1776260475.5943248,3.4843246936798096,0,"{No_Ether_leak_no_send,No_Ether_lock_Ether_refused,Not_destructible_no_self_destruct}",{},{},{}
+mytests/bins/visibility/variable_visibility/SecretStore.hex,SecretStore.hex,maian,runtime,2022/11/11,20260415_1337,1776260475.5964816,3.3649039268493652,0,"{No_Ether_lock_Ether_refused,Not_destructible_no_self_destruct}",{},{Unknown operation},{}
+mytests/bins/delegatecall/forward_msg_data/WalletLibrary.hex,WalletLibrary.hex,maian,runtime,2022/11/11,20260415_1337,1776260497.5693338,3.491398334503174,0,"{No_Ether_lock_Ether_refused,Not_destructible_no_self_destruct}",{},{},{}
+mytests/bins/gas/dos_gas/AccessControl.hex,AccessControl.hex,mythril-0.24.8,runtime,2025/08/29,20260415_1337,1776260492.5068715,4.399296522140503,0,{},{},{},{}
+mytests/bins/signature/incorrect/Attacker.hex,Attacker.hex,mythril-0.24.8,runtime,2025/08/29,20260415_1337,1776260494.3638113,4.897459983825684,0,{},{},{},{}
+mytests/bins/gas/dos_gas/Context.hex,Context.hex,mythril-0.24.8,runtime,2025/08/29,20260415_1337,1776260484.6067076,4.12594199180603,0,{},{},{},{}
+mytests/bins/initialization/re_inherit/Derived.hex,Derived.hex,mythril-0.24.8,runtime,2025/08/29,20260415_1337,1776260494.7948482,5.410516738891602,0,{},{},{},{}
+mytests/bins/gas/dos_gas/ERC165.hex,ERC165.hex,mythril-0.24.8,runtime,2025/08/29,20260415_1337,1776260501.2731314,3.2291626930236816,0,{},{},{},{}
+mytests/bins/delegatecall/arbitrary_to/Example.hex,Example.hex,mythril-0.24.8,runtime,2025/08/29,20260415_1337,1776260507.6912737,4.158224105834961,0,{},{},{},{}
+mytests/bins/tx_origin/tx_authorization/Example.hex,Example.hex,mythril-0.24.8,runtime,2025/08/29,20260415_1337,1776260487.9525342,5.297011375427246,0,{},{},{},{}
+mytests/bins/visibility/function_visibility/Example.hex,Example.hex,mythril-0.24.8,runtime,2025/08/29,20260415_1337,1776260506.7825134,4.086706161499023,0,{},{},{},{}
+mytests/bins/gas/dos_gas/Example.hex,Example.hex,mythril-0.24.8,runtime,2025/08/29,20260415_1337,1776260492.337903,26.244631052017212,0,{},{},{},{}
+mytests/bins/initialization/re_initialized/Example.hex,Example.hex,mythril-0.24.8,runtime,2025/08/29,20260415_1337,1776260475.5927665,6.0696120262146,0,{},{},{},{}
+mytests/bins/initialization/uninitialized/Example.hex,Example.hex,mythril-0.24.8,runtime,2025/08/29,20260415_1337,1776260498.3465273,4.4195051193237305,0,{},{},{},{}
+mytests/bins/misapplied/incorrect_logical/Example.hex,Example.hex,mythril-0.24.8,runtime,2025/08/29,20260415_1337,1776260494.301611,4.88253116607666,0,{},{},{},{}
+mytests/bins/misapplied/missing_revert/Example.hex,Example.hex,mythril-0.24.8,runtime,2025/08/29,20260415_1337,1776260480.3630948,4.650100231170654,0,{},{},{},{}
+mytests/bins/missing/missing_guard/Example.hex,Example.hex,mythril-0.24.8,runtime,2025/08/29,20260415_1337,1776260506.5046282,4.423457384109497,0,{},{},{},{}
+mytests/bins/signature/replay/Example.hex,Example.hex,mythril-0.24.8,runtime,2025/08/29,20260415_1337,1776260475.5918603,6.743531942367554,0,{},{},{},{}
+mytests/bins/tx_origin/tx_as_sender/Example.hex,Example.hex,mythril-0.24.8,runtime,2025/08/29,20260415_1337,1776260475.5996652,5.41935133934021,0,{},{},{},{}
+mytests/bins/gas/dos_gas/IAccessControl.hex,IAccessControl.hex,mythril-0.24.8,runtime,2025/08/29,20260415_1337,1776260491.6212904,4.423412084579468,0,{},{},{},{}
+mytests/bins/gas/dos_gas/IERC165.hex,IERC165.hex,mythril-0.24.8,runtime,2025/08/29,20260415_1337,1776260477.2813826,3.7911994457244873,0,{},{},{},{}
+mytests/bins/signature/incorrect/IncorrectSig.hex,IncorrectSig.hex,mythril-0.24.8,runtime,2025/08/29,20260415_1337,1776260509.1702385,5.670966386795044,0,{},{},{},{}
+mytests/bins/visibility/wrong_constructor/MyContract.hex,MyContract.hex,mythril-0.24.8,runtime,2025/08/29,20260415_1337,1776260510.903107,3.063275098800659,0,{},{},{},{}
+mytests/bins/initialization/re_inherit/Parent.hex,Parent.hex,mythril-0.24.8,runtime,2025/08/29,20260415_1337,1776260478.9961922,4.3648622035980225,0,{},{},{},{}
+mytests/bins/delegatecall/forward_msg_data/Proxy.hex,Proxy.hex,mythril-0.24.8,runtime,2025/08/29,20260415_1337,1776260499.3707774,4.106725454330444,0,{},{},{},{}
+mytests/bins/visibility/variable_visibility/SecretStore.hex,SecretStore.hex,mythril-0.24.8,runtime,2025/08/29,20260415_1337,1776260486.3644927,5.440768003463745,0,{},{},{},{}
+mytests/bins/delegatecall/forward_msg_data/WalletLibrary.hex,WalletLibrary.hex,mythril-0.24.8,runtime,2025/08/29,20260415_1337,1776260479.1383374,4.5269482135772705,0,{},{},{},{}
+mytests/bins/gas/dos_gas/AccessControl.hex,AccessControl.hex,osiris,runtime,2025/06/04,20260415_1337,1776260480.3024995,1.5455687046051025,0,{},{},{},{}
+mytests/bins/signature/incorrect/Attacker.hex,Attacker.hex,osiris,runtime,2025/06/04,20260415_1337,1776260482.4608383,1.1788153648376465,0,{},{},{},{}
+mytests/bins/gas/dos_gas/Context.hex,Context.hex,osiris,runtime,2025/06/04,20260415_1337,1776260508.398321,1.1519250869750977,0,{},{},{},{}
+mytests/bins/initialization/re_inherit/Derived.hex,Derived.hex,osiris,runtime,2025/06/04,20260415_1337,1776260484.171176,1.0574922561645508,0,{},{},{},{}
+mytests/bins/gas/dos_gas/ERC165.hex,ERC165.hex,osiris,runtime,2025/06/04,20260415_1337,1776260492.9714987,1.1602344512939453,0,{},{},{},{}
+mytests/bins/delegatecall/arbitrary_to/Example.hex,Example.hex,osiris,runtime,2025/06/04,20260415_1337,1776260483.2926202,1.254018783569336,0,{},{incomplete push instruction},{},{}
+mytests/bins/tx_origin/tx_authorization/Example.hex,Example.hex,osiris,runtime,2025/06/04,20260415_1337,1776260483.750637,1.0218570232391357,0,{Callstack_bug},{incomplete push instruction},{},{}
+mytests/bins/visibility/function_visibility/Example.hex,Example.hex,osiris,runtime,2025/06/04,20260415_1337,1776260483.7023356,1.134404182434082,0,{},{},{},{}
+mytests/bins/gas/dos_gas/Example.hex,Example.hex,osiris,runtime,2025/06/04,20260415_1337,1776260502.4995039,0.9937639236450195,0,{},{},{UNKNOWN INSTRUCTION: SHL},{}
+mytests/bins/initialization/re_initialized/Example.hex,Example.hex,osiris,runtime,2025/06/04,20260415_1337,1776260484.7580104,0.8377540111541748,0,{},{},{},{}
+mytests/bins/initialization/uninitialized/Example.hex,Example.hex,osiris,runtime,2025/06/04,20260415_1337,1776260510.4335122,1.4143989086151123,0,{},{incomplete push instruction},{},{}
+mytests/bins/misapplied/incorrect_logical/Example.hex,Example.hex,osiris,runtime,2025/06/04,20260415_1337,1776260511.7649026,0.9026291370391846,0,{},{incomplete push instruction},{},{}
+mytests/bins/misapplied/missing_revert/Example.hex,Example.hex,osiris,runtime,2025/06/04,20260415_1337,1776260489.0060706,0.9269802570343018,1,{},{analysis incomplete},{},{exception (ValueError: STACK underflow)}
+mytests/bins/missing/missing_guard/Example.hex,Example.hex,osiris,runtime,2025/06/04,20260415_1337,1776260496.0255141,1.3543403148651123,0,{},{incomplete push instruction},{},{}
+mytests/bins/signature/replay/Example.hex,Example.hex,osiris,runtime,2025/06/04,20260415_1337,1776260510.967222,1.0986323356628418,0,{Callstack_bug},{},{},{}
+mytests/bins/tx_origin/tx_as_sender/Example.hex,Example.hex,osiris,runtime,2025/06/04,20260415_1337,1776260502.1272044,1.095604658126831,1,{},"{analysis incomplete,incomplete push instruction}",{},{exception (ValueError: invalid literal for int() with base 16: '')}
+mytests/bins/gas/dos_gas/IAccessControl.hex,IAccessControl.hex,osiris,runtime,2025/06/04,20260415_1337,1776260499.379245,0.9908490180969238,0,{},{},{},{}
+mytests/bins/gas/dos_gas/IERC165.hex,IERC165.hex,osiris,runtime,2025/06/04,20260415_1337,1776260483.7188346,0.9860677719116211,0,{},{},{},{}
+mytests/bins/signature/incorrect/IncorrectSig.hex,IncorrectSig.hex,osiris,runtime,2025/06/04,20260415_1337,1776260485.3852468,0.8530745506286621,0,{},{incomplete push instruction},{},{}
+mytests/bins/visibility/wrong_constructor/MyContract.hex,MyContract.hex,osiris,runtime,2025/06/04,20260415_1337,1776260504.5958798,1.0646944046020508,0,{},{},{},{}
+mytests/bins/initialization/re_inherit/Parent.hex,Parent.hex,osiris,runtime,2025/06/04,20260415_1337,1776260503.546658,1.0976243019104004,0,{},{incomplete push instruction},{},{}
+mytests/bins/delegatecall/forward_msg_data/Proxy.hex,Proxy.hex,osiris,runtime,2025/06/04,20260415_1337,1776260498.1297255,1.1717724800109863,0,{},{},{},{}
+mytests/bins/visibility/variable_visibility/SecretStore.hex,SecretStore.hex,osiris,runtime,2025/06/04,20260415_1337,1776260499.8433368,1.1219277381896973,1,{},{analysis incomplete},{},{exception (ValueError: STACK underflow)}
+mytests/bins/delegatecall/forward_msg_data/WalletLibrary.hex,WalletLibrary.hex,osiris,runtime,2025/06/04,20260415_1337,1776260507.092608,1.1621747016906738,0,{},{},{},"{exception (IndexError: list index out of range),exception (IndexError: pop from empty list)}"
+mytests/bins/gas/dos_gas/AccessControl.hex,AccessControl.hex,oyente+-060ca34,runtime,2025/06/04,20260415_1337,1776260494.7591755,1.1655282974243164,1,{},{analysis incomplete},{},{execution failed}
+mytests/bins/signature/incorrect/Attacker.hex,Attacker.hex,oyente+-060ca34,runtime,2025/06/04,20260415_1337,1776260501.876988,1.0191690921783447,0,{},{coverage 7.0%},{},{}
+mytests/bins/gas/dos_gas/Context.hex,Context.hex,oyente+-060ca34,runtime,2025/06/04,20260415_1337,1776260486.532477,1.2117276191711426,1,{},{analysis incomplete},{},{execution failed}
+mytests/bins/initialization/re_inherit/Derived.hex,Derived.hex,oyente+-060ca34,runtime,2025/06/04,20260415_1337,1776260482.1326015,0.9023675918579102,0,{},{coverage 5.2%},{},{}
+mytests/bins/gas/dos_gas/ERC165.hex,ERC165.hex,oyente+-060ca34,runtime,2025/06/04,20260415_1337,1776260503.4740589,1.0879263877868652,1,{},{analysis incomplete},{},{execution failed}
+mytests/bins/delegatecall/arbitrary_to/Example.hex,Example.hex,oyente+-060ca34,runtime,2025/06/04,20260415_1337,1776260490.356655,1.250356674194336,0,{},{coverage 9.0%},{},{}
+mytests/bins/tx_origin/tx_authorization/Example.hex,Example.hex,oyente+-060ca34,runtime,2025/06/04,20260415_1337,1776260475.6126375,2.4773192405700684,1,{Callstack_Depth_Attack_Vulnerability},{coverage 17.3%},{},{}
+mytests/bins/visibility/function_visibility/Example.hex,Example.hex,oyente+-060ca34,runtime,2025/06/04,20260415_1337,1776260493.5978982,1.1105890274047852,0,{},{coverage 14.2%},{},{}
+mytests/bins/gas/dos_gas/Example.hex,Example.hex,oyente+-060ca34,runtime,2025/06/04,20260415_1337,1776260501.4441228,12.755580186843872,0,{},{coverage 11.6%},{},{}
+mytests/bins/initialization/re_initialized/Example.hex,Example.hex,oyente+-060ca34,runtime,2025/06/04,20260415_1337,1776260487.8718207,1.0416786670684814,0,{},{coverage 6.6%},{},{}
+mytests/bins/initialization/uninitialized/Example.hex,Example.hex,oyente+-060ca34,runtime,2025/06/04,20260415_1337,1776260491.7453036,1.1313672065734863,0,{},{coverage 14.2%},{},{}
+mytests/bins/misapplied/incorrect_logical/Example.hex,Example.hex,oyente+-060ca34,runtime,2025/06/04,20260415_1337,1776260484.4747097,0.9230947494506836,0,{},{coverage 17.1%},{},{}
+mytests/bins/misapplied/missing_revert/Example.hex,Example.hex,oyente+-060ca34,runtime,2025/06/04,20260415_1337,1776260495.7507143,1.302222490310669,0,{},{coverage 24.4%},{},{}
+mytests/bins/missing/missing_guard/Example.hex,Example.hex,oyente+-060ca34,runtime,2025/06/04,20260415_1337,1776260498.4716465,1.0223052501678467,0,{},{coverage 18.9%},{},{}
+mytests/bins/signature/replay/Example.hex,Example.hex,oyente+-060ca34,runtime,2025/06/04,20260415_1337,1776260477.120362,1.0690841674804688,1,{Callstack_Depth_Attack_Vulnerability},{coverage 3.5%},{},{}
+mytests/bins/tx_origin/tx_as_sender/Example.hex,Example.hex,oyente+-060ca34,runtime,2025/06/04,20260415_1337,1776260504.577114,0.9644870758056641,0,{},{coverage 5.3%},{},{}
+mytests/bins/gas/dos_gas/IAccessControl.hex,IAccessControl.hex,oyente+-060ca34,runtime,2025/06/04,20260415_1337,1776260479.9992704,0.9086511135101318,1,{},{analysis incomplete},{},{execution failed}
+mytests/bins/gas/dos_gas/IERC165.hex,IERC165.hex,oyente+-060ca34,runtime,2025/06/04,20260415_1337,1776260502.0503583,1.1253128051757812,1,{},{analysis incomplete},{},{execution failed}
+mytests/bins/signature/incorrect/IncorrectSig.hex,IncorrectSig.hex,oyente+-060ca34,runtime,2025/06/04,20260415_1337,1776260482.3899984,1.9712457656860352,0,{},{coverage 4.9%},{},{}
+mytests/bins/visibility/wrong_constructor/MyContract.hex,MyContract.hex,oyente+-060ca34,runtime,2025/06/04,20260415_1337,1776260508.3098767,1.1710023880004883,0,{},{coverage 29.1%},{},{}
+mytests/bins/initialization/re_inherit/Parent.hex,Parent.hex,oyente+-060ca34,runtime,2025/06/04,20260415_1337,1776260494.7639124,1.1854116916656494,0,{},{coverage 8.1%},{},{}
+mytests/bins/delegatecall/forward_msg_data/Proxy.hex,Proxy.hex,oyente+-060ca34,runtime,2025/06/04,20260415_1337,1776260489.983203,0.9059321880340576,0,{},{coverage 45.6%},{},{}
+mytests/bins/visibility/variable_visibility/SecretStore.hex,SecretStore.hex,oyente+-060ca34,runtime,2025/06/04,20260415_1337,1776260506.1009276,1.0001325607299805,1,{Callstack_Depth_Attack_Vulnerability},{coverage 7.5%},{},{}
+mytests/bins/delegatecall/forward_msg_data/WalletLibrary.hex,WalletLibrary.hex,oyente+-060ca34,runtime,2025/06/04,20260415_1337,1776260479.7898753,0.9472267627716064,0,{},{coverage 18.0%},{},{}
+mytests/bins/gas/dos_gas/AccessControl.hex,AccessControl.hex,pakala,runtime,2023/02/27,20260415_1337,1776260509.682952,3.3685243129730225,255,{},{analysis incomplete},{EXIT_CODE_255},{}
+mytests/bins/signature/incorrect/Attacker.hex,Attacker.hex,pakala,runtime,2023/02/27,20260415_1337,1776260482.566091,3.565460205078125,0,{},{},{},{}
+mytests/bins/gas/dos_gas/Context.hex,Context.hex,pakala,runtime,2023/02/27,20260415_1337,1776260487.4217105,3.6667847633361816,255,{},{analysis incomplete},{EXIT_CODE_255},{}
+mytests/bins/initialization/re_inherit/Derived.hex,Derived.hex,pakala,runtime,2023/02/27,20260415_1337,1776260497.7502174,4.220614194869995,0,{},{},{},{}
+mytests/bins/gas/dos_gas/ERC165.hex,ERC165.hex,pakala,runtime,2023/02/27,20260415_1337,1776260504.8787582,3.6452064514160156,255,{},{analysis incomplete},{EXIT_CODE_255},{}
+mytests/bins/delegatecall/arbitrary_to/Example.hex,Example.hex,pakala,runtime,2023/02/27,20260415_1337,1776260490.040813,3.6038737297058105,0,{},{},{},{}
+mytests/bins/tx_origin/tx_authorization/Example.hex,Example.hex,pakala,runtime,2023/02/27,20260415_1337,1776260480.5490682,3.566338539123535,0,{},{},{},{}
+mytests/bins/visibility/function_visibility/Example.hex,Example.hex,pakala,runtime,2023/02/27,20260415_1337,1776260503.41425,2.924548625946045,0,{},{},{},{}
+mytests/bins/gas/dos_gas/Example.hex,Example.hex,pakala,runtime,2023/02/27,20260415_1337,1776260475.6127636,3.920323610305786,0,{},{},{},{}
+mytests/bins/initialization/re_initialized/Example.hex,Example.hex,pakala,runtime,2023/02/27,20260415_1337,1776260476.9227145,3.552328109741211,0,{},{},{},{}
+mytests/bins/initialization/uninitialized/Example.hex,Example.hex,pakala,runtime,2023/02/27,20260415_1337,1776260505.9025574,3.903292655944824,0,{},{},{},{}
+mytests/bins/misapplied/incorrect_logical/Example.hex,Example.hex,pakala,runtime,2023/02/27,20260415_1337,1776260499.8399255,3.4425771236419678,0,{},{},{},{}
+mytests/bins/misapplied/missing_revert/Example.hex,Example.hex,pakala,runtime,2023/02/27,20260415_1337,1776260482.6952956,3.5895228385925293,0,{},{},{},{}
+mytests/bins/missing/missing_guard/Example.hex,Example.hex,pakala,runtime,2023/02/27,20260415_1337,1776260485.0754263,3.6610348224639893,0,{},{},{},{}
+mytests/bins/signature/replay/Example.hex,Example.hex,pakala,runtime,2023/02/27,20260415_1337,1776260476.7163765,3.524130344390869,0,{},{},{},{}
+mytests/bins/tx_origin/tx_as_sender/Example.hex,Example.hex,pakala,runtime,2023/02/27,20260415_1337,1776260511.2666366,3.251434326171875,0,{},{},{},{}
+mytests/bins/gas/dos_gas/IAccessControl.hex,IAccessControl.hex,pakala,runtime,2023/02/27,20260415_1337,1776260480.1434813,3.4878833293914795,255,{},{analysis incomplete},{EXIT_CODE_255},{}
+mytests/bins/gas/dos_gas/IERC165.hex,IERC165.hex,pakala,runtime,2023/02/27,20260415_1337,1776260478.358069,3.5467498302459717,255,{},{analysis incomplete},{EXIT_CODE_255},{}
+mytests/bins/signature/incorrect/IncorrectSig.hex,IncorrectSig.hex,pakala,runtime,2023/02/27,20260415_1337,1776260507.012815,4.215658664703369,0,{},{},{},{}
+mytests/bins/visibility/wrong_constructor/MyContract.hex,MyContract.hex,pakala,runtime,2023/02/27,20260415_1337,1776260480.7702534,3.7562170028686523,0,{},{},{},{}
+mytests/bins/initialization/re_inherit/Parent.hex,Parent.hex,pakala,runtime,2023/02/27,20260415_1337,1776260509.5503721,3.5982375144958496,0,{},{},{},{}
+mytests/bins/delegatecall/forward_msg_data/Proxy.hex,Proxy.hex,pakala,runtime,2023/02/27,20260415_1337,1776260511.2356389,3.2291409969329834,0,{},{},{},{}
+mytests/bins/visibility/variable_visibility/SecretStore.hex,SecretStore.hex,pakala,runtime,2023/02/27,20260415_1337,1776260481.7181282,3.3555004596710205,0,{},{},{},{}
+mytests/bins/delegatecall/forward_msg_data/WalletLibrary.hex,WalletLibrary.hex,pakala,runtime,2023/02/27,20260415_1337,1776260488.9333334,3.847440004348755,0,{},{},{},{}
+mytests/bins/gas/dos_gas/AccessControl.hex,AccessControl.hex,securify,runtime,2022/11/17,20260415_1337,1776260504.0995452,1.0498979091644287,1,{},{analysis incomplete},{},"{""exception (java.lang.IndexOutOfBoundsException: Index: 0, Size: 0)""}"
+mytests/bins/signature/incorrect/Attacker.hex,Attacker.hex,securify,runtime,2022/11/17,20260415_1337,1776260506.8745446,3.5145537853240967,0,{},{},{},{}
+mytests/bins/gas/dos_gas/Context.hex,Context.hex,securify,runtime,2022/11/17,20260415_1337,1776260492.3550873,1.2477786540985107,1,{},{analysis incomplete},{},"{""exception (java.lang.IndexOutOfBoundsException: Index: 0, Size: 0)""}"
+mytests/bins/initialization/re_inherit/Derived.hex,Derived.hex,securify,runtime,2022/11/17,20260415_1337,1776260478.4588714,1.6372296810150146,0,{},{},{},{}
+mytests/bins/gas/dos_gas/ERC165.hex,ERC165.hex,securify,runtime,2022/11/17,20260415_1337,1776260504.6804447,0.8315787315368652,1,{},{analysis incomplete},{},"{""exception (java.lang.IndexOutOfBoundsException: Index: 0, Size: 0)""}"
+mytests/bins/delegatecall/arbitrary_to/Example.hex,Example.hex,securify,runtime,2022/11/17,20260415_1337,1776260499.0886111,5.071667909622192,0,{},{},{},{}
+mytests/bins/tx_origin/tx_authorization/Example.hex,Example.hex,securify,runtime,2022/11/17,20260415_1337,1776260487.851938,5.499666929244995,0,{},{},{},{}
+mytests/bins/visibility/function_visibility/Example.hex,Example.hex,securify,runtime,2022/11/17,20260415_1337,1776260493.7464995,6.559853792190552,0,{},{},{},{}
+mytests/bins/gas/dos_gas/Example.hex,Example.hex,securify,runtime,2022/11/17,20260415_1337,1776260508.933234,2.5445327758789062,0,{},{},{},{}
+mytests/bins/initialization/re_initialized/Example.hex,Example.hex,securify,runtime,2022/11/17,20260415_1337,1776260475.5906646,2.7849793434143066,0,{},{},{},{}
+mytests/bins/initialization/uninitialized/Example.hex,Example.hex,securify,runtime,2022/11/17,20260415_1337,1776260503.9621022,4.6061811447143555,0,{},{},{},{}
+mytests/bins/misapplied/incorrect_logical/Example.hex,Example.hex,securify,runtime,2022/11/17,20260415_1337,1776260479.675946,1.8083808422088623,0,{},{},{},{}
+mytests/bins/misapplied/missing_revert/Example.hex,Example.hex,securify,runtime,2022/11/17,20260415_1337,1776260493.3670807,2.7567296028137207,0,{},{},{},{}
+mytests/bins/missing/missing_guard/Example.hex,Example.hex,securify,runtime,2022/11/17,20260415_1337,1776260495.6690955,7.045594692230225,0,{},{},{},{}
+mytests/bins/signature/replay/Example.hex,Example.hex,securify,runtime,2022/11/17,20260415_1337,1776260489.8531566,3.675689458847046,0,{},{},{},{}
+mytests/bins/tx_origin/tx_as_sender/Example.hex,Example.hex,securify,runtime,2022/11/17,20260415_1337,1776260475.594503,3.2954514026641846,0,{},{},{},{}
+mytests/bins/gas/dos_gas/IAccessControl.hex,IAccessControl.hex,securify,runtime,2022/11/17,20260415_1337,1776260499.7049,1.0163249969482422,1,{},{analysis incomplete},{},"{""exception (java.lang.IndexOutOfBoundsException: Index: 0, Size: 0)""}"
+mytests/bins/gas/dos_gas/IERC165.hex,IERC165.hex,securify,runtime,2022/11/17,20260415_1337,1776260509.6233575,1.57057523727417,1,{},{analysis incomplete},{},"{""exception (java.lang.IndexOutOfBoundsException: Index: 0, Size: 0)""}"
+mytests/bins/signature/incorrect/IncorrectSig.hex,IncorrectSig.hex,securify,runtime,2022/11/17,20260415_1337,1776260486.9328873,4.632094621658325,0,{},{},{},{}
+mytests/bins/visibility/wrong_constructor/MyContract.hex,MyContract.hex,securify,runtime,2022/11/17,20260415_1337,1776260485.0537634,6.579906463623047,0,{},{},{},{}
+mytests/bins/initialization/re_inherit/Parent.hex,Parent.hex,securify,runtime,2022/11/17,20260415_1337,1776260484.8872206,3.322669506072998,0,{},{},{},{}
+mytests/bins/delegatecall/forward_msg_data/Proxy.hex,Proxy.hex,securify,runtime,2022/11/17,20260415_1337,1776260499.5674298,6.325902462005615,0,{},{},{},{}
+mytests/bins/visibility/variable_visibility/SecretStore.hex,SecretStore.hex,securify,runtime,2022/11/17,20260415_1337,1776260502.0043514,2.021705389022827,0,{},{},{},{}
+mytests/bins/delegatecall/forward_msg_data/WalletLibrary.hex,WalletLibrary.hex,securify,runtime,2022/11/17,20260415_1337,1776260488.3165586,6.161804437637329,0,{},{},{},{}
+mytests/bins/gas/dos_gas/AccessControl.hex,AccessControl.hex,teether,runtime,2023/02/24,20260415_1337,1776260494.1966832,1.062734603881836,1,{},{analysis incomplete},{},{exception (KeyError: 0)}
+mytests/bins/signature/incorrect/Attacker.hex,Attacker.hex,teether,runtime,2023/02/24,20260415_1337,1776260489.0207326,0.8906471729278564,0,{},{No state-dependent critical path found},{},{}
+mytests/bins/gas/dos_gas/Context.hex,Context.hex,teether,runtime,2023/02/24,20260415_1337,1776260494.5975246,1.0912058353424072,1,{},{analysis incomplete},{},{exception (KeyError: 0)}
+mytests/bins/initialization/re_inherit/Derived.hex,Derived.hex,teether,runtime,2023/02/24,20260415_1337,1776260509.359807,1.3124403953552246,0,{},{No state-dependent critical path found},{},{}
+mytests/bins/gas/dos_gas/ERC165.hex,ERC165.hex,teether,runtime,2023/02/24,20260415_1337,1776260502.7534037,1.0245487689971924,1,{},{analysis incomplete},{},{exception (KeyError: 0)}
+mytests/bins/delegatecall/arbitrary_to/Example.hex,Example.hex,teether,runtime,2023/02/24,20260415_1337,1776260497.817396,1.1440632343292236,0,{},{No state-dependent critical path found},{},{}
+mytests/bins/tx_origin/tx_authorization/Example.hex,Example.hex,teether,runtime,2023/02/24,20260415_1337,1776260481.4322486,1.0936009883880615,0,{},{No state-dependent critical path found},{},{}
+mytests/bins/visibility/function_visibility/Example.hex,Example.hex,teether,runtime,2023/02/24,20260415_1337,1776260506.0568604,0.8714210987091064,0,{},{No state-dependent critical path found},{},{}
+mytests/bins/gas/dos_gas/Example.hex,Example.hex,teether,runtime,2023/02/24,20260415_1337,1776260504.0662684,1.098571538925171,0,{},{No state-dependent critical path found},{},{}
+mytests/bins/initialization/re_initialized/Example.hex,Example.hex,teether,runtime,2023/02/24,20260415_1337,1776260503.5647724,0.32218050956726074,0,{},{No state-dependent critical path found},{},{}
+mytests/bins/initialization/uninitialized/Example.hex,Example.hex,teether,runtime,2023/02/24,20260415_1337,1776260475.6866307,0.9991409778594971,0,{},{No state-dependent critical path found},{},{}
+mytests/bins/misapplied/incorrect_logical/Example.hex,Example.hex,teether,runtime,2023/02/24,20260415_1337,1776260492.3085418,0.9991030693054199,0,{},{No state-dependent critical path found},{},{}
+mytests/bins/misapplied/missing_revert/Example.hex,Example.hex,teether,runtime,2023/02/24,20260415_1337,1776260508.6403878,1.3452599048614502,0,{},{No state-dependent critical path found},{},{}
+mytests/bins/missing/missing_guard/Example.hex,Example.hex,teether,runtime,2023/02/24,20260415_1337,1776260509.9382296,1.3626773357391357,0,{},{No state-dependent critical path found},{},{}
+mytests/bins/signature/replay/Example.hex,Example.hex,teether,runtime,2023/02/24,20260415_1337,1776260490.9710348,1.282865285873413,0,{},{No state-dependent critical path found},{},{}
+mytests/bins/tx_origin/tx_as_sender/Example.hex,Example.hex,teether,runtime,2023/02/24,20260415_1337,1776260497.0961628,1.1328778266906738,0,{},{No state-dependent critical path found},{},{}
+mytests/bins/gas/dos_gas/IAccessControl.hex,IAccessControl.hex,teether,runtime,2023/02/24,20260415_1337,1776260479.0151975,0.9028358459472656,1,{},{analysis incomplete},{},{exception (KeyError: 0)}
+mytests/bins/gas/dos_gas/IERC165.hex,IERC165.hex,teether,runtime,2023/02/24,20260415_1337,1776260499.284078,0.9622368812561035,1,{},{analysis incomplete},{},{exception (KeyError: 0)}
+mytests/bins/signature/incorrect/IncorrectSig.hex,IncorrectSig.hex,teether,runtime,2023/02/24,20260415_1337,1776260488.6075795,1.0703842639923096,0,{},{No state-dependent critical path found},{},{}
+mytests/bins/visibility/wrong_constructor/MyContract.hex,MyContract.hex,teether,runtime,2023/02/24,20260415_1337,1776260481.3964043,1.0189030170440674,0,{},{No state-dependent critical path found},{},{}
+mytests/bins/initialization/re_inherit/Parent.hex,Parent.hex,teether,runtime,2023/02/24,20260415_1337,1776260502.8983788,1.02085542678833,0,{},{No state-dependent critical path found},{},{}
+mytests/bins/delegatecall/forward_msg_data/Proxy.hex,Proxy.hex,teether,runtime,2023/02/24,20260415_1337,1776260497.0218408,1.2038462162017822,0,{},{No state-dependent critical path found},{},{}
+mytests/bins/visibility/variable_visibility/SecretStore.hex,SecretStore.hex,teether,runtime,2023/02/24,20260415_1337,1776260483.4004138,0.9751393795013428,0,{},{No state-dependent critical path found},{},{}
+mytests/bins/delegatecall/forward_msg_data/WalletLibrary.hex,WalletLibrary.hex,teether,runtime,2023/02/24,20260415_1337,1776260487.877645,1.0592060089111328,0,{},{No state-dependent critical path found},{},{}
+mytests/bins/gas/dos_gas/AccessControl.hex,AccessControl.hex,vandal,runtime,2023/02/27,20260415_1337,1776260479.0023005,0.934687614440918,1,{},"{Warning: Deprecated type declaration,analysis incomplete}",{},{exception (ValueError: max() arg is an empty sequence)}
+mytests/bins/signature/incorrect/Attacker.hex,Attacker.hex,vandal,runtime,2023/02/27,20260415_1337,1776260481.921343,0.8840742111206055,0,{ReentrantCall},{Warning: Deprecated type declaration},{},{}
+mytests/bins/gas/dos_gas/Context.hex,Context.hex,vandal,runtime,2023/02/27,20260415_1337,1776260487.5797713,0.9130899906158447,1,{},"{Warning: Deprecated type declaration,analysis incomplete}",{},{exception (ValueError: max() arg is an empty sequence)}
+mytests/bins/initialization/re_inherit/Derived.hex,Derived.hex,vandal,runtime,2023/02/27,20260415_1337,1776260505.513398,0.9611103534698486,1,{},{Warning: Deprecated type declaration},{},{}
+mytests/bins/gas/dos_gas/ERC165.hex,ERC165.hex,vandal,runtime,2023/02/27,20260415_1337,1776260485.2628145,0.8747849464416504,1,{},"{Warning: Deprecated type declaration,analysis incomplete}",{},{exception (ValueError: max() arg is an empty sequence)}
+mytests/bins/delegatecall/arbitrary_to/Example.hex,Example.hex,vandal,runtime,2023/02/27,20260415_1337,1776260481.1625354,0.906996488571167,1,{},{Warning: Deprecated type declaration},{},{}
+mytests/bins/tx_origin/tx_authorization/Example.hex,Example.hex,vandal,runtime,2023/02/27,20260415_1337,1776260497.5178752,6.460802316665649,0,"{OriginUsed,ReentrantCall,UncheckedCall}",{Warning: Deprecated type declaration},{},{}
+mytests/bins/visibility/function_visibility/Example.hex,Example.hex,vandal,runtime,2023/02/27,20260415_1337,1776260475.6094213,1.032846212387085,1,{},{Warning: Deprecated type declaration},{},{}
+mytests/bins/gas/dos_gas/Example.hex,Example.hex,vandal,runtime,2023/02/27,20260415_1337,1776260491.6671307,1.7952001094818115,1,{},{Warning: Deprecated type declaration},{},{}
+mytests/bins/initialization/re_initialized/Example.hex,Example.hex,vandal,runtime,2023/02/27,20260415_1337,1776260485.9043384,1.1256740093231201,1,{},{Warning: Deprecated type declaration},{},{}
+mytests/bins/initialization/uninitialized/Example.hex,Example.hex,vandal,runtime,2023/02/27,20260415_1337,1776260484.2929285,0.9608960151672363,1,{},{Warning: Deprecated type declaration},{},{}
+mytests/bins/misapplied/incorrect_logical/Example.hex,Example.hex,vandal,runtime,2023/02/27,20260415_1337,1776260479.9734895,0.9667360782623291,1,{},{Warning: Deprecated type declaration},{},{}
+mytests/bins/misapplied/missing_revert/Example.hex,Example.hex,vandal,runtime,2023/02/27,20260415_1337,1776260506.5428572,1.0201895236968994,1,{},{Warning: Deprecated type declaration},{},{}
+mytests/bins/missing/missing_guard/Example.hex,Example.hex,vandal,runtime,2023/02/27,20260415_1337,1776260510.0404432,1.6738190650939941,1,{},{Warning: Deprecated type declaration},{},{}
+mytests/bins/signature/replay/Example.hex,Example.hex,vandal,runtime,2023/02/27,20260415_1337,1776260505.6010597,68.86685132980347,,{},{analysis incomplete},{},{DOCKER_TIMEOUT}
+mytests/bins/tx_origin/tx_as_sender/Example.hex,Example.hex,vandal,runtime,2023/02/27,20260415_1337,1776260497.7791355,1.8686327934265137,1,{},{Warning: Deprecated type declaration},{},{}
+mytests/bins/gas/dos_gas/IAccessControl.hex,IAccessControl.hex,vandal,runtime,2023/02/27,20260415_1337,1776260485.673693,1.1704092025756836,1,{},"{Warning: Deprecated type declaration,analysis incomplete}",{},{exception (ValueError: max() arg is an empty sequence)}
+mytests/bins/gas/dos_gas/IERC165.hex,IERC165.hex,vandal,runtime,2023/02/27,20260415_1337,1776260494.3916404,1.160895586013794,1,{},"{Warning: Deprecated type declaration,analysis incomplete}",{},{exception (ValueError: max() arg is an empty sequence)}
+mytests/bins/signature/incorrect/IncorrectSig.hex,IncorrectSig.hex,vandal,runtime,2023/02/27,20260415_1337,1776260493.5595515,4.135280609130859,1,{},{Warning: Deprecated type declaration},{},{}
+mytests/bins/visibility/wrong_constructor/MyContract.hex,MyContract.hex,vandal,runtime,2023/02/27,20260415_1337,1776260477.0711288,0.9889547824859619,1,{},{Warning: Deprecated type declaration},{},{}
+mytests/bins/initialization/re_inherit/Parent.hex,Parent.hex,vandal,runtime,2023/02/27,20260415_1337,1776260490.3147485,1.0078620910644531,1,{},{Warning: Deprecated type declaration},{},{}
+mytests/bins/delegatecall/forward_msg_data/Proxy.hex,Proxy.hex,vandal,runtime,2023/02/27,20260415_1337,1776260484.8143916,1.0419628620147705,1,{},{Warning: Deprecated type declaration},{},{}
+mytests/bins/visibility/variable_visibility/SecretStore.hex,SecretStore.hex,vandal,runtime,2023/02/27,20260415_1337,1776260484.4446833,0.8830227851867676,0,"{ReentrantCall,UncheckedCall}",{Warning: Deprecated type declaration},{},{}
+mytests/bins/delegatecall/forward_msg_data/WalletLibrary.hex,WalletLibrary.hex,vandal,runtime,2023/02/27,20260415_1337,1776260480.959762,0.9654982089996338,1,{},{Warning: Deprecated type declaration},{},{}
