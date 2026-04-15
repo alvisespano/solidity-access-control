@@ -7,12 +7,12 @@ contract Example {
     uint private supply;
     
     constructor(address _owner) {
-        // does not initialize state variables
+        supply = 0;
+        // does not initialize the owner state variables
     }
 
-    // this is public and anyone can initialize again
-    function initialize(address _owner) public {
-        owner = _owner;
-        supply = 0;
+    function setOwner(address a) public {
+        require(msg.sender == owner);   // owner state variable is uninitialized thus equals to address(0)
+        owner = a;
     }
 }
