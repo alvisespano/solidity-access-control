@@ -1,16 +1,16 @@
 // SPDX-License-Identifier: UNLICENSED
-pragma solidity ^0.8.0;
+pragma solidity ^0.4.22;
 
 
 contract Proxy {
-    address public implementation;
+    address private implementation;
 
-    constructor(address _impl) {
+    constructor(address _impl) public {
         implementation = _impl;
     }
 
-    fallback() external payable {
-        (bool success,) = implementation.delegatecall(msg.data);
+    function fallback() external payable {
+        bool success = implementation.delegatecall(msg.data);
         require(success);
     }
 }
@@ -24,6 +24,6 @@ contract WalletLibrary {
 
     function withdraw() public {
         require(msg.sender == owner);
-        payable(msg.sender).transfer(address(this).balance);
+        msg.sender.transfer(address(this).balance);
     }
 }
