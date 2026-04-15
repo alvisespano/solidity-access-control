@@ -1,0 +1,537 @@
+filename,basename,toolid,toolmode,parser_version,runid,start,duration,exit_code,findings,infos,errors,fails
+mytests/src/delegatecall/arbitrary_to.sol,arbitrary_to.sol,ccc,solidity,2025/09/19,20260415_0919,1776245351.5866308,59.398993492126465,0,{},"{Could not find the scope address needed to resolve the call address.delegatecall,Parsing of type class SolidityParser$PragmaDirectiveContext is not supported (yet)}",{},{}
+mytests/src/signature/incorrect.sol,incorrect.sol,ccc,solidity,2025/09/19,20260415_0919,1776245625.2926455,64.6375961303711,0,{},"{Could not find the scope UNKNOWN needed to resolve the call UNKNOWN.encodePacked,Could not find the scope UNKNOWN needed to resolve the call UNKNOWN.transfer,Parsing of type class SolidityParser$PragmaDirectiveContext is not supported (yet)}",{},{}
+mytests/src/misapplied/incorrect_logical.sol,incorrect_logical.sol,ccc,solidity,2025/09/19,20260415_0919,1776245340.6296482,97.23998665809631,1,{},{Parsing of type class SolidityParser$PragmaDirectiveContext is not supported (yet)},{EXIT_CODE_1},"{""exception (Unable to connect to localhost:7687, ensure the database is running and that there is a working network connection to it.)""}"
+mytests/src/misapplied/missing_revert.sol,missing_revert.sol,ccc,solidity,2025/09/19,20260415_0919,1776245355.1596014,60.93175029754639,0,{A_miner_can_use_others_input_to_gain_a_benefit_himself},{Parsing of type class SolidityParser$PragmaDirectiveContext is not supported (yet)},{},{}
+mytests/src/initialization/re_inherit.sol,re_inherit.sol,ccc,solidity,2025/09/19,20260415_0919,1776245342.4167242,64.29582977294922,0,{},"{Could not find the scope UNKNOWN needed to resolve the call UNKNOWN.initialize,Parsing of type class SolidityParser$PragmaDirectiveContext is not supported (yet)}",{},{}
+mytests/src/signature/replay.sol,replay.sol,ccc,solidity,2025/09/19,20260415_0919,1776245704.6719131,52.80231165885925,0,{},"{Could not resolve callee of unsupported type class de.fraunhofer.aisec.cpg.frontends.solidity.nodes.SpecifiedExpression,Parsing of type class SolidityParser$PragmaDirectiveContext is not supported (yet)}",{},{}
+mytests/src/tx_origin/tx_authorization.sol,tx_authorization.sol,ccc,solidity,2025/09/19,20260415_0919,1776245340.6185968,67.53247857093811,0,{Access_control_enforcement_through_transactions_origin_is_vulnerable_to_phishing_attacks},"{Could not resolve callee of unsupported type class de.fraunhofer.aisec.cpg.frontends.solidity.nodes.SpecifiedExpression,Parsing of type class SolidityParser$PragmaDirectiveContext is not supported (yet)}",{},{}
+mytests/src/visibility/wrong_constructor.sol,wrong_constructor.sol,ccc,solidity,2025/09/19,20260415_0919,1776246551.7138014,47.17239165306091,0,{},{Parsing of type class SolidityParser$PragmaDirectiveContext is not supported (yet)},{},{}
+mytests/src/delegatecall/arbitrary_to.sol,arbitrary_to.sol,ccc,solidity,2025/09/19,20260415_1007,1776254000.7050593,36.98784351348877,0,{},"{Could not find the scope address needed to resolve the call address.delegatecall,Parsing of type class SolidityParser$PragmaDirectiveContext is not supported (yet)}",{},{}
+mytests/src/gas/dos_gas.sol,dos_gas.sol,ccc,solidity,2025/09/19,20260415_1007,1776255450.8584645,44.69343829154968,0,{Operation_may_lead_to_a_denial_of_essential_contract_function},"{Could not find the scope UNKNOWN needed to resolve the call UNKNOWN.push,Parsing of type class SolidityParser$PragmaDirectiveContext is not supported (yet)}",{},{}
+mytests/src/delegatecall/forward_msg_data.sol,forward_msg_data.sol,ccc,solidity,2025/09/19,20260415_1007,1776252925.7602546,47.37624955177307,0,"{No_whitelisting_of_calls_proxied_to_another_contract,Non_constructor_function_insufficiently_restricts_writes_to_to_access_control_variables}","{Could not find the scope address needed to resolve the call address.delegatecall,Could not find the scope address needed to resolve the call address.transfer,Parsing of type class SolidityParser$PragmaDirectiveContext is not supported (yet)}",{},{}
+mytests/src/visibility/function_visibility.sol,function_visibility.sol,ccc,solidity,2025/09/19,20260415_1007,1776253907.9111161,38.37394905090332,0,{},{Parsing of type class SolidityParser$PragmaDirectiveContext is not supported (yet)},{},{}
+mytests/src/signature/incorrect.sol,incorrect.sol,ccc,solidity,2025/09/19,20260415_1007,1776247928.462431,178.4527711868286,0,{},"{Could not find the scope UNKNOWN needed to resolve the call UNKNOWN.encodePacked,Could not find the scope UNKNOWN needed to resolve the call UNKNOWN.transfer,Parsing of type class SolidityParser$PragmaDirectiveContext is not supported (yet)}",{},{}
+mytests/src/misapplied/incorrect_logical.sol,incorrect_logical.sol,ccc,solidity,2025/09/19,20260415_1007,1776252918.0242033,47.338916540145874,0,{},{Parsing of type class SolidityParser$PragmaDirectiveContext is not supported (yet)},{},{}
+mytests/src/missing/missing_guard.sol,missing_guard.sol,ccc,solidity,2025/09/19,20260415_1007,1776248823.482083,40.69525384902954,0,"{A_miner_can_use_others_input_to_gain_a_benefit_himself,Non_constructor_function_insufficiently_restricts_writes_to_to_access_control_variables}",{Parsing of type class SolidityParser$PragmaDirectiveContext is not supported (yet)},{},{}
+mytests/src/misapplied/missing_revert.sol,missing_revert.sol,ccc,solidity,2025/09/19,20260415_1007,1776247811.1545813,48.3907687664032,0,{A_miner_can_use_others_input_to_gain_a_benefit_himself},{Parsing of type class SolidityParser$PragmaDirectiveContext is not supported (yet)},{},{}
+mytests/src/initialization/re_inherit.sol,re_inherit.sol,ccc,solidity,2025/09/19,20260415_1007,1776255404.3952081,46.35757637023926,0,{},"{Could not find the scope UNKNOWN needed to resolve the call UNKNOWN.initialize,Parsing of type class SolidityParser$PragmaDirectiveContext is not supported (yet)}",{},{}
+mytests/src/initialization/re_initialized.sol,re_initialized.sol,ccc,solidity,2025/09/19,20260415_1007,1776247709.6505983,58.43013525009155,0,{},{Parsing of type class SolidityParser$PragmaDirectiveContext is not supported (yet)},{},{}
+mytests/src/signature/replay.sol,replay.sol,ccc,solidity,2025/09/19,20260415_1007,1776252936.695975,48.6517698764801,0,{},"{Could not resolve callee of unsupported type class de.fraunhofer.aisec.cpg.frontends.solidity.nodes.SpecifiedExpression,Parsing of type class SolidityParser$PragmaDirectiveContext is not supported (yet)}",{},{}
+mytests/src/tx_origin/tx_as_sender.sol,tx_as_sender.sol,ccc,solidity,2025/09/19,20260415_1007,1776248779.9237945,36.680888175964355,0,"{Access_control_enforcement_through_transactions_origin_is_vulnerable_to_phishing_attacks,Message_padding_vulnerability_found_at_ether_transfer}",{Parsing of type class SolidityParser$PragmaDirectiveContext is not supported (yet)},{},{}
+mytests/src/tx_origin/tx_authorization.sol,tx_authorization.sol,ccc,solidity,2025/09/19,20260415_1007,1776253004.4209483,46.90414047241211,0,{Access_control_enforcement_through_transactions_origin_is_vulnerable_to_phishing_attacks},"{Could not resolve callee of unsupported type class de.fraunhofer.aisec.cpg.frontends.solidity.nodes.SpecifiedExpression,Parsing of type class SolidityParser$PragmaDirectiveContext is not supported (yet)}",{},{}
+mytests/src/initialization/uninitialized.sol,uninitialized.sol,ccc,solidity,2025/09/19,20260415_1007,1776247745.6425405,49.66830849647522,0,{},{Parsing of type class SolidityParser$PragmaDirectiveContext is not supported (yet)},{},{}
+mytests/src/visibility/variable_visibility.sol,variable_visibility.sol,ccc,solidity,2025/09/19,20260415_1007,1776247743.150566,51.72117376327515,0,{},"{Could not resolve callee of unsupported type class de.fraunhofer.aisec.cpg.frontends.solidity.nodes.SpecifiedExpression,Parsing of type class SolidityParser$PragmaDirectiveContext is not supported (yet)}",{},{}
+mytests/src/visibility/wrong_constructor.sol,wrong_constructor.sol,ccc,solidity,2025/09/19,20260415_1007,1776247699.2239442,59.758445739746094,0,{},{Parsing of type class SolidityParser$PragmaDirectiveContext is not supported (yet)},{},{}
+mytests/src/delegatecall/arbitrary_to.sol,arbitrary_to.sol,confuzzius,solidity,2022/12/31,20260415_0919,1776245406.8429532,2.5541515350341797,254,{},{},"{EXIT_CODE_254,Problem while deploying contract Example using account 0xcafebabecafebabecafebabecafebabecafebabe. Error message: b''}",{}
+mytests/src/gas/dos_gas.sol,dos_gas.sol,confuzzius,solidity,2022/12/31,20260415_0919,1776245581.2478285,2.1504745483398438,255,{},{},"{EXIT_CODE_255,No compiler output for: /sb/dos_gas.sol}",{}
+mytests/src/visibility/function_visibility.sol,function_visibility.sol,confuzzius,solidity,2022/12/31,20260415_0919,1776245345.2474926,3.326948881149292,254,{},{},"{EXIT_CODE_254,Problem while deploying contract Example using account 0xcafebabecafebabecafebabecafebabecafebabe. Error message: b''}",{}
+mytests/src/signature/incorrect.sol,incorrect.sol,confuzzius,solidity,2022/12/31,20260415_0919,1776245356.6702397,2.593755006790161,254,{},{},"{EXIT_CODE_254,Problem while deploying contract Attacker using account 0xcafebabecafebabecafebabecafebabecafebabe. Error message: b''}",{}
+mytests/src/missing/missing_guard.sol,missing_guard.sol,confuzzius,solidity,2022/12/31,20260415_0919,1776245606.6184042,1.9978435039520264,254,{},{},"{EXIT_CODE_254,Problem while deploying contract Example using account 0xcafebabecafebabecafebabecafebabecafebabe. Error message: b''}",{}
+mytests/src/misapplied/missing_revert.sol,missing_revert.sol,confuzzius,solidity,2022/12/31,20260415_0919,1776245340.7073538,3.337813377380371,0,{},{},{},{}
+mytests/src/signature/replay.sol,replay.sol,confuzzius,solidity,2022/12/31,20260415_0919,1776245340.7078729,3.8973228931427,250,{},{},"{""0xf46a5ab5: ['address', 'uint256', 'bytes32', 'uint8', 'bytes32', 'bytes32'] -> ['0x0000000000000000000000000000000000000000', 1, bytearray(b'\xb9nP'), 115792089237316195423570985008687907853269984665640564039457584007913129639680, bytearray(b'\xa2\xc6/\xe3x4'), bytearray(b'\x88\xe9\xecs)\xf4{@\xe4\xc5\xf6\xd9\xc7\x9fX\xfe\xd8\xe4\x86\x16V\xef\xaaRn\x1f4\xaf\xc2N')]"",EXIT_CODE_250,""Value 115792089237316195423570985008687907853269984665640564039457584007913129639680 cannot be encoded in 8 bits.  Must be bounded between [0, 255]""}",{}
+mytests/src/tx_origin/tx_as_sender.sol,tx_as_sender.sol,confuzzius,solidity,2022/12/31,20260415_0919,1776245433.785242,1.9588100910186768,254,{},{},"{EXIT_CODE_254,Problem while deploying contract Example using account 0xcafebabecafebabecafebabecafebabecafebabe. Error message: b''}",{}
+mytests/src/visibility/variable_visibility.sol,variable_visibility.sol,confuzzius,solidity,2022/12/31,20260415_0919,1776245352.6680815,2.3669958114624023,0,{},{},{},{}
+mytests/src/visibility/wrong_constructor.sol,wrong_constructor.sol,confuzzius,solidity,2022/12/31,20260415_0919,1776245351.8831542,2.670306444168091,0,{},{},{},{}
+mytests/src/delegatecall/arbitrary_to.sol,arbitrary_to.sol,confuzzius,solidity,2022/12/31,20260415_1007,1776247783.8171687,1.4848895072937012,254,{},{},"{EXIT_CODE_254,Problem while deploying contract Example using account 0xcafebabecafebabecafebabecafebabecafebabe. Error message: b''}",{}
+mytests/src/gas/dos_gas.sol,dos_gas.sol,confuzzius,solidity,2022/12/31,20260415_1007,1776252978.5571556,1.3224987983703613,255,{},{},"{EXIT_CODE_255,No compiler output for: /sb/dos_gas.sol}",{}
+mytests/src/delegatecall/forward_msg_data.sol,forward_msg_data.sol,confuzzius,solidity,2022/12/31,20260415_1007,1776247681.889948,14.99427580833435,0,{},{},{},{}
+mytests/src/visibility/function_visibility.sol,function_visibility.sol,confuzzius,solidity,2022/12/31,20260415_1007,1776247649.480073,2.096285820007324,254,{},{},"{EXIT_CODE_254,Problem while deploying contract Example using account 0xcafebabecafebabecafebabecafebabecafebabe. Error message: b''}",{}
+mytests/src/signature/incorrect.sol,incorrect.sol,confuzzius,solidity,2022/12/31,20260415_1007,1776247697.0348666,2.1355373859405518,254,{},{},"{EXIT_CODE_254,Problem while deploying contract Attacker using account 0xcafebabecafebabecafebabecafebabecafebabe. Error message: b''}",{}
+mytests/src/misapplied/incorrect_logical.sol,incorrect_logical.sol,confuzzius,solidity,2022/12/31,20260415_1007,1776249063.171113,2.261725664138794,0,{},{},{},{}
+mytests/src/missing/missing_guard.sol,missing_guard.sol,confuzzius,solidity,2022/12/31,20260415_1007,1776247649.586104,1.9702184200286865,254,{},{},"{EXIT_CODE_254,Problem while deploying contract Example using account 0xcafebabecafebabecafebabecafebabecafebabe. Error message: b''}",{}
+mytests/src/misapplied/missing_revert.sol,missing_revert.sol,confuzzius,solidity,2022/12/31,20260415_1007,1776247658.6503558,1.9178595542907715,0,{},{},{},{}
+mytests/src/initialization/re_inherit.sol,re_inherit.sol,confuzzius,solidity,2022/12/31,20260415_1007,1776247651.7516258,5.972829818725586,0,{},{},{},{}
+mytests/src/initialization/re_initialized.sol,re_initialized.sol,confuzzius,solidity,2022/12/31,20260415_1007,1776253948.001757,3.112628936767578,0,{},{},{},{}
+mytests/src/signature/replay.sol,replay.sol,confuzzius,solidity,2022/12/31,20260415_1007,1776247787.8770876,3.5173556804656982,250,{},{},"{""0xf46a5ab5: ['address', 'uint256', 'bytes32', 'uint8', 'bytes32', 'bytes32'] -> ['0xdeadbeefdeadbeefdeadbeefdeadbeefdeadbeef', 74483386982193459532687509251158079673426091776731906318893414783987035157925, bytearray(b'\x12'), 256, bytearray(b'\xb64y\xeb\x83\xda\xc0\x02G'), bytearray(b'.\xac\xa8\x93I\xdeas\x8e\x02\x00\x86\xf0\t\xf4\x8c9\xd3\x18c\x19c\x18\x94\xb3\xed')]"",EXIT_CODE_250,""Value 256 cannot be encoded in 8 bits.  Must be bounded between [0, 255]""}",{}
+mytests/src/tx_origin/tx_as_sender.sol,tx_as_sender.sol,confuzzius,solidity,2022/12/31,20260415_1007,1776247703.8355634,1.9743165969848633,254,{},{},"{EXIT_CODE_254,Problem while deploying contract Example using account 0xcafebabecafebabecafebabecafebabecafebabe. Error message: b''}",{}
+mytests/src/tx_origin/tx_authorization.sol,tx_authorization.sol,confuzzius,solidity,2022/12/31,20260415_1007,1776252976.4934826,2.0015463829040527,0,{Unhandled_Exception},{},{},{}
+mytests/src/initialization/uninitialized.sol,uninitialized.sol,confuzzius,solidity,2022/12/31,20260415_1007,1776247653.8250535,1.7153828144073486,254,{},{},"{EXIT_CODE_254,Problem while deploying contract Example using account 0xcafebabecafebabecafebabecafebabecafebabe. Error message: b''}",{}
+mytests/src/visibility/variable_visibility.sol,variable_visibility.sol,confuzzius,solidity,2022/12/31,20260415_1007,1776248185.0659626,2.26039981842041,0,{},{},{},{}
+mytests/src/visibility/wrong_constructor.sol,wrong_constructor.sol,confuzzius,solidity,2022/12/31,20260415_1007,1776247806.8667,2.4485576152801514,0,{},{},{},{}
+mytests/src/delegatecall/forward_msg_data.sol,forward_msg_data.sol,conkas,solidity,2025/08/07,20260415_0919,1776245655.8444185,1.784358024597168,0,"{Integer_Overflow,Integer_Underflow,Reentrancy}",{},{},{}
+mytests/src/misapplied/incorrect_logical.sol,incorrect_logical.sol,conkas,solidity,2025/08/07,20260415_0919,1776245379.562124,1.55330228805542,1,{},{},{EXIT_CODE_1},"{""exception (TypeError: the JSON object must be str, bytes or bytearray, not list)""}"
+mytests/src/misapplied/missing_revert.sol,missing_revert.sol,conkas,solidity,2025/08/07,20260415_0919,1776245608.650115,1.4650797843933105,1,{},{},{EXIT_CODE_1},"{""exception (TypeError: the JSON object must be str, bytes or bytearray, not list)""}"
+mytests/src/signature/replay.sol,replay.sol,conkas,solidity,2025/08/07,20260415_0919,1776245363.582115,1.9084398746490479,1,{},{},{EXIT_CODE_1},{exception (TypeError: object of type 'NoneType' has no len())}
+mytests/src/visibility/wrong_constructor.sol,wrong_constructor.sol,conkas,solidity,2025/08/07,20260415_0919,1776245428.2058585,1.5782363414764404,0,{},{},{},{}
+mytests/src/delegatecall/arbitrary_to.sol,arbitrary_to.sol,conkas,solidity,2025/08/07,20260415_1007,1776253964.964276,1.225221872329712,1,{},{},{EXIT_CODE_1},"{""exception (TypeError: the JSON object must be str, bytes or bytearray, not list)""}"
+mytests/src/gas/dos_gas.sol,dos_gas.sol,conkas,solidity,2025/08/07,20260415_1007,1776247649.481688,1.3866198062896729,1,{},{},"{EXIT_CODE_1,solcx.exceptions.SolcError: An error occurred during execution}",{exception (solcx.exceptions.SolcError: An error occurred during execution)}
+mytests/src/delegatecall/forward_msg_data.sol,forward_msg_data.sol,conkas,solidity,2025/08/07,20260415_1007,1776252916.5545568,1.4313645362854004,0,"{Integer_Overflow,Integer_Underflow,Reentrancy}",{},{},{}
+mytests/src/visibility/function_visibility.sol,function_visibility.sol,conkas,solidity,2025/08/07,20260415_1007,1776253038.5428162,1.2331271171569824,1,{},{},{EXIT_CODE_1},"{""exception (TypeError: the JSON object must be str, bytes or bytearray, not list)""}"
+mytests/src/signature/incorrect.sol,incorrect.sol,conkas,solidity,2025/08/07,20260415_1007,1776247859.6524885,1.4141523838043213,1,{},{},{EXIT_CODE_1},"{""exception (TypeError: the JSON object must be str, bytes or bytearray, not list)""}"
+mytests/src/misapplied/incorrect_logical.sol,incorrect_logical.sol,conkas,solidity,2025/08/07,20260415_1007,1776248106.9485838,1.4725492000579834,1,{},{},{EXIT_CODE_1},"{""exception (TypeError: the JSON object must be str, bytes or bytearray, not list)""}"
+mytests/src/missing/missing_guard.sol,missing_guard.sol,conkas,solidity,2025/08/07,20260415_1007,1776255455.269032,1.3630764484405518,1,{},{},{EXIT_CODE_1},"{""exception (TypeError: the JSON object must be str, bytes or bytearray, not list)""}"
+mytests/src/misapplied/missing_revert.sol,missing_revert.sol,conkas,solidity,2025/08/07,20260415_1007,1776253041.4786608,0.9385867118835449,1,{},{},{EXIT_CODE_1},"{""exception (TypeError: the JSON object must be str, bytes or bytearray, not list)""}"
+mytests/src/initialization/re_inherit.sol,re_inherit.sol,conkas,solidity,2025/08/07,20260415_1007,1776255340.0576756,0.6333391666412354,1,{},{},{EXIT_CODE_1},"{""exception (TypeError: the JSON object must be str, bytes or bytearray, not list)""}"
+mytests/src/initialization/re_initialized.sol,re_initialized.sol,conkas,solidity,2025/08/07,20260415_1007,1776247796.1484368,1.3810977935791016,1,{},{},{EXIT_CODE_1},"{""exception (TypeError: the JSON object must be str, bytes or bytearray, not list)""}"
+mytests/src/signature/replay.sol,replay.sol,conkas,solidity,2025/08/07,20260415_1007,1776252919.1762786,1.0987534523010254,1,{},{},{EXIT_CODE_1},{exception (TypeError: object of type 'NoneType' has no len())}
+mytests/src/tx_origin/tx_as_sender.sol,tx_as_sender.sol,conkas,solidity,2025/08/07,20260415_1007,1776247654.0132072,1.1765704154968262,1,{},{},{EXIT_CODE_1},"{""exception (TypeError: the JSON object must be str, bytes or bytearray, not list)""}"
+mytests/src/tx_origin/tx_authorization.sol,tx_authorization.sol,conkas,solidity,2025/08/07,20260415_1007,1776255426.8206308,0.37705039978027344,1,{},{},{EXIT_CODE_1},{exception (TypeError: object of type 'NoneType' has no len())}
+mytests/src/initialization/uninitialized.sol,uninitialized.sol,conkas,solidity,2025/08/07,20260415_1007,1776247652.7064555,1.080249309539795,1,{},{},{EXIT_CODE_1},"{""exception (TypeError: the JSON object must be str, bytes or bytearray, not list)""}"
+mytests/src/visibility/variable_visibility.sol,variable_visibility.sol,conkas,solidity,2025/08/07,20260415_1007,1776255440.0407245,1.3448708057403564,1,{},{},{EXIT_CODE_1},{exception (TypeError: object of type 'NoneType' has no len())}
+mytests/src/visibility/wrong_constructor.sol,wrong_constructor.sol,conkas,solidity,2025/08/07,20260415_1007,1776249066.6694274,1.385227918624878,0,{},{},{},{}
+mytests/src/delegatecall/arbitrary_to.sol,arbitrary_to.sol,honeybadger,solidity,2025/06/04,20260415_0919,1776245365.5304043,1.0770118236541748,0,{},{analysis incomplete},{Solidity compilation failed},{}
+mytests/src/gas/dos_gas.sol,dos_gas.sol,honeybadger,solidity,2025/06/04,20260415_0919,1776245348.6222277,1.5131022930145264,0,{},{analysis incomplete},{Solidity compilation failed},{}
+mytests/src/visibility/function_visibility.sol,function_visibility.sol,honeybadger,solidity,2025/06/04,20260415_0919,1776245533.1070561,1.3857104778289795,0,{},{analysis incomplete},{Solidity compilation failed},{}
+mytests/src/signature/incorrect.sol,incorrect.sol,honeybadger,solidity,2025/06/04,20260415_0919,1776245340.7069137,1.5366694927215576,0,{},{analysis incomplete},{Solidity compilation failed},{}
+mytests/src/missing/missing_guard.sol,missing_guard.sol,honeybadger,solidity,2025/06/04,20260415_0919,1776245340.708536,1.501288652420044,0,{},{analysis incomplete},{Solidity compilation failed},{}
+mytests/src/misapplied/missing_revert.sol,missing_revert.sol,honeybadger,solidity,2025/06/04,20260415_0919,1776245374.0195076,1.6194431781768799,0,{},{analysis incomplete},{Solidity compilation failed},{}
+mytests/src/initialization/re_initialized.sol,re_initialized.sol,honeybadger,solidity,2025/06/04,20260415_0919,1776245341.9322374,1.8280460834503174,0,{},{analysis incomplete},{Solidity compilation failed},{}
+mytests/src/signature/replay.sol,replay.sol,honeybadger,solidity,2025/06/04,20260415_0919,1776246542.3595579,1.5693566799163818,0,{},{analysis incomplete},{Solidity compilation failed},{}
+mytests/src/tx_origin/tx_as_sender.sol,tx_as_sender.sol,honeybadger,solidity,2025/06/04,20260415_0919,1776245405.7362611,1.5388338565826416,0,{},{analysis incomplete},{Solidity compilation failed},{}
+mytests/src/delegatecall/arbitrary_to.sol,arbitrary_to.sol,honeybadger,solidity,2025/06/04,20260415_1007,1776247809.4161713,1.6778740882873535,0,{},{analysis incomplete},{Solidity compilation failed},{}
+mytests/src/gas/dos_gas.sol,dos_gas.sol,honeybadger,solidity,2025/06/04,20260415_1007,1776248092.2229612,0.9185230731964111,0,{},{analysis incomplete},{Solidity compilation failed},{}
+mytests/src/delegatecall/forward_msg_data.sol,forward_msg_data.sol,honeybadger,solidity,2025/06/04,20260415_1007,1776247743.575863,1.9575986862182617,0,{Money_flow},{},{},{}
+mytests/src/visibility/function_visibility.sol,function_visibility.sol,honeybadger,solidity,2025/06/04,20260415_1007,1776248118.752161,1.0012457370758057,0,{},{analysis incomplete},{Solidity compilation failed},{}
+mytests/src/signature/incorrect.sol,incorrect.sol,honeybadger,solidity,2025/06/04,20260415_1007,1776253139.1292698,1.1713926792144775,0,{},{analysis incomplete},{Solidity compilation failed},{}
+mytests/src/misapplied/incorrect_logical.sol,incorrect_logical.sol,honeybadger,solidity,2025/06/04,20260415_1007,1776253906.36129,1.502636194229126,0,{},{analysis incomplete},{Solidity compilation failed},{}
+mytests/src/missing/missing_guard.sol,missing_guard.sol,honeybadger,solidity,2025/06/04,20260415_1007,1776248183.1259038,1.2135484218597412,0,{},{analysis incomplete},{Solidity compilation failed},{}
+mytests/src/misapplied/missing_revert.sol,missing_revert.sol,honeybadger,solidity,2025/06/04,20260415_1007,1776252927.828219,0.9092984199523926,0,{},{analysis incomplete},{Solidity compilation failed},{}
+mytests/src/initialization/re_inherit.sol,re_inherit.sol,honeybadger,solidity,2025/06/04,20260415_1007,1776253972.7670019,0.815072774887085,0,{},{analysis incomplete},{Solidity compilation failed},{}
+mytests/src/initialization/re_initialized.sol,re_initialized.sol,honeybadger,solidity,2025/06/04,20260415_1007,1776247735.0009472,1.4088256359100342,0,{},{analysis incomplete},{Solidity compilation failed},{}
+mytests/src/signature/replay.sol,replay.sol,honeybadger,solidity,2025/06/04,20260415_1007,1776252959.7341955,0.8774490356445312,0,{},{analysis incomplete},{Solidity compilation failed},{}
+mytests/src/tx_origin/tx_as_sender.sol,tx_as_sender.sol,honeybadger,solidity,2025/06/04,20260415_1007,1776252924.552916,0.1079413890838623,0,{},{analysis incomplete},{Solidity compilation failed},{}
+mytests/src/tx_origin/tx_authorization.sol,tx_authorization.sol,honeybadger,solidity,2025/06/04,20260415_1007,1776255425.3115973,1.47232985496521,0,{},{analysis incomplete},{Solidity compilation failed},{}
+mytests/src/initialization/uninitialized.sol,uninitialized.sol,honeybadger,solidity,2025/06/04,20260415_1007,1776254049.685905,1.2289631366729736,0,{},{analysis incomplete},{Solidity compilation failed},{}
+mytests/src/visibility/variable_visibility.sol,variable_visibility.sol,honeybadger,solidity,2025/06/04,20260415_1007,1776247651.6087353,1.3472743034362793,0,{},{analysis incomplete},{Solidity compilation failed},{}
+mytests/src/visibility/wrong_constructor.sol,wrong_constructor.sol,honeybadger,solidity,2025/06/04,20260415_1007,1776253963.5739489,1.3607542514801025,0,{},{},{},{}
+mytests/src/delegatecall/arbitrary_to.sol,arbitrary_to.sol,maian,solidity,2022/11/11,20260415_0919,1776245406.4233224,0.7069196701049805,0,{},{},{},{}
+mytests/src/gas/dos_gas.sol,dos_gas.sol,maian,solidity,2022/11/11,20260415_0919,1776245352.586199,0.7447161674499512,0,{},{},{},{}
+mytests/src/delegatecall/forward_msg_data.sol,forward_msg_data.sol,maian,solidity,2022/11/11,20260415_0919,1776245344.0671644,1.479210376739502,0,{},{},{},{}
+mytests/src/misapplied/incorrect_logical.sol,incorrect_logical.sol,maian,solidity,2022/11/11,20260415_0919,1776245363.3415823,0.9058787822723389,0,{},{},{},{}
+mytests/src/missing/missing_guard.sol,missing_guard.sol,maian,solidity,2022/11/11,20260415_0919,1776246507.3440316,0.897477388381958,0,{},{},{},{}
+mytests/src/misapplied/missing_revert.sol,missing_revert.sol,maian,solidity,2022/11/11,20260415_0919,1776245407.1902897,0.54891037940979,0,{},{},{},{}
+mytests/src/initialization/re_initialized.sol,re_initialized.sol,maian,solidity,2022/11/11,20260415_0919,1776245344.9242911,1.8832545280456543,0,{},{},{},{}
+mytests/src/tx_origin/tx_as_sender.sol,tx_as_sender.sol,maian,solidity,2022/11/11,20260415_0919,1776245452.226525,1.065488338470459,0,{},{},{},{}
+mytests/src/tx_origin/tx_authorization.sol,tx_authorization.sol,maian,solidity,2022/11/11,20260415_0919,1776245391.2679875,0.9577434062957764,0,{},{},{},{}
+mytests/src/delegatecall/arbitrary_to.sol,arbitrary_to.sol,maian,solidity,2022/11/11,20260415_1007,1776252975.6353354,0.8254504203796387,0,{},{},{},{}
+mytests/src/gas/dos_gas.sol,dos_gas.sol,maian,solidity,2022/11/11,20260415_1007,1776255424.555244,0.7176485061645508,0,{},{},{},{}
+mytests/src/delegatecall/forward_msg_data.sol,forward_msg_data.sol,maian,solidity,2022/11/11,20260415_1007,1776247862.408475,0.6625580787658691,0,{},{},{},{}
+mytests/src/visibility/function_visibility.sol,function_visibility.sol,maian,solidity,2022/11/11,20260415_1007,1776253143.7382193,0.6607279777526855,0,{},{},{},{}
+mytests/src/signature/incorrect.sol,incorrect.sol,maian,solidity,2022/11/11,20260415_1007,1776250647.4650893,0.833383321762085,0,{},{},{},{}
+mytests/src/misapplied/incorrect_logical.sol,incorrect_logical.sol,maian,solidity,2022/11/11,20260415_1007,1776252991.6159968,0.7028088569641113,0,{},{},{},{}
+mytests/src/missing/missing_guard.sol,missing_guard.sol,maian,solidity,2022/11/11,20260415_1007,1776253030.1164083,0.6337554454803467,0,{},{},{},{}
+mytests/src/misapplied/missing_revert.sol,missing_revert.sol,maian,solidity,2022/11/11,20260415_1007,1776248184.3812695,0.6136705875396729,0,{},{},{},{}
+mytests/src/initialization/re_inherit.sol,re_inherit.sol,maian,solidity,2022/11/11,20260415_1007,1776255427.2342846,0.543851375579834,0,{},{},{},{}
+mytests/src/initialization/re_initialized.sol,re_initialized.sol,maian,solidity,2022/11/11,20260415_1007,1776247795.3879907,0.6287353038787842,0,{},{},{},{}
+mytests/src/signature/replay.sol,replay.sol,maian,solidity,2022/11/11,20260415_1007,1776247680.9709904,0.8400046825408936,0,{},{},{},{}
+mytests/src/tx_origin/tx_as_sender.sol,tx_as_sender.sol,maian,solidity,2022/11/11,20260415_1007,1776247844.625349,0.7296111583709717,0,{},{},{},{}
+mytests/src/tx_origin/tx_authorization.sol,tx_authorization.sol,maian,solidity,2022/11/11,20260415_1007,1776254048.7582393,0.843970775604248,0,{},{},{},{}
+mytests/src/initialization/uninitialized.sol,uninitialized.sol,maian,solidity,2022/11/11,20260415_1007,1776247649.4682226,0.6383788585662842,0,{},{},{},{}
+mytests/src/visibility/variable_visibility.sol,variable_visibility.sol,maian,solidity,2022/11/11,20260415_1007,1776247650.9394302,0.7299790382385254,0,{},{},{},{}
+mytests/src/visibility/wrong_constructor.sol,wrong_constructor.sol,maian,solidity,2022/11/11,20260415_1007,1776247727.8677084,0.592336893081665,0,{},{},{},{}
+mytests/src/gas/dos_gas.sol,dos_gas.sol,mando-hgt,solidity,2023/08/01,20260415_0919,1776245413.539363,28.684376001358032,2,{},{Failed to generate CFG for /sb/dos_gas.sol},{EXIT_CODE_2},{exception (ValueError: Failed to generate CFG for /sb/dos_gas.sol)}
+mytests/src/signature/incorrect.sol,incorrect.sol,mando-hgt,solidity,2023/08/01,20260415_0919,1776245340.7083414,37.615278005599976,2,{},{Failed to generate CFG for /sb/incorrect.sol},{EXIT_CODE_2},{exception (ValueError: Failed to generate CFG for /sb/incorrect.sol)}
+mytests/src/delegatecall/arbitrary_to.sol,arbitrary_to.sol,mando-hgt,solidity,2023/08/01,20260415_1007,1776250649.447736,4952.569331645966,2,"{access_control,denial_of_service,front_running,unchecked_low_level_calls}",{OK},{EXIT_CODE_2},{}
+mytests/src/gas/dos_gas.sol,dos_gas.sol,mando-hgt,solidity,2023/08/01,20260415_1007,1776247863.1503072,45.620675802230835,2,{},{Failed to generate CFG for /sb/dos_gas.sol},{EXIT_CODE_2},{exception (ValueError: Failed to generate CFG for /sb/dos_gas.sol)}
+mytests/src/delegatecall/forward_msg_data.sol,forward_msg_data.sol,mando-hgt,solidity,2023/08/01,20260415_1007,1776247649.5868697,5275.845448970795,2,"{front_running,reentrancy}",{OK},{EXIT_CODE_2},{}
+mytests/src/visibility/function_visibility.sol,function_visibility.sol,mando-hgt,solidity,2023/08/01,20260415_1007,1776247658.471576,1202.6374275684357,2,{},{},{EXIT_CODE_2},"{""error parsing results: file could not be opened successfully:
+- method gz: ReadError('empty file')
+- method bz2: ReadError('not a bzip2 file')
+- method xz: ReadError('not an lzma file')
+- method tar: ReadError('empty file')""}"
+mytests/src/signature/incorrect.sol,incorrect.sol,mando-hgt,solidity,2023/08/01,20260415_1007,1776253013.645437,25.360925912857056,2,{},{Failed to generate CFG for /sb/incorrect.sol},{EXIT_CODE_2},{exception (ValueError: Failed to generate CFG for /sb/incorrect.sol)}
+mytests/src/misapplied/incorrect_logical.sol,incorrect_logical.sol,mando-hgt,solidity,2023/08/01,20260415_1007,1776247697.1065612,5239.472471952438,2,"{arithmetic,denial_of_service,reentrancy,time_manipulation,unchecked_low_level_calls}",{OK},{EXIT_CODE_2},{}
+mytests/src/missing/missing_guard.sol,missing_guard.sol,mando-hgt,solidity,2023/08/01,20260415_1007,1776247658.8722572,5257.42750620842,2,{reentrancy},{OK},{EXIT_CODE_2},{}
+mytests/src/misapplied/missing_revert.sol,missing_revert.sol,mando-hgt,solidity,2023/08/01,20260415_1007,1776247659.1784673,416.3223156929016,2,{},{},{EXIT_CODE_2},"{""error parsing results: file could not be opened successfully:
+- method gz: ReadError('empty file')
+- method bz2: ReadError('not a bzip2 file')
+- method xz: ReadError('not an lzma file')
+- method tar: ReadError('empty file')""}"
+mytests/src/initialization/re_inherit.sol,re_inherit.sol,mando-hgt,solidity,2023/08/01,20260415_1007,1776247766.9417148,5240.788920164108,2,"{access_control,denial_of_service,front_running,time_manipulation}",{OK},{EXIT_CODE_2},{}
+mytests/src/initialization/re_initialized.sol,re_initialized.sol,mando-hgt,solidity,2023/08/01,20260415_1007,1776248872.7288811,5033.547245502472,2,"{access_control,arithmetic,denial_of_service,reentrancy}",{OK},{EXIT_CODE_2},{}
+mytests/src/signature/replay.sol,replay.sol,mando-hgt,solidity,2023/08/01,20260415_1007,1776247797.5606794,5243.1831839084625,2,"{denial_of_service,front_running,reentrancy,time_manipulation}",{OK},{EXIT_CODE_2},{}
+mytests/src/tx_origin/tx_as_sender.sol,tx_as_sender.sol,mando-hgt,solidity,2023/08/01,20260415_1007,1776253042.5399506,3636.888300180435,2,"{access_control,arithmetic,denial_of_service,front_running,time_manipulation}",{OK},{EXIT_CODE_2},{}
+mytests/src/tx_origin/tx_authorization.sol,tx_authorization.sol,mando-hgt,solidity,2023/08/01,20260415_1007,1776247649.4463723,5272.966593980789,2,"{denial_of_service,reentrancy}",{OK},{EXIT_CODE_2},{}
+mytests/src/initialization/uninitialized.sol,uninitialized.sol,mando-hgt,solidity,2023/08/01,20260415_1007,1776252979.9604719,3674.6842494010925,2,"{arithmetic,denial_of_service,reentrancy,time_manipulation}",{OK},{EXIT_CODE_2},{}
+mytests/src/visibility/variable_visibility.sol,variable_visibility.sol,mando-hgt,solidity,2023/08/01,20260415_1007,1776247734.239455,2963.003345489502,2,{},{},{EXIT_CODE_2},"{""error parsing results: file could not be opened successfully:
+- method gz: ReadError('empty file')
+- method bz2: ReadError('not a bzip2 file')
+- method xz: ReadError('not an lzma file')
+- method tar: ReadError('empty file')""}"
+mytests/src/visibility/wrong_constructor.sol,wrong_constructor.sol,mando-hgt,solidity,2023/08/01,20260415_1007,1776247649.451204,5262.088608503342,2,"{arithmetic,denial_of_service,reentrancy,time_manipulation}",{OK},{EXIT_CODE_2},{}
+mytests/src/delegatecall/arbitrary_to.sol,arbitrary_to.sol,mando,solidity,2023/08/01,20260415_0919,1776245364.2885563,252.41770124435425,137,{},{},{},"{DOCKER_KILL_OOM,""error parsing results: file could not be opened successfully:
+- method gz: ReadError('empty file')
+- method bz2: ReadError('not a bzip2 file')
+- method xz: ReadError('not an lzma file')
+- method tar: ReadError('empty file')""}"
+mytests/src/gas/dos_gas.sol,dos_gas.sol,mando,solidity,2023/08/01,20260415_0919,1776245408.4767818,36.175673723220825,0,{},{Failed to generate CFG for /sb/dos_gas.sol},{},{exception (5 | pragma solidity ^0.8.20;)}
+mytests/src/visibility/function_visibility.sol,function_visibility.sol,mando,solidity,2023/08/01,20260415_0919,1776245422.6423655,224.72604608535767,137,{},{},{},"{DOCKER_KILL_OOM,""error parsing results: file could not be opened successfully:
+- method gz: ReadError('empty file')
+- method bz2: ReadError('not a bzip2 file')
+- method xz: ReadError('not an lzma file')
+- method tar: ReadError('empty file')""}"
+mytests/src/signature/incorrect.sol,incorrect.sol,mando,solidity,2023/08/01,20260415_0919,1776246508.3095932,33.930603981018066,0,{},{Failed to generate CFG for /sb/incorrect.sol},{},{exception (ValueError: Failed to generate CFG for /sb/incorrect.sol)}
+mytests/src/misapplied/incorrect_logical.sol,incorrect_logical.sol,mando,solidity,2023/08/01,20260415_0919,1776245347.986871,56.62013077735901,137,{},{},{},"{DOCKER_KILL_OOM,""error parsing results: file could not be opened successfully:
+- method gz: ReadError('empty file')
+- method bz2: ReadError('not a bzip2 file')
+- method xz: ReadError('not an lzma file')
+- method tar: ReadError('empty file')""}"
+mytests/src/signature/replay.sol,replay.sol,mando,solidity,2023/08/01,20260415_0919,1776245342.6579065,230.69849944114685,137,{},{},{},"{DOCKER_KILL_OOM,""error parsing results: file could not be opened successfully:
+- method gz: ReadError('empty file')
+- method bz2: ReadError('not a bzip2 file')
+- method xz: ReadError('not an lzma file')
+- method tar: ReadError('empty file')""}"
+mytests/src/tx_origin/tx_as_sender.sol,tx_as_sender.sol,mando,solidity,2023/08/01,20260415_0919,1776245340.7515213,190.29129576683044,137,{},{},{},"{DOCKER_KILL_OOM,""error parsing results: file could not be opened successfully:
+- method gz: ReadError('empty file')
+- method bz2: ReadError('not a bzip2 file')
+- method xz: ReadError('not an lzma file')
+- method tar: ReadError('empty file')""}"
+mytests/src/tx_origin/tx_authorization.sol,tx_authorization.sol,mando,solidity,2023/08/01,20260415_0919,1776245504.0536518,1001.2143459320068,137,{},{},{},"{DOCKER_KILL_OOM,""error parsing results: file could not be opened successfully:
+- method gz: ReadError('empty file')
+- method bz2: ReadError('not a bzip2 file')
+- method xz: ReadError('not an lzma file')
+- method tar: ReadError('empty file')""}"
+mytests/src/delegatecall/arbitrary_to.sol,arbitrary_to.sol,mando,solidity,2023/08/01,20260415_1007,1776253042.9909036,2406.264707803726,137,{},{},{},"{DOCKER_KILL_OOM,""error parsing results: file could not be opened successfully:
+- method gz: ReadError('empty file')
+- method bz2: ReadError('not a bzip2 file')
+- method xz: ReadError('not an lzma file')
+- method tar: ReadError('empty file')""}"
+mytests/src/gas/dos_gas.sol,dos_gas.sol,mando,solidity,2023/08/01,20260415_1007,1776247655.5013263,43.42715239524841,0,{},{Failed to generate CFG for /sb/dos_gas.sol},{},{exception (ValueError: Failed to generate CFG for /sb/dos_gas.sol)}
+mytests/src/delegatecall/forward_msg_data.sol,forward_msg_data.sol,mando,solidity,2023/08/01,20260415_1007,1776247650.6251576,99.94788575172424,137,{},{},{},"{DOCKER_KILL_OOM,""error parsing results: file could not be opened successfully:
+- method gz: ReadError('empty file')
+- method bz2: ReadError('not a bzip2 file')
+- method xz: ReadError('not an lzma file')
+- method tar: ReadError('empty file')""}"
+mytests/src/visibility/function_visibility.sol,function_visibility.sol,mando,solidity,2023/08/01,20260415_1007,1776247650.02184,76.04134559631348,137,{},{},{},"{DOCKER_KILL_OOM,""error parsing results: file could not be opened successfully:
+- method gz: ReadError('empty file')
+- method bz2: ReadError('not a bzip2 file')
+- method xz: ReadError('not an lzma file')
+- method tar: ReadError('empty file')""}"
+mytests/src/signature/incorrect.sol,incorrect.sol,mando,solidity,2023/08/01,20260415_1007,1776253070.1837523,25.66212034225464,0,{},{Failed to generate CFG for /sb/incorrect.sol},{},{exception (ValueError: Failed to generate CFG for /sb/incorrect.sol)}
+mytests/src/misapplied/incorrect_logical.sol,incorrect_logical.sol,mando,solidity,2023/08/01,20260415_1007,1776247847.2190201,79.53183221817017,137,{},{},{},"{DOCKER_KILL_OOM,""error parsing results: file could not be opened successfully:
+- method gz: ReadError('empty file')
+- method bz2: ReadError('not a bzip2 file')
+- method xz: ReadError('not an lzma file')
+- method tar: ReadError('empty file')""}"
+mytests/src/missing/missing_guard.sol,missing_guard.sol,mando,solidity,2023/08/01,20260415_1007,1776247671.3913643,119.0190064907074,137,{},{},{},"{DOCKER_KILL_OOM,""error parsing results: file could not be opened successfully:
+- method gz: ReadError('empty file')
+- method bz2: ReadError('not a bzip2 file')
+- method xz: ReadError('not an lzma file')
+- method tar: ReadError('empty file')""}"
+mytests/src/misapplied/missing_revert.sol,missing_revert.sol,mando,solidity,2023/08/01,20260415_1007,1776247908.8282096,864.2557814121246,137,{},{},{},"{DOCKER_KILL_OOM,""error parsing results: file could not be opened successfully:
+- method gz: ReadError('empty file')
+- method bz2: ReadError('not a bzip2 file')
+- method xz: ReadError('not an lzma file')
+- method tar: ReadError('empty file')""}"
+mytests/src/initialization/re_inherit.sol,re_inherit.sol,mando,solidity,2023/08/01,20260415_1007,1776247654.1899302,190.36870217323303,137,{},{},{},"{DOCKER_KILL_OOM,""error parsing results: file could not be opened successfully:
+- method gz: ReadError('empty file')
+- method bz2: ReadError('not a bzip2 file')
+- method xz: ReadError('not an lzma file')
+- method tar: ReadError('empty file')""}"
+mytests/src/initialization/re_initialized.sol,re_initialized.sol,mando,solidity,2023/08/01,20260415_1007,1776255368.5439463,1872.808605670929,0,"{access_control,denial_of_service,reentrancy}",{OK},{},{}
+mytests/src/signature/replay.sol,replay.sol,mando,solidity,2023/08/01,20260415_1007,1776247649.4468248,65.042715549469,137,{},{},{},"{DOCKER_KILL_OOM,""error parsing results: file could not be opened successfully:
+- method gz: ReadError('empty file')
+- method bz2: ReadError('not a bzip2 file')
+- method xz: ReadError('not an lzma file')
+- method tar: ReadError('empty file')""}"
+mytests/src/tx_origin/tx_as_sender.sol,tx_as_sender.sol,mando,solidity,2023/08/01,20260415_1007,1776247649.45046,47.53582572937012,137,{},{},{},"{DOCKER_KILL_OOM,""error parsing results: file could not be opened successfully:
+- method gz: ReadError('empty file')
+- method bz2: ReadError('not a bzip2 file')
+- method xz: ReadError('not an lzma file')
+- method tar: ReadError('empty file')""}"
+mytests/src/tx_origin/tx_authorization.sol,tx_authorization.sol,mando,solidity,2023/08/01,20260415_1007,1776248877.453842,166.32512640953064,137,{},{},{},"{DOCKER_KILL_OOM,""error parsing results: file could not be opened successfully:
+- method gz: ReadError('empty file')
+- method bz2: ReadError('not a bzip2 file')
+- method xz: ReadError('not an lzma file')
+- method tar: ReadError('empty file')""}"
+mytests/src/initialization/uninitialized.sol,uninitialized.sol,mando,solidity,2023/08/01,20260415_1007,1776247669.2744937,113.25911092758179,137,{},{},{},"{DOCKER_KILL_OOM,""error parsing results: file could not be opened successfully:
+- method gz: ReadError('empty file')
+- method bz2: ReadError('not a bzip2 file')
+- method xz: ReadError('not an lzma file')
+- method tar: ReadError('empty file')""}"
+mytests/src/visibility/variable_visibility.sol,variable_visibility.sol,mando,solidity,2023/08/01,20260415_1007,1776253148.2089407,3606.238438606262,0,"{access_control,arithmetic,denial_of_service,front_running,reentrancy,time_manipulation,unchecked_low_level_calls}",{OK},{},{}
+mytests/src/visibility/wrong_constructor.sol,wrong_constructor.sol,mando,solidity,2023/08/01,20260415_1007,1776255368.9139957,1872.51069521904,0,"{access_control,denial_of_service,front_running,reentrancy}",{OK},{},{}
+mytests/src/visibility/function_visibility.sol,function_visibility.sol,manticore-0.3.7,solidity,2022/11/17,20260415_0919,1776245354.0140078,9.223125457763672,0,{},{},{},{}
+mytests/src/misapplied/missing_revert.sol,missing_revert.sol,manticore-0.3.7,solidity,2022/11/17,20260415_0919,1776245377.1699407,2.28554105758667,0,{},{},{},{}
+mytests/src/tx_origin/tx_authorization.sol,tx_authorization.sol,manticore-0.3.7,solidity,2022/11/17,20260415_0919,1776245583.4348235,2.596947193145752,0,{},{},{},{}
+mytests/src/initialization/uninitialized.sol,uninitialized.sol,manticore-0.3.7,solidity,2022/11/17,20260415_0919,1776246543.9979873,6.4339759349823,0,{},{},{},{}
+mytests/src/delegatecall/arbitrary_to.sol,arbitrary_to.sol,manticore-0.3.7,solidity,2022/11/17,20260415_1007,1776247660.665187,13.277674674987793,0,{},{},{},{}
+mytests/src/gas/dos_gas.sol,dos_gas.sol,manticore-0.3.7,solidity,2022/11/17,20260415_1007,1776247651.1548738,14.945075273513794,0,{},{},{solc error},{exception (AttributeError: 'NoneType' object has no attribute 'result')}
+mytests/src/visibility/function_visibility.sol,function_visibility.sol,manticore-0.3.7,solidity,2022/11/17,20260415_1007,1776247750.738033,7.356621980667114,0,{},{},{},{}
+mytests/src/signature/incorrect.sol,incorrect.sol,manticore-0.3.7,solidity,2022/11/17,20260415_1007,1776247705.9970849,28.161979913711548,0,{},{},{},{}
+mytests/src/misapplied/incorrect_logical.sol,incorrect_logical.sol,manticore-0.3.7,solidity,2022/11/17,20260415_1007,1776247795.000584,1.8659896850585938,0,{},{},{},{}
+mytests/src/missing/missing_guard.sol,missing_guard.sol,manticore-0.3.7,solidity,2022/11/17,20260415_1007,1776253061.8661854,5.174996614456177,0,{},{},{},{}
+mytests/src/misapplied/missing_revert.sol,missing_revert.sol,manticore-0.3.7,solidity,2022/11/17,20260415_1007,1776248189.5098643,1.2426764965057373,0,{},{},{},{}
+mytests/src/initialization/re_inherit.sol,re_inherit.sol,manticore-0.3.7,solidity,2022/11/17,20260415_1007,1776253140.438807,3.0742578506469727,0,{},{},{},{}
+mytests/src/initialization/re_initialized.sol,re_initialized.sol,manticore-0.3.7,solidity,2022/11/17,20260415_1007,1776248187.3590417,2.10162353515625,0,{},{},{},{}
+mytests/src/signature/replay.sol,replay.sol,manticore-0.3.7,solidity,2022/11/17,20260415_1007,1776247651.7753587,2.272202491760254,0,{},{},{},{}
+mytests/src/tx_origin/tx_as_sender.sol,tx_as_sender.sol,manticore-0.3.7,solidity,2022/11/17,20260415_1007,1776247650.5218277,30.201738119125366,0,{},{},{},{}
+mytests/src/tx_origin/tx_authorization.sol,tx_authorization.sol,manticore-0.3.7,solidity,2022/11/17,20260415_1007,1776248075.7878206,2.250164270401001,0,{},{},{},{}
+mytests/src/initialization/uninitialized.sol,uninitialized.sol,manticore-0.3.7,solidity,2022/11/17,20260415_1007,1776253007.8207738,5.749264717102051,0,{},{},{},{}
+mytests/src/visibility/variable_visibility.sol,variable_visibility.sol,manticore-0.3.7,solidity,2022/11/17,20260415_1007,1776255455.0725162,1.2274844646453857,0,{},{},{},{}
+mytests/src/visibility/wrong_constructor.sol,wrong_constructor.sol,manticore-0.3.7,solidity,2022/11/17,20260415_1007,1776248138.8938048,5.332477569580078,0,{},{},{},{}
+mytests/src/delegatecall/arbitrary_to.sol,arbitrary_to.sol,mythril-0.24.8,solidity,2025/08/29,20260415_0919,1776245677.419296,35.00813150405884,1,{Delegatecall_to_user_supplied_address_SWC_112},{},{},{}
+mytests/src/delegatecall/forward_msg_data.sol,forward_msg_data.sol,mythril-0.24.8,solidity,2025/08/29,20260415_0919,1776245350.38767,23.525180101394653,1,"{Delegatecall_to_user_supplied_address_SWC_112,Transaction_Order_Dependence_SWC_114,Unprotected_Ether_Withdrawal_SWC_105}",{},{},{}
+mytests/src/visibility/function_visibility.sol,function_visibility.sol,mythril-0.24.8,solidity,2025/08/29,20260415_0919,1776245659.1209302,8.436477899551392,0,{},{},{},{}
+mytests/src/misapplied/missing_revert.sol,missing_revert.sol,mythril-0.24.8,solidity,2025/08/29,20260415_0919,1776245344.1588445,8.287705659866333,0,{},{},{},{}
+mytests/src/initialization/re_inherit.sol,re_inherit.sol,mythril-0.24.8,solidity,2025/08/29,20260415_0919,1776245378.4005356,24.884565353393555,0,{},{},{},{}
+mytests/src/initialization/re_initialized.sol,re_initialized.sol,mythril-0.24.8,solidity,2025/08/29,20260415_0919,1776245346.084895,10.535100936889648,0,{},{},{},{}
+mytests/src/signature/replay.sol,replay.sol,mythril-0.24.8,solidity,2025/08/29,20260415_0919,1776245453.3357663,38.37803506851196,1,"{External_Call_To_User_Supplied_Address_SWC_107,Multiple_Calls_in_a_Single_Transaction_SWC_113,Unprotected_Ether_Withdrawal_SWC_105}",{},{},{}
+mytests/src/initialization/uninitialized.sol,uninitialized.sol,mythril-0.24.8,solidity,2025/08/29,20260415_0919,1776245696.8443553,7.7989630699157715,0,{},{},{},{}
+mytests/src/visibility/wrong_constructor.sol,wrong_constructor.sol,mythril-0.24.8,solidity,2025/08/29,20260415_0919,1776245340.7483258,11.810876846313477,0,{},{},{},{}
+mytests/src/delegatecall/arbitrary_to.sol,arbitrary_to.sol,mythril-0.24.8,solidity,2025/08/29,20260415_1007,1776252930.0035577,29.654409408569336,1,{Delegatecall_to_user_supplied_address_SWC_112},{},{},{}
+mytests/src/gas/dos_gas.sol,dos_gas.sol,mythril-0.24.8,solidity,2025/08/29,20260415_1007,1776248159.3004131,2.9641923904418945,0,{},{},{Solc experienced a fatal error},{}
+mytests/src/delegatecall/forward_msg_data.sol,forward_msg_data.sol,mythril-0.24.8,solidity,2025/08/29,20260415_1007,1776248861.224199,16.193310260772705,1,"{Delegatecall_to_user_supplied_address_SWC_112,Transaction_Order_Dependence_SWC_114,Unprotected_Ether_Withdrawal_SWC_105}",{},{},{}
+mytests/src/visibility/function_visibility.sol,function_visibility.sol,mythril-0.24.8,solidity,2025/08/29,20260415_1007,1776253966.304491,6.369120121002197,0,{},{},{},{}
+mytests/src/signature/incorrect.sol,incorrect.sol,mythril-0.24.8,solidity,2025/08/29,20260415_1007,1776255342.8542936,25.349711179733276,0,{},{},{},{}
+mytests/src/misapplied/incorrect_logical.sol,incorrect_logical.sol,mythril-0.24.8,solidity,2025/08/29,20260415_1007,1776253105.340469,4.336400508880615,0,{},{},{},{}
+mytests/src/missing/missing_guard.sol,missing_guard.sol,mythril-0.24.8,solidity,2025/08/29,20260415_1007,1776248078.4605038,6.4207658767700195,0,{},{},{},{}
+mytests/src/misapplied/missing_revert.sol,missing_revert.sol,mythril-0.24.8,solidity,2025/08/29,20260415_1007,1776252960.6529925,5.22261643409729,0,{},{},{},{}
+mytests/src/initialization/re_inherit.sol,re_inherit.sol,mythril-0.24.8,solidity,2025/08/29,20260415_1007,1776248144.2627647,14.996588706970215,0,{},{},{},{}
+mytests/src/initialization/re_initialized.sol,re_initialized.sol,mythril-0.24.8,solidity,2025/08/29,20260415_1007,1776248109.6708717,7.462738990783691,0,{},{},{},{}
+mytests/src/signature/replay.sol,replay.sol,mythril-0.24.8,solidity,2025/08/29,20260415_1007,1776253973.6869938,25.332332134246826,1,"{External_Call_To_User_Supplied_Address_SWC_107,Multiple_Calls_in_a_Single_Transaction_SWC_113,Unprotected_Ether_Withdrawal_SWC_105}",{},{},{}
+mytests/src/tx_origin/tx_as_sender.sol,tx_as_sender.sol,mythril-0.24.8,solidity,2025/08/29,20260415_1007,1776249045.564568,17.499632120132446,0,{},{},{},{}
+mytests/src/tx_origin/tx_authorization.sol,tx_authorization.sol,mythril-0.24.8,solidity,2025/08/29,20260415_1007,1776253011.9120574,12.092293500900269,1,"{Dependence_on_tx_origin_SWC_115,Unchecked_return_value_from_external_call_SWC_104}",{},{},{}
+mytests/src/initialization/uninitialized.sol,uninitialized.sol,mythril-0.24.8,solidity,2025/08/29,20260415_1007,1776253030.8338623,6.8151562213897705,0,{},{},{},{}
+mytests/src/visibility/variable_visibility.sol,variable_visibility.sol,mythril-0.24.8,solidity,2025/08/29,20260415_1007,1776253109.735982,29.3093683719635,1,"{External_Call_To_User_Supplied_Address_SWC_107,Unchecked_return_value_from_external_call_SWC_104,Unprotected_Ether_Withdrawal_SWC_105}",{},{},{}
+mytests/src/visibility/wrong_constructor.sol,wrong_constructor.sol,mythril-0.24.8,solidity,2025/08/29,20260415_1007,1776247791.7844307,7.649838447570801,0,{},{},{},{}
+mytests/src/delegatecall/arbitrary_to.sol,arbitrary_to.sol,osiris,solidity,2025/06/04,20260415_0919,1776245493.0244834,1.415635585784912,0,{},{analysis incomplete},{Solidity compilation failed},{}
+mytests/src/visibility/function_visibility.sol,function_visibility.sol,osiris,solidity,2025/06/04,20260415_0919,1776245340.7492597,1.6070420742034912,0,{},{analysis incomplete},{Solidity compilation failed},{}
+mytests/src/misapplied/missing_revert.sol,missing_revert.sol,osiris,solidity,2025/06/04,20260415_0919,1776245350.213567,1.3409216403961182,0,{},{analysis incomplete},{Solidity compilation failed},{}
+mytests/src/initialization/re_inherit.sol,re_inherit.sol,osiris,solidity,2025/06/04,20260415_0919,1776245421.0087507,1.4916229248046875,0,{},{analysis incomplete},{Solidity compilation failed},{}
+mytests/src/initialization/re_initialized.sol,re_initialized.sol,osiris,solidity,2025/06/04,20260415_0919,1776245674.6716485,1.359767198562622,0,{},{analysis incomplete},{Solidity compilation failed},{}
+mytests/src/signature/replay.sol,replay.sol,osiris,solidity,2025/06/04,20260415_0919,1776245450.4212704,1.655324935913086,0,{},{analysis incomplete},{Solidity compilation failed},{}
+mytests/src/tx_origin/tx_as_sender.sol,tx_as_sender.sol,osiris,solidity,2025/06/04,20260415_0919,1776245494.5139542,0.983849048614502,0,{},{analysis incomplete},{Solidity compilation failed},{}
+mytests/src/tx_origin/tx_authorization.sol,tx_authorization.sol,osiris,solidity,2025/06/04,20260415_0919,1776245440.9220428,1.2765519618988037,0,{},{analysis incomplete},{Solidity compilation failed},{}
+mytests/src/visibility/variable_visibility.sol,variable_visibility.sol,osiris,solidity,2025/06/04,20260415_0919,1776245352.6168752,1.0143887996673584,0,{},{analysis incomplete},{Solidity compilation failed},{}
+mytests/src/visibility/wrong_constructor.sol,wrong_constructor.sol,osiris,solidity,2025/06/04,20260415_0919,1776245359.322776,1.900496482849121,0,{},{},{},{}
+mytests/src/delegatecall/arbitrary_to.sol,arbitrary_to.sol,osiris,solidity,2025/06/04,20260415_1007,1776247707.2919793,1.0489773750305176,0,{},{analysis incomplete},{Solidity compilation failed},{}
+mytests/src/gas/dos_gas.sol,dos_gas.sol,osiris,solidity,2025/06/04,20260415_1007,1776253039.8028247,1.1096704006195068,0,{},{analysis incomplete},{Solidity compilation failed},{}
+mytests/src/delegatecall/forward_msg_data.sol,forward_msg_data.sol,osiris,solidity,2025/06/04,20260415_1007,1776247785.3994527,2.4149298667907715,0,{},{},{},{}
+mytests/src/visibility/function_visibility.sol,function_visibility.sol,osiris,solidity,2025/06/04,20260415_1007,1776252924.6938887,1.0179717540740967,0,{},{analysis incomplete},{Solidity compilation failed},{}
+mytests/src/signature/incorrect.sol,incorrect.sol,osiris,solidity,2025/06/04,20260415_1007,1776254050.986118,1.1811792850494385,0,{},{analysis incomplete},{Solidity compilation failed},{}
+mytests/src/misapplied/incorrect_logical.sol,incorrect_logical.sol,osiris,solidity,2025/06/04,20260415_1007,1776247675.5403402,1.3725461959838867,0,{},{analysis incomplete},{Solidity compilation failed},{}
+mytests/src/missing/missing_guard.sol,missing_guard.sol,osiris,solidity,2025/06/04,20260415_1007,1776247651.2051167,1.4205243587493896,0,{},{analysis incomplete},{Solidity compilation failed},{}
+mytests/src/misapplied/missing_revert.sol,missing_revert.sol,osiris,solidity,2025/06/04,20260415_1007,1776252920.3889894,1.3032855987548828,0,{},{analysis incomplete},{Solidity compilation failed},{}
+mytests/src/initialization/re_inherit.sol,re_inherit.sol,osiris,solidity,2025/06/04,20260415_1007,1776247657.350619,1.07326078414917,0,{},{analysis incomplete},{Solidity compilation failed},{}
+mytests/src/initialization/re_initialized.sol,re_initialized.sol,osiris,solidity,2025/06/04,20260415_1007,1776248162.351439,0.9040615558624268,0,{},{analysis incomplete},{Solidity compilation failed},{}
+mytests/src/signature/replay.sol,replay.sol,osiris,solidity,2025/06/04,20260415_1007,1776252968.3362923,0.823122501373291,0,{},{analysis incomplete},{Solidity compilation failed},{}
+mytests/src/tx_origin/tx_as_sender.sol,tx_as_sender.sol,osiris,solidity,2025/06/04,20260415_1007,1776252969.2294254,1.086634874343872,0,{},{analysis incomplete},{Solidity compilation failed},{}
+mytests/src/tx_origin/tx_authorization.sol,tx_authorization.sol,osiris,solidity,2025/06/04,20260415_1007,1776248108.4807024,1.1394996643066406,0,{},{analysis incomplete},{Solidity compilation failed},{}
+mytests/src/initialization/uninitialized.sol,uninitialized.sol,osiris,solidity,2025/06/04,20260415_1007,1776248864.2167244,1.2378358840942383,0,{},{analysis incomplete},{Solidity compilation failed},{}
+mytests/src/visibility/variable_visibility.sol,variable_visibility.sol,osiris,solidity,2025/06/04,20260415_1007,1776247702.3749146,1.4149689674377441,0,{},{analysis incomplete},{Solidity compilation failed},{}
+mytests/src/visibility/wrong_constructor.sol,wrong_constructor.sol,osiris,solidity,2025/06/04,20260415_1007,1776253999.0736125,1.3224601745605469,0,{},{},{},{}
+mytests/src/delegatecall/arbitrary_to.sol,arbitrary_to.sol,oyente+-060ca34,solidity,2025/06/04,20260415_0919,1776245403.366375,2.952239751815796,0,{Integer_Underflow},{coverage Example 86.8%},{},{}
+mytests/src/gas/dos_gas.sol,dos_gas.sol,oyente+-060ca34,solidity,2025/06/04,20260415_0919,1776245375.6860313,1.4213316440582275,1,{},{analysis incomplete},{Solidity compilation failed},{}
+mytests/src/visibility/function_visibility.sol,function_visibility.sol,oyente+-060ca34,solidity,2025/06/04,20260415_0919,1776245603.94632,2.626805305480957,0,{},{coverage Example 75.7%},{},{}
+mytests/src/signature/incorrect.sol,incorrect.sol,oyente+-060ca34,solidity,2025/06/04,20260415_0919,1776245439.0925455,1.7649765014648438,0,{},"{coverage Attacker 65.5%,coverage IncorrectSig 36.8%}",{},{}
+mytests/src/misapplied/incorrect_logical.sol,incorrect_logical.sol,oyente+-060ca34,solidity,2025/06/04,20260415_0919,1776245610.2052546,15.064581632614136,0,{},{coverage Example 60.6%},{},{}
+mytests/src/misapplied/missing_revert.sol,missing_revert.sol,oyente+-060ca34,solidity,2025/06/04,20260415_0919,1776245593.7590106,10.14214015007019,0,{},{coverage Example 34.2%},{},{}
+mytests/src/initialization/re_inherit.sol,re_inherit.sol,oyente+-060ca34,solidity,2025/06/04,20260415_0919,1776245647.411007,8.392070531845093,0,{Integer_Underflow},"{coverage Derived 88.2%,coverage Parent 82.3%}",{},{}
+mytests/src/signature/replay.sol,replay.sol,oyente+-060ca34,solidity,2025/06/04,20260415_0919,1776245673.4550843,1.119527816772461,1,"{Callstack_Depth_Attack_Vulnerability,Integer_Underflow}",{coverage Example 52.3%},{},{}
+mytests/src/tx_origin/tx_authorization.sol,tx_authorization.sol,oyente+-060ca34,solidity,2025/06/04,20260415_0919,1776245354.607027,22.031790733337402,1,{Callstack_Depth_Attack_Vulnerability},{coverage Example 57.0%},{},{}
+mytests/src/initialization/uninitialized.sol,uninitialized.sol,oyente+-060ca34,solidity,2025/06/04,20260415_0919,1776245410.5155766,2.927872896194458,0,{},{coverage Example 75.7%},{},{}
+mytests/src/visibility/variable_visibility.sol,variable_visibility.sol,oyente+-060ca34,solidity,2025/06/04,20260415_0919,1776245389.4357088,1.747936487197876,1,"{Integer_Overflow,Integer_Underflow,Re_Entrancy_Vulnerability}",{coverage SecretStore 84.5%},{},{}
+mytests/src/visibility/wrong_constructor.sol,wrong_constructor.sol,oyente+-060ca34,solidity,2025/06/04,20260415_0919,1776245340.746189,1.7920916080474854,0,{},{coverage MyContract 66.2%},{},{}
+mytests/src/delegatecall/arbitrary_to.sol,arbitrary_to.sol,oyente+-060ca34,solidity,2025/06/04,20260415_1007,1776252921.821655,1.422684669494629,0,{Integer_Underflow},{coverage Example 86.8%},{},{}
+mytests/src/gas/dos_gas.sol,dos_gas.sol,oyente+-060ca34,solidity,2025/06/04,20260415_1007,1776247708.4059784,1.060197353363037,1,{},{analysis incomplete},{Solidity compilation failed},{}
+mytests/src/delegatecall/forward_msg_data.sol,forward_msg_data.sol,oyente+-060ca34,solidity,2025/06/04,20260415_1007,1776255338.705201,1.3124322891235352,0,{},"{coverage Proxy 67.4%,coverage WalletLibrary 81.7%}",{},{}
+mytests/src/visibility/function_visibility.sol,function_visibility.sol,oyente+-060ca34,solidity,2025/06/04,20260415_1007,1776255443.3668044,2.4326767921447754,0,{},{coverage Example 75.7%},{},{}
+mytests/src/signature/incorrect.sol,incorrect.sol,oyente+-060ca34,solidity,2025/06/04,20260415_1007,1776247652.9937322,1.6506493091583252,0,{},"{coverage Attacker 65.5%,coverage IncorrectSig 36.8%}",{},{}
+mytests/src/misapplied/incorrect_logical.sol,incorrect_logical.sol,oyente+-060ca34,solidity,2025/06/04,20260415_1007,1776253095.8893273,9.389638662338257,0,{},{coverage Example 60.6%},{},{}
+mytests/src/missing/missing_guard.sol,missing_guard.sol,oyente+-060ca34,solidity,2025/06/04,20260415_1007,1776255340.726919,2.0949454307556152,0,{},{coverage Example 52.6%},{},{}
+mytests/src/misapplied/missing_revert.sol,missing_revert.sol,oyente+-060ca34,solidity,2025/06/04,20260415_1007,1776253957.7760184,5.683581352233887,0,{},{coverage Example 34.2%},{},{}
+mytests/src/initialization/re_inherit.sol,re_inherit.sol,oyente+-060ca34,solidity,2025/06/04,20260415_1007,1776255445.828348,5.866330146789551,0,{Integer_Underflow},"{coverage Derived 88.2%,coverage Parent 82.3%}",{},{}
+mytests/src/initialization/re_initialized.sol,re_initialized.sol,oyente+-060ca34,solidity,2025/06/04,20260415_1007,1776247699.1145368,2.236658811569214,0,{Integer_Underflow},{coverage Example 85.8%},{},{}
+mytests/src/signature/replay.sol,replay.sol,oyente+-060ca34,solidity,2025/06/04,20260415_1007,1776247805.4659495,1.3139300346374512,1,"{Callstack_Depth_Attack_Vulnerability,Integer_Underflow}",{coverage Example 52.3%},{},{}
+mytests/src/tx_origin/tx_as_sender.sol,tx_as_sender.sol,oyente+-060ca34,solidity,2025/06/04,20260415_1007,1776248127.3065722,1.815544605255127,0,"{Integer_Overflow,Integer_Underflow}",{coverage Example 90.7%},{},{}
+mytests/src/tx_origin/tx_authorization.sol,tx_authorization.sol,oyente+-060ca34,solidity,2025/06/04,20260415_1007,1776247654.1202493,15.076579809188843,1,{Callstack_Depth_Attack_Vulnerability},{coverage Example 57.0%},{},{}
+mytests/src/initialization/uninitialized.sol,uninitialized.sol,oyente+-060ca34,solidity,2025/06/04,20260415_1007,1776248865.5311599,2.32894229888916,0,{},{coverage Example 75.7%},{},{}
+mytests/src/visibility/variable_visibility.sol,variable_visibility.sol,oyente+-060ca34,solidity,2025/06/04,20260415_1007,1776247670.027503,1.3343327045440674,1,"{Integer_Overflow,Integer_Underflow,Re_Entrancy_Vulnerability}",{coverage SecretStore 84.5%},{},{}
+mytests/src/visibility/wrong_constructor.sol,wrong_constructor.sol,oyente+-060ca34,solidity,2025/06/04,20260415_1007,1776248129.2453883,0.841407299041748,0,{},{coverage MyContract 66.2%},{},{}
+mytests/src/delegatecall/forward_msg_data.sol,forward_msg_data.sol,securify,solidity,2022/11/17,20260415_0919,1776245622.0057797,28.956088304519653,137,"{MissingInputValidation,TODAmount}",{analysis incomplete},{},{DOCKER_KILL_OOM}
+mytests/src/visibility/function_visibility.sol,function_visibility.sol,securify,solidity,2022/11/17,20260415_0919,1776245410.296266,8.597678899765015,0,{},{},{},{}
+mytests/src/signature/incorrect.sol,incorrect.sol,securify,solidity,2022/11/17,20260415_0919,1776245348.1616805,11.379913568496704,0,{},{},{},{}
+mytests/src/missing/missing_guard.sol,missing_guard.sol,securify,solidity,2022/11/17,20260415_0919,1776245340.7457614,4.0720884799957275,0,{},{},{},{}
+mytests/src/initialization/re_initialized.sol,re_initialized.sol,securify,solidity,2022/11/17,20260415_0919,1776245345.6038923,8.288070440292358,0,{},{},{},{}
+mytests/src/signature/replay.sol,replay.sol,securify,solidity,2022/11/17,20260415_0919,1776245392.3316784,8.142537355422974,0,{},{},{},{}
+mytests/src/tx_origin/tx_authorization.sol,tx_authorization.sol,securify,solidity,2022/11/17,20260415_0919,1776245442.257467,8.13769793510437,0,{},{},{},{}
+mytests/src/visibility/variable_visibility.sol,variable_visibility.sol,securify,solidity,2022/11/17,20260415_0919,1776245586.1304584,7.600669622421265,0,{},{},{},{}
+mytests/src/delegatecall/arbitrary_to.sol,arbitrary_to.sol,securify,solidity,2022/11/17,20260415_1007,1776252973.1651661,5.6876678466796875,0,{},{},{},{}
+mytests/src/gas/dos_gas.sol,dos_gas.sol,securify,solidity,2022/11/17,20260415_1007,1776247705.8726225,1.3233139514923096,1,{},{analysis incomplete},{},{exception (java.io.IOException)}
+mytests/src/delegatecall/forward_msg_data.sol,forward_msg_data.sol,securify,solidity,2022/11/17,20260415_1007,1776252970.465415,40.269351959228516,0,"{MissingInputValidation,TODAmount,TODTransfer}",{},{},{}
+mytests/src/visibility/function_visibility.sol,function_visibility.sol,securify,solidity,2022/11/17,20260415_1007,1776252911.7366087,7.385582685470581,0,{},{},{},{}
+mytests/src/signature/incorrect.sol,incorrect.sol,securify,solidity,2022/11/17,20260415_1007,1776247798.610929,13.630022287368774,0,{},{},{},{}
+mytests/src/misapplied/incorrect_logical.sol,incorrect_logical.sol,securify,solidity,2022/11/17,20260415_1007,1776247650.483106,3.6151986122131348,0,{},{},{},{}
+mytests/src/missing/missing_guard.sol,missing_guard.sol,securify,solidity,2022/11/17,20260415_1007,1776247759.0441842,7.772606611251831,0,{},{},{},{}
+mytests/src/misapplied/missing_revert.sol,missing_revert.sol,securify,solidity,2022/11/17,20260415_1007,1776248816.642841,6.813774585723877,0,{},{},{},{}
+mytests/src/initialization/re_inherit.sol,re_inherit.sol,securify,solidity,2022/11/17,20260415_1007,1776255427.875003,12.116284370422363,0,{},{},{},{}
+mytests/src/initialization/re_initialized.sol,re_initialized.sol,securify,solidity,2022/11/17,20260415_1007,1776254037.7456727,6.862844944000244,0,{},{},{},{}
+mytests/src/signature/replay.sol,replay.sol,securify,solidity,2022/11/17,20260415_1007,1776252968.643249,6.957458734512329,0,{},{},{},{}
+mytests/src/tx_origin/tx_as_sender.sol,tx_as_sender.sol,securify,solidity,2022/11/17,20260415_1007,1776252985.3941112,6.109065055847168,0,{},{},{},{}
+mytests/src/tx_origin/tx_authorization.sol,tx_authorization.sol,securify,solidity,2022/11/17,20260415_1007,1776248084.9452906,7.198244333267212,0,{},{},{},{}
+mytests/src/initialization/uninitialized.sol,uninitialized.sol,securify,solidity,2022/11/17,20260415_1007,1776252995.2127438,6.836842775344849,0,{},{},{},{}
+mytests/src/visibility/variable_visibility.sol,variable_visibility.sol,securify,solidity,2022/11/17,20260415_1007,1776247649.4692502,2.7617697715759277,0,{},{},{},{}
+mytests/src/visibility/wrong_constructor.sol,wrong_constructor.sol,securify,solidity,2022/11/17,20260415_1007,1776248163.389245,16.885966300964355,0,{MissingInputValidation},{},{},{}
+mytests/src/delegatecall/arbitrary_to.sol,arbitrary_to.sol,securify2,solidity,2025-09-12,20260415_0919,1776245437.525091,1.4864444732666016,1,{},{},{EXIT_CODE_1},"{exception (AttributeError: 'VariableDeclaration__AllAttrsMixin' object has no attribute 'value'),exception (securify.grammar.attributes.AttributeGrammarError: Error during evaluation of rule 'expression_value'. )}"
+mytests/src/gas/dos_gas.sol,dos_gas.sol,securify2,solidity,2025-09-12,20260415_0919,1776245491.7622423,1.1871614456176758,1,{},{},{EXIT_CODE_1},"{""exception (solc.exceptions.SolcError: ParserError: Source \""@openzeppelin/contracts/access/AccessControl.sol\"" not found: File not found. Searched the following locations: \""\"".)""}"
+mytests/src/signature/incorrect.sol,incorrect.sol,securify2,solidity,2025-09-12,20260415_0919,1776245340.7409,1.1469566822052002,1,{},{},{EXIT_CODE_1},{exception (pragma directive defines a prior version to 0.8.31. Changing pragma version to 0.8.31....)}
+mytests/src/misapplied/incorrect_logical.sol,incorrect_logical.sol,securify2,solidity,2025-09-12,20260415_0919,1776245404.7347956,1.6432056427001953,1,{},{},{EXIT_CODE_1},"{exception (AttributeError: 'VariableDeclaration__AllAttrsMixin' object has no attribute 'value'),exception (securify.grammar.attributes.AttributeGrammarError: Error during evaluation of rule 'expression_value'. )}"
+mytests/src/misapplied/missing_revert.sol,missing_revert.sol,securify2,solidity,2025-09-12,20260415_0919,1776245534.5455287,1.4112884998321533,1,{},{},{EXIT_CODE_1},{exception (AttributeError: Semantic rule references unavailable child node 'false_body'.)}
+mytests/src/initialization/re_initialized.sol,re_initialized.sol,securify2,solidity,2025-09-12,20260415_0919,1776245757.53847,1.8733038902282715,1,{},{},{EXIT_CODE_1},"{exception (AttributeError: 'VariableDeclaration__AllAttrsMixin' object has no attribute 'value'),exception (securify.grammar.attributes.AttributeGrammarError: Error during evaluation of rule 'expression_value'. )}"
+mytests/src/signature/replay.sol,replay.sol,securify2,solidity,2025-09-12,20260415_0919,1776245536.020844,1.29164457321167,1,{},{},{EXIT_CODE_1},{exception (securify.grammar.GrammarError: Symbol 'FunctionCallOptions' not found in grammar.)}
+mytests/src/tx_origin/tx_as_sender.sol,tx_as_sender.sol,securify2,solidity,2025-09-12,20260415_0919,1776245426.817797,1.2587316036224365,1,{},{pragma directive defines a prior version to 0.8.31. Changing pragma version to 0.8.31....},{EXIT_CODE_1},"{exception (AttributeError: 'VariableDeclaration__AllAttrsMixin' object has no attribute 'value'),exception (securify.grammar.attributes.AttributeGrammarError: Error during evaluation of rule 'expression_value'. )}"
+mytests/src/delegatecall/arbitrary_to.sol,arbitrary_to.sol,securify2,solidity,2025-09-12,20260415_1007,1776248126.134638,1.1304259300231934,1,{},{},{EXIT_CODE_1},"{exception (AttributeError: 'VariableDeclaration__AllAttrsMixin' object has no attribute 'value'),exception (securify.grammar.attributes.AttributeGrammarError: Error during evaluation of rule 'expression_value'. )}"
+mytests/src/gas/dos_gas.sol,dos_gas.sol,securify2,solidity,2025-09-12,20260415_1007,1776249069.0907059,0.8109509944915771,1,{},{pragma directive defines a prior version to 0.8.31. Changing pragma version to 0.8.31....},{EXIT_CODE_1},"{""exception (solc.exceptions.SolcError: ParserError: Source \""@openzeppelin/contracts/access/AccessControl.sol\"" not found: File not found. Searched the following locations: \""\"".)""}"
+mytests/src/delegatecall/forward_msg_data.sol,forward_msg_data.sol,securify2,solidity,2025-09-12,20260415_1007,1776250648.3262875,1.0923080444335938,1,{},{},{EXIT_CODE_1},{exception (securify.solidity.solidity_cfg_compiler.SecurifyCompilationError: Solc version 0.4.26+commit.4563c3fc.Linux.gpp not supported by CFG compiler.)}
+mytests/src/visibility/function_visibility.sol,function_visibility.sol,securify2,solidity,2025-09-12,20260415_1007,1776247791.427832,1.1966207027435303,1,{},{},{EXIT_CODE_1},"{exception (AttributeError: 'VariableDeclaration__AllAttrsMixin' object has no attribute 'value'),exception (securify.grammar.attributes.AttributeGrammarError: Error during evaluation of rule 'expression_value'. )}"
+mytests/src/signature/incorrect.sol,incorrect.sol,securify2,solidity,2025-09-12,20260415_1007,1776247782.6705625,1.1246912479400635,1,{},{},{EXIT_CODE_1},{exception (AttributeError: 'VariableDeclaration' object has no attribute 'value')}
+mytests/src/misapplied/incorrect_logical.sol,incorrect_logical.sol,securify2,solidity,2025-09-12,20260415_1007,1776247649.4580562,1.0105853080749512,1,{},{},{EXIT_CODE_1},"{exception (pragma directive defines a prior version to 0.8.31. Changing pragma version to 0.8.31....),exception (securify.grammar.attributes.AttributeGrammarError: Error during evaluation of rule 'expression_value'. )}"
+mytests/src/missing/missing_guard.sol,missing_guard.sol,securify2,solidity,2025-09-12,20260415_1007,1776248778.7163312,1.1738395690917969,1,{},{},{EXIT_CODE_1},"{exception (AttributeError: 'VariableDeclaration__AllAttrsMixin' object has no attribute 'value'),exception (securify.grammar.attributes.AttributeGrammarError: Error during evaluation of rule 'expression_value'. )}"
+mytests/src/misapplied/missing_revert.sol,missing_revert.sol,securify2,solidity,2025-09-12,20260415_1007,1776247649.421216,1.102977991104126,1,{},{},{EXIT_CODE_1},{exception (pragma directive defines a prior version to 0.8.31. Changing pragma version to 0.8.31....)}
+mytests/src/initialization/re_inherit.sol,re_inherit.sol,securify2,solidity,2025-09-12,20260415_1007,1776247652.297385,1.0383777618408203,1,{},{},{EXIT_CODE_1},{exception (securify.grammar.GrammarError: Symbol 'IdentifierPath' not found in grammar.)}
+mytests/src/initialization/re_initialized.sol,re_initialized.sol,securify2,solidity,2025-09-12,20260415_1007,1776253946.390691,1.4566421508789062,1,{},{},{EXIT_CODE_1},"{exception (AttributeError: 'VariableDeclaration__AllAttrsMixin' object has no attribute 'value'),exception (securify.grammar.attributes.AttributeGrammarError: Error during evaluation of rule 'expression_value'. )}"
+mytests/src/signature/replay.sol,replay.sol,securify2,solidity,2025-09-12,20260415_1007,1776247649.4469898,0.973459005355835,1,{},{},{EXIT_CODE_1},{exception (securify.grammar.GrammarError: Symbol 'FunctionCallOptions' not found in grammar.)}
+mytests/src/tx_origin/tx_as_sender.sol,tx_as_sender.sol,securify2,solidity,2025-09-12,20260415_1007,1776249065.547105,0.978736162185669,1,{},{pragma directive defines a prior version to 0.8.31. Changing pragma version to 0.8.31....},{EXIT_CODE_1},"{exception (AttributeError: 'VariableDeclaration__AllAttrsMixin' object has no attribute 'value'),exception (securify.grammar.attributes.AttributeGrammarError: Error during evaluation of rule 'expression_value'. )}"
+mytests/src/tx_origin/tx_authorization.sol,tx_authorization.sol,securify2,solidity,2025-09-12,20260415_1007,1776247704.699341,1.2195792198181152,1,{},{},{EXIT_CODE_1},{exception (securify.grammar.GrammarError: Symbol 'FunctionCallOptions' not found in grammar.)}
+mytests/src/initialization/uninitialized.sol,uninitialized.sol,securify2,solidity,2025-09-12,20260415_1007,1776248868.005774,0.4325380325317383,1,{},{},{EXIT_CODE_1},"{exception (AttributeError: 'VariableDeclaration__AllAttrsMixin' object has no attribute 'value'),exception (securify.grammar.attributes.AttributeGrammarError: Error during evaluation of rule 'expression_value'. )}"
+mytests/src/visibility/variable_visibility.sol,variable_visibility.sol,securify2,solidity,2025-09-12,20260415_1007,1776247674.0136747,1.3901009559631348,1,{},{pragma directive defines a prior version to 0.8.31. Changing pragma version to 0.8.31....},{EXIT_CODE_1},{exception (securify.grammar.GrammarError: Symbol 'FunctionCallOptions' not found in grammar.)}
+mytests/src/visibility/wrong_constructor.sol,wrong_constructor.sol,securify2,solidity,2025-09-12,20260415_1007,1776247790.649339,1.0904958248138428,1,{},{},{EXIT_CODE_1},{exception (securify.solidity.solidity_cfg_compiler.SecurifyCompilationError: Solc version 0.4.26+commit.4563c3fc.Linux.gpp not supported by CFG compiler.)}
+mytests/src/delegatecall/arbitrary_to.sol,arbitrary_to.sol,semgrep-1.131.0-1.2.1,solidity,2025/08/06,20260415_0919,1776245342.299185,5.786467790603638,0,{non_payable_constructor},{},{},{}
+mytests/src/gas/dos_gas.sol,dos_gas.sol,semgrep-1.131.0-1.2.1,solidity,2025/08/06,20260415_0919,1776245340.6396043,5.2115302085876465,0,"{array_length_outside_loop,non_payable_constructor,unnecessary_checked_arithmetic_in_loop,use_prefix_increment_not_postfix}",{},{},{}
+mytests/src/delegatecall/forward_msg_data.sol,forward_msg_data.sol,semgrep-1.131.0-1.2.1,solidity,2025/08/06,20260415_0919,1776245382.2551217,7.068742752075195,0,{non_payable_constructor},{},{},{}
+mytests/src/visibility/function_visibility.sol,function_visibility.sol,semgrep-1.131.0-1.2.1,solidity,2025/08/06,20260415_0919,1776245689.9750395,6.79298734664917,0,{non_payable_constructor},{},{},{}
+mytests/src/signature/incorrect.sol,incorrect.sol,semgrep-1.131.0-1.2.1,solidity,2025/08/06,20260415_0919,1776245347.016463,4.835622549057007,0,"{non_payable_constructor,state_variable_read_in_a_loop,unnecessary_checked_arithmetic_in_loop,use_custom_error_not_require,use_prefix_increment_not_postfix}",{},{},{}
+mytests/src/misapplied/incorrect_logical.sol,incorrect_logical.sol,semgrep-1.131.0-1.2.1,solidity,2025/08/06,20260415_0919,1776245573.5180738,7.70086407661438,0,{},{},{},{}
+mytests/src/initialization/re_initialized.sol,re_initialized.sol,semgrep-1.131.0-1.2.1,solidity,2025/08/06,20260415_0919,1776245407.7817154,6.04479193687439,0,{},{},{},{}
+mytests/src/tx_origin/tx_as_sender.sol,tx_as_sender.sol,semgrep-1.131.0-1.2.1,solidity,2025/08/06,20260415_0919,1776245416.2161186,4.674299240112305,0,{use_custom_error_not_require},{},{},{}
+mytests/src/initialization/uninitialized.sol,uninitialized.sol,semgrep-1.131.0-1.2.1,solidity,2025/08/06,20260415_0919,1776245497.9595375,6.000536203384399,0,{non_payable_constructor},{},{},{}
+mytests/src/visibility/variable_visibility.sol,variable_visibility.sol,semgrep-1.131.0-1.2.1,solidity,2025/08/06,20260415_0919,1776245342.3535771,5.608932018280029,0,{},{},{},{}
+mytests/src/delegatecall/arbitrary_to.sol,arbitrary_to.sol,semgrep-1.131.0-1.2.1,solidity,2025/08/06,20260415_1007,1776248773.1825204,5.401858806610107,0,{non_payable_constructor},{},{},{}
+mytests/src/gas/dos_gas.sol,dos_gas.sol,semgrep-1.131.0-1.2.1,solidity,2025/08/06,20260415_1007,1776253057.628337,4.192347526550293,0,"{array_length_outside_loop,non_payable_constructor,unnecessary_checked_arithmetic_in_loop,use_prefix_increment_not_postfix}",{},{},{}
+mytests/src/delegatecall/forward_msg_data.sol,forward_msg_data.sol,semgrep-1.131.0-1.2.1,solidity,2025/08/06,20260415_1007,1776247728.572417,6.359903335571289,0,{non_payable_constructor},{},{},{}
+mytests/src/visibility/function_visibility.sol,function_visibility.sol,semgrep-1.131.0-1.2.1,solidity,2025/08/06,20260415_1007,1776255364.9621737,3.916067123413086,0,{non_payable_constructor},{},{},{}
+mytests/src/signature/incorrect.sol,incorrect.sol,semgrep-1.131.0-1.2.1,solidity,2025/08/06,20260415_1007,1776248130.1215239,5.382842540740967,0,"{non_payable_constructor,state_variable_read_in_a_loop,unnecessary_checked_arithmetic_in_loop,use_custom_error_not_require,use_prefix_increment_not_postfix}",{},{},{}
+mytests/src/misapplied/incorrect_logical.sol,incorrect_logical.sol,semgrep-1.131.0-1.2.1,solidity,2025/08/06,20260415_1007,1776249069.9462116,4.565029621124268,0,{},{},{},{}
+mytests/src/missing/missing_guard.sol,missing_guard.sol,semgrep-1.131.0-1.2.1,solidity,2025/08/06,20260415_1007,1776247799.4949658,5.928269386291504,0,{non_payable_constructor},{},{},{}
+mytests/src/misapplied/missing_revert.sol,missing_revert.sol,semgrep-1.131.0-1.2.1,solidity,2025/08/06,20260415_1007,1776247676.9514704,6.308670520782471,0,{init_variables_with_default_value},{},{},{}
+mytests/src/initialization/re_inherit.sol,re_inherit.sol,semgrep-1.131.0-1.2.1,solidity,2025/08/06,20260415_1007,1776248190.8631496,4.464130401611328,0,{},{},{},{}
+mytests/src/initialization/re_initialized.sol,re_initialized.sol,semgrep-1.131.0-1.2.1,solidity,2025/08/06,20260415_1007,1776247683.323902,15.41461181640625,0,{},{},{},{}
+mytests/src/signature/replay.sol,replay.sol,semgrep-1.131.0-1.2.1,solidity,2025/08/06,20260415_1007,1776253951.2119958,6.51355504989624,0,{},{},{},{}
+mytests/src/tx_origin/tx_as_sender.sol,tx_as_sender.sol,semgrep-1.131.0-1.2.1,solidity,2025/08/06,20260415_1007,1776247700.337608,4.320687532424927,0,{use_custom_error_not_require},{},{},{}
+mytests/src/tx_origin/tx_authorization.sol,tx_authorization.sol,semgrep-1.131.0-1.2.1,solidity,2025/08/06,20260415_1007,1776253024.0660536,5.857055425643921,0,{non_payable_constructor},{},{},{}
+mytests/src/initialization/uninitialized.sol,uninitialized.sol,semgrep-1.131.0-1.2.1,solidity,2025/08/06,20260415_1007,1776255449.300027,5.708746671676636,0,{non_payable_constructor},{},{},{}
+mytests/src/visibility/variable_visibility.sol,variable_visibility.sol,semgrep-1.131.0-1.2.1,solidity,2025/08/06,20260415_1007,1776253052.8655279,4.735546588897705,0,{},{},{},{}
+mytests/src/visibility/wrong_constructor.sol,wrong_constructor.sol,semgrep-1.131.0-1.2.1,solidity,2025/08/06,20260415_1007,1776247653.3905659,5.410521507263184,0,{},{},{},{}
+mytests/src/signature/incorrect.sol,incorrect.sol,sfuzz,solidity,2023/03/02,20260415_0919,1776245442.3315353,0.8486518859863281,134,{},{},{},{DOCKER_RECEIVED_SIGNAL_6}
+mytests/src/misapplied/incorrect_logical.sol,incorrect_logical.sol,sfuzz,solidity,2023/03/02,20260415_0919,1776246550.485069,1.1617226600646973,134,{},{},{},{DOCKER_RECEIVED_SIGNAL_6}
+mytests/src/missing/missing_guard.sol,missing_guard.sol,sfuzz,solidity,2023/03/02,20260415_0919,1776245346.878378,0.8469259738922119,134,{},{},{},{DOCKER_RECEIVED_SIGNAL_6}
+mytests/src/initialization/re_inherit.sol,re_inherit.sol,sfuzz,solidity,2023/03/02,20260415_0919,1776245657.6822953,1.274775505065918,134,{},{},{},{DOCKER_RECEIVED_SIGNAL_6}
+mytests/src/initialization/re_initialized.sol,re_initialized.sol,sfuzz,solidity,2023/03/02,20260415_0919,1776245340.7463627,0.9756317138671875,134,{},{},{},{DOCKER_RECEIVED_SIGNAL_6}
+mytests/src/visibility/variable_visibility.sol,variable_visibility.sol,sfuzz,solidity,2023/03/02,20260415_0919,1776245381.1546943,0.9575979709625244,134,{},{},{},{DOCKER_RECEIVED_SIGNAL_6}
+mytests/src/delegatecall/arbitrary_to.sol,arbitrary_to.sol,sfuzz,solidity,2023/03/02,20260415_1007,1776247812.3320627,1.0997238159179688,134,{},{},{},{DOCKER_RECEIVED_SIGNAL_6}
+mytests/src/gas/dos_gas.sol,dos_gas.sol,sfuzz,solidity,2023/03/02,20260415_1007,1776253003.045821,1.3027877807617188,134,{},{},{},{DOCKER_RECEIVED_SIGNAL_6}
+mytests/src/delegatecall/forward_msg_data.sol,forward_msg_data.sol,sfuzz,solidity,2023/03/02,20260415_1007,1776247771.9531915,304.7539129257202,0,"{Dangerous_Delegate_Call,Freezing_Ether,Gasless_Send}",{},{},{exception (Killed)}
+mytests/src/visibility/function_visibility.sol,function_visibility.sol,sfuzz,solidity,2023/03/02,20260415_1007,1776253037.7098162,0.7676825523376465,134,{},{},{},{DOCKER_RECEIVED_SIGNAL_6}
+mytests/src/signature/incorrect.sol,incorrect.sol,sfuzz,solidity,2023/03/02,20260415_1007,1776247649.4687176,0.7268538475036621,134,{},{},{},{DOCKER_RECEIVED_SIGNAL_6}
+mytests/src/misapplied/incorrect_logical.sol,incorrect_logical.sol,sfuzz,solidity,2023/03/02,20260415_1007,1776249068.1205697,0.8728110790252686,134,{},{},{},{DOCKER_RECEIVED_SIGNAL_6}
+mytests/src/missing/missing_guard.sol,missing_guard.sol,sfuzz,solidity,2023/03/02,20260415_1007,1776254044.78271,0.7918918132781982,134,{},{},{},{DOCKER_RECEIVED_SIGNAL_6}
+mytests/src/misapplied/missing_revert.sol,missing_revert.sol,sfuzz,solidity,2023/03/02,20260415_1007,1776253040.945513,-0.2882521152496338,134,{},{},{},{DOCKER_RECEIVED_SIGNAL_6}
+mytests/src/initialization/re_inherit.sol,re_inherit.sol,sfuzz,solidity,2023/03/02,20260415_1007,1776253040.7319565,0.6758208274841309,134,{},{},{},{DOCKER_RECEIVED_SIGNAL_6}
+mytests/src/initialization/re_initialized.sol,re_initialized.sol,sfuzz,solidity,2023/03/02,20260415_1007,1776252926.8547034,0.8368096351623535,134,{},{},{},{DOCKER_RECEIVED_SIGNAL_6}
+mytests/src/signature/replay.sol,replay.sol,sfuzz,solidity,2023/03/02,20260415_1007,1776253012.0612876,-0.1918201446533203,134,{},{},{},{DOCKER_RECEIVED_SIGNAL_6}
+mytests/src/tx_origin/tx_as_sender.sol,tx_as_sender.sol,sfuzz,solidity,2023/03/02,20260415_1007,1776247666.15676,0.6958696842193604,134,{},{},{},{DOCKER_RECEIVED_SIGNAL_6}
+mytests/src/tx_origin/tx_authorization.sol,tx_authorization.sol,sfuzz,solidity,2023/03/02,20260415_1007,1776247654.6867614,0.7388815879821777,134,{},{},{},{DOCKER_RECEIVED_SIGNAL_6}
+mytests/src/initialization/uninitialized.sol,uninitialized.sol,sfuzz,solidity,2023/03/02,20260415_1007,1776253002.1248338,0.8056931495666504,134,{},{},{},{DOCKER_RECEIVED_SIGNAL_6}
+mytests/src/visibility/variable_visibility.sol,variable_visibility.sol,sfuzz,solidity,2023/03/02,20260415_1007,1776247651.330496,0.8136975765228271,134,{},{},{},{DOCKER_RECEIVED_SIGNAL_6}
+mytests/src/visibility/wrong_constructor.sol,wrong_constructor.sol,sfuzz,solidity,2023/03/02,20260415_1007,1776247649.577707,93.83447170257568,137,{},{},{},"{DOCKER_KILL_OOM,exception (Killed)}"
+mytests/src/delegatecall/arbitrary_to.sol,arbitrary_to.sol,slither-0.11.3,solidity,2025/09/14,20260415_0919,1776245346.2910771,1.614062786102295,255,"{controlled_delegatecall,immutable_states,low_level_calls,missing_zero_check,solc_version}",{},{},{}
+mytests/src/gas/dos_gas.sol,dos_gas.sol,slither-0.11.3,solidity,2025/09/14,20260415_0919,1776245435.8630562,1.596398115158081,1,{},{},{EXIT_CODE_1},"{""analysis unsuccessful, check output.json"",""error parsing results: file could not be opened successfully:
+- method gz: ReadError('empty file')
+- method bz2: ReadError('not a bzip2 file')
+- method xz: ReadError('not an lzma file')
+- method tar: ReadError('empty file')"",""exception (crytic_compile.platform.exceptions.InvalidCompilation: Invalid solc compilation Error: Source \""@openzeppelin/contracts/access/AccessControl.sol\"" not found: File not found. Searched the following locations: \""\"".)"",exception (json.decoder.JSONDecodeError: Expecting value: line 1 column 1 (char 0))}"
+mytests/src/delegatecall/forward_msg_data.sol,forward_msg_data.sol,slither-0.11.3,solidity,2025/09/14,20260415_0919,1776245413.866916,1.1615307331085205,255,"{controlled_delegatecall,low_level_calls,missing_zero_check,naming_convention,shadowing_builtin,solc_version}",{},{},{}
+mytests/src/signature/incorrect.sol,incorrect.sol,slither-0.11.3,solidity,2025/09/14,20260415_0919,1776245400.55257,5.131975173950195,255,"{calls_loop,immutable_states,missing_zero_check,solc_version}",{},{},{}
+mytests/src/misapplied/incorrect_logical.sol,incorrect_logical.sol,slither-0.11.3,solidity,2025/09/14,20260415_0919,1776245447.2313116,1.5713622570037842,255,{solc_version},{},{},{}
+mytests/src/misapplied/missing_revert.sol,missing_revert.sol,slither-0.11.3,solidity,2025/09/14,20260415_0919,1776245676.082188,1.2701358795166016,255,{solc_version},{},{},{}
+mytests/src/tx_origin/tx_as_sender.sol,tx_as_sender.sol,slither-0.11.3,solidity,2025/09/14,20260415_0919,1776246505.3880284,1.7810959815979004,255,"{locked_ether,solc_version}",{},{},{}
+mytests/src/tx_origin/tx_authorization.sol,tx_authorization.sol,slither-0.11.3,solidity,2025/09/14,20260415_0919,1776245361.263279,2.1502890586853027,255,"{arbitrary_send_eth,immutable_states,low_level_calls,solc_version,tx_origin,unchecked_lowlevel}",{},{},{}
+mytests/src/initialization/uninitialized.sol,uninitialized.sol,slither-0.11.3,solidity,2025/09/14,20260415_0919,1776245671.658682,1.751338243484497,255,"{missing_zero_check,naming_convention,solc_version}",{},{},{}
+mytests/src/delegatecall/arbitrary_to.sol,arbitrary_to.sol,slither-0.11.3,solidity,2025/09/14,20260415_1007,1776247651.074382,1.1351070404052734,255,"{controlled_delegatecall,immutable_states,low_level_calls,missing_zero_check,solc_version}",{},{},{}
+mytests/src/gas/dos_gas.sol,dos_gas.sol,slither-0.11.3,solidity,2025/09/14,20260415_1007,1776247657.8661857,1.2800252437591553,1,{},{},{EXIT_CODE_1},"{""analysis unsuccessful, check output.json"",""error parsing results: file could not be opened successfully:
+- method gz: ReadError('empty file')
+- method bz2: ReadError('not a bzip2 file')
+- method xz: ReadError('not an lzma file')
+- method tar: ReadError('empty file')"",""exception (crytic_compile.platform.exceptions.InvalidCompilation: Invalid solc compilation Error: Source \""@openzeppelin/contracts/access/AccessControl.sol\"" not found: File not found. Searched the following locations: \""\"".)"",exception (json.decoder.JSONDecodeError: Expecting value: line 1 column 1 (char 0))}"
+mytests/src/delegatecall/forward_msg_data.sol,forward_msg_data.sol,slither-0.11.3,solidity,2025/09/14,20260415_1007,1776252967.556735,0.9866220951080322,255,"{controlled_delegatecall,low_level_calls,missing_zero_check,naming_convention,shadowing_builtin,solc_version}",{},{},{}
+mytests/src/visibility/function_visibility.sol,function_visibility.sol,slither-0.11.3,solidity,2025/09/14,20260415_1007,1776247726.1482496,1.6195495128631592,255,"{missing_zero_check,naming_convention,solc_version}",{},{},{}
+mytests/src/signature/incorrect.sol,incorrect.sol,slither-0.11.3,solidity,2025/09/14,20260415_1007,1776252928.8398862,1.0920851230621338,255,"{calls_loop,immutable_states,missing_zero_check,solc_version}",{},{},{}
+mytests/src/misapplied/incorrect_logical.sol,incorrect_logical.sol,slither-0.11.3,solidity,2025/09/14,20260415_1007,1776253010.7888527,1.1456139087677002,255,{solc_version},{},{},{}
+mytests/src/missing/missing_guard.sol,missing_guard.sol,slither-0.11.3,solidity,2025/09/14,20260415_1007,1776253067.0924048,1.2085869312286377,255,"{missing_zero_check,solc_version}",{},{},{}
+mytests/src/misapplied/missing_revert.sol,missing_revert.sol,slither-0.11.3,solidity,2025/09/14,20260415_1007,1776252922.5444748,1.7767486572265625,255,{solc_version},{},{},{}
+mytests/src/initialization/re_inherit.sol,re_inherit.sol,slither-0.11.3,solidity,2025/09/14,20260415_1007,1776247650.2479277,0.9713358879089355,255,"{missing_zero_check,naming_convention,solc_version}",{},{},{}
+mytests/src/initialization/re_initialized.sol,re_initialized.sol,slither-0.11.3,solidity,2025/09/14,20260415_1007,1776247649.4220212,1.630537986755371,255,"{missing_zero_check,naming_convention,solc_version}",{},{},{}
+mytests/src/signature/replay.sol,replay.sol,slither-0.11.3,solidity,2025/09/14,20260415_1007,1776247796.966447,1.5750465393066406,255,"{constable_states,low_level_calls,missing_zero_check,solc_version,uninitialized_state}",{},{},{}
+mytests/src/tx_origin/tx_as_sender.sol,tx_as_sender.sol,slither-0.11.3,solidity,2025/09/14,20260415_1007,1776247861.0942469,1.188671588897705,255,"{locked_ether,solc_version}",{},{},{}
+mytests/src/tx_origin/tx_authorization.sol,tx_authorization.sol,slither-0.11.3,solidity,2025/09/14,20260415_1007,1776252923.3094816,1.1858537197113037,255,"{arbitrary_send_eth,immutable_states,low_level_calls,solc_version,tx_origin,unchecked_lowlevel}",{},{},{}
+mytests/src/initialization/uninitialized.sol,uninitialized.sol,slither-0.11.3,solidity,2025/09/14,20260415_1007,1776247698.8598611,1.4468631744384766,255,"{missing_zero_check,naming_convention,solc_version}",{},{},{}
+mytests/src/visibility/variable_visibility.sol,variable_visibility.sol,slither-0.11.3,solidity,2025/09/14,20260415_1007,1776247701.383825,0.9368360042572021,255,"{arbitrary_send_eth,constable_states,low_level_calls,solc_version}",{},{},{}
+mytests/src/visibility/wrong_constructor.sol,wrong_constructor.sol,slither-0.11.3,solidity,2025/09/14,20260415_1007,1776255451.7339933,1.6245849132537842,255,"{missing_zero_check,naming_convention,solc_version}",{},{},{}
+mytests/src/delegatecall/arbitrary_to.sol,arbitrary_to.sol,smartcheck,solidity,2022/11/14,20260415_0919,1776245406.3731155,3.795229434967041,0,"{SOLIDITY_LOCKED_MONEY,SOLIDITY_PRAGMAS_VERSION,SOLIDITY_UNCHECKED_CALL,SOLIDITY_VISIBILITY}",{},{},{}
+mytests/src/delegatecall/forward_msg_data.sol,forward_msg_data.sol,smartcheck,solidity,2022/11/14,20260415_0919,1776245616.9240866,5.05335259437561,0,"{SOLIDITY_LOCKED_MONEY,SOLIDITY_PRAGMAS_VERSION,SOLIDITY_PRIVATE_MODIFIER_DONT_HIDE_DATA}",{},{},{}
+mytests/src/visibility/function_visibility.sol,function_visibility.sol,smartcheck,solidity,2022/11/14,20260415_0919,1776245407.3572447,2.9679625034332275,0,"{SOLIDITY_PRAGMAS_VERSION,SOLIDITY_PRIVATE_MODIFIER_DONT_HIDE_DATA,SOLIDITY_VISIBILITY}",{},{},{}
+mytests/src/signature/incorrect.sol,incorrect.sol,smartcheck,solidity,2022/11/14,20260415_0919,1776245340.7069972,5.0845654010772705,0,"{SOLIDITY_PRAGMAS_VERSION,SOLIDITY_PRIVATE_MODIFIER_DONT_HIDE_DATA,SOLIDITY_VISIBILITY}",{},{},{}
+mytests/src/misapplied/incorrect_logical.sol,incorrect_logical.sol,smartcheck,solidity,2022/11/14,20260415_0919,1776245429.8560376,3.903986930847168,0,"{SOLIDITY_PRAGMAS_VERSION,SOLIDITY_PRIVATE_MODIFIER_DONT_HIDE_DATA}",{},{},{}
+mytests/src/initialization/re_inherit.sol,re_inherit.sol,smartcheck,solidity,2022/11/14,20260415_0919,1776245667.6036448,3.9470787048339844,0,{SOLIDITY_PRAGMAS_VERSION},{},{},{}
+mytests/src/initialization/re_initialized.sol,re_initialized.sol,smartcheck,solidity,2022/11/14,20260415_0919,1776245419.0402367,3.5225086212158203,0,"{SOLIDITY_PRAGMAS_VERSION,SOLIDITY_PRIVATE_MODIFIER_DONT_HIDE_DATA}",{},{},{}
+mytests/src/signature/replay.sol,replay.sol,smartcheck,solidity,2022/11/14,20260415_0919,1776245443.2814894,3.9034578800201416,0,{SOLIDITY_PRAGMAS_VERSION},{},{},{}
+mytests/src/tx_origin/tx_authorization.sol,tx_authorization.sol,smartcheck,solidity,2022/11/14,20260415_0919,1776245340.707834,4.067750692367554,0,"{SOLIDITY_PRAGMAS_VERSION,SOLIDITY_PRIVATE_MODIFIER_DONT_HIDE_DATA,SOLIDITY_TX_ORIGIN,SOLIDITY_VISIBILITY}",{},{},{}
+mytests/src/initialization/uninitialized.sol,uninitialized.sol,smartcheck,solidity,2022/11/14,20260415_0919,1776245341.811857,5.09784722328186,0,"{SOLIDITY_PRAGMAS_VERSION,SOLIDITY_PRIVATE_MODIFIER_DONT_HIDE_DATA,SOLIDITY_VISIBILITY}",{},{},{}
+mytests/src/visibility/variable_visibility.sol,variable_visibility.sol,smartcheck,solidity,2022/11/14,20260415_0919,1776245422.5693495,4.178078889846802,0,{SOLIDITY_PRAGMAS_VERSION},{},{},{}
+mytests/src/visibility/wrong_constructor.sol,wrong_constructor.sol,smartcheck,solidity,2022/11/14,20260415_0919,1776246598.9373963,3.5958902835845947,0,"{SOLIDITY_PRAGMAS_VERSION,SOLIDITY_PRIVATE_MODIFIER_DONT_HIDE_DATA}",{},{},{}
+mytests/src/delegatecall/arbitrary_to.sol,arbitrary_to.sol,smartcheck,solidity,2022/11/14,20260415_1007,1776252992.409851,2.7196857929229736,0,"{SOLIDITY_LOCKED_MONEY,SOLIDITY_PRAGMAS_VERSION,SOLIDITY_UNCHECKED_CALL,SOLIDITY_VISIBILITY}",{},{},{}
+mytests/src/gas/dos_gas.sol,dos_gas.sol,smartcheck,solidity,2022/11/14,20260415_1007,1776248868.5113502,4.186908721923828,0,"{SOLIDITY_EXTRA_GAS_IN_LOOPS,SOLIDITY_GAS_LIMIT_IN_LOOPS,SOLIDITY_PRAGMAS_VERSION,SOLIDITY_PRIVATE_MODIFIER_DONT_HIDE_DATA,SOLIDITY_VISIBILITY}",{},{},{}
+mytests/src/delegatecall/forward_msg_data.sol,forward_msg_data.sol,smartcheck,solidity,2022/11/14,20260415_1007,1776252965.407685,2.8923540115356445,0,"{SOLIDITY_LOCKED_MONEY,SOLIDITY_PRAGMAS_VERSION,SOLIDITY_PRIVATE_MODIFIER_DONT_HIDE_DATA}",{},{},{}
+mytests/src/visibility/function_visibility.sol,function_visibility.sol,smartcheck,solidity,2022/11/14,20260415_1007,1776252924.3907301,2.427067756652832,0,"{SOLIDITY_PRAGMAS_VERSION,SOLIDITY_PRIVATE_MODIFIER_DONT_HIDE_DATA,SOLIDITY_VISIBILITY}",{},{},{}
+mytests/src/signature/incorrect.sol,incorrect.sol,smartcheck,solidity,2022/11/14,20260415_1007,1776247666.9008462,3.069432020187378,0,"{SOLIDITY_PRAGMAS_VERSION,SOLIDITY_PRIVATE_MODIFIER_DONT_HIDE_DATA,SOLIDITY_VISIBILITY}",{},{},{}
+mytests/src/misapplied/incorrect_logical.sol,incorrect_logical.sol,smartcheck,solidity,2022/11/14,20260415_1007,1776248123.701271,2.383213520050049,0,"{SOLIDITY_PRAGMAS_VERSION,SOLIDITY_PRIVATE_MODIFIER_DONT_HIDE_DATA}",{},{},{}
+mytests/src/missing/missing_guard.sol,missing_guard.sol,smartcheck,solidity,2022/11/14,20260415_1007,1776248119.8995626,3.736732244491577,0,"{SOLIDITY_PRAGMAS_VERSION,SOLIDITY_PRIVATE_MODIFIER_DONT_HIDE_DATA,SOLIDITY_VISIBILITY}",{},{},{}
+mytests/src/misapplied/missing_revert.sol,missing_revert.sol,smartcheck,solidity,2022/11/14,20260415_1007,1776247654.2552722,3.046751022338867,0,"{SOLIDITY_PRAGMAS_VERSION,SOLIDITY_PRIVATE_MODIFIER_DONT_HIDE_DATA}",{},{},{}
+mytests/src/initialization/re_inherit.sol,re_inherit.sol,smartcheck,solidity,2022/11/14,20260415_1007,1776253040.8707008,2.050694465637207,0,{SOLIDITY_PRAGMAS_VERSION},{},{},{}
+mytests/src/initialization/re_initialized.sol,re_initialized.sol,smartcheck,solidity,2022/11/14,20260415_1007,1776247736.4841514,6.617460012435913,0,"{SOLIDITY_PRAGMAS_VERSION,SOLIDITY_PRIVATE_MODIFIER_DONT_HIDE_DATA}",{},{},{}
+mytests/src/signature/replay.sol,replay.sol,smartcheck,solidity,2022/11/14,20260415_1007,1776247650.1620867,4.008209943771362,0,{SOLIDITY_PRAGMAS_VERSION},{},{},{}
+mytests/src/tx_origin/tx_as_sender.sol,tx_as_sender.sol,smartcheck,solidity,2022/11/14,20260415_1007,1776253144.4507675,3.709954261779785,0,"{SOLIDITY_LOCKED_MONEY,SOLIDITY_PRAGMAS_VERSION,SOLIDITY_TX_ORIGIN,SOLIDITY_VISIBILITY}",{},{},{}
+mytests/src/tx_origin/tx_authorization.sol,tx_authorization.sol,smartcheck,solidity,2022/11/14,20260415_1007,1776248135.532445,3.2223594188690186,0,"{SOLIDITY_PRAGMAS_VERSION,SOLIDITY_PRIVATE_MODIFIER_DONT_HIDE_DATA,SOLIDITY_TX_ORIGIN,SOLIDITY_VISIBILITY}",{},{},{}
+mytests/src/initialization/uninitialized.sol,uninitialized.sol,smartcheck,solidity,2022/11/14,20260415_1007,1776247768.2529385,3.6287152767181396,0,"{SOLIDITY_PRAGMAS_VERSION,SOLIDITY_PRIVATE_MODIFIER_DONT_HIDE_DATA,SOLIDITY_VISIBILITY}",{},{},{}
+mytests/src/visibility/variable_visibility.sol,variable_visibility.sol,smartcheck,solidity,2022/11/14,20260415_1007,1776247655.256723,3.3130674362182617,0,{SOLIDITY_PRAGMAS_VERSION},{},{},{}
+mytests/src/visibility/wrong_constructor.sol,wrong_constructor.sol,smartcheck,solidity,2022/11/14,20260415_1007,1776254045.6231716,3.098856210708618,0,"{SOLIDITY_PRAGMAS_VERSION,SOLIDITY_PRIVATE_MODIFIER_DONT_HIDE_DATA}",{},{},{}
+mytests/src/delegatecall/arbitrary_to.sol,arbitrary_to.sol,solhint-6.0.0,solidity,2025/09/14,20260415_0919,1776245342.666546,2.1855380535125732,1,"{avoid_low_level_calls,compiler_version,func_visibility,gas_custom_errors,reason_string,use_natspec}",{},{},{}
+mytests/src/gas/dos_gas.sol,dos_gas.sol,solhint-6.0.0,solidity,2025/09/14,20260415_0919,1776245348.0256157,2.282327651977539,1,"{compiler_version,func_visibility,gas_increment_by_one,import_path_check,no_global_import,use_natspec}",{},{},{}
+mytests/src/initialization/re_initialized.sol,re_initialized.sol,solhint-6.0.0,solidity,2025/09/14,20260415_0919,1776245531.140427,1.8481197357177734,1,"{compiler_version,use_natspec}",{},{},{}
+mytests/src/tx_origin/tx_as_sender.sol,tx_as_sender.sol,solhint-6.0.0,solidity,2025/09/14,20260415_0919,1776245495.5535073,2.327866554260254,1,"{avoid_tx_origin,compiler_version,explicit_types,func_visibility,gas_custom_errors,gas_strict_inequalities,use_natspec}",{},{},{}
+mytests/src/tx_origin/tx_authorization.sol,tx_authorization.sol,solhint-6.0.0,solidity,2025/09/14,20260415_0919,1776245340.6397648,1.9062566757202148,1,"{avoid_tx_origin,compiler_version,func_visibility,gas_custom_errors,reason_string,use_natspec}",{},{},{}
+mytests/src/delegatecall/arbitrary_to.sol,arbitrary_to.sol,solhint-6.0.0,solidity,2025/09/14,20260415_1007,1776253051.3781333,1.3700668811798096,1,"{avoid_low_level_calls,compiler_version,func_visibility,gas_custom_errors,reason_string,use_natspec}",{},{},{}
+mytests/src/gas/dos_gas.sol,dos_gas.sol,solhint-6.0.0,solidity,2025/09/14,20260415_1007,1776247845.466528,1.710644245147705,1,"{compiler_version,func_visibility,gas_increment_by_one,import_path_check,no_global_import,use_natspec}",{},{},{}
+mytests/src/delegatecall/forward_msg_data.sol,forward_msg_data.sol,solhint-6.0.0,solidity,2025/09/14,20260415_1007,1776247758.2137272,1.9942114353179932,255,{},{},{EXIT_CODE_255},{}
+mytests/src/visibility/function_visibility.sol,function_visibility.sol,solhint-6.0.0,solidity,2025/09/14,20260415_1007,1776247649.3912125,1.6385295391082764,1,"{compiler_version,explicit_types,func_visibility,no_empty_blocks,use_natspec}",{},{},{}
+mytests/src/signature/incorrect.sol,incorrect.sol,solhint-6.0.0,solidity,2025/09/14,20260415_1007,1776255441.4764664,1.8511841297149658,1,"{compiler_version,func_visibility,gas_custom_errors,gas_increment_by_one,one_contract_per_file,use_natspec}",{},{},{}
+mytests/src/misapplied/incorrect_logical.sol,incorrect_logical.sol,solhint-6.0.0,solidity,2025/09/14,20260415_1007,1776248181.818829,1.2538080215454102,1,"{compiler_version,gas_custom_errors,reason_string,use_natspec}",{},{},{}
+mytests/src/missing/missing_guard.sol,missing_guard.sol,solhint-6.0.0,solidity,2025/09/14,20260415_1007,1776248180.3030708,1.4782910346984863,1,"{compiler_version,func_visibility,gas_custom_errors,reason_string,use_natspec}",{},{},{}
+mytests/src/misapplied/missing_revert.sol,missing_revert.sol,solhint-6.0.0,solidity,2025/09/14,20260415_1007,1776247652.3312156,1.6364109516143799,1,"{compiler_version,use_natspec}",{},{},{}
+mytests/src/initialization/re_inherit.sol,re_inherit.sol,solhint-6.0.0,solidity,2025/09/14,20260415_1007,1776248117.173255,1.4944958686828613,1,"{compiler_version,one_contract_per_file,use_natspec}",{},{},{}
+mytests/src/initialization/re_initialized.sol,re_initialized.sol,solhint-6.0.0,solidity,2025/09/14,20260415_1007,1776252965.9358175,1.5961048603057861,1,"{compiler_version,use_natspec}",{},{},{}
+mytests/src/signature/replay.sol,replay.sol,solhint-6.0.0,solidity,2025/09/14,20260415_1007,1776253068.3973494,1.708834171295166,1,"{compiler_version,explicit_types,gas_custom_errors,reason_string,use_natspec}",{},{},{}
+mytests/src/tx_origin/tx_as_sender.sol,tx_as_sender.sol,solhint-6.0.0,solidity,2025/09/14,20260415_1007,1776248076.7469964,1.6670324802398682,1,"{avoid_tx_origin,compiler_version,explicit_types,func_visibility,gas_custom_errors,gas_strict_inequalities,use_natspec}",{},{},{}
+mytests/src/tx_origin/tx_authorization.sol,tx_authorization.sol,solhint-6.0.0,solidity,2025/09/14,20260415_1007,1776249043.9405084,1.52396559715271,1,"{avoid_tx_origin,compiler_version,func_visibility,gas_custom_errors,reason_string,use_natspec}",{},{},{}
+mytests/src/initialization/uninitialized.sol,uninitialized.sol,solhint-6.0.0,solidity,2025/09/14,20260415_1007,1776255453.465223,1.6618094444274902,1,"{compiler_version,explicit_types,func_visibility,no_empty_blocks,use_natspec}",{},{},{}
+mytests/src/visibility/variable_visibility.sol,variable_visibility.sol,solhint-6.0.0,solidity,2025/09/14,20260415_1007,1776247926.8111846,1.5872445106506348,1,"{compiler_version,explicit_types,no_unused_vars,use_natspec}",{},{},{}
+mytests/src/visibility/wrong_constructor.sol,wrong_constructor.sol,solhint-6.0.0,solidity,2025/09/14,20260415_1007,1776247649.5605538,1.354316234588623,1,"{compiler_version,func_name_mixedcase,use_natspec}",{},{},{}
+mytests/src/gas/dos_gas.sol,dos_gas.sol,vulhunter-0.2,solidity,2026/03/22,20260415_0919,1776245347.787365,4.795219898223877,1,{},{compiled faild!},{EXIT_CODE_1},"{exception (TypeError: cannot unpack non-iterable NoneType object),exception (solcx.exceptions.SolcError: An error occurred during execution)}"
+mytests/src/delegatecall/arbitrary_to.sol,arbitrary_to.sol,vulhunter-0.2,solidity,2026/03/22,20260415_1007,1776247649.4805763,7715.427023410797,0,"{array_instead_bytes,controlled_delegatecall,erc20_indexed,erc20_throw,erc721_interface,hardcoded,integer_overflow,locked_ether,reentrancy_eth,suicidal,timestamp,tx_origin,unchecked_lowlevel,unchecked_send}",{OK},{},{}
+mytests/src/gas/dos_gas.sol,dos_gas.sol,vulhunter-0.2,solidity,2026/03/22,20260415_1007,1776248093.171763,3.493992805480957,1,{},{compiled faild!},{EXIT_CODE_1},"{exception (TypeError: cannot unpack non-iterable NoneType object),exception (solcx.exceptions.SolcError: An error occurred during execution)}"
+mytests/src/delegatecall/forward_msg_data.sol,forward_msg_data.sol,vulhunter-0.2,solidity,2026/03/22,20260415_1007,1776247760.3071148,7698.730912208557,0,"{controlled_delegatecall,erc20_indexed,erc20_throw,erc721_interface,low_level_calls,reentrancy_eth,suicidal,tod,unchecked_lowlevel,unchecked_send}",{OK},{},{}
+mytests/src/visibility/function_visibility.sol,function_visibility.sol,vulhunter-0.2,solidity,2026/03/22,20260415_1007,1776248096.749577,7490.972349643707,0,"{arbitrary_send,array_instead_bytes,controlled_delegatecall,erc20_indexed,erc20_throw,erc721_interface,hardcoded,integer_overflow,locked_ether,reentrancy_eth,suicidal,timestamp,tx_origin,unchecked_lowlevel,unchecked_send}",{OK},{},{}
+mytests/src/signature/incorrect.sol,incorrect.sol,vulhunter-0.2,solidity,2026/03/22,20260415_1007,1776249074.614509,6995.804510593414,0,"{arbitrary_send,controlled_delegatecall,erc20_indexed,erc20_throw,erc721_interface,external_function,hardcoded,integer_overflow,locked_ether,reentrancy_eth,send_transfer,suicidal,timestamp,tx_origin,unchecked_lowlevel,unchecked_send,unused_state}",{OK},{},{}
+mytests/src/misapplied/incorrect_logical.sol,incorrect_logical.sol,vulhunter-0.2,solidity,2026/03/22,20260415_1007,1776250697.377066,6058.9273426532745,0,"{array_instead_bytes,controlled_delegatecall,erc20_indexed,erc20_throw,erc721_interface,hardcoded,locked_ether,suicidal,timestamp,tx_origin,unchecked_lowlevel,unchecked_send}",{OK},{},{}
+mytests/src/missing/missing_guard.sol,missing_guard.sol,vulhunter-0.2,solidity,2026/03/22,20260415_1007,1776247714.54904,7709.845388412476,0,"{array_instead_bytes,controlled_delegatecall,costly_loop,erc20_indexed,erc20_throw,erc721_interface,hardcoded,suicidal,timestamp,tx_origin,unchecked_lowlevel,unchecked_send}",{OK},{},{}
+mytests/src/misapplied/missing_revert.sol,missing_revert.sol,vulhunter-0.2,solidity,2026/03/22,20260415_1007,1776253039.0657156,4214.131516695023,0,"{array_instead_bytes,controlled_delegatecall,erc20_indexed,erc20_throw,erc721_interface,hardcoded,integer_overflow,reentrancy_eth,suicidal,timestamp,tx_origin,unchecked_lowlevel,unchecked_send}",{OK},{},{}
+mytests/src/initialization/re_inherit.sol,re_inherit.sol,vulhunter-0.2,solidity,2026/03/22,20260415_1007,1776247813.5030885,7664.891400337219,0,"{arbitrary_send,array_instead_bytes,controlled_delegatecall,erc20_indexed,erc20_throw,erc721_interface,hardcoded,integer_overflow,locked_ether,reentrancy_eth,suicidal,timestamp,tx_origin,unchecked_lowlevel,unchecked_send}",{OK},{},{}
+mytests/src/initialization/re_initialized.sol,re_initialized.sol,vulhunter-0.2,solidity,2026/03/22,20260415_1007,1776247652.2295341,7686.380306005478,0,"{array_instead_bytes,controlled_delegatecall,erc20_indexed,erc20_throw,erc721_interface,hardcoded,integer_overflow,locked_ether,reentrancy_eth,suicidal,timestamp,tx_origin,unchecked_lowlevel,unchecked_send}",{OK},{},{}
+mytests/src/signature/replay.sol,replay.sol,vulhunter-0.2,solidity,2026/03/22,20260415_1007,1776248195.4348147,7442.527544498444,0,"{arbitrary_send,array_instead_bytes,controlled_delegatecall,erc20_indexed,erc20_throw,erc721_interface,hardcoded,integer_overflow,locked_ether,low_level_calls,reentrancy_eth,suicidal,timestamp,tx_origin,unchecked_lowlevel,unchecked_send}",{OK},{},{}
+mytests/src/tx_origin/tx_as_sender.sol,tx_as_sender.sol,vulhunter-0.2,solidity,2026/03/22,20260415_1007,1776252978.8938494,4270.194748163223,0,"{arbitrary_send,erc20_indexed,erc20_throw,erc721_interface,hardcoded,integer_overflow,locked_ether,reentrancy_eth,suicidal,timestamp,tx_origin,unchecked_lowlevel,unchecked_send}",{OK},{},{}
+mytests/src/tx_origin/tx_authorization.sol,tx_authorization.sol,vulhunter-0.2,solidity,2026/03/22,20260415_1007,1776247655.58965,7748.740679502487,0,"{array_instead_bytes,controlled_delegatecall,erc20_indexed,erc20_throw,erc721_interface,hardcoded,integer_overflow,low_level_calls,reentrancy_eth,suicidal,timestamp,tx_origin,unchecked_lowlevel,unchecked_send,unused_state}",{OK},{},{}
+mytests/src/initialization/uninitialized.sol,uninitialized.sol,vulhunter-0.2,solidity,2026/03/22,20260415_1007,1776247792.762924,7703.989830255508,0,"{arbitrary_send,array_instead_bytes,controlled_delegatecall,erc20_indexed,erc20_throw,erc721_interface,hardcoded,integer_overflow,locked_ether,reentrancy_eth,suicidal,timestamp,tx_origin,unchecked_lowlevel,unchecked_send}",{OK},{},{}
+mytests/src/visibility/variable_visibility.sol,variable_visibility.sol,vulhunter-0.2,solidity,2026/03/22,20260415_1007,1776254052.2646363,3212.0665004253387,0,"{arbitrary_send,array_instead_bytes,controlled_delegatecall,erc20_indexed,erc20_throw,erc721_interface,hardcoded,integer_overflow,locked_ether,low_level_calls,reentrancy_eth,suicidal,timestamp,tx_origin,unchecked_lowlevel,unchecked_send,unused_state}",{OK},{},{}
+mytests/src/visibility/wrong_constructor.sol,wrong_constructor.sol,vulhunter-0.2,solidity,2026/03/22,20260415_1007,1776248078.0995784,2569.317746400833,0,{suicidal},{OK},{},{}
