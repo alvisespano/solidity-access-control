@@ -3,7 +3,7 @@ pragma solidity ^0.8.0;
 
 
 contract Parent {
-    address public owner;
+    address internal owner;
     bool internal initialized;
 
     function initialize(address _owner) public {
@@ -14,7 +14,7 @@ contract Parent {
 }
 
 contract Derived is Parent {
-    uint256 public supply;
+    uint256 internal supply;
 
     function initializeDerived(uint256 _supply, address _owner) public {
         super.initialize(_owner);
