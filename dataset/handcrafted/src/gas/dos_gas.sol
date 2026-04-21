@@ -26,7 +26,7 @@ contract Example is AccessControl {
     // admin tries to revoke all members
     function revokeAll(bytes32 role) external onlyRole(ADMIN_ROLE) {
         address[] storage roleMembers = members[role];
-        for (uint256 i = 0; i < roleMembers.length; i++) {  // DoS if array is too long
+        for (uint256 i = 0; i < roleMembers.length; ++i) {  // DoS if array is too long
             if (hasRole(role, roleMembers[i])) {
                 revokeRole(role, roleMembers[i]);
             }
